@@ -161,6 +161,8 @@ def main():
     ap.add_argument("--out", default="/home/user/The_grid/items/all.jsonl.gz")
     ap.add_argument("--failures", default="/home/user/The_grid/items/failures")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--start-row", type=int, default=0, help="이 행부터 처리")
+    ap.add_argument("--max-rows", type=int, default=0, help="이 개수만 처리")
     ap.add_argument("--workers", type=int, default=max(1, mp.cpu_count() - 1))
     ap.add_argument("--progress", type=int, default=20000)
     ap.add_argument("--plain", action="store_true", help="gzip 대신 평문 jsonl")
@@ -184,10 +186,19 @@ def main():
     t0 = time.time()
 
     def batches():
+        seen = 0
+        emitted = 0
         for b in pf.iter_batches(batch_size=1024, columns=["title", "text"]):
             d = b.to_pydict()
-            for t, x in zip(d["title"], d["text"]):
-                yield (t or "", x or "")
+            n_b = len(d["title"])
+            if seen + n_b <= a.start_row:      # 배치 통째로 건너뜀
+                seen += n_b; continue
+            for i in range(n_b):
+                if seen >= a.start_row:
+                    yield (d["title"][i] or "", d["text"][i] or "")
+                    emitted += 1
+                    if a.max_rows and emitted >= a.max_rows: return
+                seen += 1
 
     with mp.Pool(a.workers) as pool:
         for status, r in pool.imap(worker, batches(), chunksize=64):
@@ -214,7 +225,7 @@ def main():
 
     fh.close(); ffh.close()
     el = time.time() - t0
-    meta = {"snapshot_date": SNAPSHOT, "snapshot_date_card_label": SNAPSHOT_CARD_LABEL,
+    meta = {"snapshot_date": SNAPSHOT, "start_row": a.start_row, "max_rows": a.max_rows, "snapshot_date_card_label": SNAPSHOT_CARD_LABEL,
             "parsed_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "rows": n, "ok": n_ok, "failed": n_fail, "redirects": n_red,
             "documents": n_ok - n_red, "elapsed_min": round(el / 60, 1),
@@ -222,8 +233,9 @@ def main():
             "output_bytes": os.path.getsize(out) if os.path.exists(out) else None,
             "parser": "theseed-bot+respace",
             "excluded_from_plain": ["FootnoteText", "Table", "TableCell", "Comment", "Category"]}
-    json.dump(meta, open("/home/user/The_grid/items/parse_meta_%s.json" % SNAPSHOT, "w",
-                         encoding="utf-8"), ensure_ascii=False, indent=1)
+    mp_path = "/home/user/The_grid/items/parse_meta_%s%s.json" % (
+        SNAPSHOT, ("_s%d" % a.start_row) if a.start_row or a.max_rows else "")
+    json.dump(meta, open(mp_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     sys.stderr.write("\n[parse] %d행 성공 %d 실패 %d %.1f분  출력 %.2f GB\n"
                      % (n, n_ok, n_fail, el / 60,
                         (meta["output_bytes"] or 0) / 1073741824))
