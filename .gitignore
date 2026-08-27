@@ -22,3 +22,6 @@ items/all.jsonl
 items/all.jsonl.gz
 items/genres.jsonl
 items/failures/*.txt
+
+# 샤드 파싱 산출물
+items/shards/
