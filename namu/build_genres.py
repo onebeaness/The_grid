@@ -7,7 +7,7 @@
   items/genre_audit.md         자동 매칭 무작위 표본 100건
 자동 매칭은 제안이다. 확정으로 쓰지 않는다.
 """
-import argparse, collections, gzip, json, os, re, sys, time
+import argparse, collections, glob, gzip, json, os, re, sys, time
 
 SNAPSHOT = "2021-03-01"
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +29,9 @@ def match_domains(name, domains):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--all", default=os.path.join(ITEMS, "all.jsonl.gz"))
+    ap.add_argument("--shards", default=os.path.join(ITEMS, "shards"),
+                    help="샤드 디렉터리. 합본을 만들지 않고 순회한다")
+    ap.add_argument("--all", default="", help="단일 파일을 쓸 경우에만 지정")
     ap.add_argument("--top", type=int, default=1000)
     ap.add_argument("--audit", type=int, default=100)
     ap.add_argument("--seed", type=int, default=20210301)
@@ -40,22 +42,47 @@ def main():
     cat_samples = collections.defaultdict(list)   # (n_chars, title)
     doc_cats = 0
     n_doc = 0
+    # 커버리지 계산용. 분류명을 정수로 인턴해 두 번째 순회를 없앤다.
+    # 샤드 합계가 수 GB이므로 두 번 읽으면 IO 비용이 두 배가 된다.
+    cat_id = {}
+    doc_catsets = []
 
     t0 = time.time()
-    op = gzip.open if a.all.endswith(".gz") else open
-    for line in op(a.all, "rt", encoding="utf-8"):
+
+    def iter_records():
+        """샤드를 순서대로 순회한다. 합본 파일을 만들지 않는다."""
+        if a.all:
+            files = [a.all]
+        else:
+            files = sorted(glob.glob(os.path.join(a.shards, "*.jsonl.gz")))
+            files = [f for f in files if os.path.exists(f[:-len(".jsonl.gz")] + ".done")]
+        if not files:
+            raise SystemExit("읽을 샤드가 없습니다: %s" % a.shards)
+        sys.stderr.write("[genres] 샤드 %d개 순회\n" % len(files))
+        for f in files:
+            op = gzip.open if f.endswith(".gz") else open
+            for line in op(f, "rt", encoding="utf-8"):
+                yield line
+
+    for line in iter_records():
         try: r = json.loads(line)
         except Exception: continue
         if r.get("is_redirect"): continue
         n_doc += 1
         cs = r.get("categories") or []
         if cs: doc_cats += 1
+        ids = []
         for c in cs:
             cat_docs[c] += 1
-            s = cat_samples[c]
-            s.append((r.get("len_plain") or 0, r["title"]))
-            if len(s) > 24:
-                s.sort(key=lambda x: -x[0]); del s[8:]
+            i = cat_id.get(c)
+            if i is None:
+                i = len(cat_id); cat_id[c] = i
+            ids.append(i)
+            sm = cat_samples[c]
+            sm.append((r.get("len_plain") or 0, r["title"]))
+            if len(sm) > 24:
+                sm.sort(key=lambda x: -x[0]); del sm[8:]
+        doc_catsets.append(frozenset(ids))
         if n_doc % 100000 == 0:
             sys.stderr.write("  %d문서  분류 %d종  %.1f분\n"
                              % (n_doc, len(cat_docs), (time.time()-t0)/60))
@@ -68,12 +95,8 @@ def main():
     # 분류-문서 쌍 기준과 문서 기준을 모두 낸다
     pair_total = sum(cat_docs.values())
     pair_top = sum(c for _, c in top)
-    covered = 0
-    for line in op(a.all, "rt", encoding="utf-8"):
-        try: r = json.loads(line)
-        except Exception: continue
-        if r.get("is_redirect"): continue
-        if any(c in top_names for c in (r.get("categories") or [])): covered += 1
+    top_ids = frozenset(cat_id[n] for n, _ in top if n in cat_id)
+    covered = sum(1 for cs_ in doc_catsets if cs_ & top_ids)
 
     # 도메인 제안
     rows = []
@@ -132,6 +155,7 @@ def main():
 
     summary = {
         "snapshot_date": SNAPSHOT, "documents": n_doc,
+        "source": "shards" if not a.all else a.all,
         "documents_with_category": doc_cats,
         "unique_categories": len(cat_docs),
         "category_doc_pairs": pair_total,
