@@ -129,3 +129,44 @@
 {"family": "representation-learning", "query": "LLM recommender", "source": "crossref", "got": 200, "new": 121, "rejected": 73}
 {"family": "representation-learning", "query": "contrastive learning recommendation", "source": "crossref", "got": 200, "new": 184, "rejected": 0}
 {"family": "representation-learning", "query": "conversational recommendation", "source": "crossref", "got": 200, "new": 173, "rejected": 20}
+{"family": "representation-learning", "query": "dense retrieval", "source": "crossref", "got": 200, "new": 198, "rejected": 1}
+{"family": "representation-learning", "query": "foundation model for recommendation", "source": "crossref", "got": 191, "new": 172, "rejected": 16}
+{"family": "representation-learning", "query": "generative retrieval recommendation", "source": "crossref", "got": 197, "new": 168, "rejected": 22}
+{"family": "representation-learning", "query": "graph collaborative filtering", "source": "crossref", "got": 200, "new": 192, "rejected": 1}
+{"family": "representation-learning", "query": "graph neural network recommendation", "source": "crossref", "got": 200, "new": 182, "rejected": 0}
+{"family": "representation-learning", "query": "graph representation for recommendation", "source": "crossref", "got": 200, "new": 191, "rejected": 1}
+{"family": "representation-learning", "query": "in-context learning recommendation", "source": "crossref", "got": 200, "new": 174, "rejected": 1}
+{"family": "representation-learning", "query": "item embedding", "source": "crossref", "got": 200, "new": 62, "rejected": 130}
+{"family": "representation-learning", "query": "language model for recommendation", "source": "crossref", "got": 200, "new": 163, "rejected": 1}
+{"family": "representation-learning", "query": "large language model simulator recommendation", "source": "crossref", "got": 200, "new": 85, "rejected": 1}
+{"family": "representation-learning", "query": "modality-based recommendation", "source": "crossref", "got": 200, "new": 153, "rejected": 34}
+{"family": "representation-learning", "query": "multimodal recommendation", "source": "crossref", "got": 199, "new": 162, "rejected": 5}
+{"family": "representation-learning", "query": "natural language user profile recommendation", "source": "crossref", "got": 200, "new": 160, "rejected": 29}
+{"family": "representation-learning", "query": "pretrained recommendation model", "source": "crossref", "got": 200, "new": 189, "rejected": 7}
+{"family": "representation-learning", "query": "product quantization retrieval", "source": "crossref", "got": 200, "new": 195, "rejected": 4}
+{"family": "representation-learning", "query": "prompt-based recommendation", "source": "crossref", "got": 200, "new": 169, "rejected": 19}
+{"family": "representation-learning", "query": "residual quantization RQ-VAE", "source": "crossref", "got": 193, "new": 6, "rejected": 187}
+{"family": "representation-learning", "query": "retrieval augmented generation recommendation", "source": "crossref", "got": 198, "new": 183, "rejected": 8}
+{"family": "representation-learning", "query": "self-attentive sequential recommendation", "source": "crossref", "got": 200, "new": 96, "rejected": 97}
+{"family": "representation-learning", "query": "self-supervised learning recommendation", "source": "crossref", "got": 200, "new": 186, "rejected": 0}
+{"family": "representation-learning", "query": "semantic ID", "source": "crossref", "got": 197, "new": 29, "rejected": 160}
+{"family": "representation-learning", "query": "semantic identifier recommendation", "source": "crossref", "got": 200, "new": 61, "rejected": 127}
+{"family": "representation-learning", "query": "semantically aligned item embedding", "source": "crossref", "got": 200, "new": 1, "rejected": 199}
+{"family": "representation-learning", "query": "sequential recommendation transformer", "source": "crossref", "got": 200, "new": 162, "rejected": 1}
+{"family": "representation-learning", "query": "text embedding sentence representation", "source": "crossref", "got": 200, "new": 77, "rejected": 122}
+{"family": "representation-learning", "query": "text-based recommendation", "source": "crossref", "got": 200, "new": 182, "rejected": 0}
+{"family": "representation-learning", "query": "transferable recommendation model", "source": "crossref", "got": 200, "new": 163, "rejected": 28}
+{"family": "representation-learning", "query": "universal user representation", "source": "crossref", "got": 198, "new": 167, "rejected": 23}
+{"family": "representation-learning", "query": "user representation learning", "source": "crossref", "got": 200, "new": 142, "rejected": 5}
+{"family": "representation-learning", "query": "vector quantization item representation", "source": "crossref", "got": 199, "new": 53, "rejected": 145}
+{"family": "similarity-attraction", "query": "actor partner interdependence model", "source": "crossref", "got": 200, "new": 198, "rejected": 1}
+{"family": "similarity-attraction", "query": "actual versus perceived similarity", "source": "crossref", "got": 200, "new": 147, "rejected": 53}
+{"family": "similarity-attraction", "query": "assortative mating preferences", "source": "crossref", "got": 200, "new": 200, "rejected": 0}
+{"family": "similarity-attraction", "query": "attitude similarity and attraction", "source": "crossref", "got": 200, "new": 198, "rejected": 0}
+{"family": "similarity-attraction", "query": "compatibility prediction algorithm", "source": "crossref", "got": 200, "new": 200, "rejected": 0}
+{"family": "similarity-attraction", "query": "cultural taste and social ties", "source": "crossref", "got": 200, "new": 83, "rejected": 99}
+{"family": "similarity-attraction", "query": "dyadic prediction", "source": "crossref", "got": 197, "new": 31, "rejected": 166}
+{"family": "similarity-attraction", "query": "homophily in social networks", "source": "crossref", "got": 199, "new": 195, "rejected": 3}
+{"family": "similarity-attraction", "query": "homophily taste", "source": "crossref", "got": 199, "new": 2, "rejected": 197}
+{"family": "similarity-attraction", "query": "initial attraction prediction", "source": "crossref", "got": 197, "new": 121, "rejected": 71}
+{"family": "similarity-attraction", "query": "interpersonal perception accuracy", "source": "crossref", "got": 200, "new": 187, "rejected": 13}

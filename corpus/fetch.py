@@ -86,6 +86,8 @@ def main():
         try: r = json.loads(line)
         except Exception: continue
         if r["key"] in done: continue
+        if r.get("junk"): continue          # 비논문 항목은 원문을 받지 않는다
+        if r.get("rep") is False: continue  # 근접중복 비대표는 건너뛴다
         if args.min_year and (r.get("year") or 0) < args.min_year: continue
         recs.append(r)
     # 계열 라운드로빈. 계열 안에서는 arXiv 보유 -> 인용수 순.
