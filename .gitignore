@@ -7,3 +7,10 @@ corpus/logs/
 # 수집 중 계속 바뀌는 작업 파일. 완료 시점에 gz 스냅샷으로 커밋한다.
 corpus/records.jsonl
 corpus/done.jsonl
+# 아이템 코퍼스 대용량. gz 스냅샷만 커밋
+items/all.jsonl
+items/category_names_*.jsonl
+items/redirect_targets_*.jsonl
+namu/samples/real_sample_*.jsonl
+namu/logs/
+namu/samples/fake_dump.json

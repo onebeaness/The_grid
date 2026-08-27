@@ -1,0 +1,5271 @@
+{
+ "snapshot_date": "2022-03-01",
+ "n_docs": 100,
+ "aggregate": {
+  "regex": {
+   "ok": 100,
+   "sections": 826,
+   "categories": 217,
+   "links": 5104,
+   "footnotes": 593,
+   "tables": 351,
+   "plain_chars": 395885,
+   "leftover": 2168,
+   "glue": 494,
+   "script_mix": 4601,
+   "docs_with_leftover": 18
+  },
+  "theseed": {
+   "ok": 100,
+   "sections": 875,
+   "categories": 216,
+   "links": 6771,
+   "footnotes": 601,
+   "tables": 317,
+   "plain_chars": 364450,
+   "leftover": 36,
+   "glue": 1848,
+   "script_mix": 5392,
+   "docs_with_leftover": 8
+  }
+ },
+ "seconds": {
+  "regex": 0.20656466484069824,
+  "theseed": 1.8252630233764648
+ },
+ "errors": {
+  "regex": [],
+  "theseed": []
+ },
+ "per_doc": [
+  {
+   "title": "로즈워드 성",
+   "len_raw": 2811,
+   "regex": {
+    "ok": true,
+    "sec": 0.0011,
+    "len_plain": 1712,
+    "ratio": 0.609,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "천룡인"
+    ],
+    "links": 25,
+    "footnotes": 10,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 6,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0738,
+    "len_plain": 1950,
+    "ratio": 0.694,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:천룡인"
+    ],
+    "links": 34,
+    "footnotes": 10,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 7,
+    "glue_samples": [
+     " 선장인 유스타스 키드를 맡았는지라 비교되고 있다..세계귀족. 희귀한 노예를 모으는 것이 ",
+     "리도 번번이 망가뜨리는구나.\"라고 핀잔하는 게 압권.이후 돈키호테 패밀리가 관리하는 휴먼숍",
+     "만원 짜리 피규어 사는 것 마냥 가볍게 핀잔을 줬다.그럼에도 아들이 굳이 구매를 강행하려다"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "단비Ai",
+   "len_raw": 1060,
+   "regex": {
+    "ok": true,
+    "sec": 0.001,
+    "len_plain": 938,
+    "ratio": 0.885,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "인공지능"
+    ],
+    "links": 19,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 11,
+    "script_mix": 12,
+    "glue_samples": [
+     "https://danbee.ai\n\n2018년 8월 LG CNS에서",
+     "몰라서 다 준비했다\n\n유튜브: https://www.youtube.com/c/danbeeA",
+     "했다\n\n유튜브: https://www.youtube.com/c/danbeeAi\n블로그: h"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0037,
+    "len_plain": 930,
+    "ratio": 0.877,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:인공지능"
+    ],
+    "links": 20,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 13,
+    "script_mix": 17,
+    "glue_samples": [
+     "https://danbee.ai2018년 8월 LG CNS에서 분",
+     "만 이것은 단비Ai를 활용하여 직접 구축한 경우이다.홈페이지 초창기에 그랬듯이 챗봇같은 기",
+     "의 저변확대를 위해 일반 소셜채널들을 운영하고 있다.링크는 아래와 같다. 뭘 좋아하는지 몰"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "키메라의 날개",
+   "len_raw": 1148,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 1005,
+    "ratio": 0.875,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "드래곤 퀘스트 시리즈/아이템"
+    ],
+    "links": 13,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 9,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0037,
+    "len_plain": 1010,
+    "ratio": 0.88,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:드래곤 퀘스트 시리즈/아이템"
+    ],
+    "links": 12,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 9,
+    "glue_samples": [
+     "때문에 후반에도 1개 정도는 항상 들고 다니면 좋다.DQ5에서는 사용 시 이전에 갔던 마을",
+     "으로 이동하며, DQ8에선 연금술 재료로도 활용된다.키메라는 중반쯤에 나오는 꽤 강한 몬스",
+     "문 사냥꾼이나 키메라 양식장 같은 게 있는 듯 하다.드래곤 퀘스트 타이의 대모험에서는 초반"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "드림캐쳐(아이돌)/드림캐쳐 노트",
+   "len_raw": 1602,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 660,
+    "ratio": 0.412,
+    "n_sections": 6,
+    "n_categories": 1,
+    "categories": [
+     "드림캐쳐(아이돌)/드림캐쳐 노트"
+    ],
+    "links": 11,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 9,
+    "glue_samples": [
+     "과 헤어에 맞춰 만들어진 캐릭터를 만나 볼 수 있다.이 때를 기점으로 미니 4집까지 인트로",
+     "인트로와 의상과 헤어에 맞춰 만들어진 캐릭터로 고정.스페셜 미니앨범에는 앨범 인트로를 깔았"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0035,
+    "len_plain": 799,
+    "ratio": 0.499,
+    "n_sections": 7,
+    "n_categories": 1,
+    "categories": [
+     "분류:드림캐쳐(아이돌)/드림캐쳐 노트"
+    ],
+    "links": 8,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 8,
+    "script_mix": 10,
+    "glue_samples": [
+     "드림캐쳐 노트는 유튜브 해피페이스 채널을 확인할 것.에 올라온다.오프닝에 등장하는 드림캐쳐",
+     "는 유튜브 해피페이스 채널을 확인할 것.에 올라온다.오프닝에 등장하는 드림캐쳐 멤버들의 캐",
+     "지만 팬이라면 미묘한 포인트들로 수월하게 구분 가능.Chase Me가 해외 K-POP 팬들"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "신카와 쿄지",
+   "len_raw": 13194,
+   "regex": {
+    "ok": true,
+    "sec": 0.0036,
+    "len_plain": 9214,
+    "ratio": 0.698,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "소드 아트 온라인/등장인물"
+    ],
+    "links": 42,
+    "footnotes": 18,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 53,
+    "glue_samples": [
+     " 대해 술술 분 형과는 달리 한 마디도 하지 않았다.사실 머리에 큰거 한 방 맞아서 말을 ",
+     "가며 GGO에 매달렸다. 현실따윈 아무래도 상관없다.라고 할 정도로 GGO에 인생의 전부를",
+     "에는 GGO의 정액요금도 못 벌 지경에 처하고 만다.시논은 할 거 다하면서도 충분히 버는데"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0456,
+    "len_plain": 11870,
+    "ratio": 0.9,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "분류:소드 아트 온라인/등장인물"
+    ],
+    "links": 57,
+    "footnotes": 18,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 56,
+    "script_mix": 88,
+    "glue_samples": [
+     "新川 恭二\n파일:Vol_05_-_006.png쿄지: 들었어, 그저께 얘기. 대",
+     "png쿄지: 들었어, 그저께 얘기. 대활약이었다면서?시노: ……그런 거 아냐. 우리 스쿼드",
+     "서 덮치고 그 결과면, 아무래도 이겼다고는 못 하지.라이트노벨 소드 아트 온라인 3부 팬텀"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "인디라 간디 국제공항",
+   "len_raw": 5987,
+   "regex": {
+    "ok": true,
+    "sec": 0.0019,
+    "len_plain": 2287,
+    "ratio": 0.382,
+    "n_sections": 6,
+    "n_categories": 1,
+    "categories": [
+     "인도의 공항"
+    ],
+    "links": 46,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 38,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0161,
+    "len_plain": 2550,
+    "ratio": 0.426,
+    "n_sections": 7,
+    "n_categories": 1,
+    "categories": [
+     "분류:인도의 공항"
+    ],
+    "links": 126,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 6,
+    "script_mix": 43,
+    "glue_samples": [
+     " 영국령이었다. 서울 - 나리타수준으로 자주 다닌다.제2차 세계 대전 즈음에 인도 공군이 ",
+     "있다. 그냥 지하철타고 시내로 들어가는게 나을 수도.여러 인도 항공사들의 주요 거점이며, ",
+     "이 높은 공항이다. 수용 규모는 1,200만 명이다.아시아나항공과 에어 인디아가 인천 - "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "서지원(캐릭터)",
+   "len_raw": 434,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 296,
+    "ratio": 0.682,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "만화 캐릭터"
+    ],
+    "links": 7,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0012,
+    "len_plain": 304,
+    "ratio": 0.7,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "분류:만화 캐릭터"
+    ],
+    "links": 8,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 0,
+    "glue_samples": [
+     "작품에서 등장한 주인공의 이름을 따 만들어진 것이다.분류:만화 캐릭터"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "맷 랜들",
+   "len_raw": 7453,
+   "regex": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 3311,
+    "ratio": 0.444,
+    "n_sections": 7,
+    "n_categories": 14,
+    "categories": [
+     "미국의 야구 선수",
+     "대한민국의 야구 선수",
+     "외국인 선수(야구)",
+     "워싱턴 주 출신 인물",
+     "1977년 출생",
+     "투수",
+     "우완 투수",
+     "우투우타",
+     "후쿠오카 소프트뱅크 호크스/은퇴, 이적",
+     "요미우리 자이언츠/은퇴, 이적",
+     "두산 베어스 은퇴/이적",
+     "복수국적자",
+     "대한민국으로 귀화한 인물",
+     "백인계 한국인"
+    ],
+    "links": 48,
+    "footnotes": 3,
+    "tables": 5,
+    "leftover": {
+     "나무마크 링크": 2
+    },
+    "leftover_total": 2,
+    "glue_risk": 5,
+    "script_mix": 88,
+    "glue_samples": [
+     "두산 베어스의 前 외국인 투수.선릉역을 제일싫어한다고 한다\n\n리지필드",
+     "da40838b3cd75c4b66992d881f29.gif\n2006년 5월 17일 대구구장",
+     "야구에서의 삶에 만족하였다.[[https://www.chosun.com/site/data/"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0193,
+    "len_plain": 3577,
+    "ratio": 0.48,
+    "n_sections": 8,
+    "n_categories": 14,
+    "categories": [
+     "분류:미국의 야구 선수",
+     "분류:대한민국의 야구 선수",
+     "분류:외국인 선수(야구)",
+     "분류:워싱턴 주 출신 인물",
+     "분류:1977년 출생",
+     "분류:투수",
+     "분류:우완 투수",
+     "분류:우투우타",
+     "분류:후쿠오카 소프트뱅크 호크스/은퇴, 이적",
+     "분류:요미우리 자이언츠/은퇴, 이적",
+     "분류:두산 베어스 은퇴/이적",
+     "분류:복수국적자",
+     "분류:대한민국으로 귀화한 인물",
+     "분류:백인계 한국인"
+    ],
+    "links": 95,
+    "footnotes": 3,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 14,
+    "script_mix": 90,
+    "glue_samples": [
+     "두산 베어스의 前 외국인 투수.선릉역을 제일싫어한다고 한다\n리지필드고",
+     "이 오면서 시즌 아웃, 결국 요미우리를 떠나게 된다.일본에서 거둔 성적은 28경기 4승 3",
+     "는 베테랑 투수 척 스미스 쪽에 기대를 걸고 있었다.하지만 랜들은 시범경기에서 좋은 모습을"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "아이기스(BBTAG)",
+   "len_raw": 2819,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1362,
+    "ratio": 0.483,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "블레이블루 크로스 태그 배틀/등장인물"
+    ],
+    "links": 2,
+    "footnotes": 1,
+    "tables": 8,
+    "leftover": {
+     "표 구분자": 24
+    },
+    "leftover_total": 24,
+    "glue_risk": 0,
+    "script_mix": 5,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0082,
+    "len_plain": 797,
+    "ratio": 0.283,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "분류:블레이블루 크로스 태그 배틀/등장인물"
+    ],
+    "links": 8,
+    "footnotes": 1,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 6,
+    "glue_samples": [
+     "'새도우 워커\"에 소속되어 있다. 페르소나는 아테나.다양한 중화기로 강력한 공격을 건다. ",
+     "na-\n원거리・근거리 성향의 슈팅・가드 파괴 캐릭터.고유 게이지인 오르기아 게이지가 존재하",
+     " 있게 됐다. 개틀링과 발칸포는 B판만 남게 되었다.서서 B와 앉아 B, 래디컬 캐논은 모"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "김동영(정치인)",
+   "len_raw": 4888,
+   "regex": {
+    "ok": true,
+    "sec": 0.0011,
+    "len_plain": 1843,
+    "ratio": 0.377,
+    "n_sections": 5,
+    "n_categories": 14,
+    "categories": [
+     "1936년 출생",
+     "1991년 사망",
+     "거창군 출신 인물",
+     "제9대 국회의원",
+     "제10대 국회의원",
+     "제12대 국회의원",
+     "제13대 국회의원",
+     "신민당(1967년) 국회의원",
+     "신한민주당 국회의원",
+     "통일민주당 국회의원",
+     "부산동성고등학교 출신",
+     "동국대학교 출신",
+     "노태우 정부/인사",
+     "상도동계"
+    ],
+    "links": 55,
+    "footnotes": 11,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 35,
+    "glue_samples": [
+     "린 영결식에서 추도사를 읽다가 눈물을 흘리기도 했다.당시 신문 기사\n\n뒤에도 김영삼은 김동"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0117,
+    "len_plain": 2377,
+    "ratio": 0.486,
+    "n_sections": 5,
+    "n_categories": 14,
+    "categories": [
+     "분류:1936년 출생",
+     "분류:1991년 사망",
+     "분류:거창군 출신 인물",
+     "분류:제9대 국회의원",
+     "분류:제10대 국회의원",
+     "분류:제12대 국회의원",
+     "분류:제13대 국회의원",
+     "분류:신민당(1967년) 국회의원",
+     "분류:신한민주당 국회의원",
+     "분류:통일민주당 국회의원",
+     "분류:부산동성고등학교 출신",
+     "분류:동국대학교 출신",
+     "분류:노태우 정부/인사",
+     "분류:상도동계"
+    ],
+    "links": 91,
+    "footnotes": 11,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 16,
+    "script_mix": 52,
+    "glue_samples": [
+     "英(1936∼1991)파일:external/tv03.search.naver.net/2014",
+     "1991)파일:external/tv03.search.naver.net/20140509172",
+     "일:external/tv03.search.naver.net/20140509172135628"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "대만-온두라스 관계",
+   "len_raw": 1565,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1061,
+    "ratio": 0.678,
+    "n_sections": 7,
+    "n_categories": 3,
+    "categories": [
+     "대만의 대국관계",
+     "온두라스의 대국관계",
+     "나무위키 외교 프로젝트"
+    ],
+    "links": 18,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 14,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0038,
+    "len_plain": 1082,
+    "ratio": 0.691,
+    "n_sections": 8,
+    "n_categories": 3,
+    "categories": [
+     "분류:대만의 대국관계",
+     "분류:온두라스의 대국관계",
+     "분류:나무위키 외교 프로젝트"
+    ],
+    "links": 25,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 14,
+    "glue_samples": [
+     " 기를 쓰며 대만과의 단교를 유도하고 있는 나라이다.실제로 2007년과 2017년, 201",
+     "며 사실 여부를 확인했는데 이는 사실 가짜 뉴스였다.온두라스는 2019년 신임 대만 주재 ",
+     " 대만과 단교하고 중국과 수교할 가능성은 매우 적다.온두라스 자체가 대만과 같은 친미 친서"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "리틀 보이",
+   "len_raw": 3153,
+   "regex": {
+    "ok": true,
+    "sec": 0.001,
+    "len_plain": 2271,
+    "ratio": 0.72,
+    "n_sections": 5,
+    "n_categories": 2,
+    "categories": [
+     "핵무기",
+     "항공 병기/세계 대전"
+    ],
+    "links": 28,
+    "footnotes": 6,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 19,
+    "script_mix": 23,
+    "glue_samples": [
+     "을 수도 있다.\n\n파일:external/upload.wikimedia.org/670px-G",
+     "파일:external/upload.wikimedia.org/670px-Gun-type_fi",
+     "_weapon_en-labels_thin_lines.svg.png\n\n길이는 3m이며, 직경"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0086,
+    "len_plain": 2646,
+    "ratio": 0.839,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "분류:핵무기",
+     "분류:항공 병기/세계 대전"
+    ],
+    "links": 36,
+    "footnotes": 6,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 32,
+    "script_mix": 36,
+    "glue_samples": [
+     "었을 수도 있다.\n파일:external/upload.wikimedia.org/670px-G",
+     "파일:external/upload.wikimedia.org/670px-Gun-type_fi",
+     "_weapon_en-labels_thin_lines.svg.png길이는 3m이며, 직경은 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "코마지로",
+   "len_raw": 4124,
+   "regex": {
+    "ok": true,
+    "sec": 0.0013,
+    "len_plain": 2350,
+    "ratio": 0.57,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "요괴워치"
+    ],
+    "links": 30,
+    "footnotes": 10,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 16,
+    "glue_samples": [
+     "파일:qcIis3X.jpg\n\n파일:external/i68.",
+     "qcIis3X.jpg\n\n파일:external/i68.tinypic.com/i5atcj.jp",
+     "jpg\n\n파일:external/i68.tinypic.com/i5atcj.jpg\n\n파일:ex"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0111,
+    "len_plain": 2640,
+    "ratio": 0.64,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "분류:요괴워치"
+    ],
+    "links": 42,
+    "footnotes": 10,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 40,
+    "script_mix": 21,
+    "glue_samples": [
+     "파일:qcIis3X.jpg파일:external/i68.ti",
+     "일:qcIis3X.jpg파일:external/i68.tinypic.com/i5atcj.jp",
+     "X.jpg파일:external/i68.tinypic.com/i5atcj.jpg파일:exte"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "초지고등학교",
+   "len_raw": 4591,
+   "regex": {
+    "ok": true,
+    "sec": 0.0016,
+    "len_plain": 2783,
+    "ratio": 0.606,
+    "n_sections": 14,
+    "n_categories": 2,
+    "categories": [
+     "2000년 개교",
+     "안산시의 고등학교"
+    ],
+    "links": 31,
+    "footnotes": 3,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 295,
+    "glue_samples": [
+     "입학식 275명 입학\n\n파일:external/www.choji.hs.kr/010300.jp",
+     "5명 입학\n\n파일:external/www.choji.hs.kr/010300.jpg\n\n안산 ",
+     "입학\n\n파일:external/www.choji.hs.kr/010300.jpg\n\n안산 시내 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0115,
+    "len_plain": 2884,
+    "ratio": 0.628,
+    "n_sections": 15,
+    "n_categories": 2,
+    "categories": [
+     "분류:2000년 개교",
+     "분류:안산시의 고등학교"
+    ],
+    "links": 41,
+    "footnotes": 3,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 337,
+    "glue_samples": [
+     "입학식 275명 입학 \n파일:external/www.choji.hs.kr/010300.jp",
+     "5명 입학 \n파일:external/www.choji.hs.kr/010300.jpg\n안산 시",
+     "입학 \n파일:external/www.choji.hs.kr/010300.jpg\n안산 시내 고"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "교란기",
+   "len_raw": 4551,
+   "regex": {
+    "ok": true,
+    "sec": 0.0013,
+    "len_plain": 3027,
+    "ratio": 0.665,
+    "n_sections": 7,
+    "n_categories": 3,
+    "categories": [
+     "탈다림",
+     "가공의 무기",
+     "스타크래프트 시리즈/유닛"
+    ],
+    "links": 12,
+    "footnotes": 3,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 12,
+    "glue_samples": [
+     " 수 있다\n\n파일:external/vignette3.wikia.nocookie.net/Nu",
+     "\n파일:external/vignette3.wikia.nocookie.net/Nullifie",
+     "nal/vignette3.wikia.nocookie.net/Nullifier_SC2_Gam"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0129,
+    "len_plain": 3191,
+    "ratio": 0.701,
+    "n_sections": 8,
+    "n_categories": 3,
+    "categories": [
+     "분류:탈다림",
+     "분류:가공의 무기",
+     "분류:스타크래프트 시리즈/유닛"
+    ],
+    "links": 29,
+    "footnotes": 3,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 18,
+    "script_mix": 14,
+    "glue_samples": [
+     " 탑재했습니다. 역장 생성기는 그대로 남아 있습니다.다른 로봇 지원 유닛보다 소모하는 보급",
+     " 로봇 지원 유닛보다 소모하는 보급품이 1 적습니다.목표 고정은 하나의 적에게 들어가는 피",
+     "을 계속 목표로 하고 있을 때에만 효과가 적용됩니다.시야 공유는 주변 아군 원거리 유닛의 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "김능오",
+   "len_raw": 1046,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 511,
+    "ratio": 0.489,
+    "n_sections": 3,
+    "n_categories": 7,
+    "categories": [
+     "평양직할시 출신 인물",
+     "조선로동당 정치국 후보위원",
+     "조선로동당 평안북도 책임비서",
+     "조선로동당 평안북도 당위원장",
+     "조선로동당 평양직할시 당위원장",
+     "북한의 무종교인",
+     "북한의 무신론자"
+    ],
+    "links": 3,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 7,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0028,
+    "len_plain": 627,
+    "ratio": 0.599,
+    "n_sections": 4,
+    "n_categories": 7,
+    "categories": [
+     "분류:평양직할시 출신 인물",
+     "분류:조선로동당 정치국 후보위원",
+     "분류:조선로동당 평안북도 책임비서",
+     "분류:조선로동당 평안북도 당위원장",
+     "분류:조선로동당 평양직할시 당위원장",
+     "분류:북한의 무종교인",
+     "분류:북한의 무신론자"
+    ],
+    "links": 19,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 13,
+    "glue_samples": [
+     "양직할시 당위원회 위원장평양의 시장이라고 봐도 무방.을 맡고 있다.\n1960년대 평양에서 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "이충동",
+   "len_raw": 373,
+   "regex": {
+    "ok": true,
+    "sec": 0.0002,
+    "len_plain": 201,
+    "ratio": 0.539,
+    "n_sections": 5,
+    "n_categories": 1,
+    "categories": [
+     "평택시의 법정동"
+    ],
+    "links": 4,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 12,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0019,
+    "len_plain": 195,
+    "ratio": 0.523,
+    "n_sections": 6,
+    "n_categories": 1,
+    "categories": [
+     "분류:평택시의 법정동"
+    ],
+    "links": 5,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 14,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "마크로스 플러스",
+   "len_raw": 8040,
+   "regex": {
+    "ok": true,
+    "sec": 0.0024,
+    "len_plain": 5259,
+    "ratio": 0.654,
+    "n_sections": 9,
+    "n_categories": 3,
+    "categories": [
+     "마크로스 시리즈",
+     "일본 애니메이션/ㅁ",
+     "아이돌물"
+    ],
+    "links": 81,
+    "footnotes": 11,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 137,
+    "glue_samples": [
+     "미, 무라키 야스시 등 초호화 스태프가 집결한 작품.세계에서 이타노 서커스를 제대로 쓸 수",
+     "지 그루도아\n루시 맥밀란: 성우는 하야시바라 메구미.YF-19가 소속된 신세이 인더스트리측",
+     "소개한 적이 있다.\n파일:external/pds26.egloos.com/e0006522_5"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0227,
+    "len_plain": 6285,
+    "ratio": 0.782,
+    "n_sections": 10,
+    "n_categories": 3,
+    "categories": [
+     "분류:마크로스 시리즈",
+     "분류:일본 애니메이션/ㅁ",
+     "분류:아이돌물"
+    ],
+    "links": 108,
+    "footnotes": 11,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 38,
+    "script_mix": 159,
+    "glue_samples": [
+     "공요새 마크로스의 스토리를 이어가는 정식 후속작이다.총감독은 카와모리 쇼지, 당시에는 신인",
+     " 만들게 되는데 그 작품이 바로 카우보이 비밥이다..세계에서 이타노 서커스를 제대로 쓸 수",
+     "있다는 애니메이터 4명 중 3명이나 참여한 작품이다.원조 마크로스 제작진이 마크로스2를 본"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "다이아몬드 에이스/줄거리",
+   "len_raw": 13862,
+   "regex": {
+    "ok": true,
+    "sec": 0.0042,
+    "len_plain": 13090,
+    "ratio": 0.944,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "다이아몬드 에이스",
+     "줄거리"
+    ],
+    "links": 34,
+    "footnotes": 5,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 210,
+    "glue_samples": [
+     "고를 공략하지 못하고 경기는 0: 2로 끝나고 만다.결국 봄 대회 역시 코마다이가 우승하게",
+     "결국 봄 대회 역시 코마다이가 우승하게 되면서 여름.봄 연패를 기록하게 된다.\n\n시드로 3",
+     "이나시로-테이토 전은 나루미야와 타이요의 첫 맞대결.테이토를 압도하는 나루미야와 흔들리는 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0447,
+    "len_plain": 13298,
+    "ratio": 0.959,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:다이아몬드 에이스",
+     "분류:줄거리"
+    ],
+    "links": 36,
+    "footnotes": 5,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 38,
+    "script_mix": 214,
+    "glue_samples": [
+     "함께 계속 야구를 하고 싶었다\"고 진심을 털어놓는다.야구부 기숙사 청심관에 도착한 에이준은",
+     "연습 참가를 금지당하고 수 주간 달리기만 하게 된다.봄 지역대회 이치다이산 고교와의 대전일",
+     "편하기로 하여, 신입생 대 상급생 홍백전을 계획한다.홍백전에 대한 소식을 자신만 듣지 못한"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "바이셉",
+   "len_raw": 1483,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 630,
+    "ratio": 0.425,
+    "n_sections": 5,
+    "n_categories": 3,
+    "categories": [
+     "영국의 음악 그룹",
+     "2009년 결성된 음악 그룹",
+     "2인조 음악 그룹"
+    ],
+    "links": 3,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {
+     "표 구분자": 3
+    },
+    "leftover_total": 3,
+    "glue_risk": 0,
+    "script_mix": 17,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 622,
+    "ratio": 0.419,
+    "n_sections": 5,
+    "n_categories": 3,
+    "categories": [
+     "분류:영국의 음악 그룹",
+     "분류:2009년 결성된 음악 그룹",
+     "분류:2인조 음악 그룹"
+    ],
+    "links": 19,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 19,
+    "glue_samples": [
+     "국 DJ로 선정되는 등 점차 이름을 알리기 시작한다.이후 여러 레이블을 옮기다가 2017년",
+     " 리스트에도 포함 시키는 등 성공적인 시간을 보낸다.이후 2021년 2집 정규 앨범 Isl"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "TEKKEN CRASH/선수 목록",
+   "len_raw": 5827,
+   "regex": {
+    "ok": true,
+    "sec": 0.0027,
+    "len_plain": 4076,
+    "ratio": 0.7,
+    "n_sections": 18,
+    "n_categories": 3,
+    "categories": [
+     "e스포츠 대회",
+     "철권 시리즈",
+     "철권 게이머"
+    ],
+    "links": 131,
+    "footnotes": 5,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 11,
+    "script_mix": 265,
+    "glue_samples": [
+     "밥\n몽구 - 머독: 0승 2패\n맘모스 - 에디\nMr.드라 - 드라그노프: 2승 2패\n\nBa",
+     "\n뺑신영 - 밥, 잭\n블랙 - 로우: 0승 2패\nB.D.D.J(빅두대장) - 아머킹: 4승",
+     "신영 - 밥, 잭\n블랙 - 로우: 0승 2패\nB.D.D.J(빅두대장) - 아머킹: 4승 8"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.016,
+    "len_plain": 4226,
+    "ratio": 0.725,
+    "n_sections": 19,
+    "n_categories": 3,
+    "categories": [
+     "분류:e스포츠 대회",
+     "분류:철권 시리즈",
+     "분류:철권 게이머"
+    ],
+    "links": 137,
+    "footnotes": 5,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 13,
+    "script_mix": 325,
+    "glue_samples": [
+     "본선에서 사용한 캐릭터들만을 적는다. Nin은 해설.프로게이머 자격 취득 선수는 볼드체로 ",
+     "- 밥몽구 - 머독 : 0승 2패맘모스 - 에디Mr.드라 - 드라그노프 : 2승 2패\nBa",
+     "3패뺑신영 - 밥, 잭블랙 - 로우 : 0승 2패B.D.D.J(빅두대장) - 아머킹 : 4"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "배창근",
+   "len_raw": 4633,
+   "regex": {
+    "ok": true,
+    "sec": 0.0013,
+    "len_plain": 3908,
+    "ratio": 0.844,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "루비반지/등장인물"
+    ],
+    "links": 62,
+    "footnotes": 6,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 5,
+    "glue_samples": [
+     "파일:external/img.kbs.co.kr/cast12.jpg\n",
+     "파일:external/img.kbs.co.kr/cast12.jpg\n\n루비반",
+     "파일:external/img.kbs.co.kr/cast12.jpg\n\n루비반지의 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0139,
+    "len_plain": 4157,
+    "ratio": 0.897,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:루비반지/등장인물"
+    ],
+    "links": 71,
+    "footnotes": 6,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 27,
+    "script_mix": 6,
+    "glue_samples": [
+     "파일:external/img.kbs.co.kr/cast12.jpg루",
+     "파일:external/img.kbs.co.kr/cast12.jpg루비반지의",
+     "파일:external/img.kbs.co.kr/cast12.jpg루비반지의 등장"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "브라질너트 오일",
+   "len_raw": 255,
+   "regex": {
+    "ok": true,
+    "sec": 0.0002,
+    "len_plain": 195,
+    "ratio": 0.765,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "식용유"
+    ],
+    "links": 2,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 200,
+    "ratio": 0.784,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:식용유"
+    ],
+    "links": 3,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 0,
+    "glue_samples": [
+     " 기름.\n맑은 노란빛이며 달콤한 향기를 가지고 있다.피부미용에 좋아 마사지 오일로 많이 쓰"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "서울 버스 5522",
+   "len_raw": 9599,
+   "regex": {
+    "ok": true,
+    "sec": 0.0021,
+    "len_plain": 4124,
+    "ratio": 0.43,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "서울특별시의 지선버스",
+     "2006년 개업한 버스 노선"
+    ],
+    "links": 53,
+    "footnotes": 11,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 120,
+    "glue_samples": [
+     " 배차간격에 생기는 변화는 거의 없을 것으로 보인다.관련 공문\n2019년 7월 15일에, ",
+     "당 기간동안 최소/최대 배차간격 역시 변동 운영된다.관련 공문\n2019년 11월 1일에 5",
+     "간동안 1일 총 운행횟수도 한시적으로 감축 운영된다.관련 공문\n\nA노선은 일반버스 6대, "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0247,
+    "len_plain": 4861,
+    "ratio": 0.506,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:서울특별시의 지선버스",
+     "분류:2006년 개업한 버스 노선"
+    ],
+    "links": 73,
+    "footnotes": 11,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 15,
+    "script_mix": 135,
+    "glue_samples": [
+     "다. 이때 번호도 지금의 번호인 5522번이 되었다.난곡 주변의 버스노선을 모두 신대방역을",
+     " 없다. 660번의 배차간격도 덩달아 크게 늘어났다.주차공간 부족을 이유로 2017년 11",
+     " 배차간격에 생기는 변화는 거의 없을 것으로 보인다.관련 공문2019년 7월 15일에, 하"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "스카이랜더스",
+   "len_raw": 4952,
+   "regex": {
+    "ok": true,
+    "sec": 0.0014,
+    "len_plain": 3539,
+    "ratio": 0.715,
+    "n_sections": 8,
+    "n_categories": 5,
+    "categories": [
+     "플랫폼 게임",
+     "롤플레잉 게임",
+     "장난감 상호 작용 게임",
+     "드래곤을 소재로 한 작품",
+     "액티비전"
+    ],
+    "links": 22,
+    "footnotes": 8,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 15,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0153,
+    "len_plain": 4452,
+    "ratio": 0.899,
+    "n_sections": 8,
+    "n_categories": 5,
+    "categories": [
+     "분류:플랫폼 게임",
+     "분류:롤플레잉 게임",
+     "분류:장난감 상호 작용 게임",
+     "분류:드래곤을 소재로 한 작품",
+     "분류:액티비전"
+    ],
+    "links": 28,
+    "footnotes": 8,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 19,
+    "script_mix": 16,
+    "glue_samples": [
+     "파일:Skylanders Logo.png\n스카이랜더스는 토이즈 포 밥이 ",
+     " 한다. 그래도 메인 개발은 토이즈 포 밥이 맡는다.하고 액티비전이 배급하는 게임이다. 스",
+     "작이 된 만큼 그 당시엔 엄청난 파급력을 자랑했었다.장난감 상호 작용 게임의 대명사이자, "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "킬미, 힐미",
+   "len_raw": 15407,
+   "regex": {
+    "ok": true,
+    "sec": 0.0036,
+    "len_plain": 6492,
+    "ratio": 0.421,
+    "n_sections": 14,
+    "n_categories": 4,
+    "categories": [
+     "MBC 드라마",
+     "2015년 드라마",
+     "수목 드라마",
+     "블루레이 출시 드라마"
+    ],
+    "links": 80,
+    "footnotes": 25,
+    "tables": 5,
+    "leftover": {
+     "표 구분자": 2
+    },
+    "leftover_total": 2,
+    "glue_risk": 7,
+    "script_mix": 78,
+    "glue_samples": [
+     "하였고, 8화에는 안요나가 등장했다. 9화에는 Mr.x를 제외한 모든 인격이 나왔고, 20",
+     "제외한 모든 인격이 나왔고, 20화에는 나나와 Mr.X가 나왔다.\n\n차도현[본명은 차준영]",
+     " 되기로 하였다. 마지막회에서는 전무이사로 승진했다.대신 헤어스타일을 잃었다\n\n지순영(김희"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0426,
+    "len_plain": 8170,
+    "ratio": 0.53,
+    "n_sections": 14,
+    "n_categories": 4,
+    "categories": [
+     "분류:MBC 드라마",
+     "분류:2015년 드라마",
+     "분류:수목 드라마",
+     "분류:블루레이 출시 드라마"
+    ],
+    "links": 143,
+    "footnotes": 25,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 44,
+    "script_mix": 108,
+    "glue_samples": [
+     "된 주제는 상처 치유의 가장 강력한 백신은 사랑이다.비밀에서 열연했던 지성과 황정음이 1년",
+     " 지성과 황정음이 1년 3개월 만에 다시 재회하였다.여담으로 이 둘이 처음으로 호흡을 맞춘",
+     "로 파트너가 된지라 하이마트 선구안설이 떠돌고 있다.또한 2011년에 로열패밀리에서 출연한"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "히가시노역",
+   "len_raw": 374,
+   "regex": {
+    "ok": true,
+    "sec": 0.0002,
+    "len_plain": 121,
+    "ratio": 0.324,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "이름이 같은 철도역/일본"
+    ],
+    "links": 11,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 135,
+    "ratio": 0.361,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:이름이 같은 철도역/일본"
+    ],
+    "links": 12,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 0,
+    "glue_samples": [
+     "히가시노'라는 이름을 쓰는 역은 다음 두 곳이 있다.히가시노역(기후), 기후현 에나시에 위"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "교토 시영 지하철",
+   "len_raw": 3547,
+   "regex": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 1229,
+    "ratio": 0.346,
+    "n_sections": 5,
+    "n_categories": 1,
+    "categories": [
+     "일본의 도시철도"
+    ],
+    "links": 23,
+    "footnotes": 5,
+    "tables": 4,
+    "leftover": {
+     "표 구분자": 3
+    },
+    "leftover_total": 3,
+    "glue_risk": 1,
+    "script_mix": 11,
+    "glue_samples": [
+     "교토 시영 지하철 모에 모에 프로젝트를 진행 중이다.모에 캐릭터가 없으면 만들면 되지! 시"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0087,
+    "len_plain": 1305,
+    "ratio": 0.368,
+    "n_sections": 5,
+    "n_categories": 1,
+    "categories": [
+     "분류:일본의 도시철도"
+    ],
+    "links": 56,
+    "footnotes": 5,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 6,
+    "script_mix": 11,
+    "glue_samples": [
+     "지어 교토시 교통안내 한국어 페이지에도 설명이 없다.홍보일러스트 from Facebook ",
+     " 작곡가가 전부 다른 사람이라 느낌도 다르다고 한다.철도무스메에 소속된 캐릭터가 없어서 억",
+     "교토 시영 지하철 모에 모에 프로젝트를 진행 중이다.모에 캐릭터가 없으면 만들면 되지! 시"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "후쿠모토 아이나",
+   "len_raw": 3502,
+   "regex": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 1312,
+    "ratio": 0.375,
+    "n_sections": 6,
+    "n_categories": 4,
+    "categories": [
+     "NMB48/전 멤버 일람",
+     "일본 여배우/ㅎ",
+     "1993년 출생",
+     "나라현 출신 인물"
+    ],
+    "links": 8,
+    "footnotes": 2,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 44,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0073,
+    "len_plain": 1443,
+    "ratio": 0.412,
+    "n_sections": 7,
+    "n_categories": 4,
+    "categories": [
+     "분류:NMB48/전 멤버 일람",
+     "분류:일본 여배우/ㅎ",
+     "분류:1993년 출생",
+     "분류:나라현 출신 인물"
+    ],
+    "links": 32,
+    "footnotes": 2,
+    "tables": 2,
+    "leftover": {
+     "HTML 태그": 1
+    },
+    "leftover_total": 1,
+    "glue_risk": 3,
+    "script_mix": 47,
+    "glue_samples": [
+     "요시모토 계열 소속사에서의 활동 지원은 차이가 없다.이를 두고 팬들 사이에서는 요시모토에서",
+     "기가 낮기 때문에 후쿠모토를 데려갔다는 의견이 많다.졸업하자마자 관서지방 한정이지만 많은 ",
+     "로 부정적인 성격이어서, 이를 단점으로 여기고 있다.운동 신경이 좋아서 초등학교 때 수영과"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "레드: 프라이드 오브 에덴",
+   "len_raw": 6360,
+   "regex": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 4432,
+    "ratio": 0.697,
+    "n_sections": 9,
+    "n_categories": 3,
+    "categories": [
+     "토막글/게임",
+     "2020년 게임",
+     "중국 게임"
+    ],
+    "links": 12,
+    "footnotes": 3,
+    "tables": 3,
+    "leftover": {
+     "나무마크 링크": 10,
+     "표 구분자": 6,
+     "HTML 태그": 2
+    },
+    "leftover_total": 18,
+    "glue_risk": 7,
+    "script_mix": 50,
+    "glue_samples": [
+     "B> 공식 사이트 ||일본 [[https://www.youtube.com/channel/U",
+     "트 ||일본 [[https://www.youtube.com/channel/UC5keh-Qw",
+     "g|width=20]]\n[[https://space.bilibili.com/58075910"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0166,
+    "len_plain": 4236,
+    "ratio": 0.666,
+    "n_sections": 9,
+    "n_categories": 3,
+    "categories": [
+     "분류:토막글/게임",
+     "분류:2020년 게임",
+     "분류:중국 게임"
+    ],
+    "links": 34,
+    "footnotes": 3,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 27,
+    "script_mix": 63,
+    "glue_samples": [
+     "T를 진행했고 7월 9일에 일본에서 출시할 예정이다.분류:토막글/게임분류:2020년 게임분",
+     "최대 레어도까지 상승시키더라도 성능차가 존재하는 편.다체로운 에덴 대륙스토리 진행 외에도 ",
+     "와 애니메이션을 조합한 특징적인 필살기 컷인을 사용.보통 이런 과장하기 좋아하는 가챠게임이"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "폴아웃 4/모드/타 작품",
+   "len_raw": 86193,
+   "regex": {
+    "ok": true,
+    "sec": 0.0214,
+    "len_plain": 27389,
+    "ratio": 0.318,
+    "n_sections": 40,
+    "n_categories": 1,
+    "categories": [
+     "폴아웃 4/모드"
+    ],
+    "links": 1861,
+    "footnotes": 68,
+    "tables": 0,
+    "leftover": {
+     "나무마크 링크": 12,
+     "볼드/이탤릭": 1
+    },
+    "leftover_total": 13,
+    "glue_risk": 22,
+    "script_mix": 118,
+    "glue_samples": [
+     "프 이즈 스트레인지\n맥스 콜필드 http://www.nexusmods.com/fallout",
+     "\n맥스 콜필드 http://www.nexusmods.com/fallout4/mods/881",
+     "높지만 여러 모드를 요구한다.\n울펜슈타인 시리즈\nB.J. 블라즈코윅즈 - # #2\n빌헬름 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.1206,
+    "len_plain": 29452,
+    "ratio": 0.342,
+    "n_sections": 41,
+    "n_categories": 1,
+    "categories": [
+     "분류:폴아웃 4/모드"
+    ],
+    "links": 1909,
+    "footnotes": 68,
+    "tables": 0,
+    "leftover": {
+     "나무마크 링크": 1,
+     "볼드/이탤릭": 1
+    },
+    "leftover_total": 2,
+    "glue_risk": 202,
+    "script_mix": 288,
+    "glue_samples": [
+     "덮어 씌우는 건 물론이고 NPC에도 적용할 수 있다.Vergessener's Famous ",
+     " 퀄리티가 좋지 않다. 퀄리티가 안 좋은 건 #표시.월터 화이트 - 브레이킹 배드빈 디젤비",
+     "l Obermeier. 게임스타의 호스트이자 제작자.아담 드라이버톰 크루즈크리스천 베일벤 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "Eika",
+   "len_raw": 1165,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 780,
+    "ratio": 0.67,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "대한민국의 일러스트레이터"
+    ],
+    "links": 10,
+    "footnotes": 1,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 9,
+    "glue_samples": [
+     " 글을 쓰고 Eika는 그림을 그리게 되었다고 한다.모든 글쟁이의 꿈 전속 일러스트레이터\n",
+     "는게 아니냐는 소문이 돌았지만, 에이카는 원래 남자.앙대 게다가 반재원은 이미 결혼했다.(",
+     "초인동맹 후기 등을 보면 남자를 그리는걸 싫어하는듯.표지를 남자로 하자고 했더니 인연을 끊"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0027,
+    "len_plain": 803,
+    "ratio": 0.689,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:대한민국의 일러스트레이터"
+    ],
+    "links": 11,
+    "footnotes": 1,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 9,
+    "script_mix": 9,
+    "glue_samples": [
+     "한국의 일러스트레이터. 홈페이지.주로 라이트노벨 작가 반재원과 함께 활",
+     "트노벨 작가 반재원과 함께 활동하는 일러스트레이터다.반재원과는 고등학생 때부터 친구였으며 ",
+     " 글을 쓰고 Eika는 그림을 그리게 되었다고 한다.모든 글쟁이의 꿈 전속 일러스트레이터닉"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "유구IC",
+   "len_raw": 1980,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 419,
+    "ratio": 0.212,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "당진영덕고속도로",
+     "대한민국의 나들목"
+    ],
+    "links": 16,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 5,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0036,
+    "len_plain": 438,
+    "ratio": 0.221,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:당진영덕고속도로",
+     "분류:대한민국의 나들목"
+    ],
+    "links": 31,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 5,
+    "glue_samples": [
+     "도로의 나들목. 명칭은 소재지인 유구읍에서 유래했다.코웨이 유구공장이랑 공주마이스터고등학교",
+     "곡사 방면으로 가려면 이 나들목에서 진출입하여야한다.이 나들목에서 진출해서 39번 국도로 ",
+     "으로 갈 수 있기에, 이런 방법으로 돌아가기도 한다.분류:당진영덕고속도로 분류:대한민국의 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "이상백(1886)",
+   "len_raw": 2553,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 997,
+    "ratio": 0.391,
+    "n_sections": 2,
+    "n_categories": 7,
+    "categories": [
+     "나무위키 독립운동가 프로젝트",
+     "한국의 독립운동가",
+     "건국훈장 애족장",
+     "경주 이씨",
+     "구미시 출신 인물",
+     "1886년 출생",
+     "1965년 사망"
+    ],
+    "links": 17,
+    "footnotes": 4,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 30,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0049,
+    "len_plain": 1066,
+    "ratio": 0.418,
+    "n_sections": 3,
+    "n_categories": 7,
+    "categories": [
+     "분류:나무위키 독립운동가 프로젝트",
+     "분류:한국의 독립운동가",
+     "분류:건국훈장 애족장",
+     "분류:경주 이씨",
+     "분류:구미시 출신 인물",
+     "분류:1886년 출생",
+     "분류:1965년 사망"
+    ],
+    "links": 48,
+    "footnotes": 4,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 6,
+    "script_mix": 32,
+    "glue_samples": [
+     "인동도호부(현 경상북도 구미시 진평동)에서 태어났다.그는 당시 인동교회의 목사였는데, 19",
+     "고는 그와 함께 독립만세운동을 주동하기로 결심하였다.이에 이상백은 자신의 집에서 이영식·이",
+     " 오후 8시로 거사일을 정하고 사전준비를 시작하였다.그는 권용섭(權龍燮)과 함께 독립선언서"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "보수주의(동음이의어)",
+   "len_raw": 4508,
+   "regex": {
+    "ok": true,
+    "sec": 0.0014,
+    "len_plain": 4128,
+    "ratio": 0.916,
+    "n_sections": 5,
+    "n_categories": 4,
+    "categories": [
+     "동음이의어/ㅂ",
+     "심리학",
+     "회계학",
+     "연구방법론"
+    ],
+    "links": 26,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 24,
+    "glue_samples": [
+     "둘이 싸우다 공교롭게도 둘다 손가락이 부러진 것이다.현실성에 문제가 많지만 그러려니 하자 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0136,
+    "len_plain": 4134,
+    "ratio": 0.917,
+    "n_sections": 6,
+    "n_categories": 4,
+    "categories": [
+     "분류:동음이의어/ㅂ",
+     "분류:심리학",
+     "분류:회계학",
+     "분류:연구방법론"
+    ],
+    "links": 29,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 11,
+    "script_mix": 24,
+    "glue_samples": [
+     "10대를 한큐에 맞는 것(이쪽이 보수주의)의 차이다.이런 방법을 쓰는 이유는 회사에 위기의",
+     "둘이 싸우다 공교롭게도 둘다 손가락이 부러진 것이다.현실성에 문제가 많지만 그러려니 하자 ",
+     " 깁스를 하고 웃으며 보았다. 정도의 차이가 되겠다.매우 희귀한 예지만 감가상각을 감안한 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "Library of Ruina/접대/하나",
+   "len_raw": 24902,
+   "regex": {
+    "ok": true,
+    "sec": 0.0065,
+    "len_plain": 6807,
+    "ratio": 0.273,
+    "n_sections": 18,
+    "n_categories": 1,
+    "categories": [
+     "Library of Ruina"
+    ],
+    "links": 141,
+    "footnotes": 3,
+    "tables": 31,
+    "leftover": {
+     "중괄호 블록": 198,
+     "표 구분자": 151,
+     "HTML 태그": 75
+    },
+    "leftover_total": 424,
+    "glue_risk": 2,
+    "script_mix": 96,
+    "glue_samples": [
+     "#322822><color=#FAE3B9> {{{#!folding [1무대 대사]}}} {",
+     "{{#!folding [1무대 대사]}}} {{{#!folding [2무대 대사]\n||<:"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0519,
+    "len_plain": 1524,
+    "ratio": 0.061,
+    "n_sections": 19,
+    "n_categories": 1,
+    "categories": [
+     "분류:Library of Ruina"
+    ],
+    "links": 213,
+    "footnotes": 3,
+    "tables": 35,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 24,
+    "glue_samples": [
+     "들도 쓰기 때문에 내성관리 및 수비에 주의해야 한다.네임드들 역시 잡졸들과 비슷한 책장을 ",
+     "있으므로 감정고조를 시키되 예의주시할 필요성이 있다.특히 괘각을 적극적으로 사용하는 미리내",
+     "에 괘각 적중을 필히 견제하며 나아갈 것을 추천한다.만일 괘각을 허용해줬다면, 미리내와 같"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "2세대 뮤직쉐이크",
+   "len_raw": 1836,
+   "regex": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 1413,
+    "ratio": 0.77,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "뮤직 쉐이크"
+    ],
+    "links": 6,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {
+     "각주 표기": 12
+    },
+    "leftover_total": 12,
+    "glue_risk": 2,
+    "script_mix": 17,
+    "glue_samples": [
+     "MoDERNISM,\nNewFashion,\n에르\nMr.Suwako,\nLEN,\nYangGi, ",
+     "wn의 멤버]\n오렌지홀릭,\nStarBearer,\nL.Spider,\n선우빈,\nStorm\n경음"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0093,
+    "len_plain": 1422,
+    "ratio": 0.775,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:뮤직 쉐이크"
+    ],
+    "links": 7,
+    "footnotes": 13,
+    "tables": 0,
+    "leftover": {
+     "각주 표기": 1
+    },
+    "leftover_total": 1,
+    "glue_risk": 10,
+    "script_mix": 22,
+    "glue_samples": [
+     "은 N 한사람 뿐. 본격적으로 음악활동을 하고 있다.의 멤버 YangGi와 마리가 있었다.",
+     " 있었다.\n굵은 글씨 는 추천쉐이커 선정된 쉐이커다.moricone,[* 아래 서술된 '불",
+     "된 '불타는 손가락'과 친분이 있었다. 현재는 불명.사랑씨ROZIER TengE 노세, 그"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "Twitch Plays Pokémon/시즌 8/2주차",
+   "len_raw": 7299,
+   "regex": {
+    "ok": true,
+    "sec": 0.002,
+    "len_plain": 3943,
+    "ratio": 0.54,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "Twitch Plays Pokémon"
+    ],
+    "links": 48,
+    "footnotes": 2,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 33,
+    "glue_samples": [
+     " 잡고 N에게서 힐을 받은 상태에서 곧바로 데~니스!게치스 전. 결과는 참패.\n\n11d 1"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0229,
+    "len_plain": 5040,
+    "ratio": 0.691,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "분류:Twitch Plays Pokémon"
+    ],
+    "links": 61,
+    "footnotes": 2,
+    "tables": 2,
+    "leftover": {
+     "HTML 태그": 16
+    },
+    "leftover_total": 16,
+    "glue_risk": 27,
+    "script_mix": 41,
+    "glue_samples": [
+     "이 점에 주의하여 진행경과를 작성해 주시기 바랍니다.Twitch Plays Pokémon/",
+     "640\" height=\"360\" src=\"//www.youtube.com/embed/EyQ",
+     "ght=\"360\" src=\"//www.youtube.com/embed/EyQyPkabYHg"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "안젤리크 트로와",
+   "len_raw": 8187,
+   "regex": {
+    "ok": true,
+    "sec": 0.0026,
+    "len_plain": 6690,
+    "ratio": 0.817,
+    "n_sections": 13,
+    "n_categories": 1,
+    "categories": [
+     "안젤리크 시리즈"
+    ],
+    "links": 36,
+    "footnotes": 8,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 27,
+    "glue_samples": [
+     "해 보좌역을 착실히 수행하고 있다.\n\n줄리어스 CV.하야미 쇼\n긍지를 주는 빛의 수호성으로",
+     "의 여성은 사실은 미래의 성수의 우주의 여왕 '티엔.시'로, 라가라 불리는 사악한 힘의 침",
+     "략의 영향으로 이미 수호성이 소멸한 시점인지라 티엔.시 여왕과 엘더만이 남은 상황에서 엘더"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0253,
+    "len_plain": 7447,
+    "ratio": 0.91,
+    "n_sections": 13,
+    "n_categories": 1,
+    "categories": [
+     "분류:안젤리크 시리즈"
+    ],
+    "links": 44,
+    "footnotes": 8,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 52,
+    "script_mix": 32,
+    "glue_samples": [
+     "귀하는 데 결정적인 원인을 제공하고 만 비운의 게임.다만 이 게임 상의 여러 시스템은 훗날",
+     "러 시스템은 훗날 네오 안젤리크에서도 계승하게 된다.화제를 모아 대화를 한다던가, 행복도를",
+     "디폴트 네임, 변경 가능)와 여왕보좌관 레이첼 하트.어느날 新우주의 혹성 중 하나인 꽃의 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "후지노 토모코",
+   "len_raw": 536,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 348,
+    "ratio": 0.649,
+    "n_sections": 3,
+    "n_categories": 3,
+    "categories": [
+     "일본 여성 성우/ㅎ",
+     "1976년 출생",
+     "시가현 출신 인물"
+    ],
+    "links": 14,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 8,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0012,
+    "len_plain": 362,
+    "ratio": 0.675,
+    "n_sections": 3,
+    "n_categories": 3,
+    "categories": [
+     "분류:일본 여성 성우/ㅎ",
+     "분류:1976년 출생",
+     "분류:시가현 출신 인물"
+    ],
+    "links": 17,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 9,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "오우카 오오토리 아마츠",
+   "len_raw": 4142,
+   "regex": {
+    "ok": true,
+    "sec": 0.0011,
+    "len_plain": 1711,
+    "ratio": 0.413,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "실버리오 사가/등장인물",
+     "실버리오 라그나로크"
+    ],
+    "links": 3,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {
+     "표 구분자": 2,
+     "HTML 태그": 1
+    },
+    "leftover_total": 3,
+    "glue_risk": 0,
+    "script_mix": 1,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0096,
+    "len_plain": 1100,
+    "ratio": 0.266,
+    "n_sections": 8,
+    "n_categories": 2,
+    "categories": [
+     "분류:실버리오 사가/등장인물",
+     "분류:실버리오 라그나로크"
+    ],
+    "links": 10,
+    "footnotes": 0,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 1,
+    "glue_samples": [
+     "청(聖座典礼秘蹟庁)의 장관으로서 추기경을 맡고 있다.낭비를 싫어하고, 수식을 좋아하고, 논",
+     "를 연마해 왔으므로, 무투기술 또한 떨어지지 않는다.신조들은 단순한 전투력과 출력에 한정한"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "타카사키 아키라",
+   "len_raw": 8812,
+   "regex": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 6790,
+    "ratio": 0.771,
+    "n_sections": 10,
+    "n_categories": 4,
+    "categories": [
+     "기타리스트",
+     "LOUDNESS",
+     "히가시스미요시구 출신 인물",
+     "ESP 엔도서"
+    ],
+    "links": 104,
+    "footnotes": 11,
+    "tables": 0,
+    "leftover": {
+     "표 구분자": 2,
+     "HTML 태그": 1
+    },
+    "leftover_total": 3,
+    "glue_risk": 0,
+    "script_mix": 102,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0259,
+    "len_plain": 7341,
+    "ratio": 0.833,
+    "n_sections": 10,
+    "n_categories": 4,
+    "categories": [
+     "분류:기타리스트",
+     "분류:LOUDNESS",
+     "분류:히가시스미요시구 출신 인물",
+     "분류:ESP 엔도서"
+    ],
+    "links": 114,
+    "footnotes": 11,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 28,
+    "script_mix": 105,
+    "glue_samples": [
+     "_160902_loudness35th_01_main.jpg\n高崎晃(たかさき あきら)1961",
+     "액형 성격설을 완전히 부숴버리는 사례의 주인공이시다.애칭은 '탓칸'. LAZY시절의 예명인",
+     "트가 있대!\"라는 소문이 퍼질 만큼 유명했다고 한다.초등학교·중학교 동창인 카게야마 히로노"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "걸어서 30분/다이어리/100화~199화",
+   "len_raw": 3096,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 68,
+    "ratio": 0.022,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "걸어서 30분"
+    ],
+    "links": 2,
+    "footnotes": 0,
+    "tables": 8,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 3,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0047,
+    "len_plain": 81,
+    "ratio": 0.026,
+    "n_sections": 10,
+    "n_categories": 1,
+    "categories": [
+     "분류:걸어서 30분"
+    ],
+    "links": 31,
+    "footnotes": 0,
+    "tables": 8,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 4,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "케프라(드래곤볼 파이터즈)",
+   "len_raw": 12020,
+   "regex": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 7027,
+    "ratio": 0.585,
+    "n_sections": 10,
+    "n_categories": 1,
+    "categories": [
+     "드래곤볼 파이터즈"
+    ],
+    "links": 39,
+    "footnotes": 9,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 50,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0388,
+    "len_plain": 7073,
+    "ratio": 0.588,
+    "n_sections": 10,
+    "n_categories": 1,
+    "categories": [
+     "분류:드래곤볼 파이터즈"
+    ],
+    "links": 40,
+    "footnotes": 9,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 20,
+    "script_mix": 54,
+    "glue_samples": [
+     "파일:케프라_메인.png\"케일과! 카리프라가 합체해서! ",
+     "서! 케프라!!\"시작할 때 항상 이 대사가 고정된다.후속 등장 대사\"쫄아서 지리지 말라고!",
+     "바운딩한다. 이후 강공격으로 콤보를 잇는게 가능하다.피스트 캐논 볼 ↓↘→ + 근접 공격 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "감전사",
+   "len_raw": 551,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 452,
+    "ratio": 0.82,
+    "n_sections": 2,
+    "n_categories": 3,
+    "categories": [
+     "한자어",
+     "죽음",
+     "전기공학"
+    ],
+    "links": 8,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 4,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0017,
+    "len_plain": 463,
+    "ratio": 0.84,
+    "n_sections": 3,
+    "n_categories": 3,
+    "categories": [
+     "분류:한자어",
+     "분류:죽음",
+     "분류:전기공학"
+    ],
+    "links": 11,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 5,
+    "glue_samples": [
+     " 높은 만큼 그로 인한 사고도 당연히 많이 일어난다.안전불감증으로 인한 가정사고부터 변전소",
+     "사람을 죽이지 못한다. 치명적인 전류치는 100mA.분류:한자어분류:죽음분류:전기공학"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "신화 FC",
+   "len_raw": 429,
+   "regex": {
+    "ok": true,
+    "sec": 0.0002,
+    "len_plain": 0,
+    "ratio": 0.0,
+    "n_sections": 7,
+    "n_categories": 1,
+    "categories": [
+     "동음이의어/ㅅ"
+    ],
+    "links": 0,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 10,
+    "ratio": 0.023,
+    "n_sections": 8,
+    "n_categories": 1,
+    "categories": [
+     "분류:동음이의어/ㅅ"
+    ],
+    "links": 1,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "그란데",
+   "len_raw": 233,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 116,
+    "ratio": 0.498,
+    "n_sections": 5,
+    "n_categories": 1,
+    "categories": [
+     "동음이의어/ㄱ"
+    ],
+    "links": 8,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 120,
+    "ratio": 0.515,
+    "n_sections": 5,
+    "n_categories": 1,
+    "categories": [
+     "분류:동음이의어/ㄱ"
+    ],
+    "links": 8,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "기악부",
+   "len_raw": 1801,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 1632,
+    "ratio": 0.906,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "동아리"
+    ],
+    "links": 14,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 6,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0055,
+    "len_plain": 1695,
+    "ratio": 0.941,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:동아리"
+    ],
+    "links": 15,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 10,
+    "script_mix": 7,
+    "glue_samples": [
+     "器樂部중학교/고등학교내의 동아리(CA).밴드부와는 다르게, 주로 클래식컬한 악",
+     "관현악부, 스쿨 밴드가 없는 경우 밴드부라 불리기도.우선 문제점은 개설되어 있는 학교가 적",
+     "나 줄 등의 부대비용을 생각하면, 안심하기는 이르다.게다가 악기라는 것이 진지하게 오래(적"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "가코",
+   "len_raw": 208,
+   "regex": {
+    "ok": true,
+    "sec": 0.0002,
+    "len_plain": 87,
+    "ratio": 0.418,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "동명이인/ㄱ"
+    ],
+    "links": 5,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 96,
+    "ratio": 0.462,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:동명이인/ㄱ"
+    ],
+    "links": 3,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 0,
+    "glue_samples": [
+     "읽기도 하나 외래어 표기법에 따르면 '가코'가 된다.분류:동명이인/ㄱ"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "슈베린",
+   "len_raw": 1858,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 547,
+    "ratio": 0.294,
+    "n_sections": 4,
+    "n_categories": 2,
+    "categories": [
+     "메클렌부르크-포어포메른",
+     "독일의 도시"
+    ],
+    "links": 13,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 21,
+    "glue_samples": [
+     "파일:external/upload.wikimedia.org/614px-S",
+     "파일:external/upload.wikimedia.org/614px-Schwerin_Ca",
+     "Schweriner_Schloss_Insel_See.jpg\n슈베린 성. 1918년까지 메클"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 637,
+    "ratio": 0.343,
+    "n_sections": 4,
+    "n_categories": 2,
+    "categories": [
+     "분류:메클렌부르크-포어포메른",
+     "분류:독일의 도시"
+    ],
+    "links": 21,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 22,
+    "glue_samples": [
+     "파일:external/upload.wikimedia.org/614px-S",
+     "파일:external/upload.wikimedia.org/614px-Schwerin_Ca",
+     "Schweriner_Schloss_Insel_See.jpg슈베린 성. 1918년까지 메클렌"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "마법 재생",
+   "len_raw": 1939,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 1233,
+    "ratio": 0.636,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "유희왕/OCG/일반 마법"
+    ],
+    "links": 29,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 9,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0048,
+    "len_plain": 1237,
+    "ratio": 0.638,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "분류:유희왕/OCG/일반 마법"
+    ],
+    "links": 31,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 9,
+    "glue_samples": [
+     "성되어 있으면 이 카드를 발동할 수 없게 되어버린다.사실 나올 당시에는 마법돌의 채굴이 존",
+     " 유일하게 이 카드가 사용되던 시기라고 보아도 무방.해외 수출용 일러스트에서는 육망성이 육",
+     "주의 수출판 일러스트에 나와있는 문양으로 대체되었다.원작 배틀 시티 본선 편에서는 카이바 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "必UP되다",
+   "len_raw": 43373,
+   "regex": {
+    "ok": true,
+    "sec": 0.0151,
+    "len_plain": 24924,
+    "ratio": 0.575,
+    "n_sections": 30,
+    "n_categories": 3,
+    "categories": [
+     "코요태/음반",
+     "2005년 음반",
+     "한국의 음반"
+    ],
+    "links": 21,
+    "footnotes": 10,
+    "tables": 42,
+    "leftover": {
+     "중괄호 블록": 74,
+     "표 구분자": 34
+    },
+    "leftover_total": 108,
+    "glue_risk": 0,
+    "script_mix": 57,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.1108,
+    "len_plain": 6070,
+    "ratio": 0.14,
+    "n_sections": 31,
+    "n_categories": 3,
+    "categories": [
+     "분류:코요태/음반",
+     "분류:2005년 음반",
+     "분류:한국의 음반"
+    ],
+    "links": 143,
+    "footnotes": 10,
+    "tables": 42,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 12,
+    "script_mix": 60,
+    "glue_samples": [
+     " 발라드곡들로 활동했다면 이 정도는 아니었을 정도다.원래 하우스와 테크노를 주축으로 했던 ",
+     "러 가지 변화를 시도했는데, 여기에는 사정이 있었다.사실 코요태의 4집에 이르면서 이미 하",
+     "'는 판단에 6집부터 계속 변화를 시도하기 시작했다.복고풍의 디스코였던 6집은 기존 하우스"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "샴블로",
+   "len_raw": 11380,
+   "regex": {
+    "ok": true,
+    "sec": 0.0036,
+    "len_plain": 8261,
+    "ratio": 0.726,
+    "n_sections": 13,
+    "n_categories": 2,
+    "categories": [
+     "우주세기/모빌아머",
+     "SD건담 캡슐파이터 온라인/유닛"
+    ],
+    "links": 49,
+    "footnotes": 8,
+    "tables": 2,
+    "leftover": {
+     "표 구분자": 1
+    },
+    "leftover_total": 1,
+    "glue_risk": 5,
+    "script_mix": 82,
+    "glue_samples": [
+     "체로 평가 받고 있으며, 실제로 OVA 이전에는 U.C. 0096년 최강의 기체였다. 커뮤",
+     "디 한둘이냐마는\n\n파일:attachment/GFT2.jpg\n본편과는 관계없이 건담 프런트 ",
+     " 시점까지는 건담 컨버지와 식완 프라로 나온게 전부.어찌보면 네오 지옹이 좀 특이했던거다\n"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0349,
+    "len_plain": 9107,
+    "ratio": 0.8,
+    "n_sections": 14,
+    "n_categories": 2,
+    "categories": [
+     "분류:우주세기/모빌아머",
+     "분류:SD건담 캡슐파이터 온라인/유닛"
+    ],
+    "links": 56,
+    "footnotes": 8,
+    "tables": 3,
+    "leftover": {
+     "HTML 태그": 1
+    },
+    "leftover_total": 1,
+    "glue_risk": 31,
+    "script_mix": 99,
+    "glue_samples": [
+     " 복잡하고 괴기스러운 모습을 취하고 있는 것이 특징.어깨의 장갑내에서는 전자유도추진유닛(M",
+     "여 잠항시의 저항력을 대폭 줄임으로써 이를 해결했다.허나 본 기체의 진면목은 수중에서가 아",
+     "각도만 맞다면 역으로 적에게 되돌릴 수도 있어보인다.이 유니콘 건담의 접근도 허용하지 않는"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "아프리카TV",
+   "len_raw": 46664,
+   "regex": {
+    "ok": true,
+    "sec": 0.0122,
+    "len_plain": 30830,
+    "ratio": 0.661,
+    "n_sections": 32,
+    "n_categories": 1,
+    "categories": [
+     "아프리카TV"
+    ],
+    "links": 372,
+    "footnotes": 68,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 18,
+    "script_mix": 873,
+    "glue_samples": [
+     "질/고화질 조정기능, 그리고 (http://play.afreeca.com/BJ 아이디) 주",
+     "기능, 그리고 (http://play.afreeca.com/BJ 아이디) 주소만으로 해당 ",
+     "방 개설로 복귀했다. 참고로 대만 LIVEhouse.in 채팅인원 100명 제한을 한달에 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.1225,
+    "len_plain": 34844,
+    "ratio": 0.747,
+    "n_sections": 32,
+    "n_categories": 1,
+    "categories": [
+     "분류:아프리카TV"
+    ],
+    "links": 449,
+    "footnotes": 68,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 180,
+    "script_mix": 1009,
+    "glue_samples": [
+     "데, 그 대표적인 사례가 흑인음악 동호회였던 SNP.를 비롯해 피디박스, 클럽박스, 스티큐",
+     "했다. 모니터링 요원이 전체 직원의 10%가 넘는다.여기 참조. 나우누리 이야기처음 나우콤",
+     "회상장하는 기업들이 대부분 하는 흔하고 뻔한 소리다.그런데 재미있는 사실은 두 회사가 잠깐"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "블루투스",
+   "len_raw": 16115,
+   "regex": {
+    "ok": true,
+    "sec": 0.0049,
+    "len_plain": 12727,
+    "ratio": 0.79,
+    "n_sections": 25,
+    "n_categories": 1,
+    "categories": [
+     "무선통신"
+    ],
+    "links": 110,
+    "footnotes": 14,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 194,
+    "glue_samples": [
+     "\n\n2004년 10월에 2.0이 표준화되었으며, 1.x의 최대 전송 속도인 721kbps에",
+     "d)만 24Mbps를 지원하며, 지원하지 않으면 2.X와 똑같은 속도를 낸다. Blueto",
+     "(rtl8716b_fw)파일을 https://aur.archlinux.org/package"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0469,
+    "len_plain": 13860,
+    "ratio": 0.86,
+    "n_sections": 25,
+    "n_categories": 1,
+    "categories": [
+     "분류:무선통신"
+    ],
+    "links": 114,
+    "footnotes": 14,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 64,
+    "script_mix": 219,
+    "glue_samples": [
+     "파일:external/blog.marines.co.kr/bluetoo",
+     "파일:external/blog.marines.co.kr/bluetooth_logo.",
+     "파일:external/blog.marines.co.kr/bluetooth_logo.png"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "바이널 블레이더",
+   "len_raw": 3099,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1271,
+    "ratio": 0.41,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "유희왕/OCG/사이버스족"
+    ],
+    "links": 20,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 18,
+    "glue_samples": [
+     "의 효과로 릴리스되었다.\n\n파일:バイナル・ブレーダー.jpg\n\n상호 링크하고있는 몬스터의 수"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0083,
+    "len_plain": 1291,
+    "ratio": 0.417,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:유희왕/OCG/사이버스족"
+    ],
+    "links": 45,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 9,
+    "script_mix": 20,
+    "glue_samples": [
+     "\n파일:BinaryBlader-JP-Anime-VR.png유희왕 VRAINS에서 Playm",
+     "력 2600이 되고 LP를 회복하는 콤보를 선보였다.이 카드로 준 전투 데미지는 생아발론 ",
+     "네의 효과로 릴리스되었다.\n파일:バイナル・ブレーダー.jpg상호 링크하고있는 몬스터의 수에 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "박창정후",
+   "len_raw": 412,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 268,
+    "ratio": 0.65,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "귀족 작위"
+    ],
+    "links": 6,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0012,
+    "len_plain": 319,
+    "ratio": 0.774,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:귀족 작위"
+    ],
+    "links": 7,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 0,
+    "glue_samples": [
+     "., 하후패등이 이 작위를 세습 받은 것으로 보인다.마대가 받은 진창후(陳倉侯)와 다른 작",
+     "보인다.마대가 받은 진창후(陳倉侯)와 다른 작위이다.실제로 하후연, 하후패 문서에 진창후로",
+     "후연: 후한의 장수. 하후돈의 족제, 하후씨의 삼촌.하후형: 하후연의 아들. 박창정후의 작"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "한국프로배구 신인드래프트/여자부/2008년-2009년",
+   "len_raw": 1200,
+   "regex": {
+    "ok": true,
+    "sec": 0.0001,
+    "len_plain": 0,
+    "ratio": 0.0,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "V-리그 드래프트"
+    ],
+    "links": 0,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0029,
+    "len_plain": 12,
+    "ratio": 0.01,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "분류:V-리그 드래프트"
+    ],
+    "links": 15,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "효촌리",
+   "len_raw": 2116,
+   "regex": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 1474,
+    "ratio": 0.697,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "대한민국의 리",
+     "상당구의 행정구역"
+    ],
+    "links": 28,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 21,
+    "glue_samples": [
+     "ochon-ri\n\n파일:20200830_104629.jpg\n충청북도 청주시 상당구 남일면의",
+     "에서 가까운 곳에 있다.\n\n파일:500pxnamil.jpg\n면 전반으로 봤을 땐 너무 북쪽"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.006,
+    "len_plain": 1705,
+    "ratio": 0.806,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:대한민국의 리",
+     "분류:상당구의 행정구역"
+    ],
+    "links": 39,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 27,
+    "glue_samples": [
+     "yochon-ri\n파일:20200830_104629.jpg충청북도 청주시 상당구 남일면의 ",
+     "에서 가까운 곳에 있다. \n파일:500pxnamil.jpg면 전반으로 봤을 땐 너무 북쪽에",
+     "쪽 일대가 모두 용암동/분평동으로 넘어갔기 때문이다.방서동(1983), 평촌동, 지북동, "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "메가코프",
+   "len_raw": 2165,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1186,
+    "ratio": 0.548,
+    "n_sections": 2,
+    "n_categories": 1,
+    "categories": [
+     "라쳇 & 클랭크 시리즈"
+    ],
+    "links": 25,
+    "footnotes": 7,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 3,
+    "glue_samples": [
+     "의 약어이다.\n\n파일:external/images3.wikia.nocookie.net/18",
+     ".\n\n파일:external/images3.wikia.nocookie.net/180px-Me",
+     "ernal/images3.wikia.nocookie.net/180px-Megacorplog"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0061,
+    "len_plain": 1769,
+    "ratio": 0.817,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:라쳇 & 클랭크 시리즈"
+    ],
+    "links": 37,
+    "footnotes": 7,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 17,
+    "script_mix": 4,
+    "glue_samples": [
+     "n의 약어이다.\n파일:external/images3.wikia.nocookie.net/18",
+     "다.\n파일:external/images3.wikia.nocookie.net/180px-Me",
+     "ernal/images3.wikia.nocookie.net/180px-Megacorplog"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "피카츄 골짜기",
+   "len_raw": 1819,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 1252,
+    "ratio": 0.688,
+    "n_sections": 1,
+    "n_categories": 2,
+    "categories": [
+     "포켓몬스터/지역/알로라지방",
+     "피카츄"
+    ],
+    "links": 10,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 13,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0049,
+    "len_plain": 1261,
+    "ratio": 0.693,
+    "n_sections": 1,
+    "n_categories": 2,
+    "categories": [
+     "분류:포켓몬스터/지역/알로라지방",
+     "분류:피카츄"
+    ],
+    "links": 14,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 13,
+    "glue_samples": [
+     "개 모양으로 꼬여 있으므로, 절대로 헤멜 일도 없다.폭포가 떨어지는 골짜기에 대량의 피카츄",
+     "려준다. 좋아하는 숫자로 맞추려면 좀 운이 필요하다.입장하면 남자 관리자가 피카츄 데코를 ",
+     "꼬리, 전기 주머니, 천둥의돌, 색이 짙다, 공박사.처음 들어왔을 때 반겨주던 수컷 피카츄"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "고양 버스 043",
+   "len_raw": 3240,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1207,
+    "ratio": 0.373,
+    "n_sections": 7,
+    "n_categories": 1,
+    "categories": [
+     "고양시의 마을버스"
+    ],
+    "links": 14,
+    "footnotes": 1,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 42,
+    "glue_samples": [
+     "ttachment/고양 버스 043/043-2863.jpg\n위 차량은 면허가 3418호로 ",
+     "변경되며 원당시장은 1일 3회 연장운행으로 변경된다.변경 출처\n\n원당시장행 시간표\n\n원흥역"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0073,
+    "len_plain": 1201,
+    "ratio": 0.371,
+    "n_sections": 7,
+    "n_categories": 1,
+    "categories": [
+     "분류:고양시의 마을버스"
+    ],
+    "links": 22,
+    "footnotes": 1,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 43,
+    "glue_samples": [
+     "ttachment/고양 버스 043/043-2863.jpg위 차량은 면허가 3418호로 바",
+     "초기에는 원흥지구 3단지 앞에서 U턴하여 운행하였다.일자 미상 원흥동 도로 공사가 끝나 삼",
+     "변경되며 원당시장은 1일 3회 연장운행으로 변경된다.변경 출처\n원당시장행 시간표원흥역 7번"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "강승현(게임 해설가)",
+   "len_raw": 31855,
+   "regex": {
+    "ok": true,
+    "sec": 0.009,
+    "len_plain": 23472,
+    "ratio": 0.737,
+    "n_sections": 21,
+    "n_categories": 5,
+    "categories": [
+     "프로게이머/리그 오브 레전드",
+     "트위치 스트리머/ㄱ",
+     "1988년 출생",
+     "서울특별시 출신 인물",
+     "프로게이머 출신 트위치 스트리머"
+    ],
+    "links": 206,
+    "footnotes": 29,
+    "tables": 1,
+    "leftover": {
+     "표 구분자": 2,
+     "볼드/이탤릭": 1
+    },
+    "leftover_total": 3,
+    "glue_risk": 15,
+    "script_mix": 366,
+    "glue_samples": [
+     "약 2500명의 사람이 함께 강퀴의 게임을 구경했다.후에는 괴물이 나와도 상자 뚜껑 열고 ",
+     "알 스트리머라면서 칭송받는다.\n\n파일:전설철인클리어.png\n\n2016.2.16 8:13 6",
+     "였다. 정작 본캐는 다이아 1~2에서 헤메는 중...이였는데 겨우 4일만인 9월 28일 본"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.1068,
+    "len_plain": 24775,
+    "ratio": 0.778,
+    "n_sections": 21,
+    "n_categories": 5,
+    "categories": [
+     "분류:프로게이머/리그 오브 레전드",
+     "분류:트위치 스트리머/ㄱ",
+     "분류:1988년 출생",
+     "분류:서울특별시 출신 인물",
+     "분류:프로게이머 출신 트위치 스트리머"
+    ],
+    "links": 264,
+    "footnotes": 29,
+    "tables": 2,
+    "leftover": {
+     "볼드/이탤릭": 1
+    },
+    "leftover_total": 1,
+    "glue_risk": 84,
+    "script_mix": 387,
+    "glue_samples": [
+     "신병자들이 판치는 탑에 결국 적응하지 못했다는 모양.MVP에 입단 후 데뷔할 때는 Duel",
+     "솔랭에서부터 쓰던 아이디인 KangQui로 변경했다.강퀴의 프로게이머 시절을 한마디로 정리",
+     "팀의 정글러였고 이후로도 계속 강퀴와 함께하고 있다.는 '코로나가 2012년에 터져서 그 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "대한항공 175편 추락 사고",
+   "len_raw": 1970,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1114,
+    "ratio": 0.565,
+    "n_sections": 5,
+    "n_categories": 4,
+    "categories": [
+     "1989년",
+     "대한항공/사건사고",
+     "노태우 정부",
+     "1989년 항공사고"
+    ],
+    "links": 7,
+    "footnotes": 2,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 29,
+    "glue_samples": [
+     " 같은 기종인 포커 F28.\n\n파일:대한항공175편.png\n\n1989년 11월 25일, 오"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0051,
+    "len_plain": 1225,
+    "ratio": 0.622,
+    "n_sections": 5,
+    "n_categories": 4,
+    "categories": [
+     "분류:1989년",
+     "분류:대한항공/사건사고",
+     "분류:노태우 정부",
+     "분류:1989년 항공사고"
+    ],
+    "links": 16,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 8,
+    "script_mix": 33,
+    "glue_samples": [
+     "파일:external/images.redframe.com/Korean%2",
+     "파일:external/images.redframe.com/Korean%20F28%20AI",
+     "me.com/Korean%20F28%20AI%201.jpg사고 기체와 같은 기종인 포커 F"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "권오혁(정치인)",
+   "len_raw": 573,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 214,
+    "ratio": 0.373,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "대한민국의 정치인",
+     "1955년 출생"
+    ],
+    "links": 1,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 2,
+    "glue_samples": [
+     "운영위원, 민주통합당 대구시당위원장, 노무현재단대구.경북위원회 운영위원, 민주평화통일자문회"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0014,
+    "len_plain": 247,
+    "ratio": 0.431,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "분류:대한민국의 정치인",
+     "분류:1955년 출생"
+    ],
+    "links": 5,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 3,
+    "glue_samples": [
+     "류:1955년 출생파일:20200726_093242.jpg\n權五赫 1955. 01. 27~",
+     "운영위원, 민주통합당 대구시당위원장, 노무현재단대구.경북위원회 운영위원, 민주평화통일자문회"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "윤태웅",
+   "len_raw": 4906,
+   "regex": {
+    "ok": true,
+    "sec": 0.0012,
+    "len_plain": 2652,
+    "ratio": 0.541,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "응답하라 1997",
+     "송종호"
+    ],
+    "links": 22,
+    "footnotes": 15,
+    "tables": 2,
+    "leftover": {
+     "표 구분자": 3
+    },
+    "leftover_total": 3,
+    "glue_risk": 2,
+    "script_mix": 14,
+    "glue_samples": [
+     "국대에서 주최한 글짓기 공모전에 시원이 쓰고있던 H.O.T. 팬픽을 출품해 1등을 하게 만",
+     "에서 주최한 글짓기 공모전에 시원이 쓰고있던 H.O.T. 팬픽을 출품해 1등을 하게 만들었"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0142,
+    "len_plain": 3810,
+    "ratio": 0.777,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "분류:응답하라 1997",
+     "분류:송종호"
+    ],
+    "links": 41,
+    "footnotes": 15,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 15,
+    "script_mix": 25,
+    "glue_samples": [
+     "응답하라 시리즈 최강의 천재이자 권력자.각종 초월스펙이 넘치는(메이저리거, 의",
+     " 입장이기 때문에 카리스마 넘치고 엄한 구석이 있다.그런데 남학생들에게만 그런 모양이다. ",
+     "국대에서 주최한 글짓기 공모전에 시원이 쓰고있던 H.O.T. 팬픽을 출품해 1등을 하게 만"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "아구스타 A.106",
+   "len_raw": 1054,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 924,
+    "ratio": 0.877,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "헬리콥터",
+     "항공기"
+    ],
+    "links": 13,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 27,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 938,
+    "ratio": 0.89,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "분류:헬리콥터",
+     "분류:항공기"
+    ],
+    "links": 15,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 30,
+    "glue_samples": [
+     "형 대잠 헬기는 Agusta A.106으로 분류된다.이 헬기에는 페란티 사에서 만든 자동 ",
+     "기의 동력으로 터보샤프트 엔진 쓰기로 결정을 내렸다.분류:헬리콥터분류:항공기"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "명지 금강펜테리움 센트럴파크 1차",
+   "len_raw": 1553,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 238,
+    "ratio": 0.153,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "강서구(부산)의 공동주택",
+     "나무위키 공동주택 프로젝트"
+    ],
+    "links": 17,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 11,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0025,
+    "len_plain": 252,
+    "ratio": 0.162,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:강서구(부산)의 공동주택",
+     "분류:나무위키 공동주택 프로젝트"
+    ],
+    "links": 31,
+    "footnotes": 1,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 18,
+    "glue_samples": [
+     "부산광역시 강서구 명지동에 위치한 아파트이다.명지국제신도시에서 같은 브랜드인 아파트"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "1999-2000 농구대잔치",
+   "len_raw": 5407,
+   "regex": {
+    "ok": true,
+    "sec": 0.0009,
+    "len_plain": 1605,
+    "ratio": 0.297,
+    "n_sections": 8,
+    "n_categories": 1,
+    "categories": [
+     "농구대잔치"
+    ],
+    "links": 37,
+    "footnotes": 1,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 30,
+    "glue_samples": [
+     " 회상하고 있었고, 이에 농구사이트 \"점프볼(www.jumpball.co.kr)\"에서 당시",
+     ", 이에 농구사이트 \"점프볼(www.jumpball.co.kr)\"에서 당시 농구대잔치 영상",
+     "에 농구사이트 \"점프볼(www.jumpball.co.kr)\"에서 당시 농구대잔치 영상을 대"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0138,
+    "len_plain": 1658,
+    "ratio": 0.307,
+    "n_sections": 8,
+    "n_categories": 1,
+    "categories": [
+     "분류:농구대잔치"
+    ],
+    "links": 112,
+    "footnotes": 1,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 10,
+    "script_mix": 31,
+    "glue_samples": [
+     "구 최고 권위의 대회\"로서의 지위만 유지하게 되었다.명색이 \"1999-2000\" 농구대잔치",
+     "해에 농구대잔치가 2번 열리는 촌극이 벌어지게 된다.공식명칭은 \"코맥스배 1999-2000",
+     ", 특히 대학농구 팬들에겐 르네상스 같은 시절이었다.트윈타워(송영진-김주성)의 중앙대는 대"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "Beautiful World(앨범)",
+   "len_raw": 3810,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 434,
+    "ratio": 0.114,
+    "n_sections": 6,
+    "n_categories": 1,
+    "categories": [
+     "영국의 음반"
+    ],
+    "links": 2,
+    "footnotes": 10,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 20,
+    "glue_samples": [
+     "파일:external/fanart.tv/beautiful-world-50",
+     "eautiful-world-5009d13a6c163.jpg\n\n2006년 발매된 네명의 테이"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0098,
+    "len_plain": 524,
+    "ratio": 0.138,
+    "n_sections": 6,
+    "n_categories": 1,
+    "categories": [
+     "분류:영국의 음반"
+    ],
+    "links": 24,
+    "footnotes": 10,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 20,
+    "glue_samples": [
+     "분류:영국의 음반파일:external/fanart.tv/beautiful-world-50",
+     "eautiful-world-5009d13a6c163.jpg\n2006년 발매된 네명의 테이크",
+     "년 발매된 네명의 테이크 댓의 네번째 앨범. TT4.Take That 4. 네 명의 테이크"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "크러쉬/음반 목록",
+   "len_raw": 9322,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 0,
+    "ratio": 0.0,
+    "n_sections": 5,
+    "n_categories": 2,
+    "categories": [
+     "크러쉬",
+     "아티스트별 음반 목록"
+    ],
+    "links": 0,
+    "footnotes": 0,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0186,
+    "len_plain": 20,
+    "ratio": 0.002,
+    "n_sections": 6,
+    "n_categories": 2,
+    "categories": [
+     "분류:크러쉬",
+     "분류:아티스트별 음반 목록"
+    ],
+    "links": 99,
+    "footnotes": 0,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "도미니언(보드 게임)/카드 목록/풍요의 뿔",
+   "len_raw": 23855,
+   "regex": {
+    "ok": true,
+    "sec": 0.0065,
+    "len_plain": 18826,
+    "ratio": 0.789,
+    "n_sections": 22,
+    "n_categories": 1,
+    "categories": [
+     "도미니언(보드 게임)"
+    ],
+    "links": 29,
+    "footnotes": 7,
+    "tables": 20,
+    "leftover": {
+     "표 구분자": 48,
+     "HTML 태그": 16
+    },
+    "leftover_total": 64,
+    "glue_risk": 59,
+    "script_mix": 183,
+    "glue_samples": [
+     "파일:external/wiki.dominionstrategy.com/",
+     "ternal/wiki.dominionstrategy.com/201px-Cornucopia.",
+     "trategy.com/201px-Cornucopia.jpg\n\n가을입니다. 여름이 결코 끝나"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0717,
+    "len_plain": 16987,
+    "ratio": 0.712,
+    "n_sections": 22,
+    "n_categories": 1,
+    "categories": [
+     "분류:도미니언(보드 게임)"
+    ],
+    "links": 31,
+    "footnotes": 7,
+    "tables": 20,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 108,
+    "script_mix": 175,
+    "glue_samples": [
+     "파일:external/wiki.dominionstrategy.com/",
+     "ternal/wiki.dominionstrategy.com/201px-Cornucopia.",
+     "trategy.com/201px-Cornucopia.jpg \n가을입니다. 여름이 결코 끝나"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "아이스맨(마블 코믹스)",
+   "len_raw": 5469,
+   "regex": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 3568,
+    "ratio": 0.652,
+    "n_sections": 9,
+    "n_categories": 1,
+    "categories": [
+     "마블 코믹스/캐릭터"
+    ],
+    "links": 40,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 8,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0162,
+    "len_plain": 4001,
+    "ratio": 0.732,
+    "n_sections": 10,
+    "n_categories": 1,
+    "categories": [
+     "분류:마블 코믹스/캐릭터"
+    ],
+    "links": 56,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 9,
+    "script_mix": 9,
+    "glue_samples": [
+     "을 습격하기 시작했으며 지방보안관은 바비를 체포했다.프로페서 X는 바비의 존재를 알고, 그",
+     ". 그는 초창기 엑스맨 중 가장 어린 멤버가 되었다.영화판과는 달리 원작의 아이스맨은 엑스",
+     "하지만 자신의 능력을 평소에는 억제하고 있는 듯하다.본인의 성격과 종교관도 능력발휘를 억제"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "헨리크 비에니아프스키",
+   "len_raw": 666,
+   "regex": {
+    "ok": true,
+    "sec": 0.0004,
+    "len_plain": 528,
+    "ratio": 0.793,
+    "n_sections": 4,
+    "n_categories": 4,
+    "categories": [
+     "바이올리니스트",
+     "폴란드의 작곡가",
+     "1835년 출생",
+     "1880년 사망"
+    ],
+    "links": 7,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 9,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 576,
+    "ratio": 0.865,
+    "n_sections": 4,
+    "n_categories": 4,
+    "categories": [
+     "분류:바이올리니스트",
+     "분류:폴란드의 작곡가",
+     "분류:1835년 출생",
+     "분류:1880년 사망"
+    ],
+    "links": 11,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 12,
+    "glue_samples": [
+     "파일:헨리크 비에니아프스키.jpg헨리크 비에니아프스키 (Henry",
+     "비에니아프스키 국제 바이올린 제작 콩쿠르가 창설됐다.분류:바이올리니스트분류:폴란드의 작곡가"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "스파르탄",
+   "len_raw": 2802,
+   "regex": {
+    "ok": true,
+    "sec": 0.0011,
+    "len_plain": 1813,
+    "ratio": 0.647,
+    "n_sections": 12,
+    "n_categories": 1,
+    "categories": [
+     "동음이의어/ㅅ"
+    ],
+    "links": 56,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 12,
+    "glue_samples": [
+     "GA 시리즈 중 하나이다.\n\nhttp://files.air-attack.com/MIL/c2",
+     "이다.\n\nhttp://files.air-attack.com/MIL/c27j/c27j_hea",
+     "ack.com/MIL/c27j/c27j_header.jpg\n\nC-27J Spartan\n이탈"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0074,
+    "len_plain": 1961,
+    "ratio": 0.7,
+    "n_sections": 13,
+    "n_categories": 1,
+    "categories": [
+     "분류:동음이의어/ㅅ"
+    ],
+    "links": 37,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 12,
+    "script_mix": 16,
+    "glue_samples": [
+     "스파르타의 사람들.주 구성원은 미케네 문명을 박살낸 도리",
+     "실제의 스파르탄들은 영화만큼 간지난 이들도 아니었다.모 탄도미사일의 이름이기도 하며, 강인",
+     "이름이기도 하며, 강인한 자의 의미로 쓰이기도 한다.하지만 정작 고대 그리스에서 스파르타인"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "야마부키 키사토",
+   "len_raw": 2272,
+   "regex": {
+    "ok": true,
+    "sec": 0.0008,
+    "len_plain": 1583,
+    "ratio": 0.697,
+    "n_sections": 4,
+    "n_categories": 2,
+    "categories": [
+     "비우주세기/인물",
+     "기동전사 건담 SEED 시리즈/등장인물"
+    ],
+    "links": 30,
+    "footnotes": 4,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 9,
+    "glue_samples": [
+     "지만, 정작 리 홈의 선장으로 다시 등장한 캡틴 G.G.의 모습을 보고서 \"나의 죠지님은 ",
+     ", 정작 리 홈의 선장으로 다시 등장한 캡틴 G.G.의 모습을 보고서 \"나의 죠지님은 이런"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0061,
+    "len_plain": 1875,
+    "ratio": 0.825,
+    "n_sections": 4,
+    "n_categories": 2,
+    "categories": [
+     "분류:비우주세기/인물",
+     "분류:기동전사 건담 SEED 시리즈/등장인물"
+    ],
+    "links": 36,
+    "footnotes": 4,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 12,
+    "script_mix": 10,
+    "glue_samples": [
+     "to Yamabuki파일:YamabukiKisato.jpg\n《기동전사 건담 SEED AST",
+     " 토요구치 메구미본편의 미리아리아 하우도 담당하였다.로우 귤과 함께 다니는 18세의 내추럴",
+     " 주워 와서 타고 다니는 우주대응형 개조가 된 바쿠.코믹스판과 OVA판의 디자인이 완전히 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "피이",
+   "len_raw": 8173,
+   "regex": {
+    "ok": true,
+    "sec": 0.0024,
+    "len_plain": 5758,
+    "ratio": 0.705,
+    "n_sections": 14,
+    "n_categories": 1,
+    "categories": [
+     "게게게의 키타로/등장인물"
+    ],
+    "links": 40,
+    "footnotes": 21,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 13,
+    "script_mix": 43,
+    "glue_samples": [
+     "키타로/등장인물\n\n파일:external/cdn-ak.f.st-hatena.com/20080",
+     "로/등장인물\n\n파일:external/cdn-ak.f.st-hatena.com/2008020",
+     ":external/cdn-ak.f.st-hatena.com/20080206022630.jp"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0236,
+    "len_plain": 7386,
+    "ratio": 0.904,
+    "n_sections": 14,
+    "n_categories": 1,
+    "categories": [
+     "분류:게게게의 키타로/등장인물"
+    ],
+    "links": 44,
+    "footnotes": 21,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 56,
+    "script_mix": 53,
+    "glue_samples": [
+     "의 키타로/등장인물파일:external/cdn-ak.f.st-hatena.com/20080",
+     "키타로/등장인물파일:external/cdn-ak.f.st-hatena.com/2008020",
+     ":external/cdn-ak.f.st-hatena.com/20080206022630.jp"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "아가테",
+   "len_raw": 3687,
+   "regex": {
+    "ok": true,
+    "sec": 0.001,
+    "len_plain": 1593,
+    "ratio": 0.432,
+    "n_sections": 9,
+    "n_categories": 2,
+    "categories": [
+     "메이플스토리/등장인물",
+     "우든레프"
+    ],
+    "links": 19,
+    "footnotes": 3,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 2,
+    "glue_samples": [
+     "행할시 누군가의 목소리를 보며 일리움은 아가테님...이라 말한다. 일리움 한정으로 아가테님"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0085,
+    "len_plain": 1762,
+    "ratio": 0.478,
+    "n_sections": 10,
+    "n_categories": 2,
+    "categories": [
+     "분류:메이플스토리/등장인물",
+     "분류:우든레프"
+    ],
+    "links": 36,
+    "footnotes": 3,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 10,
+    "script_mix": 2,
+    "glue_samples": [
+     "저 소년이 우리 민족의... 희망일지도 모르겠습니다!잊지 말아요... 일리움, 당신은 특별",
+     "잊지 말아요... 일리움, 당신은 특별하다는 걸...메이플스토리의 등장인물. 우든레프의 구",
+     " 구도자 계급은 신 계급에 해당되는 것으로 추정된다.이며, 선천적으로 크리스탈의 힘을 다룰"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "나구모 테토라/앙상블 스타즈!! Music",
+   "len_raw": 64583,
+   "regex": {
+    "ok": true,
+    "sec": 0.0195,
+    "len_plain": 33271,
+    "ratio": 0.515,
+    "n_sections": 14,
+    "n_categories": 1,
+    "categories": [
+     "앙상블 스타즈!!"
+    ],
+    "links": 14,
+    "footnotes": 0,
+    "tables": 60,
+    "leftover": {
+     "중괄호 블록": 916,
+     "표 구분자": 308,
+     "HTML 태그": 197
+    },
+    "leftover_total": 1421,
+    "glue_risk": 170,
+    "script_mix": 11,
+    "glue_samples": [
+     "RILLIANT-GLITTER-FLASH 순.\nLv.Max의 기준은 '카드 1장의 아이돌 ",
+     "드' 전 구역 돌파 완료 기준입니다.\n한계돌파 Lv.Max의 기준은 '최대 레벨에서의 아이",
+     "60><width=27%> {{{#FFFFFF Lv.Max}}} ||<-2><bgcolor"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.057,
+    "len_plain": 283,
+    "ratio": 0.004,
+    "n_sections": 15,
+    "n_categories": 1,
+    "categories": [
+     "분류:앙상블 스타즈!!"
+    ],
+    "links": 58,
+    "footnotes": 0,
+    "tables": 28,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 5,
+    "script_mix": 3,
+    "glue_samples": [
+     "LE-BRILLIANT-GLITTER-FLASH 순.Lv.Max의 기준은 '카드 1장의 아",
+     "BRILLIANT-GLITTER-FLASH 순.Lv.Max의 기준은 '카드 1장의 아이돌 ",
+     "1장의 아이돌 로드' 전 구역 돌파 완료 기준입니다.한계돌파 Lv.Max의 기준은 '최대 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "주 아프가니스탄 인도 대사관",
+   "len_raw": 705,
+   "regex": {
+    "ok": true,
+    "sec": 0.0004,
+    "len_plain": 416,
+    "ratio": 0.59,
+    "n_sections": 4,
+    "n_categories": 4,
+    "categories": [
+     "인도의 외교",
+     "아프가니스탄의 외교",
+     "외교공관",
+     "나무위키 외교 프로젝트"
+    ],
+    "links": 8,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 5,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0015,
+    "len_plain": 455,
+    "ratio": 0.645,
+    "n_sections": 5,
+    "n_categories": 4,
+    "categories": [
+     "분류:인도의 외교",
+     "분류:아프가니스탄의 외교",
+     "분류:외교공관",
+     "분류:나무위키 외교 프로젝트"
+    ],
+    "links": 12,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 5,
+    "glue_samples": [
+     "스탄 민주 공화국이 세워지면서 양국관계는 단절되었다.탈레반 정권이 세워졌을 때에도 인도와의"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "오가와 요시아키",
+   "len_raw": 876,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 521,
+    "ratio": 0.595,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "절대무적 라이징오/등장인물"
+    ],
+    "links": 12,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 4,
+    "script_mix": 7,
+    "glue_samples": [
+     "지구방위반\n\n파일:external/1.bp.blogspot.com/bandi",
+     "지구방위반\n\n파일:external/1.bp.blogspot.com/bandicam",
+     "반\n\n파일:external/1.bp.blogspot.com/bandicam%2B2015-0"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0024,
+    "len_plain": 692,
+    "ratio": 0.79,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:절대무적 라이징오/등장인물"
+    ],
+    "links": 15,
+    "footnotes": 3,
+    "tables": 0,
+    "leftover": {
+     "HTML 태그": 10
+    },
+    "leftover_total": 10,
+    "glue_risk": 16,
+    "script_mix": 10,
+    "glue_samples": [
+     "지구방위반\n파일:external/1.bp.blogspot.com/bandi",
+     "지구방위반\n파일:external/1.bp.blogspot.com/bandicam",
+     "위반\n파일:external/1.bp.blogspot.com/bandicam%2B2015-0"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "링크앤코 06",
+   "len_raw": 682,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 477,
+    "ratio": 0.699,
+    "n_sections": 4,
+    "n_categories": 3,
+    "categories": [
+     "지리자동차/생산차량",
+     "링크앤코/생산차량",
+     "2020년 출시"
+    ],
+    "links": 16,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 12,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0017,
+    "len_plain": 520,
+    "ratio": 0.762,
+    "n_sections": 4,
+    "n_categories": 3,
+    "categories": [
+     "분류:지리자동차/생산차량",
+     "분류:링크앤코/생산차량",
+     "분류:2020년 출시"
+    ],
+    "links": 19,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 14,
+    "glue_samples": [
+     "파일:링크앤코 06.pngLynk&Co 06/吉利 领克 0",
+     "1의 축소판 버전이다.\n파일:링크앤코 06 MHEV.pngMHEV 사양 후면부2020년 9",
+     "0mm, 공차중량은 1,426kg~1,650kg이다.분류:지리자동차/생산차량분류:링크앤코/"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "바이오 스피노",
+   "len_raw": 779,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 716,
+    "ratio": 0.919,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "조이드"
+    ],
+    "links": 4,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 0,
+    "glue_samples": [
+     "조이드에 나오는 가상의 병기.\n\nhttp://www.google.co.kr/url?sa=i",
+     "는 가상의 병기.\n\nhttp://www.google.co.kr/url?sa=i&rct=j&",
+     "상의 병기.\n\nhttp://www.google.co.kr/url?sa=i&rct=j&q=&"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 711,
+    "ratio": 0.913,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:조이드"
+    ],
+    "links": 5,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 10,
+    "script_mix": 4,
+    "glue_samples": [
+     "조이드에 나오는 가상의 병기.http://www.google.co.",
+     "조이드에 나오는 가상의 병기.http://www.google.co.kr/url?sa=i",
+     "나오는 가상의 병기.http://www.google.co.kr/url?sa=i&rct=j&"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "햅틱",
+   "len_raw": 278,
+   "regex": {
+    "ok": true,
+    "sec": 0.0001,
+    "len_plain": 133,
+    "ratio": 0.478,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "기술"
+    ],
+    "links": 2,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 1,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 138,
+    "ratio": 0.496,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:기술"
+    ],
+    "links": 3,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 1,
+    "glue_samples": [
+     "해 터치를 하였을 때 진동이 오는 것 또한 햅틱이다.분류:기술"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "파밍 시뮬레이터 17/장비/트랙터",
+   "len_raw": 33838,
+   "regex": {
+    "ok": true,
+    "sec": 0.0048,
+    "len_plain": 8079,
+    "ratio": 0.239,
+    "n_sections": 44,
+    "n_categories": 1,
+    "categories": [
+     "파밍 시뮬레이터 시리즈"
+    ],
+    "links": 15,
+    "footnotes": 10,
+    "tables": 48,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 93,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0784,
+    "len_plain": 8740,
+    "ratio": 0.258,
+    "n_sections": 45,
+    "n_categories": 1,
+    "categories": [
+     "분류:파밍 시뮬레이터 시리즈"
+    ],
+    "links": 96,
+    "footnotes": 10,
+    "tables": 48,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 29,
+    "script_mix": 109,
+    "glue_samples": [
+     "장비로, 가장 많이 사용하게 될 장비라 할 수 있다.대부분의 트랙터는 전방에 3점식 히치가",
+     "은 고성능 및 고중량 트레일러에 많이 부착되어 있다.이 있으며 이는 웬만한 작업기를 부착하",
+     "터들은 대개 후방에 볼트형 연결봉이 존재하지 않는다.일부 트랙터는 전부장치를 추가로 부착시"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "Time Camera",
+   "len_raw": 12212,
+   "regex": {
+    "ok": true,
+    "sec": 0.0036,
+    "len_plain": 4980,
+    "ratio": 0.408,
+    "n_sections": 13,
+    "n_categories": 2,
+    "categories": [
+     "FANTASTICS/음반",
+     "2019년 음반"
+    ],
+    "links": 12,
+    "footnotes": 0,
+    "tables": 13,
+    "leftover": {
+     "중괄호 블록": 32,
+     "표 구분자": 14,
+     "HTML 태그": 15
+    },
+    "leftover_total": 61,
+    "glue_risk": 4,
+    "script_mix": 4,
+    "glue_samples": [
+     "h=30%><bgcolor=#ffffff> {{{#!wiki style=\"display: ",
+     "h=30%><bgcolor=#1d96b9> {{{#!wiki style=\"display: ",
+     "h=30%><bgcolor=#ffffff> {{{#!wiki style=\"display: "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0247,
+    "len_plain": 420,
+    "ratio": 0.034,
+    "n_sections": 13,
+    "n_categories": 2,
+    "categories": [
+     "분류:FANTASTICS/음반",
+     "분류:2019년 음반"
+    ],
+    "links": 35,
+    "footnotes": 0,
+    "tables": 13,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 6,
+    "glue_samples": [],
+    "redirect": null
+   }
+  },
+  {
+   "title": "라하르트",
+   "len_raw": 6904,
+   "regex": {
+    "ok": true,
+    "sec": 0.0016,
+    "len_plain": 3060,
+    "ratio": 0.443,
+    "n_sections": 3,
+    "n_categories": 2,
+    "categories": [
+     "타이의 대모험",
+     "일본 만화 캐릭터"
+    ],
+    "links": 65,
+    "footnotes": 6,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 7,
+    "glue_samples": [
+     "가 나온다.\n\n파일:external/livedoor.blogimg.jp/636f387a.j",
+     "파일:external/livedoor.blogimg.jp/636f387a.jpg\n흉켈과 마",
+     "livedoor.blogimg.jp/636f387a.jpg\n흉켈과 마찬가지로 롱베르크가 만"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0199,
+    "len_plain": 3491,
+    "ratio": 0.506,
+    "n_sections": 4,
+    "n_categories": 2,
+    "categories": [
+     "분류:타이의 대모험",
+     "분류:일본 만화 캐릭터"
+    ],
+    "links": 104,
+    "footnotes": 6,
+    "tables": 3,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 22,
+    "script_mix": 8,
+    "glue_samples": [
+     "만화 드래곤 퀘스트 타이의 대모험의 등장인물.바란의 직속 부하이며 \"초룡군단\"의 간",
+     "은 흉켈을 상대로 시종일관 우위에 서서 밀어 붙였다.단순히 엑스트라 비중이 아니라는 것은 ",
+     " 내적으로 바란을 잘 이해하고 있다는 묘사가 나온다.파일:external/livedoor."
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "시노하라역(고치)",
+   "len_raw": 1263,
+   "regex": {
+    "ok": true,
+    "sec": 0.0004,
+    "len_plain": 109,
+    "ratio": 0.086,
+    "n_sections": 3,
+    "n_categories": 3,
+    "categories": [
+     "일본의 철도역",
+     "1911년 개업한 철도역",
+     "토사덴 고멘선"
+    ],
+    "links": 4,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 0,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.002,
+    "len_plain": 140,
+    "ratio": 0.111,
+    "n_sections": 3,
+    "n_categories": 3,
+    "categories": [
+     "분류:일본의 철도역",
+     "분류:1911년 개업한 철도역",
+     "분류:토사덴 고멘선"
+    ],
+    "links": 20,
+    "footnotes": 0,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 1,
+    "glue_samples": [
+     " 난코쿠시에 위치한 토사덴 교통 고멘선의 정류장이다.역 근처에는 하루키 신사, 난코쿠 비즈"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "센트럴 호스피틀",
+   "len_raw": 4132,
+   "regex": {
+    "ok": true,
+    "sec": 0.0015,
+    "len_plain": 3762,
+    "ratio": 0.91,
+    "n_sections": 8,
+    "n_categories": 1,
+    "categories": [
+     "이터널시티2"
+    ],
+    "links": 10,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 59,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0133,
+    "len_plain": 3818,
+    "ratio": 0.924,
+    "n_sections": 8,
+    "n_categories": 1,
+    "categories": [
+     "분류:이터널시티2"
+    ],
+    "links": 11,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {
+     "HTML 태그": 4
+    },
+    "leftover_total": 4,
+    "glue_risk": 10,
+    "script_mix": 68,
+    "glue_samples": [
+     "어는 각 층을 돌아다니며 변이생명체를 소탕해야 한다.분명히 좀비들만 나오는 맵이지만 플레이",
+     "데, 그들 특유의 안전불감증이 더욱 두드러지는 대목.본격적으로 병원에 진입하기 전에 주인공",
+     "가 퍼진 이유에 대한 실마리를 찾게 되는데......더 자세한 내용을 읽고싶다면 이터널시티"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "바렛☆마기카",
+   "len_raw": 7923,
+   "regex": {
+    "ok": true,
+    "sec": 0.0027,
+    "len_plain": 6547,
+    "ratio": 0.826,
+    "n_sections": 14,
+    "n_categories": 1,
+    "categories": [
+     "포크 누락 해결"
+    ],
+    "links": 30,
+    "footnotes": 10,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 39,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0234,
+    "len_plain": 6940,
+    "ratio": 0.876,
+    "n_sections": 14,
+    "n_categories": 1,
+    "categories": [
+     "분류:포크 누락 해결"
+    ],
+    "links": 28,
+    "footnotes": 10,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 32,
+    "script_mix": 47,
+    "glue_samples": [
+     "동방풍으로 어레인지(?) 해봤습니다.\"라고 소개된다.의 탄막 슈팅 게임의 형식을 취하고 있",
+     "이어 캐릭터에 비해 조금 단순하다는 점이 아쉬운 점.기본적인 조작방법은 다음과 같다.방향키",
+     "는 점이 아쉬운 점.기본적인 조작방법은 다음과 같다.방향키 - 이동Z - 노말샷X - 봄("
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "진선여자중학교",
+   "len_raw": 4808,
+   "regex": {
+    "ok": true,
+    "sec": 0.0014,
+    "len_plain": 2435,
+    "ratio": 0.506,
+    "n_sections": 14,
+    "n_categories": 4,
+    "categories": [
+     "서울특별시의 중학교",
+     "서울특별시의 중학교",
+     "회당학원",
+     "1977년 개교"
+    ],
+    "links": 49,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 34,
+    "glue_samples": [
+     ", 용맹의 상징\n\n파일:20200923_111123.png\n유유히 굽이 도는 한가람가에\n새",
+     " 28일, 교사 하나가 코로나바이러스 확진을 받았다.https://www.news1.kr/",
+     " 코로나바이러스 확진을 받았다.https://www.news1.kr/articles/?40"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0119,
+    "len_plain": 2627,
+    "ratio": 0.546,
+    "n_sections": 15,
+    "n_categories": 3,
+    "categories": [
+     "분류:서울특별시의 중학교",
+     "분류:회당학원",
+     "분류:1977년 개교"
+    ],
+    "links": 76,
+    "footnotes": 5,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 17,
+    "script_mix": 45,
+    "glue_samples": [
+     ", 용맹의 상징 \n파일:20200923_111123.png유유히 굽이 도는 한가람가에 새 ",
+     "교를, 경상북도 경주시에 위덕대학교를 운영하고 있다.교목, 교화, 교표, 교가 등도 불교적",
+     "기독교가톨릭(천주교), 정교회, 개신교를 모두 포함.의 세례 같은 개념. 학교 재단 측에서"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "캡틴 네메시스",
+   "len_raw": 2385,
+   "regex": {
+    "ok": true,
+    "sec": 0.0006,
+    "len_plain": 1127,
+    "ratio": 0.473,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "벤10 시리즈/등장인물"
+    ],
+    "links": 13,
+    "footnotes": 7,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 3,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.006,
+    "len_plain": 1546,
+    "ratio": 0.648,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "분류:벤10 시리즈/등장인물"
+    ],
+    "links": 15,
+    "footnotes": 7,
+    "tables": 1,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 12,
+    "script_mix": 4,
+    "glue_samples": [
+     "파일:external/static2.wikia.nocookie.net/Ov",
+     "파일:external/static2.wikia.nocookie.net/Overlord",
+     "ernal/static2.wikia.nocookie.net/Overlord.png Capt"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "케네스 양",
+   "len_raw": 2006,
+   "regex": {
+    "ok": true,
+    "sec": 0.0007,
+    "len_plain": 1721,
+    "ratio": 0.858,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "월야환담 시리즈/등장인물"
+    ],
+    "links": 13,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 6,
+    "glue_samples": [
+     "김성희에게 남은 총기를 몽땅 넘기고 한국을 떠났...는 줄 알았는데 광월야에서는 다시 돌아"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.006,
+    "len_plain": 1834,
+    "ratio": 0.914,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "분류:월야환담 시리즈/등장인물"
+    ],
+    "links": 15,
+    "footnotes": 2,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 7,
+    "script_mix": 6,
+    "glue_samples": [
+     " 새로 거래를 텄기에 케네스를 습격하는 일은 없었다.돈이 되면 뭐든 하는 듯하며, 실제로 ",
+     "김성희에게 남은 총기를 몽땅 넘기고 한국을 떠났...는 줄 알았는데 광월야에서는 다시 돌아",
+     "떠났...는 줄 알았는데 광월야에서는 다시 돌아온듯.한세건을 여러 모로 도와준 사람인데, "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "몬포나이역",
+   "len_raw": 2376,
+   "regex": {
+    "ok": true,
+    "sec": 0.0005,
+    "len_plain": 301,
+    "ratio": 0.127,
+    "n_sections": 3,
+    "n_categories": 4,
+    "categories": [
+     "일본의 철도역",
+     "1911년 개업한 철도역",
+     "2021년 폐지 예정인 철도역",
+     "소야 본선"
+    ],
+    "links": 6,
+    "footnotes": 0,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 4,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0041,
+    "len_plain": 347,
+    "ratio": 0.146,
+    "n_sections": 3,
+    "n_categories": 4,
+    "categories": [
+     "분류:일본의 철도역",
+     "분류:1911년 개업한 철도역",
+     "분류:2021년 폐지 예정인 철도역",
+     "분류:소야 본선"
+    ],
+    "links": 41,
+    "footnotes": 0,
+    "tables": 4,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 6,
+    "glue_samples": [
+     "이다. 차장차(車掌車)를 개조하여 역사로 쓰고 있다.역명이자 지명인 '몬포나이'는 아이누어",
+     " 있는 강'이라는 뜻의 '몸 포 나이'에서 유래했다.역 주변에는 농경지 뿐이며 서쪽으로 테",
+     " 폐역될 예정이다.\n단선식 승강장을 갖춘 지상역이다.분류:일본의 철도역분류:1911년 개업"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "초가보",
+   "len_raw": 11199,
+   "regex": {
+    "ok": true,
+    "sec": 0.0032,
+    "len_plain": 9459,
+    "ratio": 0.845,
+    "n_sections": 15,
+    "n_categories": 2,
+    "categories": [
+     "군림천하/등장인물",
+     "문파"
+    ],
+    "links": 7,
+    "footnotes": 17,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 2,
+    "script_mix": 6,
+    "glue_samples": [
+     " 문파.\n\n원래는 종남산 구석의 군소문파에 불과했다.하지만 짧은 시간 안에 쌍하보를 무너뜨",
+     "익의 바로 맞은편에 쌍룡무관이라는 무관을 차려버린다.강호의 상도의가 땅에 떨어졌구나 심지어"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.035,
+    "len_plain": 10443,
+    "ratio": 0.932,
+    "n_sections": 16,
+    "n_categories": 2,
+    "categories": [
+     "분류:군림천하/등장인물",
+     "분류:문파"
+    ],
+    "links": 9,
+    "footnotes": 17,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 41,
+    "script_mix": 8,
+    "glue_samples": [
+     "대 문파. 원래는 종남산 구석의 군소문파에 불과했다.하지만 짧은 시간 안에 쌍하보를 무너뜨",
+     "그 싸움을 통해 무영신군(無影神君)이라 불리게 된다.보주인 무영신군(無影神君) 초관(焦關)",
+     "에는 화산파 장로에 버금가는 인물들도 있기 때문이다.이 때문에 화산파는 초가보를 위협으로 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "셰이타 신서시스 트웰브",
+   "len_raw": 4525,
+   "regex": {
+    "ok": true,
+    "sec": 0.0014,
+    "len_plain": 3594,
+    "ratio": 0.794,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "소드 아트 온라인/등장인물",
+     "정합기사"
+    ],
+    "links": 15,
+    "footnotes": 7,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 11,
+    "glue_samples": [
+     "파일:img_chara_scheta.png\n\n소드 아트 온라인 4부 앨리시"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0147,
+    "len_plain": 4114,
+    "ratio": 0.909,
+    "n_sections": 7,
+    "n_categories": 2,
+    "categories": [
+     "분류:소드 아트 온라인/등장인물",
+     "분류:정합기사"
+    ],
+    "links": 24,
+    "footnotes": 7,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 10,
+    "script_mix": 14,
+    "glue_samples": [
+     "파일:img_chara_scheta.png\n소드 아트 온라인 4부 앨리시제",
+     "라인 4부 앨리시제이션의 등장인물. 성우는 Lynn.방영 전 대본 증정 이벤트를 통해 본의",
+     " 의해 언급되며, 바로 다음권인 16권에 첫등장한다.신기는 검인 흑백합검이며 타고 다니는 "
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "간파의 비법",
+   "len_raw": 908,
+   "regex": {
+    "ok": true,
+    "sec": 0.0003,
+    "len_plain": 277,
+    "ratio": 0.305,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "유희왕/OCG/카운터 함정"
+    ],
+    "links": 6,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 1,
+    "script_mix": 0,
+    "glue_samples": [
+     "유희왕의 카운터 함정 카드.\n파일:見切りの極意.jpg\n묘지의 카드와 같은 이름이기만 "
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0025,
+    "len_plain": 288,
+    "ratio": 0.317,
+    "n_sections": 1,
+    "n_categories": 1,
+    "categories": [
+     "분류:유희왕/OCG/카운터 함정"
+    ],
+    "links": 13,
+    "footnotes": 0,
+    "tables": 2,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 3,
+    "script_mix": 1,
+    "glue_samples": [
+     "유희왕의 카운터 함정 카드.파일:見切りの極意.jpg묘지의 카드와 ",
+     "유희왕의 카운터 함정 카드.파일:見切りの極意.jpg묘지의 카드와 같은 이름이기만 하",
+     "발동할 카드와 같은 이름의 카드가 묘지에 있기 때문.일러스트에 있는 몬스터들은 전설의 유술"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "액션 베이스",
+   "len_raw": 5078,
+   "regex": {
+    "ok": true,
+    "sec": 0.0018,
+    "len_plain": 3963,
+    "ratio": 0.78,
+    "n_sections": 21,
+    "n_categories": 1,
+    "categories": [
+     "건프라"
+    ],
+    "links": 22,
+    "footnotes": 16,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 14,
+    "script_mix": 27,
+    "glue_samples": [
+     "치대이다.\n\n파일:bandai_action_base.jpg\n대략 MG (1/100) 급의 ",
+     "서, 배경효과 처럼 사용할 수 있다.\n\n파일:액베5.jpg\nMG (1/100) 급과 HG ",
+     ")\n샤아 Ver.(건담 베이스 한정)\n\n파일:액베4.jpg\nMG(1/100), HG (1/"
+    ],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0149,
+    "len_plain": 4244,
+    "ratio": 0.836,
+    "n_sections": 22,
+    "n_categories": 1,
+    "categories": [
+     "분류:건프라"
+    ],
+    "links": 24,
+    "footnotes": 16,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 47,
+    "script_mix": 71,
+    "glue_samples": [
+     "거치대이다.\n파일:bandai_action_base.jpg대략 MG (1/100) 급의 건",
+     "1/100) 급의 건프라를 거치하는 용도로 사용된다.두개의 기둥을 이용해 다양한 높이와 각",
+     " 다양한 높이와 각도로 세팅이 가능하도록 되어 있다.건프라마다 연결 조인트의 모양이 다르기"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "태고의 지팡이",
+   "len_raw": 2604,
+   "regex": {
+    "ok": true,
+    "sec": 0.001,
+    "len_plain": 2443,
+    "ratio": 0.938,
+    "n_sections": 3,
+    "n_categories": 1,
+    "categories": [
+     "SSS급 자살헌터/등장인물"
+    ],
+    "links": 11,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 22,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0083,
+    "len_plain": 2444,
+    "ratio": 0.939,
+    "n_sections": 4,
+    "n_categories": 1,
+    "categories": [
+     "분류:SSS급 자살헌터/등장인물"
+    ],
+    "links": 12,
+    "footnotes": 0,
+    "tables": 0,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 8,
+    "script_mix": 23,
+    "glue_samples": [
+     "공허극점 균열에 사상 최초로 도착해 깃발을 꽂았다고.탑의 저승인 구천의 관리자이며, 탑에서",
+     "어 주어서 고맙다고 인사하자 공자에게 호감을 표했다.이후 등장이 없다가, 62층에서 갑자기",
+     "칙의 허점을 이용한 것에 대해서는 욕하고 싶은 모양.그리고 지팡이를 가볍게 휘둘러 무티아의"
+    ],
+    "redirect": null
+   }
+  },
+  {
+   "title": "어떤 마술의 금서목록/등장인물",
+   "len_raw": 11491,
+   "regex": {
+    "ok": true,
+    "sec": 0.0038,
+    "len_plain": 4956,
+    "ratio": 0.431,
+    "n_sections": 39,
+    "n_categories": 2,
+    "categories": [
+     "어떤 마술의 금서목록",
+     "어떤 마술의 금서목록/등장인물"
+    ],
+    "links": 273,
+    "footnotes": 31,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 0,
+    "script_mix": 33,
+    "glue_samples": [],
+    "redirect": null
+   },
+   "theseed": {
+    "ok": true,
+    "sec": 0.0242,
+    "len_plain": 6419,
+    "ratio": 0.559,
+    "n_sections": 39,
+    "n_categories": 2,
+    "categories": [
+     "분류:어떤 마술의 금서목록",
+     "분류:어떤 마술의 금서목록/등장인물"
+    ],
+    "links": 274,
+    "footnotes": 29,
+    "tables": 5,
+    "leftover": {},
+    "leftover_total": 0,
+    "glue_risk": 30,
+    "script_mix": 53,
+    "glue_samples": [
+     " 토우마 - 1권부터 주인공으로 등장, 사실상 메인.액셀러레이터 - 5권 이후로 주인공에 ",
+     "상 메인.액셀러레이터 - 5권 이후로 주인공에 등극.하마즈라 시아게 - 15권 이후로 주인",
+     " - 시스터즈히로인의 자릿수를 책임진다!=9969명.칸자키 카오리레서올소라 아퀴나스아녜제 "
+    ],
+    "redirect": null
+   }
+  }
+ ]
+}

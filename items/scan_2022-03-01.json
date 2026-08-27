@@ -1,0 +1,106 @@
+{
+ "snapshot_date": "2022-03-01",
+ "snapshot_date_source": "데이터셋 카드 README 표기",
+ "snapshot_date_from_filename": "2021-03-01",
+ "snapshot_date_discrepancy": "카드는 2022/03/01, 파일명은 namuwiki_20210301. 확정 근거 없음. 둘 다 기록.",
+ "dataset": "heegyu/namuwiki",
+ "file": {
+  "path": "/home/user/hf-cache/hub/datasets--heegyu--namuwiki/snapshots/5631a9bd17a096bab2cd02ea23adbf2327db0d91/namuwiki_20210301.parquet",
+  "name": "namuwiki_20210301.parquet",
+  "size_bytes": 3029535785,
+  "rows": 867024,
+  "row_groups": 847,
+  "created_by": "parquet-cpp-arrow version 7.0.0"
+ },
+ "scanned_at_utc": "2026-08-27T15:41:32Z",
+ "scan_complete": true,
+ "elapsed_min": 2.5,
+ "rows_total": 867024,
+ "rows_redirect": 295649,
+ "rows_document": 571375,
+ "rows_empty_text": 0,
+ "redirect_ratio": 0.341,
+ "contributors_nonempty": 867024,
+ "namespace_distribution": {
+  "''": 867024
+ },
+ "namespace_examples": {
+  "''": "!"
+ },
+ "text_length_document": {
+  "percentiles": {
+   "p1": 240,
+   "p5": 522,
+   "p25": 1506,
+   "p50": 3225,
+   "p75": 7780,
+   "p90": 17898,
+   "p95": 28299,
+   "p99": 63364
+  },
+  "histogram": {
+   "<50": 3,
+   "<200": 3361,
+   "<500": 23079,
+   "<1000": 56817,
+   "<2000": 110337,
+   "<5000": 169248,
+   "<10000": 96775,
+   "<20000": 62624,
+   "<50000": 39446,
+   "<100000": 7929,
+   ">=100000": 1756
+  },
+  "mean": 7500.4
+ },
+ "text_length_redirect": {
+  "percentiles": {
+   "p1": 12,
+   "p5": 14,
+   "p25": 16,
+   "p50": 19,
+   "p75": 23,
+   "p90": 29,
+   "p95": 33,
+   "p99": 45
+  },
+  "mean": 20.6
+ },
+ "category_position": {
+  "끝": 464235,
+  "앞": 90679,
+  "양쪽": 15178,
+  "중간": 1257,
+  "분류 없음": 26
+ },
+ "documents_with_category": 571349,
+ "categories_per_document": {
+  "percentiles": {
+   "p1": 1,
+   "p5": 1,
+   "p25": 1,
+   "p50": 2,
+   "p75": 3,
+   "p90": 5,
+   "p95": 7,
+   "p99": 11
+  },
+  "mean": 2.4
+ },
+ "unique_category_names": 62299,
+ "headings_per_document": {
+  "percentiles": {
+   "p1": 0,
+   "p5": 0,
+   "p25": 3,
+   "p50": 5,
+   "p75": 10,
+   "p90": 18,
+   "p95": 26,
+   "p99": 52
+  },
+  "mean": 8.19
+ },
+ "category_namespace_documents": 0,
+ "note": "분류는 별도 필드가 아니라 본문 [[분류:이름]] 표기에서 추출. 위치가 앞뒤로 갈림."
+}
