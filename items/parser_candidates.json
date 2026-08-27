@@ -1,0 +1,46 @@
+{
+ "recorded_at_utc": "2026-08-27T15:07:08Z",
+ "note": "npm unpublish 및 PyPI 미등재로 재현이 불가하므로 커밋 해시를 고정 기록",
+ "candidates": [
+  {
+   "id": "regex_baseline",
+   "kind": "자체 구현",
+   "file": "namu/namumark_regex.py",
+   "status": "채택 후보",
+   "install": "없음"
+  },
+  {
+   "id": "theseed_bot",
+   "kind": "Python",
+   "status": "채택 후보",
+   "install": "pip install . (로컬 클론)",
+   "pypi": "미등재",
+   "note": "namuwiki 토픽 파이썬 파서와 동일한 것으로 간주하고 진행",
+   "path": "/home/user/kiwitreekor/theseed-bot",
+   "commit": "7d4d73aae78565d34d98f350c6d0013e17af02d3",
+   "commit_date": "2026-04-05",
+   "remote": "https://github.com/kiwitreekor/theseed-bot"
+  },
+  {
+   "id": "namumark_clone_core",
+   "kind": "TypeScript",
+   "status": "비교 대상",
+   "install": "로컬 클론 후 빌드",
+   "npm": "2025-10-28 unpublish됨",
+   "path": "/home/user/jhk1090/namumark-clone-core",
+   "commit": "94d0ddfbf35e5791096b3c86ebd9c869471abb13",
+   "commit_date": "2025-01-31",
+   "remote": "https://github.com/jhk1090/namumark-clone-core"
+  },
+  {
+   "id": "biryo",
+   "kind": "Scala",
+   "status": "제외",
+   "exclusion_reason": "Scala 2.11 대상, 환경은 JDK 21. 빌드 불가로 판단",
+   "path": "/home/user/MerHS/biryo",
+   "commit": "9010b7b1ec262799faf11ee1c6b7ce2df81eab1d",
+   "commit_date": "2021-06-05",
+   "remote": "https://github.com/MerHS/biryo"
+  }
+ ]
+}
