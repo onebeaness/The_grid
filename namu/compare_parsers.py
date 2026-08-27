@@ -4,8 +4,9 @@ import argparse, json, os, re, sys, time, traceback, collections
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import namumark_regex as RG
+import namu_text as NT
 
-SNAPSHOT = "2022-03-01"
+SNAPSHOT = "2021-03-01"
 
 # ---------- theseed-bot 어댑터 ----------
 def _tx(x):
@@ -44,6 +45,7 @@ def theseed_parse(title, text):
         for i, c in enumerate(p.child, 1): walk(c, path + [i])
 
     walk(m.paragraphs, [])
+    for s_ in secs: s_["text"] = NT.respace(s_["text"])
     plain = "\n".join(s["text"] for s in secs if s["text"])
     def count(cname):
         C = getattr(nm, cname, None)
@@ -111,6 +113,7 @@ def main():
                 dt = time.time() - t0
                 times[name] += dt
                 lo = leftovers(r["plain"])
+                fab_s, fab_n = NT.fabricated_adjacency(r["plain"], text)
                 row[name] = {
                     "ok": True, "sec": round(dt, 4),
                     "len_plain": len(r["plain"]),
@@ -124,6 +127,7 @@ def main():
                     "script_mix": len(SCRIPT_MIX.findall(r["plain"])),
                     "glue_samples": [r["plain"][max(0,m.start()-28):m.start()+22]
                                      for m in list(GLUE.finditer(r["plain"]))[:3]],
+                    "fabricated_adjacency": fab_n, "fab_samples": fab_s[:3],
                     "redirect": r["redirect"],
                 }
                 agg[name]["ok"] += 1
@@ -136,6 +140,8 @@ def main():
                 agg[name]["leftover"] += sum(lo.values())
                 agg[name]["glue"] += len(GLUE.findall(r["plain"]))
                 agg[name]["script_mix"] += len(SCRIPT_MIX.findall(r["plain"]))
+                agg[name]["fab"] += fab_n
+                if fab_n: agg[name]["docs_with_fab"] += 1
                 if lo: agg[name]["docs_with_leftover"] += 1
             except Exception as e:
                 times[name] += time.time() - t0
@@ -167,6 +173,16 @@ def main():
     line("잔재 있는 문서", "docs_with_leftover")
     line("붙은 단어(종결부호 직후)", "glue")
     line("한글-라틴 경계(참고)", "script_mix")
+    line("조작된 인접(원문 대조)", "fab")
+    line("조작된 인접 있는 문서", "docs_with_fab")
+
+    print("\n[조작된 인접 표본]  원문에 없는 붙음")
+    for name in engines:
+        got = []
+        for r in rows:
+            if r.get(name, {}).get("ok"): got += r[name].get("fab_samples") or []
+            if len(got) >= 5: break
+        for x in got[:5]: print("  %-9s %s" % (name, x.replace("\n", " ")))
 
     print("\n[붙은 단어 표본]")
     for name in engines:

@@ -1,8 +1,7 @@
 {
- "snapshot_date": "2022-03-01",
- "snapshot_date_source": "데이터셋 카드 README 표기",
- "snapshot_date_from_filename": "2021-03-01",
- "snapshot_date_discrepancy": "카드는 2022/03/01, 파일명은 namuwiki_20210301. 확정 근거 없음. 둘 다 기록.",
+ "snapshot_date": "2021-03-01",
+ "snapshot_date_source": "실증 판정. items/snapshot_determination.json 참조",
+ "snapshot_date_discrepancy": "카드는 2022/03/01, 파일명은 namuwiki_20210301. 사건 문서 실증으로 2021-03-01 확정. 카드 표기가 오류.",
  "dataset": "heegyu/namuwiki",
  "file": {
   "path": "/home/user/hf-cache/hub/datasets--heegyu--namuwiki/snapshots/5631a9bd17a096bab2cd02ea23adbf2327db0d91/namuwiki_20210301.parquet",
@@ -102,5 +101,6 @@
   "mean": 8.19
  },
  "category_namespace_documents": 0,
- "note": "분류는 별도 필드가 아니라 본문 [[분류:이름]] 표기에서 추출. 위치가 앞뒤로 갈림."
+ "note": "분류는 별도 필드가 아니라 본문 [[분류:이름]] 표기에서 추출. 위치가 앞뒤로 갈림.",
+ "snapshot_date_card_label": "2022-03-01 (데이터셋 카드 표기. 실제와 다름)"
 }

@@ -16,8 +16,8 @@ from array import array
 
 # 데이터셋 카드는 2022/03/01 을 명시. 실제 파일명은 namuwiki_20210301.parquet.
 # 어느 쪽이 맞는지 확정할 근거가 없어 둘 다 기록한다. 추정하지 않는다.
-SNAPSHOT = "2022-03-01"                       # 카드 표기
-SNAPSHOT_FILENAME = "2021-03-01"              # 파일명 표기
+SNAPSHOT = "2021-03-01"                       # 실증 판정. 카드 표기 2022-03-01은 오류
+SNAPSHOT_CARD_LABEL = "2022-03-01"            # 데이터셋 카드 표기. 실제와 다름
 DATASET = "heegyu/namuwiki"
 PARQUET = "namuwiki_20210301.parquet"
 
@@ -152,7 +152,7 @@ def main():
     rep = {
         "snapshot_date": SNAPSHOT,
         "snapshot_date_source": "데이터셋 카드 README 표기",
-        "snapshot_date_from_filename": SNAPSHOT_FILENAME,
+        "snapshot_date_card_label": SNAPSHOT_CARD_LABEL,
         "snapshot_date_discrepancy": ("카드는 2022/03/01, 파일명은 namuwiki_20210301. "
                                       "확정 근거 없음. 둘 다 기록."),
         "dataset": DATASET,
