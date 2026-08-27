@@ -1,0 +1,24 @@
+{
+ "snapshot_date": "2021-03-01",
+ "start_row": 800000,
+ "max_rows": 100000,
+ "snapshot_date_card_label": "2022-03-01",
+ "parsed_at_utc": "2026-08-27T18:07:37Z",
+ "rows": 67024,
+ "ok": 67024,
+ "failed": 0,
+ "redirects": 27461,
+ "documents": 39563,
+ "elapsed_min": 3.2,
+ "workers": 4,
+ "output": "/home/user/The_grid/items/shards/shard_0800000.jsonl.gz",
+ "output_bytes": 223332641,
+ "parser": "theseed-bot+respace",
+ "excluded_from_plain": [
+  "FootnoteText",
+  "Table",
+  "TableCell",
+  "Comment",
+  "Category"
+ ]
+}

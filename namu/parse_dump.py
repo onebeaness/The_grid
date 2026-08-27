@@ -20,9 +20,25 @@ SNAPSHOT_CARD_LABEL = "2022-03-01"
 
 _NM = None
 def _nm():
+    """theseed-bot 로드. MarkedText.get_string 에 방어 패치를 건다.
+
+    원본은 self.content 의 자식이 전부 노드라고 가정하고 c.get_string() 을 호출한다.
+    같은 클래스의 __str__ 은 str(c) 로 문자열 자식을 처리하므로 문자열이 섞이는 것이
+    정상 상태다. 표 안의 매크로 postprocess 경로에서 이 가정이 깨져
+    AttributeError 로 문서 파싱 전체가 실패한다. 867,024건 중 1건 관측.
+    """
     global _NM
     if _NM is None:
         from theseed_bot import namumark
+        _orig = namumark.MarkedText.get_string
+        def _safe_get_string(self):
+            out = []
+            for c in getattr(self, "content", None) or []:
+                g = getattr(c, "get_string", None)
+                out.append(g() if callable(g) else str(c))
+            return "".join(out)
+        namumark.MarkedText.get_string = _safe_get_string
+        namumark._orig_get_string = _orig
         _NM = namumark
     return _NM
 
@@ -41,6 +57,8 @@ def _skip_classes(nm):
 
 def _text_of(x, nm, skip, top=False):
     """줄 단위 MarkedText 리스트를 개행으로 잇는다. 붙은 단어의 근본 원인."""
+    if isinstance(x, str): return x          # 노드 자리에 문자열이 오는 경우
+    if x is None: return ""
     if isinstance(x, list):
         parts = [_text_of(i, nm, skip) for i in x]
         return ("\n" if top else "").join(p for p in parts if p)
@@ -58,6 +76,7 @@ def _text_of(x, nm, skip, top=False):
     return _text_of(c, nm, skip)
 
 def _collect(x, nm, cls, out):
+    if isinstance(x, str) or x is None: return
     if isinstance(x, list):
         for i in x: _collect(i, nm, cls, out)
         return
@@ -180,7 +199,8 @@ def main():
     opener = open if a.plain else gzip.open
     out = a.out[:-3] if (a.plain and a.out.endswith(".gz")) else a.out
     fh = opener(out, "wt", encoding="utf-8") if not a.plain else open(out, "w", encoding="utf-8")
-    ffh = open(os.path.join(a.failures, "failures_%s.jsonl" % SNAPSHOT), "w", encoding="utf-8")
+    # 샤드마다 w 로 열면 앞 샤드의 실패 기록이 지워진다. append 로 둔다
+    ffh = open(os.path.join(a.failures, "failures_%s.jsonl" % SNAPSHOT), "a", encoding="utf-8")
 
     n = n_ok = n_fail = n_red = 0
     t0 = time.time()
