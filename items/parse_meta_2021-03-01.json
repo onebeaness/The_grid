@@ -1,0 +1,22 @@
+{
+ "snapshot_date": "2021-03-01",
+ "snapshot_date_card_label": "2022-03-01",
+ "parsed_at_utc": "2026-08-27T16:25:42Z",
+ "rows": 300,
+ "ok": 300,
+ "failed": 0,
+ "redirects": 65,
+ "documents": 235,
+ "elapsed_min": 0.1,
+ "workers": 3,
+ "output": "/tmp/claude-0/-home-user-The-grid/fde8ecf8-47ea-5e6d-b900-666626e4e91d/scratchpad/t.jsonl.gz",
+ "output_bytes": 2261746,
+ "parser": "theseed-bot+respace",
+ "excluded_from_plain": [
+  "FootnoteText",
+  "Table",
+  "TableCell",
+  "Comment",
+  "Category"
+ ]
+}

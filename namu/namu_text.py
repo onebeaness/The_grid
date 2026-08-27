@@ -64,7 +64,8 @@ def respace(t):
     if not t: return t
     t, urls = _mask_urls(t)
     t = RX_SENT.sub(r"\1 ", t)
-    t = RX_CLOSE.sub(r"\1 ", t)
+    # 닫는 괄호 뒤가 조사면 원문에서도 붙는다. (남궁경호)와 를 (남궁경호) 와 로 만들지 않는다
+    t = RX_CLOSE.sub(lambda m: m.group(1) if PARTICLE_RX.match(t, m.end(1)) else m.group(1) + " ", t)
     t = RX_OPEN.sub(" ", t)
     t = RX_PUNCT.sub(r"\1 ", t)
     t = _unmask_urls(t, urls)

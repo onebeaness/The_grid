@@ -306,9 +306,13 @@ def dblp_search(query, limit=200):
             yr = None
             try: yr = int(i.get("year"))
             except Exception: pass
+            ven = i.get("venue")
+            if isinstance(ven, (list, tuple)): ven = ", ".join(str(v) for v in ven)
+            ti = i.get("title")
+            if isinstance(ti, (list, tuple)): ti = " ".join(str(v) for v in ti)
             out.append(rec(
-                doi=i.get("doi"), dblp_key=i.get("key"), title=i.get("title"),
-                authors=[n for n in names if n], year=yr, venue=i.get("venue"),
+                doi=i.get("doi"), dblp_key=i.get("key"), title=ti,
+                authors=[n for n in names if n], year=yr, venue=ven,
                 sources=["dblp"]))
         f += len(arr)
         total = int(hits.get("@total", 0) or 0)
@@ -433,8 +437,12 @@ def relevant(query, r, min_ratio=0.6):
     나타나는지 확인해 무관한 레코드를 걷어낸다."""
     q = [w for w in norm_title(query).split()]
     if not q: return True
-    text = norm_title(" ".join(x for x in [r.get("title"), r.get("venue"),
-                                           (r.get("abstract") or "")[:3000]] if x))
+    def _s(v):
+        if v is None: return ""
+        if isinstance(v, (list, tuple)): return " ".join(_s(i) for i in v)
+        return v if isinstance(v, str) else str(v)
+    text = norm_title(" ".join(x for x in [_s(r.get("title")), _s(r.get("venue")),
+                                           _s(r.get("abstract"))[:3000]] if x))
     toks = set(text.split())
     hit = sum(1 for w in q if w in toks)
     if len(q) == 1: return hit >= 1
