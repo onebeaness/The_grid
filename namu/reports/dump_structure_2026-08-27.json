@@ -1,0 +1,52 @@
+{
+ "snapshot_date": "2026-08-27",
+ "inspected_at_utc": "2026-08-27T14:55:41Z",
+ "file": {
+  "path": "/home/user/The_grid/namu/samples/fake_dump.json",
+  "size_bytes": 6246,
+  "size_gib": 0.0,
+  "mtime_utc": "2026-08-27T14:55:41Z",
+  "mode": "0o100644"
+ },
+ "compression": null,
+ "encoding": {
+  "detected": "utf-8",
+  "note": "엄격 디코딩 통과"
+ },
+ "container": "json_array",
+ "head_preview": "[{\"namespace\": \"문서\", \"title\": \"테스트 0\", \"text\": \"#redirect [[다른 문서]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 1\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 2\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 3\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 4\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 5\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 6\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 7\", \"text\": \"#redirect [[다른 문서]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 8\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 9\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 10\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 11\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 12\", \"text\": \"[[분류:테스트]]\\n== 절 ==\\n본문[* 각주]입니다. [[링크]]\"}, {\"namespace\": \"문서\", \"title\": \"테스트 13\", \"text\": \"[[분류:테스",
+ "documents_scanned": 50,
+ "documents_total": 50,
+ "scan_complete": true,
+ "fields": {
+  "namespace": {
+   "count": 3,
+   "types": {
+    "str": 3
+   }
+  },
+  "title": {
+   "count": 3,
+   "types": {
+    "str": 3
+   }
+  },
+  "text": {
+   "count": 3,
+   "types": {
+    "str": 3
+   }
+  }
+ },
+ "redirect_notation": {
+  "#redirect": 8,
+  "#redirect(대괄호)": 8
+ },
+ "category_notation": {
+  "[[분류:...]]": 42
+ },
+ "namespaces": {
+  "문서": 50
+ },
+ "elapsed_sec": 0.0
+}

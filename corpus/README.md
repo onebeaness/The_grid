@@ -89,3 +89,39 @@ python3 query.py "질문" -k 8                      # 검색
 Semantic Scholar가 429로 막혀 있어 인용 관계는 **PDF 참고문헌 절을 파싱해 코퍼스 내부에서 매칭**해 만든다.
 따라서 간선은 전문을 확보한 논문에서 나가는 것만 있고, 코퍼스 밖으로 나가는 인용은 `unmatched_refs.jsonl`에 남는다.
 S2가 열리면 `snowball.py --s2-top N`으로 보강한다.
+
+## 남은 과제 (검토 의견 반영)
+
+### 1. 2차 선별이 필요하다
+
+관련성 게이트는 질의어 토큰이 제목·초록·게재지에 나타나는지만 본다.
+`cultural consumption` 처럼 흔한 어구는 무관한 분야에서도 통과한다.
+`fetch.py`의 계열 라운드로빈은 원문 확보 대상만 정할 뿐, 나머지 대다수는 읽히지 않는다.
+
+**따라서 현재 `records.jsonl`은 코퍼스가 아니라 목록이다.**
+1회전 수집과 눈덩이 2회전이 끝난 뒤 2차 선별을 넣는다. 기준 후보:
+
+- 인용수 상위 (계열별 백분위로 정규화. 분야마다 인용 규모가 다르다)
+- 눈덩이에서 반복 등장한 참조 (`index/unmatched_refs.jsonl`의 count)
+- 코퍼스 내부 피인용 (`index/citation_graph.jsonl`의 in-degree)
+
+아직 구현하지 않았다. 선별 기준은 수집이 끝난 뒤의 실제 분포를 보고 정한다.
+
+### 2. 인용 그래프에 편향이 있다
+
+S2가 무인증 429로 막혀 인용 관계를 PDF 참고문헌 절 파싱으로 대체했다.
+그 결과 **간선은 전문을 확보한 소수 논문에서만 나간다. 초록만 있는 대다수는 고립점으로 남는다.**
+눈덩이 2회전도 전문 확보분 중심으로만 돌아가므로 확장 방향이 그쪽으로 치우친다.
+
+해소 경로는 S2 API 키다. 무료이고 키를 받으면 무인증 공용 풀을 벗어난다.
+발급: https://www.semanticscholar.org/product/api#api-key-form
+키를 받으면 `sources.py`의 요청 헤더에 `x-api-key`를 추가하고
+`RATE["api.semanticscholar.org"]`를 낮춘 뒤 `snowball.py --s2-top N`으로 보강한다.
+이 세션에서는 발급을 대신할 수 없다.
+
+### 3. 임베딩 재현성
+
+`index/emb.npy`는 git에 없다. 재현하려면 다시 계산해야 한다.
+그래서 `index/meta.json`에 모델명과 함께 `sentence_transformers`, `torch`,
+`transformers`, `numpy` 버전, 청크 크기와 겹침을 기록한다.
+결과가 달라졌을 때 원인을 여기서 찾는다.

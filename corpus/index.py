@@ -128,8 +128,16 @@ def cmd_embed(args):
         for m, t in zip(metas, texts):
             m2 = dict(m); m2["text"] = t
             f.write(json.dumps(m2, ensure_ascii=False) + "\n")
+    def _v(mod):
+        try:
+            import importlib; return getattr(importlib.import_module(mod), "__version__", "?")
+        except Exception: return "미설치"
     json.dump({"model": MODEL_NAME, "dim": int(embs.shape[1]), "n_chunks": len(texts),
-               "n_docs": len(files), "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())},
+               "n_docs": len(files), "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+               "chunk_size": 1100, "chunk_overlap": 150,
+               "lib_versions": {m: _v(m) for m in
+                                ("sentence_transformers", "torch", "transformers", "numpy")},
+               "note": "emb.npy는 git에 없다. 이 블록의 모델명과 라이브러리 버전으로 재현한다."},
               open(os.path.join(IDXDIR, "meta.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     S.log("[embed] 저장 완료. dim=%d" % embs.shape[1])
