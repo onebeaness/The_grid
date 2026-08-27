@@ -20,5 +20,9 @@ report() {
   fi
   [ -f "$log" ] && sed -n '$p' "$log" | sed 's/^/                 /'
 }
-report "나무위키 파싱"  "parse_dump.py"          namu/logs/parse.log
+report "나무위키 파싱"  "parse_dump.py"          /tmp/claude-0/-home-user-The-grid/fde8ecf8-47ea-5e6d-b900-666626e4e91d/tasks/bebisny8j.output
+d=$(ls /home/user/The_grid/items/shards/*.done 2>/dev/null | wc -l)
+g=$(ls /home/user/The_grid/items/shards/*.jsonl.gz 2>/dev/null | wc -l)
+printf "                 샤드 완료 %s/9  (생성 %s)  누적 %s\n" "$d" "$g" \
+  "$(du -sh /home/user/The_grid/items/shards 2>/dev/null | cut -f1)"
 report "논문 수집"      "collect.py --round 0"   corpus/logs/collect_r0.log
