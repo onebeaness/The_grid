@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "note": "계열별 core는 사용자가 지정한 시드, expanded는 동의어와 인접어 확장. sources는 해당 계열을 질의할 소스.",
+  "families": [
+    {
+      "id": "cultural-sociology",
+      "name_ko": "문화소비 사회학",
+      "sources": ["crossref", "semanticscholar", "openalex", "pubmed"],
+      "core": [
+        "cultural consumption", "omnivore univore", "distinction",
+        "taste and social stratification", "multiple correspondence analysis"
+      ],
+      "expanded": [
+        "cultural omnivorousness", "omnivore thesis", "cultural omnivore", "univore taste",
+        "Bourdieu distinction taste", "cultural capital", "habitus taste", "aesthetic disposition",
+        "legitimate culture", "highbrow lowbrow taste", "cultural hierarchy", "symbolic boundaries",
+        "status and taste", "cultural snobbery", "cultural stratification",
+        "social class and cultural taste", "class and musical taste", "taste and social class",
+        "cultural participation", "arts attendance", "cultural practices survey",
+        "eclecticism cultural taste", "cosmopolitan cultural taste", "cultural dislikes",
+        "multiple correspondence analysis culture", "latent class analysis cultural taste",
+        "geometric data analysis sociology", "taste cultures", "field of cultural production",
+        "cultural intermediaries", "musical taste and social position",
+        "reading habits social class", "television taste and class",
+        "inequality in cultural consumption", "cultural capital measurement",
+        "cultural boundaries and social distinction", "taste as social marker"
+      ]
+    },
+    {
+      "id": "taste-psychology",
+      "name_ko": "취향 구조 심리학",
+      "sources": ["crossref", "semanticscholar", "pubmed", "openalex", "arxiv"],
+      "core": [
+        "preference structure", "entertainment preferences",
+        "music preference dimensions", "aesthetic preference"
+      ],
+      "expanded": [
+        "short test of music preferences STOMP", "MUSIC model musical preferences",
+        "five-factor model of music preferences", "structure of musical preferences",
+        "personality and music preference", "personality and media preference",
+        "personality and film preference", "genre preference structure",
+        "film genre preferences", "television genre preference", "book genre preference",
+        "empirical aesthetics", "experimental aesthetics", "aesthetic judgment",
+        "aesthetic response", "art preference", "visual preference individual differences",
+        "individual differences in preference", "preference for complexity",
+        "arousal and preference", "mere exposure effect liking", "familiarity and liking",
+        "processing fluency aesthetic pleasure", "openness to experience aesthetics",
+        "sensation seeking media preference", "mood management theory media",
+        "uses and gratifications media", "media selection and personality",
+        "taste typology", "preference stability over time", "development of taste",
+        "aesthetic sensitivity", "affective reactions to music excerpts",
+        "interpersonal perception music preferences"
+      ]
+    },
+    {
+      "id": "cross-domain-rec",
+      "name_ko": "교차도메인 추천",
+      "sources": ["arxiv", "dblp", "crossref", "semanticscholar", "openproceedings", "openalex"],
+      "core": [
+        "cross-domain recommendation", "cold-start user",
+        "preference transfer", "shared latent space"
+      ],
+      "expanded": [
+        "transfer learning for recommendation", "domain adaptation recommender system",
+        "multi-domain recommendation", "dual-target cross-domain recommendation",
+        "multi-target cross-domain recommendation", "overlapping users cross-domain",
+        "user identity linkage across platforms", "cross-platform user alignment",
+        "embedding and mapping cross domain recommendation",
+        "latent factor mapping recommendation", "meta learning cold start recommendation",
+        "few-shot recommendation", "disentangled representation recommendation",
+        "domain-shared and domain-specific representation", "negative transfer recommendation",
+        "domain gap recommendation", "cross-domain sequential recommendation",
+        "cross-domain collaborative filtering", "new user cold start recommendation",
+        "cold-start item recommendation", "warm-up cold items recommendation",
+        "knowledge transfer recommender system", "auxiliary domain recommendation",
+        "shared user representation across domains", "cross-domain user preference modeling",
+        "aspect transfer network recommendation", "joint identifiability user preference"
+      ]
+    },
+    {
+      "id": "representation-learning",
+      "name_ko": "표현 학습",
+      "sources": ["arxiv", "dblp", "crossref", "semanticscholar", "openproceedings"],
+      "core": [
+        "item embedding", "semantic ID", "text-based recommendation",
+        "LLM recommender", "graph representation for recommendation"
+      ],
+      "expanded": [
+        "generative retrieval recommendation", "semantic identifier recommendation",
+        "residual quantization RQ-VAE", "vector quantization item representation",
+        "product quantization retrieval", "ID-free recommendation",
+        "modality-based recommendation", "multimodal recommendation",
+        "sequential recommendation transformer", "self-attentive sequential recommendation",
+        "language model for recommendation", "prompt-based recommendation",
+        "in-context learning recommendation", "conversational recommendation",
+        "natural language user profile recommendation",
+        "retrieval augmented generation recommendation", "user representation learning",
+        "universal user representation", "graph neural network recommendation",
+        "graph collaborative filtering", "contrastive learning recommendation",
+        "self-supervised learning recommendation", "pretrained recommendation model",
+        "transferable recommendation model", "foundation model for recommendation",
+        "text embedding sentence representation", "dense retrieval",
+        "semantically aligned item embedding", "large language model simulator recommendation"
+      ]
+    },
+    {
+      "id": "consumer-behavior",
+      "name_ko": "소비자행동",
+      "sources": ["crossref", "semanticscholar", "pubmed", "openalex"],
+      "core": [
+        "hedonic consumption", "experiential consumption",
+        "variety seeking", "consumption practice"
+      ],
+      "expanded": [
+        "hedonic versus utilitarian consumption", "hedonic shopping value",
+        "experiential marketing", "consumption experience",
+        "extraordinary experience consumption", "variety seeking behavior",
+        "optimal stimulation level", "exploratory consumer buying behavior",
+        "novelty seeking consumer", "satiation and repeated consumption",
+        "practice theory of consumption", "consumption practices",
+        "taste regimes consumption", "symbolic consumption identity",
+        "extended self possessions", "identity signaling consumption",
+        "aesthetic consumption", "consumer aesthetics", "taste formation consumer",
+        "acquired taste", "consumption capital", "media consumption habits",
+        "binge watching behavior", "music streaming listening behavior",
+        "platform consumption logs", "recommendation acceptance consumer",
+        "algorithmic recommendation trust", "filter bubble consumption diversity",
+        "cultural product consumption choice", "digital media repertoire"
+      ]
+    },
+    {
+      "id": "similarity-attraction",
+      "name_ko": "취향 유사성과 관계",
+      "sources": ["crossref", "semanticscholar", "pubmed", "openalex"],
+      "core": [
+        "similarity attraction", "perceived similarity",
+        "homophily taste", "dyadic prediction"
+      ],
+      "expanded": [
+        "similarity attraction effect", "actual versus perceived similarity",
+        "speed dating romantic attraction", "initial attraction prediction",
+        "social relations model dyadic analysis", "actor partner interdependence model",
+        "assortative mating preferences", "mate preference matching",
+        "homophily in social networks", "shared interests friendship formation",
+        "taste similarity and friendship", "cultural taste and social ties",
+        "matching markets preferences", "online dating partner preferences",
+        "attitude similarity and attraction", "interpersonal perception accuracy",
+        "zero acquaintance personality judgment", "relationship variance attraction",
+        "compatibility prediction algorithm", "meta-analysis similarity attraction"
+      ]
+    },
+    {
+      "id": "inference-privacy",
+      "name_ko": "행동 기록 기반 추론과 프라이버시",
+      "sources": ["arxiv", "crossref", "semanticscholar", "pubmed", "dblp"],
+      "core": [
+        "attribute inference from behavior", "psychological targeting",
+        "digital footprint prediction"
+      ],
+      "expanded": [
+        "predicting personality from digital footprints",
+        "personality prediction from social media", "computational personality assessment",
+        "open vocabulary language analysis personality", "sensitive attribute inference",
+        "protected attribute leakage in embeddings", "privacy in recommender systems",
+        "inference attack on recommender", "fairness in recommendation",
+        "bias in recommender systems", "popularity bias recommendation",
+        "algorithmic profiling", "psychographic targeting",
+        "differential privacy recommendation", "federated recommendation privacy",
+        "demographic inference from consumption", "auditing algorithmic systems"
+      ]
+    }
+  ]
+}

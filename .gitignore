@@ -1,1 +1,5 @@
 *.tmp
+corpus/pdf/
+corpus/text/
+corpus/index/emb.npy
+corpus/logs/
