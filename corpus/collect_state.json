@@ -1,0 +1,28 @@
+{
+ "round": 0,
+ "state": {
+  "openalex": {
+   "ok": true,
+   "reason": null
+  },
+  "semanticscholar": {
+   "ok": false,
+   "reason": "429 연속 12회. 무인증 공용 풀 포화. 전용 패스에서 재시도",
+   "consecutive_429": 12
+  },
+  "dblp": {
+   "ok": true,
+   "reason": null,
+   "fail": 0
+  },
+  "openproceedings": {
+   "ok": true,
+   "reason": null,
+   "fail": 0
+  }
+ },
+ "capped": [],
+ "total_records": 37440,
+ "rejected_irrelevant": 0,
+ "elapsed_min": 2.3
+}
