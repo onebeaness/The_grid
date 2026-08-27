@@ -19,5 +19,6 @@ for R in 1 2; do
 done
 
 log "embed";                  python3 index.py embed
+log "snapshot";               gzip -9 -c records.jsonl > records.jsonl.gz
 log "report";                 python3 report.py | tee report.txt
 log "완료"

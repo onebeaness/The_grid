@@ -40,6 +40,9 @@ python3 query.py "질문" -k 8                      # 검색
 
 `bash run_all.sh` 로 전체를 순서대로 돌린다. 각 단계는 중단 후 재실행하면 이어서 진행한다.
 
+`records.jsonl`과 `done.jsonl`은 수집 중 계속 바뀌고 10만 건대에서 100MB를 넘어 git에 넣지 않는다.
+완료 시점의 `records.jsonl.gz` 스냅샷만 커밋한다.
+
 ## 지난 작업에서 걸린 것들의 처리
 
 | 문제 | 처리 |

@@ -1,5 +1,9 @@
 *.tmp
+# 대용량 원문과 벡터
 corpus/pdf/
 corpus/text/
 corpus/index/emb.npy
 corpus/logs/
+# 수집 중 계속 바뀌는 작업 파일. 완료 시점에 gz 스냅샷으로 커밋한다.
+corpus/records.jsonl
+corpus/done.jsonl
