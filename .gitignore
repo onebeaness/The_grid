@@ -28,3 +28,7 @@ items/shards/
 
 # 장르 후보 중간 산출물. 판정 근거는 items/genre_candidates.md 에 있음
 items/genre_candidates*.jsonl
+
+# 행렬 산출 중간 파일. 원본 덤프에서 재생성 가능
+items/contributors_*.jsonl.gz
+items/game_docs_*.jsonl.gz
