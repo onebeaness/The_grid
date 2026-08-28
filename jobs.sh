@@ -28,3 +28,5 @@ printf "                 샤드 완료 %s/9  생성 %s  누적 %s  디스크 여
 state "논문 수집"      "collect.py"
 [ -f corpus/logs/collect_r0.log ] && printf "                 %s\n" "$(grep -E '^  [0-9]+/[0-9]+' corpus/logs/collect_r0.log | tail -1)"
 state "분류 집계"      "build_genres.py"
+state "본문 판정"      "genre_detect.py"
+state "원문 확보"      "fetch.py"

@@ -1,0 +1,2185 @@
+{
+ "snapshot_date": "2021-03-01",
+ "sampled": 56761,
+ "rate": 0.1,
+ "cat_threshold": 3,
+ "body_threshold": 4,
+ "stats": {
+  "분류판정": 332,
+  "본문판정": 73,
+  "둘다": 9,
+  "분류만": 323,
+  "본문만": 64
+ },
+ "union": 396,
+ "elapsed_min": 3.0,
+ "sample_body_only": [
+  {
+   "title": "CS복",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "군복"
+   ]
+  },
+  {
+   "title": "K-POP",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "K-POP"
+   ]
+  },
+  {
+   "title": "MC물",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절3",
+    "제목접미"
+   ],
+   "categories": [
+    "성인물"
+   ]
+  },
+  {
+   "title": "QuinRose",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "2005년 설립",
+    "2015년 해체",
+    "게임 브랜드"
+   ]
+  },
+  {
+   "title": "가족놀이(스타크래프트)",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "categories": [
+    "스타크래프트/유즈맵"
+   ]
+  },
+  {
+   "title": "계란계란",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "1984년 출생",
+    "논산시 출신 인물",
+    "한국 만화가"
+   ]
+  },
+  {
+   "title": "고 교카이",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "철냄비 짱!"
+   ]
+  },
+  {
+   "title": "고량주",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "백주"
+   ]
+  },
+  {
+   "title": "기생물",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "기생충"
+   ]
+  },
+  {
+   "title": "꼰대",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "유행어",
+    "욕설",
+    "인물 특징"
+   ]
+  },
+  {
+   "title": "녹용",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "한의학"
+   ]
+  },
+  {
+   "title": "뇌정군림마제",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "금시조 월드/설정"
+   ]
+  },
+  {
+   "title": "닌자 가이덴",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "닌자 가이덴",
+    "액션 게임",
+    "코에이 테크모"
+   ]
+  },
+  {
+   "title": "데스코어",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "categories": [
+    "메탈"
+   ]
+  },
+  {
+   "title": "동료 학살",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "클리셰"
+   ]
+  },
+  {
+   "title": "동물",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "생물",
+    "계통분류학",
+    "동물"
+   ]
+  },
+  {
+   "title": "동성 제후국",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "동성 제후"
+   ]
+  },
+  {
+   "title": "레스큐 폴리스 시리즈",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "메탈히어로 시리즈"
+   ]
+  },
+  {
+   "title": "루니 툰",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "루니 툰"
+   ]
+  },
+  {
+   "title": "메틸페니데이트",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "약물",
+    "ADHD"
+   ]
+  },
+  {
+   "title": "모니터함",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "모니터함",
+    "해상 병기/세계 대전",
+    "에이지 오브 엠파이어 3/유닛"
+   ]
+  },
+  {
+   "title": "뮤지컬",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "categories": [
+    "뮤지컬"
+   ]
+  },
+  {
+   "title": "블랙홀 엔진함",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "나이트런"
+   ]
+  },
+  {
+   "title": "샹송",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "categories": [
+    "샹송"
+   ]
+  },
+  {
+   "title": "서부극",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "categories": [
+    "장르별 영화",
+    "서부극"
+   ]
+  },
+  {
+   "title": "올챙이",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "개구리목"
+   ]
+  },
+  {
+   "title": "우랄어족",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "우랄어족",
+    "유럽의 민족"
+   ]
+  },
+  {
+   "title": "유로비트",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "유로비트"
+   ]
+  },
+  {
+   "title": "육성 시뮬레이션",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "육성 시뮬레이션"
+   ]
+  },
+  {
+   "title": "윳쿠리",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "윳쿠리"
+   ]
+  },
+  {
+   "title": "음몽",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "성",
+    "정신"
+   ]
+  },
+  {
+   "title": "이탈로 디스코",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "categories": [
+    "이탈리아의 문화",
+    "일렉트로니카",
+    "디스코"
+   ]
+  },
+  {
+   "title": "중국계 미국인",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "중국계 미국인"
+   ]
+  },
+  {
+   "title": "징크스",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "징크스"
+   ]
+  },
+  {
+   "title": "천사",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "천사",
+    "이종족",
+    "판타지"
+   ]
+  },
+  {
+   "title": "칠복신",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "일본 신화",
+    "행운의 신",
+    "기타프릭스·드럼매니아 V3의 수록곡"
+   ]
+  },
+  {
+   "title": "침구학",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "한의학"
+   ]
+  },
+  {
+   "title": "칩튠",
+   "cat_score": 0,
+   "body_score": 8,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "categories": [
+    "일렉트로니카"
+   ]
+  },
+  {
+   "title": "키네틱 노벨",
+   "cat_score": 0,
+   "body_score": 7,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "키네틱 노벨"
+   ]
+  },
+  {
+   "title": "타지크",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "중앙아시아의 민족",
+    "중국의 민족",
+    "러시아의 민족"
+   ]
+  },
+  {
+   "title": "튀김",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "튀김",
+    "조리 방법"
+   ]
+  },
+  {
+   "title": "포도주",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "포도주"
+   ]
+  },
+  {
+   "title": "프러스펜",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "수성펜"
+   ]
+  },
+  {
+   "title": "프런",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "디스트릭트 9",
+    "외계 종족"
+   ]
+  },
+  {
+   "title": "프로그레시브 록",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "총칭구문"
+   ],
+   "categories": [
+    "프로그레시브 록"
+   ]
+  },
+  {
+   "title": "한문학과",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "학과",
+    "한자"
+   ]
+  },
+  {
+   "title": "메탈(음악)",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "메탈"
+   ]
+  },
+  {
+   "title": "호이류",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "스타크래프트/유즈맵"
+   ]
+  },
+  {
+   "title": "보어물",
+   "cat_score": 0,
+   "body_score": 8,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절2",
+    "제목접미"
+   ],
+   "categories": [
+    "고어",
+    "판타지"
+   ]
+  },
+  {
+   "title": "처첩",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "결혼"
+   ]
+  },
+  {
+   "title": "협동조합주의",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "경제",
+    "경제 체제"
+   ]
+  },
+  {
+   "title": "심성암",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "암석학"
+   ]
+  },
+  {
+   "title": "철권 갤러리",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "디시인사이드 갤러리/게임",
+    "철권 시리즈"
+   ]
+  },
+  {
+   "title": "노래기",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "배각강",
+    "애완동물",
+    "해충"
+   ]
+  },
+  {
+   "title": "F/A-18E/F",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "보잉",
+    "전투기",
+    "항공 병기/현대전"
+   ]
+  },
+  {
+   "title": "케토테리움",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "케토테리움속",
+    "고생물"
+   ]
+  },
+  {
+   "title": "극피동물",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2",
+    "제목접미"
+   ],
+   "categories": [
+    "극피동물문"
+   ]
+  },
+  {
+   "title": "자이드파",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "마드하브"
+   ]
+  },
+  {
+   "title": "도데실벤젠술폰산나트륨",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "categories": [
+    "화합물"
+   ]
+  },
+  {
+   "title": "리그 오브 레전드/전략적 팀 전투/아이템",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "리그 오브 레전드/전략적 팀 전투"
+   ]
+  },
+  {
+   "title": "유럽중심주의",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "사상"
+   ]
+  },
+  {
+   "title": "허위·과대광고",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "categories": [
+    "광고",
+    "사기와 공갈의 죄"
+   ]
+  },
+  {
+   "title": "비디오물",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2",
+    "제목접미"
+   ],
+   "categories": [
+    "비디오"
+   ]
+  },
+  {
+   "title": "팝 음악",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "categories": [
+    "팝"
+   ]
+  }
+ ],
+ "sample_cat_only": [
+  {
+   "title": "2006 토리노 동계올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2006 토리노 동계올림픽"
+   ],
+   "body_why": [],
+   "categories": [
+    "2006 토리노 동계올림픽"
+   ]
+  },
+  {
+   "title": "2014 소치 동계올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2014 소치 동계올림픽"
+   ],
+   "body_why": [],
+   "categories": [
+    "2014 소치 동계올림픽"
+   ]
+  },
+  {
+   "title": "2018 평창 동계올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2018 평창 동계올림픽"
+   ],
+   "body_why": [],
+   "categories": [
+    "2018 평창 동계올림픽"
+   ]
+  },
+  {
+   "title": "2차 창작",
+   "cat_score": 3,
+   "body_score": 3,
+   "cat_why": [
+    "분류=제목:2차 창작"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절1"
+   ],
+   "categories": [
+    "2차 창작"
+   ]
+  },
+  {
+   "title": "C(애니메이션)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:C(애니메이션)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "C(애니메이션)",
+    "일본 애니메이션/라틴 문자",
+    "2011년 2분기 일본 애니메이션"
+   ]
+  },
+  {
+   "title": "DC 애니메이티드 유니버스",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:DC 애니메이티드 유니버스"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "DC 코믹스",
+    "DC 애니메이티드 유니버스"
+   ]
+  },
+  {
+   "title": "Five Nights at Freddy's",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:Five Nights at Freddy's 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "Five Nights at Freddy's 시리즈",
+    "인디 게임",
+    "호러 게임"
+   ]
+  },
+  {
+   "title": "J1리그",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:J1리그"
+   ],
+   "body_why": [],
+   "categories": [
+    "J1리그"
+   ]
+  },
+  {
+   "title": "K(애니메이션)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:K(애니메이션)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "K(애니메이션)",
+    "일본 애니메이션/라틴 문자",
+    "2012년 3분기 일본 애니메이션"
+   ]
+  },
+  {
+   "title": "K리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:K리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "K리그"
+   ]
+  },
+  {
+   "title": "LG G Pad 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:LG G Pad 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "태블릿 컴퓨터(안드로이드)/LG",
+    "LG G Pad 시리즈"
+   ]
+  },
+  {
+   "title": "문화방송 계열 지상파 방송사",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:문화방송 계열 지상파 방송사"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "categories": [
+    "문화방송 계열 지상파 방송사",
+    "지상파"
+   ]
+  },
+  {
+   "title": "TS물/웹소설",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "categories": [
+    "TS 소설",
+    "한국의 장르 소설",
+    "한국 판타지 소설"
+   ]
+  },
+  {
+   "title": "V-리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:V-리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "V-리그"
+   ]
+  },
+  {
+   "title": "게슈펜스트",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:게슈펜스트 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "슈퍼로봇대전 시리즈의 오리지널 기체",
+    "콤파치 히어로 시리즈",
+    "게슈펜스트 시리즈"
+   ]
+  },
+  {
+   "title": "게임보이",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:게임보이"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "게임보이"
+   ]
+  },
+  {
+   "title": "고속도로",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:고속도로"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "나무위키 도로 프로젝트",
+    "도로",
+    "고속도로"
+   ]
+  },
+  {
+   "title": "과테말라 축구 국가대표팀",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:과테말라 축구 국가대표팀"
+   ],
+   "body_why": [],
+   "categories": [
+    "과테말라 축구 국가대표팀"
+   ]
+  },
+  {
+   "title": "교고쿠도 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:교고쿠도 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "일본 추리 소설",
+    "일본 추리 소설 시리즈",
+    "교고쿠도 시리즈"
+   ]
+  },
+  {
+   "title": "다리(건축물)",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:다리(건축물)"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "categories": [
+    "다리(건축물)"
+   ]
+  },
+  {
+   "title": "국악인",
+   "cat_score": 3,
+   "body_score": 3,
+   "cat_why": [
+    "분류=제목:국악인"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절1"
+   ],
+   "categories": [
+    "국악인"
+   ]
+  },
+  {
+   "title": "궤적 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:궤적 시리즈"
+   ],
+   "body_why": [
+    "총칭구문"
+   ],
+   "categories": [
+    "궤적 시리즈"
+   ]
+  },
+  {
+   "title": "귀무자 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:귀무자 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "귀무자 시리즈"
+   ]
+  },
+  {
+   "title": "그란 투리스모 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:그란 투리스모 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "그란 투리스모 시리즈"
+   ]
+  },
+  {
+   "title": "그리스 축구 국가대표팀",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:그리스 축구 국가대표팀"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "그리스 축구 국가대표팀"
+   ]
+  },
+  {
+   "title": "길드워",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:길드워 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "길드워 시리즈",
+    "엔씨소프트",
+    "아레나넷"
+   ]
+  },
+  {
+   "title": "김수로(배우)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:김수로(배우)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "김수로(배우)"
+   ]
+  },
+  {
+   "title": "김해국제공항",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:김해국제공항"
+   ],
+   "body_why": [],
+   "categories": [
+    "김해국제공항",
+    "나무위키 공항 프로젝트"
+   ]
+  },
+  {
+   "title": "널 오타쿠로 만들어줄 테니까, 날 리얼충으로 만들어줘!",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:널 오타쿠로 만들어줄 테니까, 날 리얼충으로 만들어줘!"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "널 오타쿠로 만들어줄 테니까, 날 리얼충으로 만들어줘!",
+    "일본 라이트 노벨/ㄴ"
+   ]
+  },
+  {
+   "title": "노바 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:노바 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "노바 시리즈"
+   ]
+  },
+  {
+   "title": "니제르 축구 국가대표팀",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:니제르 축구 국가대표팀"
+   ],
+   "body_why": [],
+   "categories": [
+    "니제르 축구 국가대표팀"
+   ]
+  },
+  {
+   "title": "니혼 TV",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:니혼 TV"
+   ],
+   "body_why": [],
+   "categories": [
+    "니혼 TV"
+   ]
+  },
+  {
+   "title": "다라이어스",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:다라이어스 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "다라이어스 시리즈",
+    "1986년 게임",
+    "아케이드 게임"
+   ]
+  },
+  {
+   "title": "대역백작 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:대역백작 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "일본 라이트 노벨/ㄷ",
+    "대역백작 시리즈"
+   ]
+  },
+  {
+   "title": "대원방송",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:대원방송"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "대원방송"
+   ]
+  },
+  {
+   "title": "대중교통",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:대중교통"
+   ],
+   "body_why": [],
+   "categories": [
+    "대중교통"
+   ]
+  },
+  {
+   "title": "더 하우스 오브 더 데드",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:더 하우스 오브 더 데드 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "더 하우스 오브 더 데드 시리즈",
+    "건슈팅 게임",
+    "호러 게임"
+   ]
+  },
+  {
+   "title": "데빌 메이 크라이 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:데빌 메이 크라이 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "데빌 메이 크라이 시리즈"
+   ]
+  },
+  {
+   "title": "데스 메탈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "일종/파생"
+   ],
+   "categories": [
+    "음악 장르",
+    "메탈"
+   ]
+  },
+  {
+   "title": "도 계통의 종교",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:도 계통의 종교"
+   ],
+   "body_why": [
+    "일종/파생"
+   ],
+   "categories": [
+    "도 계통의 종교"
+   ]
+  },
+  {
+   "title": "도시전설",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:도시전설"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "도시전설",
+    "동음이의어/ㄷ"
+   ]
+  },
+  {
+   "title": "동양방송",
+   "cat_score": 3,
+   "body_score": 3,
+   "cat_why": [
+    "분류=제목:동양방송"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절1"
+   ],
+   "categories": [
+    "동양방송"
+   ]
+  },
+  {
+   "title": "두문자 알파벳 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:두문자 알파벳 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "일본 애니메이션/ㄷ",
+    "SF 애니메이션",
+    "두문자 알파벳 시리즈"
+   ]
+  },
+  {
+   "title": "듀크 뉴켐",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:듀크 뉴켐 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "듀크 뉴켐 시리즈",
+    "런앤건",
+    "1991년 게임"
+   ]
+  },
+  {
+   "title": "드래곤 레이디(소설)",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:드래곤 레이디(소설)"
+   ],
+   "body_why": [],
+   "categories": [
+    "드래곤 레이디(소설)",
+    "한국 판타지 소설",
+    "2000년 소설"
+   ]
+  },
+  {
+   "title": "드림 클럽",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:드림 클럽 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "드림 클럽 시리즈"
+   ]
+  },
+  {
+   "title": "디지몬",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류⊃제목:디지몬 시리즈"
+   ],
+   "body_why": [
+    "장르절3"
+   ],
+   "categories": [
+    "디지몬 시리즈"
+   ]
+  },
+  {
+   "title": "래그타임",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "음악 장르"
+   ]
+  },
+  {
+   "title": "레고 무비",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:레고 무비 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "미국 애니메이션",
+    "레고 무비",
+    "2014년 영화"
+   ]
+  },
+  {
+   "title": "레드벨벳(밴드)",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:레드벨벳(밴드)"
+   ],
+   "body_why": [],
+   "categories": [
+    "레드벨벳(밴드)"
+   ]
+  },
+  {
+   "title": "레지시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:레지시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "포켓몬스터",
+    "레지시리즈"
+   ]
+  },
+  {
+   "title": "록맨 제로 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:록맨 제로 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "록맨 제로 시리즈",
+    "액션 게임",
+    "디스토피아"
+   ]
+  },
+  {
+   "title": "루나 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:루나 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "루나 시리즈"
+   ]
+  },
+  {
+   "title": "루마니아 축구 국가대표팀",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:루마니아 축구 국가대표팀"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "루마니아 축구 국가대표팀"
+   ]
+  },
+  {
+   "title": "리듬 세상 시리즈",
+   "cat_score": 3,
+   "body_score": 3,
+   "cat_why": [
+    "분류=제목:리듬 세상 시리즈"
+   ],
+   "body_why": [
+    "장르정의"
+   ],
+   "categories": [
+    "리듬 세상 시리즈"
+   ]
+  },
+  {
+   "title": "리플렉 비트",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:리플렉 비트 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "리플렉 비트 시리즈"
+   ]
+  },
+  {
+   "title": "마계촌",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:마계촌 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "아케이드 게임",
+    "패밀리 컴퓨터 게임",
+    "1985년 게임"
+   ]
+  },
+  {
+   "title": "마도물어",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:마도물어 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "마도물어 시리즈",
+    "1990년 게임",
+    "롤플레잉 게임"
+   ]
+  },
+  {
+   "title": "마리오(마리오 시리즈)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:마리오(마리오 시리즈)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "마리오(마리오 시리즈)"
+   ]
+  },
+  {
+   "title": "마크로스",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:마크로스 시리즈/용어"
+   ],
+   "body_why": [],
+   "categories": [
+    "가공의 전함",
+    "그리스어 단어",
+    "마크로스 시리즈/용어"
+   ]
+  },
+  {
+   "title": "맥스 페인",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:맥스 페인 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "맥스 페인 시리즈",
+    "2001년 게임",
+    "Windows 게임/ㅁ"
+   ]
+  },
+  {
+   "title": "메이테츠 공항선",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:메이테츠 공항선"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "일본의 철도 노선",
+    "2004년 개업한 철도 노선",
+    "메이테츠 공항선"
+   ]
+  },
+  {
+   "title": "메인프레임 게임",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "컴퓨터",
+    "게임 장르"
+   ]
+  },
+  {
+   "title": "메트로이드",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:메트로이드 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "동음이의어/ㅁ",
+    "애플리케이션",
+    "플랫폼 게임"
+   ]
+  },
+  {
+   "title": "목장이야기",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:목장이야기 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "목장이야기 시리즈",
+    "슈퍼 패미컴 게임",
+    "1996년 게임"
+   ]
+  },
+  {
+   "title": "몬스터 헌터 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:몬스터 헌터 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "몬스터 헌터 시리즈"
+   ]
+  },
+  {
+   "title": "무쌍 오로치 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:무쌍 오로치 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "무쌍 오로치 시리즈",
+    "중국 신화/창작물"
+   ]
+  },
+  {
+   "title": "무안광주고속도로",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:무안광주고속도로"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "무안광주고속도로",
+    "나무위키 도로 프로젝트"
+   ]
+  },
+  {
+   "title": "시스터즈(어떤 마술의 금서목록)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:시스터즈(어떤 마술의 금서목록)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "시스터즈(어떤 마술의 금서목록)"
+   ]
+  },
+  {
+   "title": "미술",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:미술"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "미술"
+   ]
+  },
+  {
+   "title": "방송작가",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:방송작가"
+   ],
+   "body_why": [],
+   "categories": [
+    "방송작가"
+   ]
+  },
+  {
+   "title": "밴티지 마스터",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:밴티지 마스터 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "밴티지 마스터 시리즈",
+    "니혼 팔콤"
+   ]
+  },
+  {
+   "title": "버추어 파이터 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:버추어 파이터 시리즈"
+   ],
+   "body_why": [],
+   "categories": [
+    "버추어 파이터 시리즈",
+    "대전 액션",
+    "세가"
+   ]
+  },
+  {
+   "title": "부기팝 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:부기팝 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "부기팝 시리즈",
+    "일본 라이트 노벨/ㅂ"
+   ]
+  },
+  {
+   "title": "분당수서간도시고속화도로",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:분당수서간도시고속화도로"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "고속화도로",
+    "성남시의 도로",
+    "용인시의 도로"
+   ]
+  },
+  {
+   "title": "사랑과 선거와 초콜릿",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:사랑과 선거와 초콜릿"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "사랑과 선거와 초콜릿",
+    "일본 애니메이션/ㅅ"
+   ]
+  },
+  {
+   "title": "사쿠라 대전",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:사쿠라 대전 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "사쿠라 대전 시리즈",
+    "스팀펑크",
+    "1996년 게임"
+   ]
+  },
+  {
+   "title": "사쿠라 대전 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:사쿠라 대전 시리즈"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "categories": [
+    "세가",
+    "사쿠라 대전 시리즈",
+    "일본 애니메이션/ㅅ"
+   ]
+  },
+  {
+   "title": "갤럭시 S 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:삼성 갤럭시 S 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "삼성 갤럭시 S 시리즈"
+   ]
+  },
+  {
+   "title": "갤럭시 노트 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:삼성 갤럭시 노트 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "categories": [
+    "삼성 갤럭시 노트 시리즈"
+   ]
+  }
+ ],
+ "sample_both": [
+  {
+   "title": "능력자 배틀",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "장르"
+   ]
+  },
+  {
+   "title": "세카이계",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절3"
+   ],
+   "categories": [
+    "장르"
+   ]
+  },
+  {
+   "title": "스팀펑크",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:스팀펑크"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절3"
+   ],
+   "categories": [
+    "스팀펑크"
+   ]
+  },
+  {
+   "title": "회귀물",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절1",
+    "제목접미"
+   ],
+   "categories": [
+    "장르",
+    "회귀물"
+   ]
+  },
+  {
+   "title": "차원유랑물",
+   "cat_score": 3,
+   "body_score": 6,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2",
+    "제목접미"
+   ],
+   "categories": [
+    "한국의 장르 소설",
+    "한국 판타지 소설",
+    "퓨전 판타지"
+   ]
+  },
+  {
+   "title": "성우",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:성우"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "categories": [
+    "성우"
+   ]
+  },
+  {
+   "title": "전희절창 심포기어 시리즈",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:전희절창 심포기어 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "categories": [
+    "전희절창 심포기어 시리즈"
+   ]
+  },
+  {
+   "title": "던전운영물",
+   "cat_score": 3,
+   "body_score": 6,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2",
+    "제목접미"
+   ],
+   "categories": [
+    "한국의 장르 소설",
+    "한국 판타지 소설",
+    "일본 판타지 소설"
+   ]
+  },
+  {
+   "title": "Object Show",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "categories": [
+    "장르",
+    "미국 애니메이션"
+   ]
+  }
+ ]
+}

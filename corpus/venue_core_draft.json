@@ -1,0 +1,2070 @@
+{
+ "generated_note": "정규화 키 기준. 표시는 최빈 원 표기.",
+ "families": {
+  "cultural-sociology": {
+   "name": "문화소비 사회학",
+   "records": 5193,
+   "unique": 2505,
+   "coverage": {
+    "records": 5193,
+    "unique": 2505,
+    "cov20": 19.7,
+    "cov30": 23.2,
+    "cov40": 26.0,
+    "cov100": 36.1
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "The Musical Times and Singing Class Circular",
+     "venue_key": "the musical times and singing class circular",
+     "count": 164,
+     "cum_pct": 3.2
+    },
+    {
+     "rank": 2,
+     "venue_display": "Research in Social Stratification and Mobility",
+     "venue_key": "research in social stratification and mobility",
+     "count": 131,
+     "cum_pct": 5.7
+    },
+    {
+     "rank": 3,
+     "venue_display": "Cultural Intermediaries Connecting Communities",
+     "venue_key": "cultural intermediaries connecting communities",
+     "count": 97,
+     "cum_pct": 7.5
+    },
+    {
+     "rank": 4,
+     "venue_display": "Race, Taste, Class and Cars",
+     "venue_key": "race, taste, class and cars",
+     "count": 56,
+     "cum_pct": 8.6
+    },
+    {
+     "rank": 5,
+     "venue_display": "The British journal of sociology",
+     "venue_key": "the british journal of sociology",
+     "count": 52,
+     "cum_pct": 9.6
+    },
+    {
+     "rank": 6,
+     "venue_display": "Cultural Sociology",
+     "venue_key": "cultural sociology",
+     "count": 48,
+     "cum_pct": 10.6
+    },
+    {
+     "rank": 7,
+     "venue_display": "Cultural Trends",
+     "venue_key": "cultural trends",
+     "count": 48,
+     "cum_pct": 11.5
+    },
+    {
+     "rank": 8,
+     "venue_display": "Challenging the Boundaries of Symbolic Computation",
+     "venue_key": "challenging the boundaries of symbolic computation",
+     "count": 46,
+     "cum_pct": 12.4
+    },
+    {
+     "rank": 9,
+     "venue_display": "PloS one",
+     "venue_key": "plos one",
+     "count": 45,
+     "cum_pct": 13.2
+    },
+    {
+     "rank": 10,
+     "venue_display": "Poetics",
+     "venue_key": "poetics",
+     "count": 42,
+     "cum_pct": 14.0
+    },
+    {
+     "rank": 11,
+     "venue_display": "Social science & medicine (1982)",
+     "venue_key": "social science & medicine",
+     "count": 40,
+     "cum_pct": 14.8
+    },
+    {
+     "rank": 12,
+     "venue_display": "Appetite",
+     "venue_key": "appetite",
+     "count": 34,
+     "cum_pct": 15.5
+    },
+    {
+     "rank": 13,
+     "venue_display": "Accident; analysis and prevention",
+     "venue_key": "accident; analysis and prevention",
+     "count": 34,
+     "cum_pct": 16.1
+    },
+    {
+     "rank": 14,
+     "venue_display": "Trente ans après La Distinction, de Pierre Bourdieu",
+     "venue_key": "trente ans après la distinction, de pierre bourdieu",
+     "count": 30,
+     "cum_pct": 16.7
+    },
+    {
+     "rank": 15,
+     "venue_display": "Palgrave Studies in Cultural Participation",
+     "venue_key": "palgrave studies in cultural participation",
+     "count": 29,
+     "cum_pct": 17.3
+    },
+    {
+     "rank": 16,
+     "venue_display": "Social &amp; Cultural Geography",
+     "venue_key": "social & cultural geography",
+     "count": 27,
+     "cum_pct": 17.8
+    },
+    {
+     "rank": 17,
+     "venue_display": "A Taste of Latino Cultures: Un Toque de Sabor Latino",
+     "venue_key": "a taste of latino cultures: un toque de sabor latino",
+     "count": 27,
+     "cum_pct": 18.3
+    },
+    {
+     "rank": 18,
+     "venue_display": "Nutrients",
+     "venue_key": "nutrients",
+     "count": 26,
+     "cum_pct": 18.8
+    },
+    {
+     "rank": 19,
+     "venue_display": "Multiple Correspondence Analysis and Related Methods",
+     "venue_key": "multiple correspondence analysis and related methods",
+     "count": 23,
+     "cum_pct": 19.2
+    },
+    {
+     "rank": 20,
+     "venue_display": "Sociology",
+     "venue_key": "sociology",
+     "count": 22,
+     "cum_pct": 19.7
+    },
+    {
+     "rank": 21,
+     "venue_display": "Computational Statistics &amp; Data Analysis",
+     "venue_key": "computational statistics & data analysis",
+     "count": 21,
+     "cum_pct": 20.1
+    },
+    {
+     "rank": 22,
+     "venue_display": "Highbrow/Lowbrow",
+     "venue_key": "highbrow/lowbrow",
+     "count": 21,
+     "cum_pct": 20.5
+    },
+    {
+     "rank": 23,
+     "venue_display": "Contemporary Sociology",
+     "venue_key": "contemporary sociology",
+     "count": 19,
+     "cum_pct": 20.8
+    },
+    {
+     "rank": 24,
+     "venue_display": "Frontiers in psychology",
+     "venue_key": "frontiers in psychology",
+     "count": 18,
+     "cum_pct": 21.2
+    },
+    {
+     "rank": 25,
+     "venue_display": "International journal of environmental research and public health",
+     "venue_key": "international journal of environmental research and public health",
+     "count": 18,
+     "cum_pct": 21.5
+    },
+    {
+     "rank": 26,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 18,
+     "cum_pct": 21.9
+    },
+    {
+     "rank": 27,
+     "venue_display": "The Cultural Intermediaries Reader",
+     "venue_key": "the cultural intermediaries reader",
+     "count": 17,
+     "cum_pct": 22.2
+    },
+    {
+     "rank": 28,
+     "venue_display": "Applied Latent Class Analysis",
+     "venue_key": "applied latent class analysis",
+     "count": 17,
+     "cum_pct": 22.5
+    },
+    {
+     "rank": 29,
+     "venue_display": "Physical and Symbolic Borders and Boundaries and How They Unfold in Space",
+     "venue_key": "physical and symbolic borders and boundaries and how they unfold in space",
+     "count": 17,
+     "cum_pct": 22.9
+    },
+    {
+     "rank": 30,
+     "venue_display": "Understanding Cultural Taste",
+     "venue_key": "understanding cultural taste",
+     "count": 16,
+     "cum_pct": 23.2
+    },
+    {
+     "rank": 31,
+     "venue_display": "CRAN: Contributed Packages",
+     "venue_key": "cran: contributed packages",
+     "count": 16,
+     "cum_pct": 23.5
+    },
+    {
+     "rank": 32,
+     "venue_display": "The Consumption of Inequality",
+     "venue_key": "the consumption of inequality",
+     "count": 16,
+     "cum_pct": 23.8
+    },
+    {
+     "rank": 33,
+     "venue_display": "The Musical Times",
+     "venue_key": "the musical times",
+     "count": 15,
+     "cum_pct": 24.1
+    },
+    {
+     "rank": 34,
+     "venue_display": "European Journal of Cultural Studies",
+     "venue_key": "european journal of cultural studies",
+     "count": 15,
+     "cum_pct": 24.4
+    },
+    {
+     "rank": 35,
+     "venue_display": "Cultures of Taste/Theories of Appetite",
+     "venue_key": "cultures of taste/theories of appetite",
+     "count": 14,
+     "cum_pct": 24.6
+    },
+    {
+     "rank": 36,
+     "venue_display": "International Journal of Cultural Policy",
+     "venue_key": "international journal of cultural policy",
+     "count": 14,
+     "cum_pct": 24.9
+    },
+    {
+     "rank": 37,
+     "venue_display": "Creativity and Cultural Production",
+     "venue_key": "creativity and cultural production",
+     "count": 14,
+     "cum_pct": 25.2
+    },
+    {
+     "rank": 38,
+     "venue_display": "Popular culture and working-class taste in Britain, 1930–39",
+     "venue_key": "popular culture and working-class taste in britain, –39",
+     "count": 14,
+     "cum_pct": 25.4
+    },
+    {
+     "rank": 39,
+     "venue_display": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+     "venue_key": "supportive care in cancer : official journal of the multinational association of supportive care in cancer",
+     "count": 14,
+     "cum_pct": 25.7
+    },
+    {
+     "rank": 40,
+     "venue_display": "Journal of Cultural Economics",
+     "venue_key": "journal of cultural economics",
+     "count": 13,
+     "cum_pct": 26.0
+    }
+   ]
+  },
+  "taste-psychology": {
+   "name": "취향 구조 심리학",
+   "records": 5564,
+   "unique": 2198,
+   "coverage": {
+    "records": 5564,
+    "unique": 2198,
+    "cov20": 22.6,
+    "cov30": 26.8,
+    "cov40": 29.7,
+    "cov100": 42.1
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "Personality and Individual Differences",
+     "venue_key": "personality and individual differences",
+     "count": 197,
+     "cum_pct": 3.5
+    },
+    {
+     "rank": 2,
+     "venue_display": "Food Quality and Preference",
+     "venue_key": "food quality and preference",
+     "count": 124,
+     "cum_pct": 5.8
+    },
+    {
+     "rank": 3,
+     "venue_display": "PloS one",
+     "venue_key": "plos one",
+     "count": 115,
+     "cum_pct": 7.8
+    },
+    {
+     "rank": 4,
+     "venue_display": "Frontiers in psychology",
+     "venue_key": "frontiers in psychology",
+     "count": 109,
+     "cum_pct": 9.8
+    },
+    {
+     "rank": 5,
+     "venue_display": "Journal of Personality and Social Psychology",
+     "venue_key": "journal of personality and social psychology",
+     "count": 68,
+     "cum_pct": 11.0
+    },
+    {
+     "rank": 6,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 67,
+     "cum_pct": 12.2
+    },
+    {
+     "rank": 7,
+     "venue_display": "Empirical Studies of the Arts",
+     "venue_key": "empirical studies of the arts",
+     "count": 56,
+     "cum_pct": 13.2
+    },
+    {
+     "rank": 8,
+     "venue_display": "Psychology of Music",
+     "venue_key": "psychology of music",
+     "count": 53,
+     "cum_pct": 14.2
+    },
+    {
+     "rank": 9,
+     "venue_display": "Perceptual and Motor Skills",
+     "venue_key": "perceptual and motor skills",
+     "count": 50,
+     "cum_pct": 15.1
+    },
+    {
+     "rank": 10,
+     "venue_display": "The Oxford Handbook of Empirical Aesthetics",
+     "venue_key": "the oxford handbook of empirical aesthetics",
+     "count": 48,
+     "cum_pct": 15.9
+    },
+    {
+     "rank": 11,
+     "venue_display": "Aesthetic plastic surgery",
+     "venue_key": "aesthetic plastic surgery",
+     "count": 48,
+     "cum_pct": 16.8
+    },
+    {
+     "rank": 12,
+     "venue_display": "Journal of Aesthetic Education",
+     "venue_key": "journal of aesthetic education",
+     "count": 46,
+     "cum_pct": 17.6
+    },
+    {
+     "rank": 13,
+     "venue_display": "Journal of Plastic, Reconstructive &amp; Aesthetic Surgery",
+     "venue_key": "journal of plastic, reconstructive & aesthetic surgery",
+     "count": 46,
+     "cum_pct": 18.5
+    },
+    {
+     "rank": 14,
+     "venue_display": "Psychology of Aesthetics, Creativity, and the Arts",
+     "venue_key": "psychology of aesthetics, creativity, and the arts",
+     "count": 41,
+     "cum_pct": 19.2
+    },
+    {
+     "rank": 15,
+     "venue_display": "Acta psychologica",
+     "venue_key": "acta psychologica",
+     "count": 39,
+     "cum_pct": 19.9
+    },
+    {
+     "rank": 16,
+     "venue_display": "Aesthetic Surgery Journal",
+     "venue_key": "aesthetic surgery journal",
+     "count": 37,
+     "cum_pct": 20.6
+    },
+    {
+     "rank": 17,
+     "venue_display": "Appetite",
+     "venue_key": "appetite",
+     "count": 30,
+     "cum_pct": 21.1
+    },
+    {
+     "rank": 18,
+     "venue_display": "Journal of Personality",
+     "venue_key": "journal of personality",
+     "count": 28,
+     "cum_pct": 21.6
+    },
+    {
+     "rank": 19,
+     "venue_display": "Journal of Vision",
+     "venue_key": "journal of vision",
+     "count": 28,
+     "cum_pct": 22.1
+    },
+    {
+     "rank": 20,
+     "venue_display": "Journal of Research in Music Education",
+     "venue_key": "journal of research in music education",
+     "count": 27,
+     "cum_pct": 22.6
+    },
+    {
+     "rank": 21,
+     "venue_display": "The Journal of Aesthetics and Art Criticism",
+     "venue_key": "the journal of aesthetics and art criticism",
+     "count": 27,
+     "cum_pct": 23.1
+    },
+    {
+     "rank": 22,
+     "venue_display": "Encyclopedia of Personality and Individual Differences",
+     "venue_key": "encyclopedia of personality and individual differences",
+     "count": 25,
+     "cum_pct": 23.5
+    },
+    {
+     "rank": 23,
+     "venue_display": "British journal of psychology (London, England : 1953)",
+     "venue_key": "british journal of psychology",
+     "count": 24,
+     "cum_pct": 24.0
+    },
+    {
+     "rank": 24,
+     "venue_display": "Film Genre",
+     "venue_key": "film genre",
+     "count": 24,
+     "cum_pct": 24.4
+    },
+    {
+     "rank": 25,
+     "venue_display": "Film Genre Reader IV",
+     "venue_key": "film genre reader iv",
+     "count": 23,
+     "cum_pct": 24.8
+    },
+    {
+     "rank": 26,
+     "venue_display": "Personality disorders and the five-factor model of personality (3rd ed.).",
+     "venue_key": "personality disorders and the five-factor model of personality (3rd ed.)",
+     "count": 23,
+     "cum_pct": 25.2
+    },
+    {
+     "rank": 27,
+     "venue_display": "Psychological Reports",
+     "venue_key": "psychological reports",
+     "count": 22,
+     "cum_pct": 25.6
+    },
+    {
+     "rank": 28,
+     "venue_display": "Learning and Individual Differences",
+     "venue_key": "learning and individual differences",
+     "count": 22,
+     "cum_pct": 26.0
+    },
+    {
+     "rank": 29,
+     "venue_display": "Oxford Handbooks Online",
+     "venue_key": "oxford handbooks online",
+     "count": 21,
+     "cum_pct": 26.4
+    },
+    {
+     "rank": 30,
+     "venue_display": "Studies in Art Education",
+     "venue_key": "studies in art education",
+     "count": 21,
+     "cum_pct": 26.8
+    },
+    {
+     "rank": 31,
+     "venue_display": "The Television Genre Book",
+     "venue_key": "the television genre book",
+     "count": 21,
+     "cum_pct": 27.1
+    },
+    {
+     "rank": 32,
+     "venue_display": "Complexity",
+     "venue_key": "complexity",
+     "count": 19,
+     "cum_pct": 27.5
+    },
+    {
+     "rank": 33,
+     "venue_display": "Journal of Music Therapy",
+     "venue_key": "journal of music therapy",
+     "count": 17,
+     "cum_pct": 27.8
+    },
+    {
+     "rank": 34,
+     "venue_display": "The Genre of the Book of Revelation from a Source-critical Perspective",
+     "venue_key": "the genre of the book of revelation from a source-critical perspective",
+     "count": 17,
+     "cum_pct": 28.1
+    },
+    {
+     "rank": 35,
+     "venue_display": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+     "venue_key": "the journal of neuroscience : the official journal of the society for neuroscience",
+     "count": 17,
+     "cum_pct": 28.4
+    },
+    {
+     "rank": 36,
+     "venue_display": "Kant’s ›Critique of Aesthetic Judgment‹ in the 20th Century",
+     "venue_key": "kant’s ›critique of aesthetic judgment‹ in the 20th century",
+     "count": 15,
+     "cum_pct": 28.7
+    },
+    {
+     "rank": 37,
+     "venue_display": "Neuropsychologia",
+     "venue_key": "neuropsychologia",
+     "count": 15,
+     "cum_pct": 28.9
+    },
+    {
+     "rank": 38,
+     "venue_display": "i-Perception",
+     "venue_key": "i-perception",
+     "count": 15,
+     "cum_pct": 29.2
+    },
+    {
+     "rank": 39,
+     "venue_display": "NeuroImage",
+     "venue_key": "neuroimage",
+     "count": 15,
+     "cum_pct": 29.5
+    },
+    {
+     "rank": 40,
+     "venue_display": "Nordic Genre Film",
+     "venue_key": "nordic genre film",
+     "count": 15,
+     "cum_pct": 29.7
+    }
+   ]
+  },
+  "cross-domain-rec": {
+   "name": "교차도메인 추천",
+   "records": 2757,
+   "unique": 1378,
+   "coverage": {
+    "records": 2757,
+    "unique": 1378,
+    "cov20": 21.8,
+    "cov30": 26.5,
+    "cov40": 30.1,
+    "cov100": 41.9
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "IEEE Access",
+     "venue_key": "ieee access",
+     "count": 68,
+     "cum_pct": 2.5
+    },
+    {
+     "rank": 2,
+     "venue_display": "Knowledge-Based Systems",
+     "venue_key": "knowledge-based systems",
+     "count": 66,
+     "cum_pct": 4.9
+    },
+    {
+     "rank": 3,
+     "venue_display": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+     "venue_key": "international acm sigir conference on research and development in information retrieval",
+     "count": 45,
+     "cum_pct": 6.5
+    },
+    {
+     "rank": 4,
+     "venue_display": "2024 International Joint Conference on Neural Networks (IJCNN)",
+     "venue_key": "international joint conference on neural networks",
+     "count": 39,
+     "cum_pct": 7.9
+    },
+    {
+     "rank": 5,
+     "venue_display": "Neurocomputing",
+     "venue_key": "neurocomputing",
+     "count": 33,
+     "cum_pct": 9.1
+    },
+    {
+     "rank": 6,
+     "venue_display": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+     "venue_key": "acm international conference on information and knowledge management",
+     "count": 30,
+     "cum_pct": 10.2
+    },
+    {
+     "rank": 7,
+     "venue_display": "Proceedings of the ACM Web Conference 2026",
+     "venue_key": "acm web conference",
+     "count": 28,
+     "cum_pct": 11.2
+    },
+    {
+     "rank": 8,
+     "venue_display": "18th ACM Conference on Recommender Systems",
+     "venue_key": "acm conference on recommender systems",
+     "count": 28,
+     "cum_pct": 12.2
+    },
+    {
+     "rank": 9,
+     "venue_display": "Proceedings of the AAAI Conference on Artificial Intelligence",
+     "venue_key": "aaai conference on artificial intelligence",
+     "count": 27,
+     "cum_pct": 13.2
+    },
+    {
+     "rank": 10,
+     "venue_display": "Proceedings of the 31st ACM International Conference on Multimedia",
+     "venue_key": "acm international conference on multimedia",
+     "count": 27,
+     "cum_pct": 14.2
+    },
+    {
+     "rank": 11,
+     "venue_display": "ACM Transactions on Information Systems",
+     "venue_key": "acm transactions on information systems",
+     "count": 27,
+     "cum_pct": 15.2
+    },
+    {
+     "rank": 12,
+     "venue_display": "User Modeling and User-Adapted Interaction",
+     "venue_key": "user modeling and user-adapted interaction",
+     "count": 26,
+     "cum_pct": 16.1
+    },
+    {
+     "rank": 13,
+     "venue_display": "Expert Systems with Applications",
+     "venue_key": "expert systems with applications",
+     "count": 24,
+     "cum_pct": 17.0
+    },
+    {
+     "rank": 14,
+     "venue_display": "Transfer Learning",
+     "venue_key": "transfer learning",
+     "count": 21,
+     "cum_pct": 17.7
+    },
+    {
+     "rank": 15,
+     "venue_display": "Information Sciences",
+     "venue_key": "information sciences",
+     "count": 20,
+     "cum_pct": 18.5
+    },
+    {
+     "rank": 16,
+     "venue_display": "Proceedings of the 10th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+     "venue_key": "international joint conference on knowledge discovery, knowledge engineering and knowledge management",
+     "count": 20,
+     "cum_pct": 19.2
+    },
+    {
+     "rank": 17,
+     "venue_display": "Shared Space",
+     "venue_key": "shared space",
+     "count": 19,
+     "cum_pct": 19.9
+    },
+    {
+     "rank": 18,
+     "venue_display": "IEEE Transactions on Knowledge and Data Engineering",
+     "venue_key": "ieee transactions on knowledge and data engineering",
+     "count": 18,
+     "cum_pct": 20.5
+    },
+    {
+     "rank": 19,
+     "venue_display": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+     "venue_key": "acm conference on user modeling, adaptation and personalization",
+     "count": 17,
+     "cum_pct": 21.1
+    },
+    {
+     "rank": 20,
+     "venue_display": "2025 IEEE International Conference on Big Data (BigData)",
+     "venue_key": "ieee international conference on big data",
+     "count": 17,
+     "cum_pct": 21.8
+    },
+    {
+     "rank": 21,
+     "venue_display": "INTERSPEECH 2023",
+     "venue_key": "interspeech",
+     "count": 16,
+     "cum_pct": 22.3
+    },
+    {
+     "rank": 22,
+     "venue_display": "Neural Networks",
+     "venue_key": "neural networks",
+     "count": 16,
+     "cum_pct": 22.9
+    },
+    {
+     "rank": 23,
+     "venue_display": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+     "venue_key": "icassp - ieee international conference on acoustics, speech and signal processing",
+     "count": 14,
+     "cum_pct": 23.4
+    },
+    {
+     "rank": 24,
+     "venue_display": "Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management",
+     "venue_key": "acm international conference on information & knowledge management",
+     "count": 14,
+     "cum_pct": 23.9
+    },
+    {
+     "rank": 25,
+     "venue_display": "Knowledge and Information Systems",
+     "venue_key": "knowledge and information systems",
+     "count": 13,
+     "cum_pct": 24.4
+    },
+    {
+     "rank": 26,
+     "venue_display": "Electronics",
+     "venue_key": "electronics",
+     "count": 12,
+     "cum_pct": 24.8
+    },
+    {
+     "rank": 27,
+     "venue_display": "Pattern Recognition",
+     "venue_key": "pattern recognition",
+     "count": 12,
+     "cum_pct": 25.3
+    },
+    {
+     "rank": 28,
+     "venue_display": "2023 IEEE International Conference on Data Mining (ICDM)",
+     "venue_key": "ieee international conference on data mining",
+     "count": 11,
+     "cum_pct": 25.7
+    },
+    {
+     "rank": 29,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 11,
+     "cum_pct": 26.1
+    },
+    {
+     "rank": 30,
+     "venue_display": "IEEE Transactions on Multimedia",
+     "venue_key": "ieee transactions on multimedia",
+     "count": 11,
+     "cum_pct": 26.5
+    },
+    {
+     "rank": 31,
+     "venue_display": "Information Fusion",
+     "venue_key": "information fusion",
+     "count": 11,
+     "cum_pct": 26.9
+    },
+    {
+     "rank": 32,
+     "venue_display": "ACM Transactions on Knowledge Discovery from Data",
+     "venue_key": "acm transactions on knowledge discovery from data",
+     "count": 11,
+     "cum_pct": 27.3
+    },
+    {
+     "rank": 33,
+     "venue_display": "2021 IEEE International Conference on Multimedia and Expo (ICME)",
+     "venue_key": "ieee international conference on multimedia and expo",
+     "count": 10,
+     "cum_pct": 27.6
+    },
+    {
+     "rank": 34,
+     "venue_display": "Multimedia Tools and Applications",
+     "venue_key": "multimedia tools and applications",
+     "count": 10,
+     "cum_pct": 28.0
+    },
+    {
+     "rank": 35,
+     "venue_display": "Applied Sciences",
+     "venue_key": "applied sciences",
+     "count": 10,
+     "cum_pct": 28.4
+    },
+    {
+     "rank": 36,
+     "venue_display": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+     "venue_key": "acm sigkdd conference on knowledge discovery and data mining v.2",
+     "count": 10,
+     "cum_pct": 28.7
+    },
+    {
+     "rank": 37,
+     "venue_display": "Sensors (Basel, Switzerland)",
+     "venue_key": "sensors",
+     "count": 10,
+     "cum_pct": 29.1
+    },
+    {
+     "rank": 38,
+     "venue_display": "Procedia Computer Science",
+     "venue_key": "procedia computer science",
+     "count": 10,
+     "cum_pct": 29.5
+    },
+    {
+     "rank": 39,
+     "venue_display": "Proceedings of the 10th Workshop on Domain-Specific Modeling",
+     "venue_key": "workshop on domain-specific modeling",
+     "count": 10,
+     "cum_pct": 29.8
+    },
+    {
+     "rank": 40,
+     "venue_display": "Applied Intelligence",
+     "venue_key": "applied intelligence",
+     "count": 9,
+     "cum_pct": 30.1
+    }
+   ]
+  },
+  "representation-learning": {
+   "name": "표현 학습",
+   "records": 4143,
+   "unique": 1773,
+   "coverage": {
+    "records": 4143,
+    "unique": 1773,
+    "cov20": 21.7,
+    "cov30": 26.4,
+    "cov40": 30.1,
+    "cov100": 43.9
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+     "venue_key": "international acm sigir conference on research and development in information retrieval",
+     "count": 157,
+     "cum_pct": 3.8
+    },
+    {
+     "rank": 2,
+     "venue_display": "IEEE Access",
+     "venue_key": "ieee access",
+     "count": 80,
+     "cum_pct": 5.7
+    },
+    {
+     "rank": 3,
+     "venue_display": "Neurocomputing",
+     "venue_key": "neurocomputing",
+     "count": 60,
+     "cum_pct": 7.2
+    },
+    {
+     "rank": 4,
+     "venue_display": "Expert Syst. Appl.",
+     "venue_key": "expert syst. appl",
+     "count": 56,
+     "cum_pct": 8.5
+    },
+    {
+     "rank": 5,
+     "venue_display": "Knowledge-Based Systems",
+     "venue_key": "knowledge-based systems",
+     "count": 55,
+     "cum_pct": 9.8
+    },
+    {
+     "rank": 6,
+     "venue_display": "2024 International Joint Conference on Neural Networks (IJCNN)",
+     "venue_key": "international joint conference on neural networks",
+     "count": 52,
+     "cum_pct": 11.1
+    },
+    {
+     "rank": 7,
+     "venue_display": "18th ACM Conference on Recommender Systems",
+     "venue_key": "acm conference on recommender systems",
+     "count": 43,
+     "cum_pct": 12.1
+    },
+    {
+     "rank": 8,
+     "venue_display": "Proceedings of the ACM Web Conference 2026",
+     "venue_key": "acm web conference",
+     "count": 40,
+     "cum_pct": 13.1
+    },
+    {
+     "rank": 9,
+     "venue_display": "Proceedings of the 34th ACM International Conference on Information and Knowledge Management",
+     "venue_key": "acm international conference on information and knowledge management",
+     "count": 40,
+     "cum_pct": 14.1
+    },
+    {
+     "rank": 10,
+     "venue_display": "Proceedings of the AAAI Conference on Artificial Intelligence",
+     "venue_key": "aaai conference on artificial intelligence",
+     "count": 36,
+     "cum_pct": 14.9
+    },
+    {
+     "rank": 11,
+     "venue_display": "Expert Systems with Applications",
+     "venue_key": "expert systems with applications",
+     "count": 34,
+     "cum_pct": 15.8
+    },
+    {
+     "rank": 12,
+     "venue_display": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+     "venue_key": "conference on empirical methods in natural language processing",
+     "count": 30,
+     "cum_pct": 16.5
+    },
+    {
+     "rank": 13,
+     "venue_display": "Applied Sciences",
+     "venue_key": "applied sciences",
+     "count": 30,
+     "cum_pct": 17.2
+    },
+    {
+     "rank": 14,
+     "venue_display": "Electronics",
+     "venue_key": "electronics",
+     "count": 29,
+     "cum_pct": 17.9
+    },
+    {
+     "rank": 15,
+     "venue_display": "Neural Networks",
+     "venue_key": "neural networks",
+     "count": 28,
+     "cum_pct": 18.6
+    },
+    {
+     "rank": 16,
+     "venue_display": "Journal of Visual Communication and Image Representation",
+     "venue_key": "journal of visual communication and image representation",
+     "count": 28,
+     "cum_pct": 19.3
+    },
+    {
+     "rank": 17,
+     "venue_display": "Proceedings of the Nineteenth ACM Conference on Recommender Systems",
+     "venue_key": "nineteenth acm conference on recommender systems",
+     "count": 27,
+     "cum_pct": 19.9
+    },
+    {
+     "rank": 18,
+     "venue_display": "SIGIR",
+     "venue_key": "sigir",
+     "count": 27,
+     "cum_pct": 20.6
+    },
+    {
+     "rank": 19,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 24,
+     "cum_pct": 21.1
+    },
+    {
+     "rank": 20,
+     "venue_display": "User Modeling and User-Adapted Interaction",
+     "venue_key": "user modeling and user-adapted interaction",
+     "count": 23,
+     "cum_pct": 21.7
+    },
+    {
+     "rank": 21,
+     "venue_display": "AAAI",
+     "venue_key": "aaai",
+     "count": 23,
+     "cum_pct": 22.3
+    },
+    {
+     "rank": 22,
+     "venue_display": "Proceedings of the 31st ACM International Conference on Multimedia",
+     "venue_key": "acm international conference on multimedia",
+     "count": 22,
+     "cum_pct": 22.8
+    },
+    {
+     "rank": 23,
+     "venue_display": "Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management",
+     "venue_key": "acm international conference on information & knowledge management",
+     "count": 21,
+     "cum_pct": 23.3
+    },
+    {
+     "rank": 24,
+     "venue_display": "2025 IEEE International Conference on Big Data (BigData)",
+     "venue_key": "ieee international conference on big data",
+     "count": 20,
+     "cum_pct": 23.8
+    },
+    {
+     "rank": 25,
+     "venue_display": "Findings of the Association for Computational Linguistics: ACL 2025",
+     "venue_key": "findings of the association for computational linguistics: acl",
+     "count": 19,
+     "cum_pct": 24.2
+    },
+    {
+     "rank": 26,
+     "venue_display": "ACM Trans. Inf. Syst.",
+     "venue_key": "acm trans. inf. syst",
+     "count": 19,
+     "cum_pct": 24.7
+    },
+    {
+     "rank": 27,
+     "venue_display": "ACM Transactions on Information Systems",
+     "venue_key": "acm transactions on information systems",
+     "count": 18,
+     "cum_pct": 25.1
+    },
+    {
+     "rank": 28,
+     "venue_display": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+     "venue_key": "findings of the association for computational linguistics: emnlp",
+     "count": 18,
+     "cum_pct": 25.6
+    },
+    {
+     "rank": 29,
+     "venue_display": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+     "venue_key": "icassp - ieee international conference on acoustics, speech and signal processing",
+     "count": 18,
+     "cum_pct": 26.0
+    },
+    {
+     "rank": 30,
+     "venue_display": "Information Sciences",
+     "venue_key": "information sciences",
+     "count": 17,
+     "cum_pct": 26.4
+    },
+    {
+     "rank": 31,
+     "venue_display": "Mathematics",
+     "venue_key": "mathematics",
+     "count": 17,
+     "cum_pct": 26.8
+    },
+    {
+     "rank": 32,
+     "venue_display": "Knowl. Based Syst.",
+     "venue_key": "knowl. based syst",
+     "count": 17,
+     "cum_pct": 27.2
+    },
+    {
+     "rank": 33,
+     "venue_display": "Information Processing &amp; Management",
+     "venue_key": "information processing & management",
+     "count": 16,
+     "cum_pct": 27.6
+    },
+    {
+     "rank": 34,
+     "venue_display": "Applied Soft Computing",
+     "venue_key": "applied soft computing",
+     "count": 15,
+     "cum_pct": 28.0
+    },
+    {
+     "rank": 35,
+     "venue_display": "IEEE Transactions on Multimedia",
+     "venue_key": "ieee transactions on multimedia",
+     "count": 15,
+     "cum_pct": 28.3
+    },
+    {
+     "rank": 36,
+     "venue_display": "INTERSPEECH 2023",
+     "venue_key": "interspeech",
+     "count": 15,
+     "cum_pct": 28.7
+    },
+    {
+     "rank": 37,
+     "venue_display": "IEEE Trans. Knowl. Data Eng.",
+     "venue_key": "ieee trans. knowl. data eng",
+     "count": 15,
+     "cum_pct": 29.1
+    },
+    {
+     "rank": 38,
+     "venue_display": "DASFAA",
+     "venue_key": "dasfaa",
+     "count": 15,
+     "cum_pct": 29.4
+    },
+    {
+     "rank": 39,
+     "venue_display": "Information Fusion",
+     "venue_key": "information fusion",
+     "count": 14,
+     "cum_pct": 29.8
+    },
+    {
+     "rank": 40,
+     "venue_display": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+     "venue_key": "annual meeting of the association for computational linguistics",
+     "count": 14,
+     "cum_pct": 30.1
+    }
+   ]
+  },
+  "consumer-behavior": {
+   "name": "소비자행동",
+   "records": 5494,
+   "unique": 2735,
+   "coverage": {
+    "records": 5494,
+    "unique": 2735,
+    "cov20": 14.1,
+    "cov30": 17.9,
+    "cov40": 21.1,
+    "cov100": 32.0
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "Appetite",
+     "venue_key": "appetite",
+     "count": 94,
+     "cum_pct": 1.7
+    },
+    {
+     "rank": 2,
+     "venue_display": "Frontiers in psychology",
+     "venue_key": "frontiers in psychology",
+     "count": 67,
+     "cum_pct": 2.9
+    },
+    {
+     "rank": 3,
+     "venue_display": "Consumption Markets &amp; Culture",
+     "venue_key": "consumption markets & culture",
+     "count": 58,
+     "cum_pct": 4.0
+    },
+    {
+     "rank": 4,
+     "venue_display": "PloS one",
+     "venue_key": "plos one",
+     "count": 54,
+     "cum_pct": 5.0
+    },
+    {
+     "rank": 5,
+     "venue_display": "Brain Stimulation",
+     "venue_key": "brain stimulation",
+     "count": 53,
+     "cum_pct": 5.9
+    },
+    {
+     "rank": 6,
+     "venue_display": "Symbolic Interaction",
+     "venue_key": "symbolic interaction",
+     "count": 49,
+     "cum_pct": 6.8
+    },
+    {
+     "rank": 7,
+     "venue_display": "Journal of Retailing and Consumer Services",
+     "venue_key": "journal of retailing and consumer services",
+     "count": 39,
+     "cum_pct": 7.5
+    },
+    {
+     "rank": 8,
+     "venue_display": "Marketing Education Review",
+     "venue_key": "marketing education review",
+     "count": 36,
+     "cum_pct": 8.2
+    },
+    {
+     "rank": 9,
+     "venue_display": "Journal of Consumer Research",
+     "venue_key": "journal of consumer research",
+     "count": 32,
+     "cum_pct": 8.8
+    },
+    {
+     "rank": 10,
+     "venue_display": "Physiology & behavior",
+     "venue_key": "physiology & behavior",
+     "count": 30,
+     "cum_pct": 9.3
+    },
+    {
+     "rank": 11,
+     "venue_display": "Acta psychologica",
+     "venue_key": "acta psychologica",
+     "count": 29,
+     "cum_pct": 9.8
+    },
+    {
+     "rank": 12,
+     "venue_display": "Journal of Marketing Theory and Practice",
+     "venue_key": "journal of marketing theory and practice",
+     "count": 29,
+     "cum_pct": 10.4
+    },
+    {
+     "rank": 13,
+     "venue_display": "Journal of Consumer Culture",
+     "venue_key": "journal of consumer culture",
+     "count": 28,
+     "cum_pct": 10.9
+    },
+    {
+     "rank": 14,
+     "venue_display": "Nutrients",
+     "venue_key": "nutrients",
+     "count": 28,
+     "cum_pct": 11.4
+    },
+    {
+     "rank": 15,
+     "venue_display": "Foods (Basel, Switzerland)",
+     "venue_key": "foods",
+     "count": 27,
+     "cum_pct": 11.9
+    },
+    {
+     "rank": 16,
+     "venue_display": "Association of Marketing Theory and Practice Proceedings",
+     "venue_key": "association of marketing theory and practice proceedings",
+     "count": 26,
+     "cum_pct": 12.4
+    },
+    {
+     "rank": 17,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 26,
+     "cum_pct": 12.8
+    },
+    {
+     "rank": 18,
+     "venue_display": "BMC public health",
+     "venue_key": "bmc public health",
+     "count": 24,
+     "cum_pct": 13.3
+    },
+    {
+     "rank": 19,
+     "venue_display": "Journal of Consumer Psychology",
+     "venue_key": "journal of consumer psychology",
+     "count": 24,
+     "cum_pct": 13.7
+    },
+    {
+     "rank": 20,
+     "venue_display": "The extended self",
+     "venue_key": "the extended self",
+     "count": 24,
+     "cum_pct": 14.1
+    },
+    {
+     "rank": 21,
+     "venue_display": "Sustainable Production and Consumption",
+     "venue_key": "sustainable production and consumption",
+     "count": 22,
+     "cum_pct": 14.5
+    },
+    {
+     "rank": 22,
+     "venue_display": "Writing and Editing for Digital Media",
+     "venue_key": "writing and editing for digital media",
+     "count": 22,
+     "cum_pct": 14.9
+    },
+    {
+     "rank": 23,
+     "venue_display": "Tales of extraordinary experience",
+     "venue_key": "tales of extraordinary experience",
+     "count": 22,
+     "cum_pct": 15.3
+    },
+    {
+     "rank": 24,
+     "venue_display": "International journal of environmental research and public health",
+     "venue_key": "international journal of environmental research and public health",
+     "count": 22,
+     "cum_pct": 15.7
+    },
+    {
+     "rank": 25,
+     "venue_display": "Heliyon",
+     "venue_key": "heliyon",
+     "count": 21,
+     "cum_pct": 16.1
+    },
+    {
+     "rank": 26,
+     "venue_display": "Journal of Consumer Behaviour",
+     "venue_key": "journal of consumer behaviour",
+     "count": 21,
+     "cum_pct": 16.5
+    },
+    {
+     "rank": 27,
+     "venue_display": "Sustainability",
+     "venue_key": "sustainability",
+     "count": 20,
+     "cum_pct": 16.9
+    },
+    {
+     "rank": 28,
+     "venue_display": "Binge-Watching and Contemporary Television Research",
+     "venue_key": "binge-watching and contemporary television research",
+     "count": 20,
+     "cum_pct": 17.2
+    },
+    {
+     "rank": 29,
+     "venue_display": "Simulation Modelling Practice and Theory",
+     "venue_key": "simulation modelling practice and theory",
+     "count": 20,
+     "cum_pct": 17.6
+    },
+    {
+     "rank": 30,
+     "venue_display": "AEA Randomized Controlled Trials",
+     "venue_key": "aea randomized controlled trials",
+     "count": 19,
+     "cum_pct": 17.9
+    },
+    {
+     "rank": 31,
+     "venue_display": "Journal of Business Research",
+     "venue_key": "journal of business research",
+     "count": 19,
+     "cum_pct": 18.3
+    },
+    {
+     "rank": 32,
+     "venue_display": "Food research international (Ottawa, Ont.)",
+     "venue_key": "food research international",
+     "count": 18,
+     "cum_pct": 18.6
+    },
+    {
+     "rank": 33,
+     "venue_display": "The Routledge Companion to Identity and Consumption",
+     "venue_key": "the routledge companion to identity and consumption",
+     "count": 18,
+     "cum_pct": 18.9
+    },
+    {
+     "rank": 34,
+     "venue_display": "Miracles and Extraordinary Experience in Northern Kenya",
+     "venue_key": "miracles and extraordinary experience in northern kenya",
+     "count": 18,
+     "cum_pct": 19.3
+    },
+    {
+     "rank": 35,
+     "venue_display": "Journal of food science",
+     "venue_key": "journal of food science",
+     "count": 18,
+     "cum_pct": 19.6
+    },
+    {
+     "rank": 36,
+     "venue_display": "Binge-Watching and Contemporary Television Studies",
+     "venue_key": "binge-watching and contemporary television studies",
+     "count": 17,
+     "cum_pct": 19.9
+    },
+    {
+     "rank": 37,
+     "venue_display": "Behavioral sciences (Basel, Switzerland)",
+     "venue_key": "behavioral sciences",
+     "count": 17,
+     "cum_pct": 20.2
+    },
+    {
+     "rank": 38,
+     "venue_display": "Psychology &amp; Marketing",
+     "venue_key": "psychology & marketing",
+     "count": 17,
+     "cum_pct": 20.5
+    },
+    {
+     "rank": 39,
+     "venue_display": "The Routledge Handbook of Identity and Consumption",
+     "venue_key": "the routledge handbook of identity and consumption",
+     "count": 17,
+     "cum_pct": 20.8
+    },
+    {
+     "rank": 40,
+     "venue_display": "International Journal of Science and Research (IJSR)",
+     "venue_key": "international journal of science and research",
+     "count": 16,
+     "cum_pct": 21.1
+    }
+   ]
+  },
+  "similarity-attraction": {
+   "name": "취향 유사성과 관계",
+   "records": 3525,
+   "unique": 1574,
+   "coverage": {
+    "records": 3525,
+    "unique": 1574,
+    "cov20": 19.3,
+    "cov30": 23.9,
+    "cov40": 27.5,
+    "cov100": 40.3
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "Journal of Personality and Social Psychology",
+     "venue_key": "journal of personality and social psychology",
+     "count": 102,
+     "cum_pct": 2.9
+    },
+    {
+     "rank": 2,
+     "venue_display": "PloS one",
+     "venue_key": "plos one",
+     "count": 69,
+     "cum_pct": 4.9
+    },
+    {
+     "rank": 3,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 60,
+     "cum_pct": 6.6
+    },
+    {
+     "rank": 4,
+     "venue_display": "Social Networks",
+     "venue_key": "social networks",
+     "count": 35,
+     "cum_pct": 7.5
+    },
+    {
+     "rank": 5,
+     "venue_display": "Journal of Personality",
+     "venue_key": "journal of personality",
+     "count": 34,
+     "cum_pct": 8.5
+    },
+    {
+     "rank": 6,
+     "venue_display": "Psychological Reports",
+     "venue_key": "psychological reports",
+     "count": 33,
+     "cum_pct": 9.4
+    },
+    {
+     "rank": 7,
+     "venue_display": "Africa Research Bulletin: Political, Social and Cultural Series",
+     "venue_key": "africa research bulletin: political, social and cultural series",
+     "count": 33,
+     "cum_pct": 10.4
+    },
+    {
+     "rank": 8,
+     "venue_display": "Evolution",
+     "venue_key": "evolution",
+     "count": 32,
+     "cum_pct": 11.3
+    },
+    {
+     "rank": 9,
+     "venue_display": "1978 IEEE International Symposium on Electromagnetic Compatibility",
+     "venue_key": "ieee international symposium on electromagnetic compatibility",
+     "count": 30,
+     "cum_pct": 12.1
+    },
+    {
+     "rank": 10,
+     "venue_display": "Proceedings of the National Academy of Sciences of the United States of America",
+     "venue_key": "national academy of sciences of the united states of america",
+     "count": 30,
+     "cum_pct": 13.0
+    },
+    {
+     "rank": 11,
+     "venue_display": "Frontiers in psychology",
+     "venue_key": "frontiers in psychology",
+     "count": 27,
+     "cum_pct": 13.8
+    },
+    {
+     "rank": 12,
+     "venue_display": "Personality & social psychology bulletin",
+     "venue_key": "personality & social psychology bulletin",
+     "count": 25,
+     "cum_pct": 14.5
+    },
+    {
+     "rank": 13,
+     "venue_display": "Evolution; international journal of organic evolution",
+     "venue_key": "evolution; international journal of organic evolution",
+     "count": 25,
+     "cum_pct": 15.2
+    },
+    {
+     "rank": 14,
+     "venue_display": "The Journal of Social Psychology",
+     "venue_key": "the journal of social psychology",
+     "count": 24,
+     "cum_pct": 15.9
+    },
+    {
+     "rank": 15,
+     "venue_display": "The Analysis of Actual Versus Perceived Risks",
+     "venue_key": "the analysis of actual versus perceived risks",
+     "count": 24,
+     "cum_pct": 16.5
+    },
+    {
+     "rank": 16,
+     "venue_display": "AEA Randomized Controlled Trials",
+     "venue_key": "aea randomized controlled trials",
+     "count": 23,
+     "cum_pct": 17.2
+    },
+    {
+     "rank": 17,
+     "venue_display": "Journal of family psychology : JFP : journal of the Division of Family Psychology of the American Psychological Association (Division 43)",
+     "venue_key": "journal of family psychology : jfp : journal of the division of family psychology of the american psychological association",
+     "count": 19,
+     "cum_pct": 17.7
+    },
+    {
+     "rank": 18,
+     "venue_display": "Archives of sexual behavior",
+     "venue_key": "archives of sexual behavior",
+     "count": 19,
+     "cum_pct": 18.3
+    },
+    {
+     "rank": 19,
+     "venue_display": "Personality and Individual Differences",
+     "venue_key": "personality and individual differences",
+     "count": 18,
+     "cum_pct": 18.8
+    },
+    {
+     "rank": 20,
+     "venue_display": "Family Relations",
+     "venue_key": "family relations",
+     "count": 18,
+     "cum_pct": 19.3
+    },
+    {
+     "rank": 21,
+     "venue_display": "Journal of Research in Personality",
+     "venue_key": "journal of research in personality",
+     "count": 18,
+     "cum_pct": 19.8
+    },
+    {
+     "rank": 22,
+     "venue_display": "Social science & medicine (1982)",
+     "venue_key": "social science & medicine",
+     "count": 18,
+     "cum_pct": 20.3
+    },
+    {
+     "rank": 23,
+     "venue_display": "Journal of evolutionary biology",
+     "venue_key": "journal of evolutionary biology",
+     "count": 18,
+     "cum_pct": 20.8
+    },
+    {
+     "rank": 24,
+     "venue_display": "Psychonomic Science",
+     "venue_key": "psychonomic science",
+     "count": 17,
+     "cum_pct": 21.3
+    },
+    {
+     "rank": 25,
+     "venue_display": "International journal of environmental research and public health",
+     "venue_key": "international journal of environmental research and public health",
+     "count": 16,
+     "cum_pct": 21.8
+    },
+    {
+     "rank": 26,
+     "venue_display": "Psychological science",
+     "venue_key": "psychological science",
+     "count": 16,
+     "cum_pct": 22.2
+    },
+    {
+     "rank": 27,
+     "venue_display": "Academy of Management Proceedings",
+     "venue_key": "academy of management proceedings",
+     "count": 15,
+     "cum_pct": 22.6
+    },
+    {
+     "rank": 28,
+     "venue_display": "Journal of Social and Personal Relationships",
+     "venue_key": "journal of social and personal relationships",
+     "count": 15,
+     "cum_pct": 23.1
+    },
+    {
+     "rank": 29,
+     "venue_display": "The American naturalist",
+     "venue_key": "the american naturalist",
+     "count": 15,
+     "cum_pct": 23.5
+    },
+    {
+     "rank": 30,
+     "venue_display": "Proceedings. Biological sciences",
+     "venue_key": "proceedings. biological sciences",
+     "count": 15,
+     "cum_pct": 23.9
+    },
+    {
+     "rank": 31,
+     "venue_display": "Journal of Family Psychology",
+     "venue_key": "journal of family psychology",
+     "count": 14,
+     "cum_pct": 24.3
+    },
+    {
+     "rank": 32,
+     "venue_display": "Acta psychologica",
+     "venue_key": "acta psychologica",
+     "count": 14,
+     "cum_pct": 24.7
+    },
+    {
+     "rank": 33,
+     "venue_display": "Perceptual and Motor Skills",
+     "venue_key": "perceptual and motor skills",
+     "count": 14,
+     "cum_pct": 25.1
+    },
+    {
+     "rank": 34,
+     "venue_display": "Animal Behaviour",
+     "venue_key": "animal behaviour",
+     "count": 13,
+     "cum_pct": 25.5
+    },
+    {
+     "rank": 35,
+     "venue_display": "Journal of Vision",
+     "venue_key": "journal of vision",
+     "count": 13,
+     "cum_pct": 25.8
+    },
+    {
+     "rank": 36,
+     "venue_display": "Personal Relationships",
+     "venue_key": "personal relationships",
+     "count": 12,
+     "cum_pct": 26.2
+    },
+    {
+     "rank": 37,
+     "venue_display": "Family process",
+     "venue_key": "family process",
+     "count": 12,
+     "cum_pct": 26.5
+    },
+    {
+     "rank": 38,
+     "venue_display": "Journal of Counseling Psychology",
+     "venue_key": "journal of counseling psychology",
+     "count": 12,
+     "cum_pct": 26.9
+    },
+    {
+     "rank": 39,
+     "venue_display": "Ecology and evolution",
+     "venue_key": "ecology and evolution",
+     "count": 12,
+     "cum_pct": 27.2
+    },
+    {
+     "rank": 40,
+     "venue_display": "Personality and Social Psychology Bulletin",
+     "venue_key": "personality and social psychology bulletin",
+     "count": 11,
+     "cum_pct": 27.5
+    }
+   ]
+  },
+  "inference-privacy": {
+   "name": "추론과 프라이버시",
+   "records": 3205,
+   "unique": 1696,
+   "coverage": {
+    "records": 3205,
+    "unique": 1696,
+    "cov20": 19.3,
+    "cov30": 22.7,
+    "cov40": 25.6,
+    "cov100": 37.0
+   },
+   "top40": [
+    {
+     "rank": 1,
+     "venue_display": "Journal of Personality Assessment",
+     "venue_key": "journal of personality assessment",
+     "count": 162,
+     "cum_pct": 5.1
+    },
+    {
+     "rank": 2,
+     "venue_display": "Journal of Personality and Social Psychology",
+     "venue_key": "journal of personality and social psychology",
+     "count": 73,
+     "cum_pct": 7.3
+    },
+    {
+     "rank": 3,
+     "venue_display": "18th ACM Conference on Recommender Systems",
+     "venue_key": "acm conference on recommender systems",
+     "count": 52,
+     "cum_pct": 9.0
+    },
+    {
+     "rank": 4,
+     "venue_display": "Scientific reports",
+     "venue_key": "scientific reports",
+     "count": 46,
+     "cum_pct": 10.4
+    },
+    {
+     "rank": 5,
+     "venue_display": "Personality and Individual Differences",
+     "venue_key": "personality and individual differences",
+     "count": 30,
+     "cum_pct": 11.3
+    },
+    {
+     "rank": 6,
+     "venue_display": "PloS one",
+     "venue_key": "plos one",
+     "count": 28,
+     "cum_pct": 12.2
+    },
+    {
+     "rank": 7,
+     "venue_display": "Recommender Systems Handbook",
+     "venue_key": "recommender systems handbook",
+     "count": 27,
+     "cum_pct": 13.0
+    },
+    {
+     "rank": 8,
+     "venue_display": "Journal of medical Internet research",
+     "venue_key": "journal of medical internet research",
+     "count": 25,
+     "cum_pct": 13.8
+    },
+    {
+     "rank": 9,
+     "venue_display": "IEEE Access",
+     "venue_key": "ieee access",
+     "count": 18,
+     "cum_pct": 14.4
+    },
+    {
+     "rank": 10,
+     "venue_display": "Proceedings of the Nineteenth ACM Conference on Recommender Systems",
+     "venue_key": "nineteenth acm conference on recommender systems",
+     "count": 17,
+     "cum_pct": 14.9
+    },
+    {
+     "rank": 11,
+     "venue_display": "Expert Systems with Applications",
+     "venue_key": "expert systems with applications",
+     "count": 16,
+     "cum_pct": 15.4
+    },
+    {
+     "rank": 12,
+     "venue_display": "Sensors (Basel, Switzerland)",
+     "venue_key": "sensors",
+     "count": 16,
+     "cum_pct": 15.9
+    },
+    {
+     "rank": 13,
+     "venue_display": "Fifteenth ACM Conference on Recommender Systems",
+     "venue_key": "fifteenth acm conference on recommender systems",
+     "count": 15,
+     "cum_pct": 16.4
+    },
+    {
+     "rank": 14,
+     "venue_display": "Recommender Systems",
+     "venue_key": "recommender systems",
+     "count": 15,
+     "cum_pct": 16.8
+    },
+    {
+     "rank": 15,
+     "venue_display": "BMJ open",
+     "venue_key": "bmj open",
+     "count": 14,
+     "cum_pct": 17.3
+    },
+    {
+     "rank": 16,
+     "venue_display": "Proceedings of the ACM Web Conference 2026",
+     "venue_key": "acm web conference",
+     "count": 13,
+     "cum_pct": 17.7
+    },
+    {
+     "rank": 17,
+     "venue_display": "Intelligent Information Systems",
+     "venue_key": "intelligent information systems",
+     "count": 13,
+     "cum_pct": 18.1
+    },
+    {
+     "rank": 18,
+     "venue_display": "Rorschach Assessment of the Personality Disorders",
+     "venue_key": "rorschach assessment of the personality disorders",
+     "count": 13,
+     "cum_pct": 18.5
+    },
+    {
+     "rank": 19,
+     "venue_display": "Differential Privacy",
+     "venue_key": "differential privacy",
+     "count": 13,
+     "cum_pct": 18.9
+    },
+    {
+     "rank": 20,
+     "venue_display": "Information Sciences",
+     "venue_key": "information sciences",
+     "count": 12,
+     "cum_pct": 19.3
+    },
+    {
+     "rank": 21,
+     "venue_display": "Journal of Personality",
+     "venue_key": "journal of personality",
+     "count": 12,
+     "cum_pct": 19.7
+    },
+    {
+     "rank": 22,
+     "venue_display": "Proceedings of the National Academy of Sciences of the United States of America",
+     "venue_key": "national academy of sciences of the united states of america",
+     "count": 12,
+     "cum_pct": 20.0
+    },
+    {
+     "rank": 23,
+     "venue_display": "Cyberpsychology, behavior and social networking",
+     "venue_key": "cyberpsychology, behavior and social networking",
+     "count": 12,
+     "cum_pct": 20.4
+    },
+    {
+     "rank": 24,
+     "venue_display": "Knowledge-Based Systems",
+     "venue_key": "knowledge-based systems",
+     "count": 11,
+     "cum_pct": 20.7
+    },
+    {
+     "rank": 25,
+     "venue_display": "Frontiers in public health",
+     "venue_key": "frontiers in public health",
+     "count": 11,
+     "cum_pct": 21.1
+    },
+    {
+     "rank": 26,
+     "venue_display": "International journal of environmental research and public health",
+     "venue_key": "international journal of environmental research and public health",
+     "count": 11,
+     "cum_pct": 21.4
+    },
+    {
+     "rank": 27,
+     "venue_display": "Electronics",
+     "venue_key": "electronics",
+     "count": 10,
+     "cum_pct": 21.7
+    },
+    {
+     "rank": 28,
+     "venue_display": "Sage Open",
+     "venue_key": "sage open",
+     "count": 10,
+     "cum_pct": 22.1
+    },
+    {
+     "rank": 29,
+     "venue_display": "Fourteenth ACM Conference on Recommender Systems",
+     "venue_key": "fourteenth acm conference on recommender systems",
+     "count": 10,
+     "cum_pct": 22.4
+    },
+    {
+     "rank": 30,
+     "venue_display": "ACM Transactions on Information Systems",
+     "venue_key": "acm transactions on information systems",
+     "count": 10,
+     "cum_pct": 22.7
+    },
+    {
+     "rank": 31,
+     "venue_display": "Proceedings of the 11th International Conference on Information Systems Security and Privacy",
+     "venue_key": "international conference on information systems security and privacy",
+     "count": 10,
+     "cum_pct": 23.0
+    },
+    {
+     "rank": 32,
+     "venue_display": "IEEE transactions on neural networks and learning systems",
+     "venue_key": "ieee transactions on neural networks and learning systems",
+     "count": 10,
+     "cum_pct": 23.3
+    },
+    {
+     "rank": 33,
+     "venue_display": "Journal of Research in Personality",
+     "venue_key": "journal of research in personality",
+     "count": 10,
+     "cum_pct": 23.6
+    },
+    {
+     "rank": 34,
+     "venue_display": "Proceedings of 1st international symposium on From digital footprints to social and community intelligence",
+     "venue_key": "international symposium on from digital footprints to social and community intelligence",
+     "count": 10,
+     "cum_pct": 23.9
+    },
+    {
+     "rank": 35,
+     "venue_display": "Frontiers in artificial intelligence",
+     "venue_key": "frontiers in artificial intelligence",
+     "count": 10,
+     "cum_pct": 24.2
+    },
+    {
+     "rank": 36,
+     "venue_display": "ACM Transactions on Recommender Systems",
+     "venue_key": "acm transactions on recommender systems",
+     "count": 9,
+     "cum_pct": 24.5
+    },
+    {
+     "rank": 37,
+     "venue_display": "Frontiers in big data",
+     "venue_key": "frontiers in big data",
+     "count": 9,
+     "cum_pct": 24.8
+    },
+    {
+     "rank": 38,
+     "venue_display": "Deep Learning Recommender Systems",
+     "venue_key": "deep learning recommender systems",
+     "count": 9,
+     "cum_pct": 25.1
+    },
+    {
+     "rank": 39,
+     "venue_display": "Information Processing &amp; Management",
+     "venue_key": "information processing & management",
+     "count": 9,
+     "cum_pct": 25.4
+    },
+    {
+     "rank": 40,
+     "venue_display": "Proceedings of the 21st International Conference on Security and Cryptography",
+     "venue_key": "international conference on security and cryptography",
+     "count": 9,
+     "cum_pct": 25.6
+    }
+   ]
+  }
+ }
+}
