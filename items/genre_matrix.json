@@ -1,0 +1,7898 @@
+{
+ "snapshot_date": "2021-03-01",
+ "domain": "game",
+ "proxy_note": "본문 길이와 기여자 수는 인기도가 아니라 관심의 대리 지표. 오래된 게임일수록 누적되는 시간 편향 있음. 판매량과 리뷰 수는 덤프에 없음",
+ "contrib_note": "기여자 수는 namubot 과 관리자를 제외한 값",
+ "docs_game": 10446,
+ "docs_with_genre": 5832,
+ "docs_multi_genre": 1358,
+ "genre_vocab": 136,
+ "genre_used": 131,
+ "pairs_total": 744,
+ "pairs_ge3": 223,
+ "baseline_with_genre": {
+  "n": 5832,
+  "mean_len": 7682,
+  "median_len": 4376,
+  "mean_contrib": 41.6,
+  "median_contrib": 21.0
+ },
+ "baseline_multi_genre": {
+  "n": 1358,
+  "mean_len": 9019,
+  "median_len": 5239,
+  "mean_contrib": 45.0,
+  "median_contrib": 23.0
+ },
+ "genre_freq": [
+  [
+   "롤플레잉 게임",
+   454
+  ],
+  [
+   "액션 게임",
+   342
+  ],
+  [
+   "어드벤처 게임",
+   336
+  ],
+  [
+   "호러 게임",
+   307
+  ],
+  [
+   "FPS",
+   267
+  ],
+  [
+   "퍼즐 게임",
+   228
+  ],
+  [
+   "오토메 게임",
+   217
+  ],
+  [
+   "액션 어드벤처 게임",
+   210
+  ],
+  [
+   "시뮬레이션 게임",
+   200
+  ],
+  [
+   "ARPG",
+   189
+  ],
+  [
+   "대전 액션",
+   182
+  ],
+  [
+   "플랫폼 게임",
+   163
+  ],
+  [
+   "MMORPG",
+   161
+  ],
+  [
+   "비주얼 노벨",
+   151
+  ],
+  [
+   "레이싱 게임",
+   148
+  ],
+  [
+   "리듬 게임",
+   145
+  ],
+  [
+   "연애 어드벤처 게임",
+   143
+  ],
+  [
+   "TPS",
+   134
+  ],
+  [
+   "전략 시뮬레이션",
+   124
+  ],
+  [
+   "SRPG",
+   122
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   121
+  ],
+  [
+   "판타지 게임",
+   120
+  ],
+  [
+   "종스크롤 슈팅",
+   117
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   101
+  ],
+  [
+   "RTS",
+   94
+  ],
+  [
+   "디펜스 게임",
+   93
+  ],
+  [
+   "육성 시뮬레이션",
+   89
+  ],
+  [
+   "좀비 게임",
+   87
+  ],
+  [
+   "런앤건",
+   86
+  ],
+  [
+   "방치형 게임",
+   81
+  ],
+  [
+   "SF 게임",
+   77
+  ],
+  [
+   "로그라이크 게임",
+   74
+  ],
+  [
+   "생존게임",
+   68
+  ],
+  [
+   "트레이딩 카드 게임",
+   64
+  ],
+  [
+   "연애 시뮬레이션",
+   62
+  ],
+  [
+   "건슈팅 게임",
+   62
+  ],
+  [
+   "추리 게임",
+   62
+  ],
+  [
+   "러닝 액션 게임",
+   60
+  ],
+  [
+   "턴제 게임",
+   58
+  ],
+  [
+   "소셜 게임",
+   55
+  ],
+  [
+   "전연령 미소녀 게임",
+   54
+  ],
+  [
+   "시간여행물",
+   54
+  ],
+  [
+   "횡스크롤 슈팅",
+   52
+  ],
+  [
+   "탑뷰 슈팅",
+   49
+  ],
+  [
+   "다크 판타지 게임",
+   45
+  ],
+  [
+   "JRPG",
+   45
+  ],
+  [
+   "학원물",
+   44
+  ],
+  [
+   "탄막 슈팅",
+   44
+  ],
+  [
+   "샌드박스",
+   42
+  ],
+  [
+   "슈팅 게임",
+   42
+  ],
+  [
+   "보드 게임",
+   41
+  ],
+  [
+   "잠입 액션 게임",
+   39
+  ],
+  [
+   "피카레스크(장르)",
+   39
+  ],
+  [
+   "오픈 월드",
+   34
+  ],
+  [
+   "포인트 앤 클릭 어드벤처 게임",
+   33
+  ],
+  [
+   "던전 RPG",
+   30
+  ],
+  [
+   "포스트 아포칼립스",
+   30
+  ],
+  [
+   "축구 게임",
+   29
+  ],
+  [
+   "사이버펑크",
+   28
+  ],
+  [
+   "비행 슈팅 게임",
+   28
+  ],
+  [
+   "스포츠 게임",
+   28
+  ],
+  [
+   "스팀펑크",
+   27
+  ],
+  [
+   "기능성 게임",
+   27
+  ],
+  [
+   "루프물",
+   26
+  ],
+  [
+   "비행 시뮬레이션",
+   26
+  ],
+  [
+   "요리물",
+   26
+  ],
+  [
+   "야구 게임",
+   25
+  ],
+  [
+   "여성향 에로게",
+   25
+  ],
+  [
+   "고어",
+   25
+  ],
+  [
+   "배틀로얄",
+   25
+  ],
+  [
+   "밀리터리 게임",
+   23
+  ],
+  [
+   "인터랙티브 무비",
+   22
+  ],
+  [
+   "오픈 월드 레이싱 게임",
+   22
+  ],
+  [
+   "포격 게임",
+   22
+  ],
+  [
+   "BL 게임",
+   20
+  ],
+  [
+   "퀴즈 게임",
+   19
+  ],
+  [
+   "마작",
+   18
+  ],
+  [
+   "백합 게임",
+   18
+  ],
+  [
+   "실시간 전술",
+   17
+  ],
+  [
+   "크로스오버",
+   17
+  ],
+  [
+   "AOS",
+   16
+  ],
+  [
+   "철도 시뮬레이션",
+   16
+  ],
+  [
+   "낚시 게임",
+   16
+  ],
+  [
+   "2D 아이돌 게임",
+   16
+  ],
+  [
+   "MORPG",
+   15
+  ],
+  [
+   "농구 게임",
+   15
+  ],
+  [
+   "이세계물",
+   14
+  ],
+  [
+   "매치3 게임",
+   13
+  ],
+  [
+   "io게임",
+   13
+  ],
+  [
+   "대체역사물",
+   12
+  ],
+  [
+   "AR 게임",
+   12
+  ],
+  [
+   "걷는 시뮬레이션",
+   11
+  ],
+  [
+   "디스토피아",
+   11
+  ],
+  [
+   "프로레슬링 게임",
+   11
+  ],
+  [
+   "료나 게임",
+   11
+  ],
+  [
+   "오토코노코물",
+   10
+  ],
+  [
+   "벽돌깨기",
+   10
+  ],
+  [
+   "대전 슈팅",
+   10
+  ],
+  [
+   "버스 시뮬레이션",
+   10
+  ],
+  [
+   "갤러리 게임",
+   8
+  ],
+  [
+   "골프 게임",
+   8
+  ],
+  [
+   "비대칭 PvP",
+   8
+  ],
+  [
+   "어반 판타지",
+   7
+  ],
+  [
+   "무협 게임",
+   7
+  ],
+  [
+   "스페이스 오페라",
+   7
+  ],
+  [
+   "탄막 게임",
+   7
+  ],
+  [
+   "마법소녀물",
+   7
+  ],
+  [
+   "성인 게임",
+   7
+  ],
+  [
+   "장미(장르)",
+   7
+  ],
+  [
+   "하렘",
+   6
+  ],
+  [
+   "운전 시뮬레이션",
+   6
+  ],
+  [
+   "장난감 상호 작용 게임",
+   6
+  ],
+  [
+   "키네틱 노벨",
+   5
+  ],
+  [
+   "코미디 게임",
+   5
+  ],
+  [
+   "테니스 게임",
+   5
+  ],
+  [
+   "권투 게임",
+   5
+  ],
+  [
+   "해상 시뮬레이션",
+   5
+  ],
+  [
+   "테이블 게임",
+   4
+  ],
+  [
+   "거대로봇물",
+   4
+  ],
+  [
+   "백합(장르)",
+   4
+  ],
+  [
+   "끝말잇기",
+   4
+  ],
+  [
+   "재난물",
+   3
+  ],
+  [
+   "에로게",
+   3
+  ],
+  [
+   "전략 슈팅 게임",
+   3
+  ],
+  [
+   "고스톱",
+   3
+  ],
+  [
+   "격투기 무술 게임",
+   3
+  ],
+  [
+   "타일매칭 게임",
+   3
+  ],
+  [
+   "종합격투기 게임",
+   3
+  ],
+  [
+   "서부극",
+   3
+  ],
+  [
+   "카드 놀이",
+   3
+  ],
+  [
+   "오토배틀러",
+   3
+  ]
+ ],
+ "genre_kind": {
+  "오토메 게임": "대상·지향",
+  "학원물": "서사 형식",
+  "ARPG": "메커닉",
+  "FPS": "메커닉",
+  "연애 시뮬레이션": "메커닉",
+  "판타지 게임": "세계관·정서",
+  "보드 게임": "메커닉",
+  "전연령 미소녀 게임": "대상·지향",
+  "어드벤처 게임": "메커닉",
+  "마작": "메커닉",
+  "시뮬레이션 게임": "메커닉",
+  "야구 게임": "메커닉",
+  "퍼즐 게임": "메커닉",
+  "런앤건": "메커닉",
+  "횡스크롤 슈팅": "메커닉",
+  "샌드박스": "메커닉",
+  "비주얼 노벨": "메커닉",
+  "포인트 앤 클릭 어드벤처 게임": "메커닉",
+  "로그라이크 게임": "메커닉",
+  "종스크롤 슈팅": "메커닉",
+  "TPS": "메커닉",
+  "대전 액션": "메커닉",
+  "건슈팅 게임": "메커닉",
+  "액션 게임": "메커닉",
+  "플랫폼 게임": "메커닉",
+  "AOS": "메커닉",
+  "연애 어드벤처 게임": "메커닉",
+  "BL 게임": "대상·지향",
+  "롤플레잉 게임": "메커닉",
+  "여성향 에로게": "대상·지향",
+  "방치형 게임": "메커닉",
+  "RTS": "메커닉",
+  "좀비 게임": "세계관·정서",
+  "MMORPG": "메커닉",
+  "러닝 액션 게임": "메커닉",
+  "다크 판타지 게임": "세계관·정서",
+  "던전 RPG": "메커닉",
+  "건설 경영 시뮬레이션": "메커닉",
+  "레이싱 게임": "메커닉",
+  "SF 게임": "세계관·정서",
+  "액션 어드벤처 게임": "메커닉",
+  "벨트스크롤 액션 게임": "메커닉",
+  "호러 게임": "세계관·정서",
+  "대체역사물": "서사 형식",
+  "루프물": "서사 형식",
+  "시간여행물": "서사 형식",
+  "육성 시뮬레이션": "메커닉",
+  "비행 시뮬레이션": "메커닉",
+  "사이버펑크": "세계관·정서",
+  "탄막 슈팅": "메커닉",
+  "잠입 액션 게임": "메커닉",
+  "생존게임": "메커닉",
+  "턴제 게임": "메커닉",
+  "걷는 시뮬레이션": "메커닉",
+  "전략 시뮬레이션": "메커닉",
+  "디펜스 게임": "메커닉",
+  "리듬 게임": "메커닉",
+  "인터랙티브 무비": "메커닉",
+  "고어": "세계관·정서",
+  "비행 슈팅 게임": "메커닉",
+  "오픈 월드 레이싱 게임": "메커닉",
+  "스포츠 게임": "메커닉",
+  "탑뷰 슈팅": "메커닉",
+  "키네틱 노벨": "메커닉",
+  "오픈 월드": "메커닉",
+  "철도 시뮬레이션": "메커닉",
+  "재난물": "세계관·정서",
+  "스팀펑크": "세계관·정서",
+  "피카레스크(장르)": "세계관·정서",
+  "어반 판타지": "세계관·정서",
+  "포스트 아포칼립스": "세계관·정서",
+  "하렘": "서사 형식",
+  "밀리터리 게임": "세계관·정서",
+  "SRPG": "메커닉",
+  "실시간 전술": "메커닉",
+  "운전 시뮬레이션": "메커닉",
+  "오토코노코물": "대상·지향",
+  "기능성 게임": "세계관·정서",
+  "축구 게임": "메커닉",
+  "에로게": "대상·지향",
+  "트레이딩 카드 게임": "메커닉",
+  "코미디 게임": "세계관·정서",
+  "갤러리 게임": "메커닉",
+  "벽돌깨기": "메커닉",
+  "포격 게임": "메커닉",
+  "추리 게임": "메커닉",
+  "무협 게임": "세계관·정서",
+  "백합 게임": "대상·지향",
+  "JRPG": "메커닉",
+  "낚시 게임": "메커닉",
+  "소셜 게임": "메커닉",
+  "크로스오버": "서사 형식",
+  "퀴즈 게임": "메커닉",
+  "스페이스 오페라": "세계관·정서",
+  "MORPG": "메커닉",
+  "테이블 게임": "메커닉",
+  "디스토피아": "세계관·정서",
+  "골프 게임": "메커닉",
+  "프로레슬링 게임": "메커닉",
+  "대전 슈팅": "메커닉",
+  "이세계물": "서사 형식",
+  "장난감 상호 작용 게임": "메커닉",
+  "농구 게임": "메커닉",
+  "전략 슈팅 게임": "메커닉",
+  "거대로봇물": "서사 형식",
+  "요리물": "서사 형식",
+  "버스 시뮬레이션": "메커닉",
+  "백합(장르)": "대상·지향",
+  "테니스 게임": "메커닉",
+  "2D 아이돌 게임": "메커닉",
+  "료나 게임": "대상·지향",
+  "탄막 게임": "메커닉",
+  "AR 게임": "메커닉",
+  "매치3 게임": "메커닉",
+  "고스톱": "메커닉",
+  "슈팅 게임": "메커닉",
+  "마법소녀물": "서사 형식",
+  "성인 게임": "대상·지향",
+  "격투기 무술 게임": "메커닉",
+  "권투 게임": "메커닉",
+  "타일매칭 게임": "메커닉",
+  "비대칭 PvP": "메커닉",
+  "io게임": "메커닉",
+  "종합격투기 게임": "메커닉",
+  "해상 시뮬레이션": "메커닉",
+  "배틀로얄": "메커닉",
+  "장미(장르)": "대상·지향",
+  "서부극": "세계관·정서",
+  "끝말잇기": "메커닉",
+  "카드 놀이": "메커닉",
+  "오토배틀러": "메커닉"
+ },
+ "diagonal": {
+  "오토메 게임": {
+   "n": 217,
+   "mean_len": 4095,
+   "median_len": 2818,
+   "mean_contrib": 14.7,
+   "median_contrib": 9
+  },
+  "학원물": {
+   "n": 44,
+   "mean_len": 4129,
+   "median_len": 3580,
+   "mean_contrib": 28.0,
+   "median_contrib": 18.5
+  },
+  "ARPG": {
+   "n": 189,
+   "mean_len": 9440,
+   "median_len": 5606,
+   "mean_contrib": 45.5,
+   "median_contrib": 25
+  },
+  "FPS": {
+   "n": 267,
+   "mean_len": 8530,
+   "median_len": 5296,
+   "mean_contrib": 52.3,
+   "median_contrib": 25
+  },
+  "연애 시뮬레이션": {
+   "n": 62,
+   "mean_len": 6844,
+   "median_len": 5658,
+   "mean_contrib": 45.2,
+   "median_contrib": 26.0
+  },
+  "판타지 게임": {
+   "n": 120,
+   "mean_len": 9166,
+   "median_len": 6070,
+   "mean_contrib": 38.1,
+   "median_contrib": 20.5
+  },
+  "보드 게임": {
+   "n": 41,
+   "mean_len": 7909,
+   "median_len": 4537,
+   "mean_contrib": 54.9,
+   "median_contrib": 16
+  },
+  "전연령 미소녀 게임": {
+   "n": 54,
+   "mean_len": 4709,
+   "median_len": 3740,
+   "mean_contrib": 34.9,
+   "median_contrib": 27.0
+  },
+  "어드벤처 게임": {
+   "n": 336,
+   "mean_len": 6590,
+   "median_len": 3926,
+   "mean_contrib": 35.9,
+   "median_contrib": 19.0
+  },
+  "마작": {
+   "n": 18,
+   "mean_len": 5560,
+   "median_len": 2388,
+   "mean_contrib": 21.9,
+   "median_contrib": 11.5
+  },
+  "시뮬레이션 게임": {
+   "n": 200,
+   "mean_len": 8903,
+   "median_len": 4668,
+   "mean_contrib": 33.9,
+   "median_contrib": 18.5
+  },
+  "야구 게임": {
+   "n": 25,
+   "mean_len": 10268,
+   "median_len": 7516,
+   "mean_contrib": 49.6,
+   "median_contrib": 29
+  },
+  "퍼즐 게임": {
+   "n": 228,
+   "mean_len": 5224,
+   "median_len": 3358,
+   "mean_contrib": 32.0,
+   "median_contrib": 16.5
+  },
+  "런앤건": {
+   "n": 86,
+   "mean_len": 7561,
+   "median_len": 4881,
+   "mean_contrib": 49.4,
+   "median_contrib": 25.0
+  },
+  "횡스크롤 슈팅": {
+   "n": 52,
+   "mean_len": 4999,
+   "median_len": 3648,
+   "mean_contrib": 31.3,
+   "median_contrib": 19.5
+  },
+  "샌드박스": {
+   "n": 42,
+   "mean_len": 8975,
+   "median_len": 5257,
+   "mean_contrib": 39.8,
+   "median_contrib": 21.5
+  },
+  "비주얼 노벨": {
+   "n": 151,
+   "mean_len": 5471,
+   "median_len": 2752,
+   "mean_contrib": 41.0,
+   "median_contrib": 18
+  },
+  "포인트 앤 클릭 어드벤처 게임": {
+   "n": 33,
+   "mean_len": 5440,
+   "median_len": 5084,
+   "mean_contrib": 28.8,
+   "median_contrib": 19
+  },
+  "로그라이크 게임": {
+   "n": 74,
+   "mean_len": 12909,
+   "median_len": 8402,
+   "mean_contrib": 37.8,
+   "median_contrib": 18.5
+  },
+  "종스크롤 슈팅": {
+   "n": 117,
+   "mean_len": 4707,
+   "median_len": 2800,
+   "mean_contrib": 27.0,
+   "median_contrib": 18
+  },
+  "TPS": {
+   "n": 134,
+   "mean_len": 11805,
+   "median_len": 6172,
+   "mean_contrib": 55.2,
+   "median_contrib": 28.0
+  },
+  "대전 액션": {
+   "n": 182,
+   "mean_len": 7380,
+   "median_len": 4569,
+   "mean_contrib": 54.5,
+   "median_contrib": 25.0
+  },
+  "건슈팅 게임": {
+   "n": 62,
+   "mean_len": 7302,
+   "median_len": 4550,
+   "mean_contrib": 47.3,
+   "median_contrib": 26.5
+  },
+  "액션 게임": {
+   "n": 342,
+   "mean_len": 7710,
+   "median_len": 4833,
+   "mean_contrib": 42.4,
+   "median_contrib": 22.0
+  },
+  "플랫폼 게임": {
+   "n": 163,
+   "mean_len": 7715,
+   "median_len": 5148,
+   "mean_contrib": 49.4,
+   "median_contrib": 29
+  },
+  "AOS": {
+   "n": 16,
+   "mean_len": 11301,
+   "median_len": 6816,
+   "mean_contrib": 57.2,
+   "median_contrib": 39.5
+  },
+  "연애 어드벤처 게임": {
+   "n": 143,
+   "mean_len": 4691,
+   "median_len": 3413,
+   "mean_contrib": 24.7,
+   "median_contrib": 15
+  },
+  "BL 게임": {
+   "n": 20,
+   "mean_len": 3508,
+   "median_len": 2266,
+   "mean_contrib": 19.8,
+   "median_contrib": 13.0
+  },
+  "롤플레잉 게임": {
+   "n": 454,
+   "mean_len": 8791,
+   "median_len": 5132,
+   "mean_contrib": 39.9,
+   "median_contrib": 20.0
+  },
+  "여성향 에로게": {
+   "n": 25,
+   "mean_len": 3016,
+   "median_len": 2572,
+   "mean_contrib": 16.3,
+   "median_contrib": 13
+  },
+  "방치형 게임": {
+   "n": 81,
+   "mean_len": 6691,
+   "median_len": 3082,
+   "mean_contrib": 35.6,
+   "median_contrib": 15
+  },
+  "RTS": {
+   "n": 94,
+   "mean_len": 10446,
+   "median_len": 5536,
+   "mean_contrib": 54.0,
+   "median_contrib": 28.5
+  },
+  "좀비 게임": {
+   "n": 87,
+   "mean_len": 11019,
+   "median_len": 7293,
+   "mean_contrib": 52.0,
+   "median_contrib": 31
+  },
+  "MMORPG": {
+   "n": 161,
+   "mean_len": 9501,
+   "median_len": 4493,
+   "mean_contrib": 56.1,
+   "median_contrib": 26
+  },
+  "러닝 액션 게임": {
+   "n": 60,
+   "mean_len": 6122,
+   "median_len": 4074,
+   "mean_contrib": 35.0,
+   "median_contrib": 26.0
+  },
+  "다크 판타지 게임": {
+   "n": 45,
+   "mean_len": 10848,
+   "median_len": 8471,
+   "mean_contrib": 59.3,
+   "median_contrib": 43
+  },
+  "던전 RPG": {
+   "n": 30,
+   "mean_len": 10759,
+   "median_len": 10788,
+   "mean_contrib": 41.5,
+   "median_contrib": 24.5
+  },
+  "건설 경영 시뮬레이션": {
+   "n": 121,
+   "mean_len": 8852,
+   "median_len": 6344,
+   "mean_contrib": 36.6,
+   "median_contrib": 21
+  },
+  "레이싱 게임": {
+   "n": 148,
+   "mean_len": 6038,
+   "median_len": 2971,
+   "mean_contrib": 28.6,
+   "median_contrib": 14.0
+  },
+  "SF 게임": {
+   "n": 77,
+   "mean_len": 8331,
+   "median_len": 5724,
+   "mean_contrib": 45.4,
+   "median_contrib": 25
+  },
+  "액션 어드벤처 게임": {
+   "n": 210,
+   "mean_len": 9922,
+   "median_len": 6220,
+   "mean_contrib": 66.6,
+   "median_contrib": 37.5
+  },
+  "벨트스크롤 액션 게임": {
+   "n": 101,
+   "mean_len": 6831,
+   "median_len": 4921,
+   "mean_contrib": 42.6,
+   "median_contrib": 26
+  },
+  "호러 게임": {
+   "n": 307,
+   "mean_len": 8457,
+   "median_len": 5074,
+   "mean_contrib": 64.3,
+   "median_contrib": 30
+  },
+  "대체역사물": {
+   "n": 12,
+   "mean_len": 12031,
+   "median_len": 9415,
+   "mean_contrib": 82.8,
+   "median_contrib": 58.0
+  },
+  "루프물": {
+   "n": 26,
+   "mean_len": 10081,
+   "median_len": 7041,
+   "mean_contrib": 62.4,
+   "median_contrib": 45.0
+  },
+  "시간여행물": {
+   "n": 54,
+   "mean_len": 11775,
+   "median_len": 10301,
+   "mean_contrib": 79.9,
+   "median_contrib": 56.5
+  },
+  "육성 시뮬레이션": {
+   "n": 89,
+   "mean_len": 7218,
+   "median_len": 4567,
+   "mean_contrib": 39.2,
+   "median_contrib": 20
+  },
+  "비행 시뮬레이션": {
+   "n": 26,
+   "mean_len": 6055,
+   "median_len": 3310,
+   "mean_contrib": 26.0,
+   "median_contrib": 13.0
+  },
+  "사이버펑크": {
+   "n": 28,
+   "mean_len": 10451,
+   "median_len": 7344,
+   "mean_contrib": 65.2,
+   "median_contrib": 43.5
+  },
+  "탄막 슈팅": {
+   "n": 44,
+   "mean_len": 8567,
+   "median_len": 6434,
+   "mean_contrib": 39.5,
+   "median_contrib": 23.5
+  },
+  "잠입 액션 게임": {
+   "n": 39,
+   "mean_len": 13529,
+   "median_len": 7079,
+   "mean_contrib": 76.6,
+   "median_contrib": 46
+  },
+  "생존게임": {
+   "n": 68,
+   "mean_len": 12431,
+   "median_len": 6398,
+   "mean_contrib": 43,
+   "median_contrib": 26.0
+  },
+  "턴제 게임": {
+   "n": 58,
+   "mean_len": 12352,
+   "median_len": 6466,
+   "mean_contrib": 42.3,
+   "median_contrib": 19.0
+  },
+  "걷는 시뮬레이션": {
+   "n": 11,
+   "mean_len": 9905,
+   "median_len": 4112,
+   "mean_contrib": 85,
+   "median_contrib": 45
+  },
+  "전략 시뮬레이션": {
+   "n": 124,
+   "mean_len": 11208,
+   "median_len": 5528,
+   "mean_contrib": 25.3,
+   "median_contrib": 18.0
+  },
+  "디펜스 게임": {
+   "n": 93,
+   "mean_len": 11000,
+   "median_len": 5934,
+   "mean_contrib": 43.6,
+   "median_contrib": 17
+  },
+  "리듬 게임": {
+   "n": 145,
+   "mean_len": 5947,
+   "median_len": 3312,
+   "mean_contrib": 41.2,
+   "median_contrib": 24
+  },
+  "인터랙티브 무비": {
+   "n": 22,
+   "mean_len": 4139,
+   "median_len": 4279,
+   "mean_contrib": 32.8,
+   "median_contrib": 19.5
+  },
+  "고어": {
+   "n": 25,
+   "mean_len": 9898,
+   "median_len": 2954,
+   "mean_contrib": 37.5,
+   "median_contrib": 17
+  },
+  "비행 슈팅 게임": {
+   "n": 28,
+   "mean_len": 7646,
+   "median_len": 3434,
+   "mean_contrib": 39.0,
+   "median_contrib": 22.5
+  },
+  "오픈 월드 레이싱 게임": {
+   "n": 22,
+   "mean_len": 14926,
+   "median_len": 16472,
+   "mean_contrib": 92,
+   "median_contrib": 84.0
+  },
+  "스포츠 게임": {
+   "n": 28,
+   "mean_len": 7576,
+   "median_len": 3890,
+   "mean_contrib": 38.9,
+   "median_contrib": 29.5
+  },
+  "탑뷰 슈팅": {
+   "n": 49,
+   "mean_len": 8547,
+   "median_len": 3593,
+   "mean_contrib": 39.2,
+   "median_contrib": 24
+  },
+  "키네틱 노벨": {
+   "n": 5,
+   "mean_len": 1007,
+   "median_len": 747,
+   "mean_contrib": 7.8,
+   "median_contrib": 4
+  },
+  "오픈 월드": {
+   "n": 34,
+   "mean_len": 9299,
+   "median_len": 4060,
+   "mean_contrib": 62.9,
+   "median_contrib": 28.5
+  },
+  "철도 시뮬레이션": {
+   "n": 16,
+   "mean_len": 2770,
+   "median_len": 2084,
+   "mean_contrib": 30,
+   "median_contrib": 22.0
+  },
+  "재난물": {
+   "n": 3,
+   "mean_len": 3238,
+   "median_len": 2055,
+   "mean_contrib": 27,
+   "median_contrib": 31
+  },
+  "스팀펑크": {
+   "n": 27,
+   "mean_len": 8208,
+   "median_len": 5608,
+   "mean_contrib": 67.4,
+   "median_contrib": 44
+  },
+  "피카레스크(장르)": {
+   "n": 39,
+   "mean_len": 10979,
+   "median_len": 8384,
+   "mean_contrib": 89.6,
+   "median_contrib": 55
+  },
+  "어반 판타지": {
+   "n": 7,
+   "mean_len": 7541,
+   "median_len": 7810,
+   "mean_contrib": 58.7,
+   "median_contrib": 28
+  },
+  "포스트 아포칼립스": {
+   "n": 30,
+   "mean_len": 10574,
+   "median_len": 8228,
+   "mean_contrib": 51.3,
+   "median_contrib": 30.5
+  },
+  "하렘": {
+   "n": 6,
+   "mean_len": 8196,
+   "median_len": 8034,
+   "mean_contrib": 138.2,
+   "median_contrib": 100.5
+  },
+  "밀리터리 게임": {
+   "n": 23,
+   "mean_len": 8829,
+   "median_len": 7220,
+   "mean_contrib": 36.2,
+   "median_contrib": 23
+  },
+  "SRPG": {
+   "n": 122,
+   "mean_len": 11478,
+   "median_len": 8440,
+   "mean_contrib": 42.2,
+   "median_contrib": 28.5
+  },
+  "실시간 전술": {
+   "n": 17,
+   "mean_len": 10278,
+   "median_len": 6431,
+   "mean_contrib": 34.6,
+   "median_contrib": 19
+  },
+  "운전 시뮬레이션": {
+   "n": 6,
+   "mean_len": 14052,
+   "median_len": 4922,
+   "mean_contrib": 34.3,
+   "median_contrib": 30.5
+  },
+  "오토코노코물": {
+   "n": 10,
+   "mean_len": 4151,
+   "median_len": 3346,
+   "mean_contrib": 29.2,
+   "median_contrib": 24.5
+  },
+  "기능성 게임": {
+   "n": 27,
+   "mean_len": 3656,
+   "median_len": 2159,
+   "mean_contrib": 31.8,
+   "median_contrib": 21
+  },
+  "축구 게임": {
+   "n": 29,
+   "mean_len": 5900,
+   "median_len": 1945,
+   "mean_contrib": 39.3,
+   "median_contrib": 19
+  },
+  "에로게": {
+   "n": 3,
+   "mean_len": 3812,
+   "median_len": 3088,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "트레이딩 카드 게임": {
+   "n": 64,
+   "mean_len": 8812,
+   "median_len": 5508,
+   "mean_contrib": 29.8,
+   "median_contrib": 15.5
+  },
+  "코미디 게임": {
+   "n": 5,
+   "mean_len": 5624,
+   "median_len": 6570,
+   "mean_contrib": 57,
+   "median_contrib": 33
+  },
+  "갤러리 게임": {
+   "n": 8,
+   "mean_len": 3806,
+   "median_len": 2992,
+   "mean_contrib": 34.8,
+   "median_contrib": 14.0
+  },
+  "벽돌깨기": {
+   "n": 10,
+   "mean_len": 4971,
+   "median_len": 3942,
+   "mean_contrib": 32.4,
+   "median_contrib": 14.5
+  },
+  "포격 게임": {
+   "n": 22,
+   "mean_len": 7423,
+   "median_len": 6251,
+   "mean_contrib": 47.1,
+   "median_contrib": 30.5
+  },
+  "추리 게임": {
+   "n": 62,
+   "mean_len": 5937,
+   "median_len": 3762,
+   "mean_contrib": 48.2,
+   "median_contrib": 15.5
+  },
+  "무협 게임": {
+   "n": 7,
+   "mean_len": 4940,
+   "median_len": 2879,
+   "mean_contrib": 19.1,
+   "median_contrib": 16
+  },
+  "백합 게임": {
+   "n": 18,
+   "mean_len": 6610,
+   "median_len": 4618,
+   "mean_contrib": 36,
+   "median_contrib": 27.0
+  },
+  "JRPG": {
+   "n": 45,
+   "mean_len": 8133,
+   "median_len": 7146,
+   "mean_contrib": 50.8,
+   "median_contrib": 37
+  },
+  "낚시 게임": {
+   "n": 16,
+   "mean_len": 5452,
+   "median_len": 2928,
+   "mean_contrib": 21.4,
+   "median_contrib": 15.0
+  },
+  "소셜 게임": {
+   "n": 55,
+   "mean_len": 9317,
+   "median_len": 6525,
+   "mean_contrib": 42.1,
+   "median_contrib": 19
+  },
+  "크로스오버": {
+   "n": 17,
+   "mean_len": 7844,
+   "median_len": 4860,
+   "mean_contrib": 63.9,
+   "median_contrib": 39
+  },
+  "퀴즈 게임": {
+   "n": 19,
+   "mean_len": 7071,
+   "median_len": 2950,
+   "mean_contrib": 33.7,
+   "median_contrib": 21
+  },
+  "스페이스 오페라": {
+   "n": 7,
+   "mean_len": 18297,
+   "median_len": 12866,
+   "mean_contrib": 54.9,
+   "median_contrib": 32
+  },
+  "MORPG": {
+   "n": 15,
+   "mean_len": 7049,
+   "median_len": 4744,
+   "mean_contrib": 38.2,
+   "median_contrib": 32
+  },
+  "테이블 게임": {
+   "n": 4,
+   "mean_len": 9102,
+   "median_len": 8820,
+   "mean_contrib": 64.8,
+   "median_contrib": 61.5
+  },
+  "디스토피아": {
+   "n": 11,
+   "mean_len": 15777,
+   "median_len": 9528,
+   "mean_contrib": 67.4,
+   "median_contrib": 51
+  },
+  "골프 게임": {
+   "n": 8,
+   "mean_len": 4258,
+   "median_len": 2881,
+   "mean_contrib": 8.8,
+   "median_contrib": 7.5
+  },
+  "프로레슬링 게임": {
+   "n": 11,
+   "mean_len": 4550,
+   "median_len": 1870,
+   "mean_contrib": 22.9,
+   "median_contrib": 22
+  },
+  "대전 슈팅": {
+   "n": 10,
+   "mean_len": 6374,
+   "median_len": 3816,
+   "mean_contrib": 48.1,
+   "median_contrib": 26.0
+  },
+  "이세계물": {
+   "n": 14,
+   "mean_len": 7013,
+   "median_len": 5858,
+   "mean_contrib": 33.6,
+   "median_contrib": 20.5
+  },
+  "장난감 상호 작용 게임": {
+   "n": 6,
+   "mean_len": 4099,
+   "median_len": 3864,
+   "mean_contrib": 81,
+   "median_contrib": 70.0
+  },
+  "농구 게임": {
+   "n": 15,
+   "mean_len": 6818,
+   "median_len": 3676,
+   "mean_contrib": 33.1,
+   "median_contrib": 25
+  },
+  "전략 슈팅 게임": {
+   "n": 3,
+   "mean_len": 37509,
+   "median_len": 46845,
+   "mean_contrib": 71.7,
+   "median_contrib": 64
+  },
+  "거대로봇물": {
+   "n": 4,
+   "mean_len": 10117,
+   "median_len": 11722,
+   "mean_contrib": 10.8,
+   "median_contrib": 12.0
+  },
+  "요리물": {
+   "n": 26,
+   "mean_len": 6570,
+   "median_len": 3359,
+   "mean_contrib": 43.1,
+   "median_contrib": 24.0
+  },
+  "버스 시뮬레이션": {
+   "n": 10,
+   "mean_len": 5459,
+   "median_len": 2488,
+   "mean_contrib": 28.8,
+   "median_contrib": 20.0
+  },
+  "백합(장르)": {
+   "n": 4,
+   "mean_len": 4051,
+   "median_len": 2960,
+   "mean_contrib": 11.8,
+   "median_contrib": 12.5
+  },
+  "테니스 게임": {
+   "n": 5,
+   "mean_len": 5883,
+   "median_len": 3952,
+   "mean_contrib": 18.6,
+   "median_contrib": 12
+  },
+  "2D 아이돌 게임": {
+   "n": 16,
+   "mean_len": 10433,
+   "median_len": 6992,
+   "mean_contrib": 43.4,
+   "median_contrib": 31.5
+  },
+  "료나 게임": {
+   "n": 11,
+   "mean_len": 6514,
+   "median_len": 1525,
+   "mean_contrib": 20.1,
+   "median_contrib": 11
+  },
+  "탄막 게임": {
+   "n": 7,
+   "mean_len": 10167,
+   "median_len": 3651,
+   "mean_contrib": 42.7,
+   "median_contrib": 18
+  },
+  "AR 게임": {
+   "n": 12,
+   "mean_len": 3022,
+   "median_len": 2249,
+   "mean_contrib": 34.8,
+   "median_contrib": 27.0
+  },
+  "매치3 게임": {
+   "n": 13,
+   "mean_len": 9475,
+   "median_len": 4558,
+   "mean_contrib": 45.8,
+   "median_contrib": 30
+  },
+  "고스톱": {
+   "n": 3,
+   "mean_len": 3318,
+   "median_len": 2262,
+   "mean_contrib": 16,
+   "median_contrib": 12
+  },
+  "슈팅 게임": {
+   "n": 42,
+   "mean_len": 5083,
+   "median_len": 3512,
+   "mean_contrib": 26.8,
+   "median_contrib": 15.0
+  },
+  "마법소녀물": {
+   "n": 7,
+   "mean_len": 6210,
+   "median_len": 7250,
+   "mean_contrib": 22.3,
+   "median_contrib": 20
+  },
+  "성인 게임": {
+   "n": 7,
+   "mean_len": 10131,
+   "median_len": 7460,
+   "mean_contrib": 52,
+   "median_contrib": 29
+  },
+  "격투기 무술 게임": {
+   "n": 3,
+   "mean_len": 3343,
+   "median_len": 4166,
+   "mean_contrib": 9.7,
+   "median_contrib": 8
+  },
+  "권투 게임": {
+   "n": 5,
+   "mean_len": 5794,
+   "median_len": 2324,
+   "mean_contrib": 18.8,
+   "median_contrib": 9
+  },
+  "타일매칭 게임": {
+   "n": 3,
+   "mean_len": 2009,
+   "median_len": 1308,
+   "mean_contrib": 25.3,
+   "median_contrib": 17
+  },
+  "비대칭 PvP": {
+   "n": 8,
+   "mean_len": 15384,
+   "median_len": 6132,
+   "mean_contrib": 71.2,
+   "median_contrib": 38.5
+  },
+  "io게임": {
+   "n": 13,
+   "mean_len": 10134,
+   "median_len": 5644,
+   "mean_contrib": 56.2,
+   "median_contrib": 16
+  },
+  "종합격투기 게임": {
+   "n": 3,
+   "mean_len": 5373,
+   "median_len": 1216,
+   "mean_contrib": 26,
+   "median_contrib": 20
+  },
+  "해상 시뮬레이션": {
+   "n": 5,
+   "mean_len": 15971,
+   "median_len": 19354,
+   "mean_contrib": 46.8,
+   "median_contrib": 42
+  },
+  "배틀로얄": {
+   "n": 25,
+   "mean_len": 7822,
+   "median_len": 4098,
+   "mean_contrib": 26.0,
+   "median_contrib": 17
+  },
+  "장미(장르)": {
+   "n": 7,
+   "mean_len": 5772,
+   "median_len": 1519,
+   "mean_contrib": 20.6,
+   "median_contrib": 17
+  },
+  "서부극": {
+   "n": 3,
+   "mean_len": 5777,
+   "median_len": 4455,
+   "mean_contrib": 23,
+   "median_contrib": 22
+  },
+  "끝말잇기": {
+   "n": 4,
+   "mean_len": 6893,
+   "median_len": 2846,
+   "mean_contrib": 21,
+   "median_contrib": 11.5
+  },
+  "카드 놀이": {
+   "n": 3,
+   "mean_len": 1675,
+   "median_len": 758,
+   "mean_contrib": 5.7,
+   "median_contrib": 6
+  },
+  "오토배틀러": {
+   "n": 3,
+   "mean_len": 1052,
+   "median_len": 1231,
+   "mean_contrib": 9.7,
+   "median_contrib": 4
+  }
+ },
+ "top_genres": [
+  "롤플레잉 게임",
+  "액션 게임",
+  "어드벤처 게임",
+  "호러 게임",
+  "FPS",
+  "퍼즐 게임",
+  "오토메 게임",
+  "액션 어드벤처 게임",
+  "시뮬레이션 게임",
+  "ARPG",
+  "대전 액션",
+  "플랫폼 게임",
+  "MMORPG",
+  "비주얼 노벨",
+  "레이싱 게임",
+  "리듬 게임",
+  "연애 어드벤처 게임",
+  "TPS",
+  "전략 시뮬레이션",
+  "SRPG",
+  "건설 경영 시뮬레이션",
+  "판타지 게임",
+  "종스크롤 슈팅",
+  "벨트스크롤 액션 게임",
+  "RTS"
+ ],
+ "cells": {
+  "오토메 게임|학원물": {
+   "n": 1,
+   "mean_len": 1790,
+   "median_len": 1790,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "연애 시뮬레이션|판타지 게임": {
+   "n": 1,
+   "mean_len": 5716,
+   "median_len": 5716,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "어드벤처 게임|전연령 미소녀 게임": {
+   "n": 6,
+   "mean_len": 2943,
+   "median_len": 3170,
+   "mean_contrib": 19.2,
+   "median_contrib": 21.0
+  },
+  "시뮬레이션 게임|야구 게임": {
+   "n": 9,
+   "mean_len": 11297,
+   "median_len": 7516,
+   "mean_contrib": 78.6,
+   "median_contrib": 66
+  },
+  "런앤건|퍼즐 게임": {
+   "n": 2,
+   "mean_len": 14876,
+   "median_len": 14876,
+   "mean_contrib": 86,
+   "median_contrib": 86.0
+  },
+  "런앤건|횡스크롤 슈팅": {
+   "n": 3,
+   "mean_len": 9682,
+   "median_len": 8268,
+   "mean_contrib": 65.3,
+   "median_contrib": 43
+  },
+  "퍼즐 게임|횡스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 19452,
+   "median_len": 19452,
+   "mean_contrib": 127,
+   "median_contrib": 127
+  },
+  "로그라이크 게임|판타지 게임": {
+   "n": 3,
+   "mean_len": 14441,
+   "median_len": 13096,
+   "mean_contrib": 16.3,
+   "median_contrib": 21
+  },
+  "TPS|샌드박스": {
+   "n": 3,
+   "mean_len": 31662,
+   "median_len": 29662,
+   "mean_contrib": 90.3,
+   "median_contrib": 113
+  },
+  "비주얼 노벨|학원물": {
+   "n": 5,
+   "mean_len": 4333,
+   "median_len": 3115,
+   "mean_contrib": 52.2,
+   "median_contrib": 18
+  },
+  "FPS|건슈팅 게임": {
+   "n": 2,
+   "mean_len": 3454,
+   "median_len": 3454,
+   "mean_contrib": 18.5,
+   "median_contrib": 18.5
+  },
+  "연애 어드벤처 게임|전연령 미소녀 게임": {
+   "n": 20,
+   "mean_len": 6285,
+   "median_len": 4914,
+   "mean_contrib": 35,
+   "median_contrib": 30.5
+  },
+  "BL 게임|롤플레잉 게임": {
+   "n": 1,
+   "mean_len": 4374,
+   "median_len": 4374,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "BL 게임|여성향 에로게": {
+   "n": 12,
+   "mean_len": 2448,
+   "median_len": 2266,
+   "mean_contrib": 18,
+   "median_contrib": 12.5
+  },
+  "롤플레잉 게임|여성향 에로게": {
+   "n": 1,
+   "mean_len": 4374,
+   "median_len": 4374,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "RTS|좀비 게임": {
+   "n": 2,
+   "mean_len": 23226,
+   "median_len": 23226,
+   "mean_contrib": 79,
+   "median_contrib": 79.0
+  },
+  "러닝 액션 게임|플랫폼 게임": {
+   "n": 1,
+   "mean_len": 1159,
+   "median_len": 1159,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "오토메 게임|판타지 게임": {
+   "n": 11,
+   "mean_len": 6047,
+   "median_len": 5213,
+   "mean_contrib": 9.4,
+   "median_contrib": 8
+  },
+  "다크 판타지 게임|오토메 게임": {
+   "n": 1,
+   "mean_len": 4996,
+   "median_len": 4996,
+   "mean_contrib": 23,
+   "median_contrib": 23
+  },
+  "던전 RPG|판타지 게임": {
+   "n": 5,
+   "mean_len": 14591,
+   "median_len": 14588,
+   "mean_contrib": 28.4,
+   "median_contrib": 24
+  },
+  "던전 RPG|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 22286,
+   "median_len": 22286,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "시뮬레이션 게임|판타지 게임": {
+   "n": 4,
+   "mean_len": 19668,
+   "median_len": 17146,
+   "mean_contrib": 28.2,
+   "median_contrib": 22.0
+  },
+  "다크 판타지 게임|롤플레잉 게임": {
+   "n": 7,
+   "mean_len": 7572,
+   "median_len": 6948,
+   "mean_contrib": 60.6,
+   "median_contrib": 61
+  },
+  "FPS|SF 게임": {
+   "n": 4,
+   "mean_len": 14613,
+   "median_len": 12674,
+   "mean_contrib": 45.5,
+   "median_contrib": 40.5
+  },
+  "퍼즐 게임|플랫폼 게임": {
+   "n": 22,
+   "mean_len": 5848,
+   "median_len": 3396,
+   "mean_contrib": 43.9,
+   "median_contrib": 14.5
+  },
+  "액션 어드벤처 게임|플랫폼 게임": {
+   "n": 16,
+   "mean_len": 5723,
+   "median_len": 5166,
+   "mean_contrib": 21.2,
+   "median_contrib": 17.0
+  },
+  "대체역사물|루프물": {
+   "n": 1,
+   "mean_len": 36096,
+   "median_len": 36096,
+   "mean_contrib": 61,
+   "median_contrib": 61
+  },
+  "대체역사물|시간여행물": {
+   "n": 1,
+   "mean_len": 36096,
+   "median_len": 36096,
+   "mean_contrib": 61,
+   "median_contrib": 61
+  },
+  "루프물|시간여행물": {
+   "n": 1,
+   "mean_len": 36096,
+   "median_len": 36096,
+   "mean_contrib": 61,
+   "median_contrib": 61
+  },
+  "FPS|어드벤처 게임": {
+   "n": 2,
+   "mean_len": 5916,
+   "median_len": 5916,
+   "mean_contrib": 55,
+   "median_contrib": 55.0
+  },
+  "FPS|호러 게임": {
+   "n": 16,
+   "mean_len": 10659,
+   "median_len": 8955,
+   "mean_contrib": 80.9,
+   "median_contrib": 26.0
+  },
+  "어드벤처 게임|호러 게임": {
+   "n": 54,
+   "mean_len": 8291,
+   "median_len": 4502,
+   "mean_contrib": 39.1,
+   "median_contrib": 22.0
+  },
+  "레이싱 게임|액션 게임": {
+   "n": 3,
+   "mean_len": 2900,
+   "median_len": 1474,
+   "mean_contrib": 15.3,
+   "median_contrib": 15
+  },
+  "SF 게임|보드 게임": {
+   "n": 1,
+   "mean_len": 5978,
+   "median_len": 5978,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "오토메 게임|육성 시뮬레이션": {
+   "n": 6,
+   "mean_len": 4097,
+   "median_len": 2734,
+   "mean_contrib": 14.7,
+   "median_contrib": 7.5
+  },
+  "생존게임|좀비 게임": {
+   "n": 10,
+   "mean_len": 16197,
+   "median_len": 8736,
+   "mean_contrib": 56.7,
+   "median_contrib": 20.5
+  },
+  "생존게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 28211,
+   "median_len": 28211,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "좀비 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 28211,
+   "median_len": 28211,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "걷는 시뮬레이션|어드벤처 게임": {
+   "n": 8,
+   "mean_len": 8794,
+   "median_len": 4356,
+   "mean_contrib": 58.2,
+   "median_contrib": 46.5
+  },
+  "리듬 게임|퍼즐 게임": {
+   "n": 2,
+   "mean_len": 6154,
+   "median_len": 6154,
+   "mean_contrib": 41,
+   "median_contrib": 41.0
+  },
+  "FPS|좀비 게임": {
+   "n": 15,
+   "mean_len": 13515,
+   "median_len": 9296,
+   "mean_contrib": 67.1,
+   "median_contrib": 29
+  },
+  "FPS|비행 슈팅 게임": {
+   "n": 3,
+   "mean_len": 2648,
+   "median_len": 1646,
+   "mean_contrib": 64,
+   "median_contrib": 35
+  },
+  "롤플레잉 게임|어드벤처 게임": {
+   "n": 11,
+   "mean_len": 8942,
+   "median_len": 5315,
+   "mean_contrib": 60,
+   "median_contrib": 23
+  },
+  "루프물|비주얼 노벨": {
+   "n": 2,
+   "mean_len": 14346,
+   "median_len": 14346,
+   "mean_contrib": 92.5,
+   "median_contrib": 92.5
+  },
+  "다크 판타지 게임|비주얼 노벨": {
+   "n": 1,
+   "mean_len": 19844,
+   "median_len": 19844,
+   "mean_contrib": 380,
+   "median_contrib": 380
+  },
+  "어드벤처 게임|퍼즐 게임": {
+   "n": 24,
+   "mean_len": 4643,
+   "median_len": 2423,
+   "mean_contrib": 47,
+   "median_contrib": 14.5
+  },
+  "전연령 미소녀 게임|키네틱 노벨": {
+   "n": 2,
+   "mean_len": 1348,
+   "median_len": 1348,
+   "mean_contrib": 13.5,
+   "median_contrib": 13.5
+  },
+  "MMORPG|샌드박스": {
+   "n": 2,
+   "mean_len": 12900,
+   "median_len": 12900,
+   "mean_contrib": 96.5,
+   "median_contrib": 96.5
+  },
+  "MMORPG|생존게임": {
+   "n": 2,
+   "mean_len": 17928,
+   "median_len": 17928,
+   "mean_contrib": 73.5,
+   "median_contrib": 73.5
+  },
+  "MMORPG|오픈 월드": {
+   "n": 1,
+   "mean_len": 13481,
+   "median_len": 13481,
+   "mean_contrib": 111,
+   "median_contrib": 111
+  },
+  "샌드박스|생존게임": {
+   "n": 5,
+   "mean_len": 4127,
+   "median_len": 1541,
+   "mean_contrib": 31.2,
+   "median_contrib": 16
+  },
+  "샌드박스|오픈 월드": {
+   "n": 4,
+   "mean_len": 3843,
+   "median_len": 818,
+   "mean_contrib": 34.2,
+   "median_contrib": 10.0
+  },
+  "생존게임|오픈 월드": {
+   "n": 7,
+   "mean_len": 12080,
+   "median_len": 13339,
+   "mean_contrib": 50.1,
+   "median_contrib": 25
+  },
+  "생존게임|액션 어드벤처 게임": {
+   "n": 5,
+   "mean_len": 14525,
+   "median_len": 11363,
+   "mean_contrib": 74.8,
+   "median_contrib": 60
+  },
+  "액션 어드벤처 게임|좀비 게임": {
+   "n": 5,
+   "mean_len": 17314,
+   "median_len": 7941,
+   "mean_contrib": 64.4,
+   "median_contrib": 60
+  },
+  "생존게임|어드벤처 게임": {
+   "n": 7,
+   "mean_len": 3215,
+   "median_len": 2998,
+   "mean_contrib": 20.1,
+   "median_contrib": 16
+  },
+  "생존게임|재난물": {
+   "n": 1,
+   "mean_len": 6229,
+   "median_len": 6229,
+   "mean_contrib": 44,
+   "median_contrib": 44
+  },
+  "어드벤처 게임|재난물": {
+   "n": 1,
+   "mean_len": 6229,
+   "median_len": 6229,
+   "mean_contrib": 44,
+   "median_contrib": 44
+  },
+  "포인트 앤 클릭 어드벤처 게임|호러 게임": {
+   "n": 7,
+   "mean_len": 7298,
+   "median_len": 7968,
+   "mean_contrib": 47.1,
+   "median_contrib": 55
+  },
+  "FPS|생존게임": {
+   "n": 2,
+   "mean_len": 17840,
+   "median_len": 17840,
+   "mean_contrib": 49.5,
+   "median_contrib": 49.5
+  },
+  "FPS|스팀펑크": {
+   "n": 2,
+   "mean_len": 7672,
+   "median_len": 7672,
+   "mean_contrib": 18,
+   "median_contrib": 18.0
+  },
+  "SF 게임|스팀펑크": {
+   "n": 14,
+   "mean_len": 8948,
+   "median_len": 4997,
+   "mean_contrib": 64.5,
+   "median_contrib": 58.5
+  },
+  "연애 시뮬레이션|전연령 미소녀 게임": {
+   "n": 4,
+   "mean_len": 6580,
+   "median_len": 4802,
+   "mean_contrib": 59,
+   "median_contrib": 41.0
+  },
+  "액션 어드벤처 게임|호러 게임": {
+   "n": 16,
+   "mean_len": 16216,
+   "median_len": 7603,
+   "mean_contrib": 101.2,
+   "median_contrib": 53.5
+  },
+  "피카레스크(장르)|호러 게임": {
+   "n": 6,
+   "mean_len": 13413,
+   "median_len": 6748,
+   "mean_contrib": 153.3,
+   "median_contrib": 90.0
+  },
+  "시간여행물|어반 판타지": {
+   "n": 1,
+   "mean_len": 16843,
+   "median_len": 16843,
+   "mean_contrib": 182,
+   "median_contrib": 182
+  },
+  "스팀펑크|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 1955,
+   "median_len": 1955,
+   "mean_contrib": 29,
+   "median_contrib": 29
+  },
+  "ARPG|액션 어드벤처 게임": {
+   "n": 4,
+   "mean_len": 12986,
+   "median_len": 8264,
+   "mean_contrib": 65.2,
+   "median_contrib": 59.0
+  },
+  "루프물|연애 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 3678,
+   "median_len": 3678,
+   "mean_contrib": 24.5,
+   "median_contrib": 24.5
+  },
+  "루프물|전연령 미소녀 게임": {
+   "n": 3,
+   "mean_len": 5193,
+   "median_len": 4685,
+   "mean_contrib": 33,
+   "median_contrib": 29
+  },
+  "로그라이크 게임|탑뷰 슈팅": {
+   "n": 4,
+   "mean_len": 21231,
+   "median_len": 15748,
+   "mean_contrib": 41,
+   "median_contrib": 16.5
+  },
+  "연애 어드벤처 게임|학원물": {
+   "n": 8,
+   "mean_len": 4077,
+   "median_len": 4258,
+   "mean_contrib": 31,
+   "median_contrib": 25.0
+  },
+  "BL 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 1077,
+   "median_len": 1077,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "밀리터리 게임|비행 슈팅 게임": {
+   "n": 2,
+   "mean_len": 6244,
+   "median_len": 6244,
+   "mean_contrib": 78.5,
+   "median_contrib": 78.5
+  },
+  "종스크롤 슈팅|탄막 슈팅": {
+   "n": 8,
+   "mean_len": 6110,
+   "median_len": 4049,
+   "mean_contrib": 27.6,
+   "median_contrib": 13.5
+  },
+  "여성향 에로게|오토메 게임": {
+   "n": 11,
+   "mean_len": 3297,
+   "median_len": 3180,
+   "mean_contrib": 14.4,
+   "median_contrib": 13
+  },
+  "좀비 게임|호러 게임": {
+   "n": 16,
+   "mean_len": 13915,
+   "median_len": 13649,
+   "mean_contrib": 88.6,
+   "median_contrib": 82.0
+  },
+  "비주얼 노벨|재난물": {
+   "n": 1,
+   "mean_len": 2055,
+   "median_len": 2055,
+   "mean_contrib": 31,
+   "median_contrib": 31
+  },
+  "SF 게임|사이버펑크": {
+   "n": 16,
+   "mean_len": 9846,
+   "median_len": 7226,
+   "mean_contrib": 59.6,
+   "median_contrib": 39.0
+  },
+  "SF 게임|실시간 전술": {
+   "n": 1,
+   "mean_len": 11673,
+   "median_len": 11673,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "사이버펑크|실시간 전술": {
+   "n": 1,
+   "mean_len": 11673,
+   "median_len": 11673,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "로그라이크 게임|비행 시뮬레이션": {
+   "n": 1,
+   "mean_len": 11017,
+   "median_len": 11017,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "ARPG|TPS": {
+   "n": 2,
+   "mean_len": 38802,
+   "median_len": 38802,
+   "mean_contrib": 55.5,
+   "median_contrib": 55.5
+  },
+  "ARPG|시간여행물": {
+   "n": 2,
+   "mean_len": 18612,
+   "median_len": 18612,
+   "mean_contrib": 48.5,
+   "median_contrib": 48.5
+  },
+  "TPS|시간여행물": {
+   "n": 2,
+   "mean_len": 26352,
+   "median_len": 26352,
+   "mean_contrib": 115,
+   "median_contrib": 115.0
+  },
+  "SF 게임|잠입 액션 게임": {
+   "n": 2,
+   "mean_len": 3650,
+   "median_len": 3650,
+   "mean_contrib": 66.5,
+   "median_contrib": 66.5
+  },
+  "스팀펑크|잠입 액션 게임": {
+   "n": 2,
+   "mean_len": 3650,
+   "median_len": 3650,
+   "mean_contrib": 66.5,
+   "median_contrib": 66.5
+  },
+  "어드벤처 게임|플랫폼 게임": {
+   "n": 19,
+   "mean_len": 8752,
+   "median_len": 5415,
+   "mean_contrib": 60.4,
+   "median_contrib": 33
+  },
+  "롤플레잉 게임|액션 게임": {
+   "n": 14,
+   "mean_len": 14287,
+   "median_len": 10028,
+   "mean_contrib": 82.5,
+   "median_contrib": 32.5
+  },
+  "롤플레잉 게임|피카레스크(장르)": {
+   "n": 4,
+   "mean_len": 16816,
+   "median_len": 11168,
+   "mean_contrib": 127.2,
+   "median_contrib": 114.5
+  },
+  "액션 게임|피카레스크(장르)": {
+   "n": 8,
+   "mean_len": 21280,
+   "median_len": 17134,
+   "mean_contrib": 108.1,
+   "median_contrib": 89.5
+  },
+  "액션 게임|좀비 게임": {
+   "n": 5,
+   "mean_len": 5724,
+   "median_len": 7293,
+   "mean_contrib": 35.2,
+   "median_contrib": 21
+  },
+  "시뮬레이션 게임|어드벤처 게임": {
+   "n": 6,
+   "mean_len": 5580,
+   "median_len": 5481,
+   "mean_contrib": 25.5,
+   "median_contrib": 15.5
+  },
+  "시뮬레이션 게임|오토코노코물": {
+   "n": 1,
+   "mean_len": 3444,
+   "median_len": 3444,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "어드벤처 게임|오토코노코물": {
+   "n": 1,
+   "mean_len": 3444,
+   "median_len": 3444,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "여성향 에로게|판타지 게임": {
+   "n": 1,
+   "mean_len": 7352,
+   "median_len": 7352,
+   "mean_contrib": 26,
+   "median_contrib": 26
+  },
+  "로그라이크 게임|생존게임": {
+   "n": 7,
+   "mean_len": 32571,
+   "median_len": 28151,
+   "mean_contrib": 109.1,
+   "median_contrib": 97
+  },
+  "SF 게임|비주얼 노벨": {
+   "n": 5,
+   "mean_len": 4690,
+   "median_len": 883,
+   "mean_contrib": 56.6,
+   "median_contrib": 6
+  },
+  "SF 게임|어드벤처 게임": {
+   "n": 7,
+   "mean_len": 9589,
+   "median_len": 5945,
+   "mean_contrib": 53.6,
+   "median_contrib": 23
+  },
+  "비주얼 노벨|사이버펑크": {
+   "n": 3,
+   "mean_len": 7253,
+   "median_len": 2965,
+   "mean_contrib": 91.3,
+   "median_contrib": 20
+  },
+  "비주얼 노벨|어드벤처 게임": {
+   "n": 16,
+   "mean_len": 6978,
+   "median_len": 4204,
+   "mean_contrib": 49.4,
+   "median_contrib": 26.0
+  },
+  "사이버펑크|어드벤처 게임": {
+   "n": 4,
+   "mean_len": 5986,
+   "median_len": 2576,
+   "mean_contrib": 69,
+   "median_contrib": 13.0
+  },
+  "어드벤처 게임|여성향 에로게": {
+   "n": 1,
+   "mean_len": 3019,
+   "median_len": 3019,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "어드벤처 게임|오토메 게임": {
+   "n": 3,
+   "mean_len": 2735,
+   "median_len": 3019,
+   "mean_contrib": 7.7,
+   "median_contrib": 7
+  },
+  "액션 게임|어드벤처 게임": {
+   "n": 11,
+   "mean_len": 6037,
+   "median_len": 2321,
+   "mean_contrib": 30.3,
+   "median_contrib": 20
+  },
+  "플랫폼 게임|호러 게임": {
+   "n": 4,
+   "mean_len": 12139,
+   "median_len": 12902,
+   "mean_contrib": 144.5,
+   "median_contrib": 143.5
+  },
+  "시뮬레이션 게임|축구 게임": {
+   "n": 1,
+   "mean_len": 3933,
+   "median_len": 3933,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "액션 게임|퍼즐 게임": {
+   "n": 7,
+   "mean_len": 9046,
+   "median_len": 7829,
+   "mean_contrib": 54.6,
+   "median_contrib": 25
+  },
+  "FPS|밀리터리 게임": {
+   "n": 1,
+   "mean_len": 4974,
+   "median_len": 4974,
+   "mean_contrib": 149,
+   "median_contrib": 149
+  },
+  "전략 시뮬레이션|턴제 게임": {
+   "n": 9,
+   "mean_len": 6965,
+   "median_len": 4402,
+   "mean_contrib": 14.4,
+   "median_contrib": 10
+  },
+  "에로게|학원물": {
+   "n": 1,
+   "mean_len": 6694,
+   "median_len": 6694,
+   "mean_contrib": 23,
+   "median_contrib": 23
+  },
+  "액션 게임|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 6018,
+   "median_len": 6018,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "액션 게임|플랫폼 게임": {
+   "n": 12,
+   "mean_len": 13709,
+   "median_len": 7158,
+   "mean_contrib": 64,
+   "median_contrib": 29.0
+  },
+  "SF 게임|갤러리 게임": {
+   "n": 1,
+   "mean_len": 10476,
+   "median_len": 10476,
+   "mean_contrib": 163,
+   "median_contrib": 163
+  },
+  "스팀펑크|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 2451,
+   "median_len": 2451,
+   "mean_contrib": 30,
+   "median_contrib": 30
+  },
+  "SF 게임|런앤건": {
+   "n": 7,
+   "mean_len": 5646,
+   "median_len": 5280,
+   "mean_contrib": 31.3,
+   "median_contrib": 28
+  },
+  "밀리터리 게임|탑뷰 슈팅": {
+   "n": 3,
+   "mean_len": 3432,
+   "median_len": 3574,
+   "mean_contrib": 18.7,
+   "median_contrib": 21
+  },
+  "SF 게임|SRPG": {
+   "n": 2,
+   "mean_len": 13376,
+   "median_len": 13376,
+   "mean_contrib": 71.5,
+   "median_contrib": 71.5
+  },
+  "보드 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 7871,
+   "median_len": 7871,
+   "mean_contrib": 56,
+   "median_contrib": 56
+  },
+  "SF 게임|루프물": {
+   "n": 2,
+   "mean_len": 5172,
+   "median_len": 5172,
+   "mean_contrib": 30.5,
+   "median_contrib": 30.5
+  },
+  "다크 판타지 게임|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 47454,
+   "median_len": 47454,
+   "mean_contrib": 84,
+   "median_contrib": 84
+  },
+  "롤플레잉 게임|플랫폼 게임": {
+   "n": 3,
+   "mean_len": 3713,
+   "median_len": 5249,
+   "mean_contrib": 18,
+   "median_contrib": 5
+  },
+  "MMORPG|무협 게임": {
+   "n": 3,
+   "mean_len": 6433,
+   "median_len": 1582,
+   "mean_contrib": 24.3,
+   "median_contrib": 21
+  },
+  "백합 게임|비주얼 노벨": {
+   "n": 4,
+   "mean_len": 6020,
+   "median_len": 4824,
+   "mean_contrib": 67.5,
+   "median_contrib": 67.0
+  },
+  "백합 게임|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 8879,
+   "median_len": 7928,
+   "mean_contrib": 61.7,
+   "median_contrib": 35
+  },
+  "연애 어드벤처 게임|판타지 게임": {
+   "n": 9,
+   "mean_len": 3775,
+   "median_len": 3211,
+   "mean_contrib": 18.4,
+   "median_contrib": 10
+  },
+  "육성 시뮬레이션|판타지 게임": {
+   "n": 3,
+   "mean_len": 5123,
+   "median_len": 5126,
+   "mean_contrib": 18.7,
+   "median_contrib": 15
+  },
+  "육성 시뮬레이션|학원물": {
+   "n": 1,
+   "mean_len": 5017,
+   "median_len": 5017,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "판타지 게임|학원물": {
+   "n": 2,
+   "mean_len": 3178,
+   "median_len": 3178,
+   "mean_contrib": 9,
+   "median_contrib": 9.0
+  },
+  "SRPG|판타지 게임": {
+   "n": 4,
+   "mean_len": 29326,
+   "median_len": 31101,
+   "mean_contrib": 52.8,
+   "median_contrib": 44.5
+  },
+  "스포츠 게임|액션 게임": {
+   "n": 2,
+   "mean_len": 11164,
+   "median_len": 11164,
+   "mean_contrib": 29.5,
+   "median_contrib": 29.5
+  },
+  "건설 경영 시뮬레이션|소셜 게임": {
+   "n": 7,
+   "mean_len": 13929,
+   "median_len": 9204,
+   "mean_contrib": 36.6,
+   "median_contrib": 21
+  },
+  "BL 게임|비주얼 노벨": {
+   "n": 4,
+   "mean_len": 1211,
+   "median_len": 1180,
+   "mean_contrib": 12.2,
+   "median_contrib": 13.0
+  },
+  "비주얼 노벨|여성향 에로게": {
+   "n": 4,
+   "mean_len": 1211,
+   "median_len": 1180,
+   "mean_contrib": 12.2,
+   "median_contrib": 13.0
+  },
+  "건설 경영 시뮬레이션|판타지 게임": {
+   "n": 10,
+   "mean_len": 5034,
+   "median_len": 4888,
+   "mean_contrib": 18.4,
+   "median_contrib": 14.0
+  },
+  "런앤건|벨트스크롤 액션 게임": {
+   "n": 3,
+   "mean_len": 2625,
+   "median_len": 2093,
+   "mean_contrib": 16.3,
+   "median_contrib": 17
+  },
+  "고어|벨트스크롤 액션 게임": {
+   "n": 1,
+   "mean_len": 12496,
+   "median_len": 12496,
+   "mean_contrib": 60,
+   "median_contrib": 60
+  },
+  "고어|좀비 게임": {
+   "n": 1,
+   "mean_len": 12496,
+   "median_len": 12496,
+   "mean_contrib": 60,
+   "median_contrib": 60
+  },
+  "벨트스크롤 액션 게임|좀비 게임": {
+   "n": 2,
+   "mean_len": 9776,
+   "median_len": 9776,
+   "mean_contrib": 46.5,
+   "median_contrib": 46.5
+  },
+  "SRPG|크로스오버": {
+   "n": 1,
+   "mean_len": 7405,
+   "median_len": 7405,
+   "mean_contrib": 60,
+   "median_contrib": 60
+  },
+  "롤플레잉 게임|턴제 게임": {
+   "n": 29,
+   "mean_len": 15871,
+   "median_len": 9070,
+   "mean_contrib": 60.6,
+   "median_contrib": 27
+  },
+  "샌드박스|전략 시뮬레이션": {
+   "n": 3,
+   "mean_len": 3127,
+   "median_len": 1070,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "FPS|스페이스 오페라": {
+   "n": 1,
+   "mean_len": 21763,
+   "median_len": 21763,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "SF 게임|스페이스 오페라": {
+   "n": 2,
+   "mean_len": 13344,
+   "median_len": 13344,
+   "mean_contrib": 57.5,
+   "median_contrib": 57.5
+  },
+  "러닝 액션 게임|시간여행물": {
+   "n": 1,
+   "mean_len": 1961,
+   "median_len": 1961,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "테이블 게임|퍼즐 게임": {
+   "n": 4,
+   "mean_len": 9102,
+   "median_len": 8820,
+   "mean_contrib": 64.8,
+   "median_contrib": 61.5
+  },
+  "디스토피아|액션 게임": {
+   "n": 3,
+   "mean_len": 13452,
+   "median_len": 9261,
+   "mean_contrib": 42,
+   "median_contrib": 47
+  },
+  "디스토피아|피카레스크(장르)": {
+   "n": 2,
+   "mean_len": 18256,
+   "median_len": 18256,
+   "mean_contrib": 49,
+   "median_contrib": 49.0
+  },
+  "벨트스크롤 액션 게임|액션 게임": {
+   "n": 3,
+   "mean_len": 11862,
+   "median_len": 12968,
+   "mean_contrib": 65,
+   "median_contrib": 78
+  },
+  "FPS|액션 게임": {
+   "n": 6,
+   "mean_len": 4232,
+   "median_len": 4412,
+   "mean_contrib": 53.2,
+   "median_contrib": 46.5
+  },
+  "건슈팅 게임|좀비 게임": {
+   "n": 8,
+   "mean_len": 16217,
+   "median_len": 16542,
+   "mean_contrib": 129.9,
+   "median_contrib": 129.5
+  },
+  "건슈팅 게임|호러 게임": {
+   "n": 12,
+   "mean_len": 11561,
+   "median_len": 14024,
+   "mean_contrib": 93.5,
+   "median_contrib": 99.0
+  },
+  "FPS|시간여행물": {
+   "n": 1,
+   "mean_len": 18006,
+   "median_len": 18006,
+   "mean_contrib": 52,
+   "median_contrib": 52
+  },
+  "로그라이크 게임|호러 게임": {
+   "n": 4,
+   "mean_len": 33410,
+   "median_len": 29744,
+   "mean_contrib": 129.2,
+   "median_contrib": 119.5
+  },
+  "생존게임|호러 게임": {
+   "n": 9,
+   "mean_len": 20414,
+   "median_len": 2998,
+   "mean_contrib": 76.4,
+   "median_contrib": 50
+  },
+  "어드벤처 게임|추리 게임": {
+   "n": 20,
+   "mean_len": 7524,
+   "median_len": 4586,
+   "mean_contrib": 26.1,
+   "median_contrib": 13.0
+  },
+  "다크 판타지 게임|어드벤처 게임": {
+   "n": 4,
+   "mean_len": 6892,
+   "median_len": 6480,
+   "mean_contrib": 50.2,
+   "median_contrib": 44.5
+  },
+  "다크 판타지 게임|호러 게임": {
+   "n": 6,
+   "mean_len": 6053,
+   "median_len": 5257,
+   "mean_contrib": 37.2,
+   "median_contrib": 37.0
+  },
+  "디펜스 게임|판타지 게임": {
+   "n": 8,
+   "mean_len": 8566,
+   "median_len": 4473,
+   "mean_contrib": 17,
+   "median_contrib": 15.5
+  },
+  "롤플레잉 게임|퍼즐 게임": {
+   "n": 6,
+   "mean_len": 6336,
+   "median_len": 6830,
+   "mean_contrib": 16.7,
+   "median_contrib": 12.5
+  },
+  "ARPG|판타지 게임": {
+   "n": 10,
+   "mean_len": 12561,
+   "median_len": 6695,
+   "mean_contrib": 104.5,
+   "median_contrib": 22.0
+  },
+  "TPS|호러 게임": {
+   "n": 7,
+   "mean_len": 36846,
+   "median_len": 34818,
+   "mean_contrib": 231.4,
+   "median_contrib": 164
+  },
+  "액션 게임|탑뷰 슈팅": {
+   "n": 5,
+   "mean_len": 9200,
+   "median_len": 7457,
+   "mean_contrib": 22.2,
+   "median_contrib": 19
+  },
+  "다크 판타지 게임|탄막 슈팅": {
+   "n": 1,
+   "mean_len": 2691,
+   "median_len": 2691,
+   "mean_contrib": 19,
+   "median_contrib": 19
+  },
+  "ARPG|FPS": {
+   "n": 4,
+   "mean_len": 13606,
+   "median_len": 13578,
+   "mean_contrib": 83.5,
+   "median_contrib": 68.5
+  },
+  "ARPG|잠입 액션 게임": {
+   "n": 3,
+   "mean_len": 16726,
+   "median_len": 22909,
+   "mean_contrib": 104,
+   "median_contrib": 115
+  },
+  "FPS|잠입 액션 게임": {
+   "n": 5,
+   "mean_len": 12383,
+   "median_len": 6671,
+   "mean_contrib": 72.8,
+   "median_contrib": 27
+  },
+  "생존게임|액션 게임": {
+   "n": 4,
+   "mean_len": 11116,
+   "median_len": 9504,
+   "mean_contrib": 44,
+   "median_contrib": 43.5
+  },
+  "생존게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 12441,
+   "median_len": 12441,
+   "mean_contrib": 68,
+   "median_contrib": 68
+  },
+  "액션 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 12441,
+   "median_len": 12441,
+   "mean_contrib": 68,
+   "median_contrib": 68
+  },
+  "롤플레잉 게임|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 1005,
+   "median_len": 1005,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "RTS|액션 게임": {
+   "n": 3,
+   "mean_len": 12915,
+   "median_len": 13014,
+   "mean_contrib": 39.7,
+   "median_contrib": 40
+  },
+  "RTS|트레이딩 카드 게임": {
+   "n": 3,
+   "mean_len": 8017,
+   "median_len": 5525,
+   "mean_contrib": 25,
+   "median_contrib": 29
+  },
+  "액션 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 13014,
+   "median_len": 13014,
+   "mean_contrib": 29,
+   "median_contrib": 29
+  },
+  "액션 게임|이세계물": {
+   "n": 1,
+   "mean_len": 4528,
+   "median_len": 4528,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "액션 게임|판타지 게임": {
+   "n": 4,
+   "mean_len": 14106,
+   "median_len": 14022,
+   "mean_contrib": 28.2,
+   "median_contrib": 21.5
+  },
+  "이세계물|판타지 게임": {
+   "n": 4,
+   "mean_len": 10171,
+   "median_len": 11012,
+   "mean_contrib": 22.5,
+   "median_contrib": 18.5
+  },
+  "롤플레잉 게임|시간여행물": {
+   "n": 5,
+   "mean_len": 12271,
+   "median_len": 10990,
+   "mean_contrib": 87,
+   "median_contrib": 63
+  },
+  "SRPG|시간여행물": {
+   "n": 1,
+   "mean_len": 27166,
+   "median_len": 27166,
+   "mean_contrib": 71,
+   "median_contrib": 71
+  },
+  "액션 어드벤처 게임|장난감 상호 작용 게임": {
+   "n": 2,
+   "mean_len": 2995,
+   "median_len": 2995,
+   "mean_contrib": 42.5,
+   "median_contrib": 42.5
+  },
+  "롤플레잉 게임|판타지 게임": {
+   "n": 24,
+   "mean_len": 8597,
+   "median_len": 6350,
+   "mean_contrib": 43.5,
+   "median_contrib": 29.0
+  },
+  "MMORPG|RTS": {
+   "n": 1,
+   "mean_len": 41908,
+   "median_len": 41908,
+   "mean_contrib": 135,
+   "median_contrib": 135
+  },
+  "MMORPG|좀비 게임": {
+   "n": 2,
+   "mean_len": 22248,
+   "median_len": 22248,
+   "mean_contrib": 89,
+   "median_contrib": 89.0
+  },
+  "레이싱 게임|스포츠 게임": {
+   "n": 3,
+   "mean_len": 12952,
+   "median_len": 8621,
+   "mean_contrib": 64.3,
+   "median_contrib": 25
+  },
+  "FPS|고어": {
+   "n": 1,
+   "mean_len": 17315,
+   "median_len": 17315,
+   "mean_contrib": 63,
+   "median_contrib": 63
+  },
+  "농구 게임|런앤건": {
+   "n": 1,
+   "mean_len": 2436,
+   "median_len": 2436,
+   "mean_contrib": 124,
+   "median_contrib": 124
+  },
+  "AOS|러닝 액션 게임": {
+   "n": 1,
+   "mean_len": 2538,
+   "median_len": 2538,
+   "mean_contrib": 31,
+   "median_contrib": 31
+  },
+  "액션 어드벤처 게임|오픈 월드": {
+   "n": 5,
+   "mean_len": 17774,
+   "median_len": 7943,
+   "mean_contrib": 52.2,
+   "median_contrib": 32
+  },
+  "ARPG|JRPG": {
+   "n": 2,
+   "mean_len": 5705,
+   "median_len": 5705,
+   "mean_contrib": 27,
+   "median_contrib": 27.0
+  },
+  "스팀펑크|플랫폼 게임": {
+   "n": 2,
+   "mean_len": 9583,
+   "median_len": 9583,
+   "mean_contrib": 78.5,
+   "median_contrib": 78.5
+  },
+  "FPS|포스트 아포칼립스": {
+   "n": 3,
+   "mean_len": 11738,
+   "median_len": 7868,
+   "mean_contrib": 51,
+   "median_contrib": 61
+  },
+  "FPS|전략 슈팅 게임": {
+   "n": 1,
+   "mean_len": 16346,
+   "median_len": 16346,
+   "mean_contrib": 59,
+   "median_contrib": 59
+  },
+  "로그라이크 게임|플랫폼 게임": {
+   "n": 9,
+   "mean_len": 14418,
+   "median_len": 9799,
+   "mean_contrib": 70.3,
+   "median_contrib": 35
+  },
+  "롤플레잉 게임|육성 시뮬레이션": {
+   "n": 10,
+   "mean_len": 11135,
+   "median_len": 9679,
+   "mean_contrib": 66.2,
+   "median_contrib": 66.5
+  },
+  "연애 어드벤처 게임|오토메 게임": {
+   "n": 11,
+   "mean_len": 3188,
+   "median_len": 2381,
+   "mean_contrib": 7.5,
+   "median_contrib": 8
+  },
+  "대체역사물|비주얼 노벨": {
+   "n": 1,
+   "mean_len": 2588,
+   "median_len": 2588,
+   "mean_contrib": 27,
+   "median_contrib": 27
+  },
+  "대체역사물|액션 게임": {
+   "n": 1,
+   "mean_len": 2588,
+   "median_len": 2588,
+   "mean_contrib": 27,
+   "median_contrib": 27
+  },
+  "비주얼 노벨|액션 게임": {
+   "n": 2,
+   "mean_len": 1736,
+   "median_len": 1736,
+   "mean_contrib": 16,
+   "median_contrib": 16.0
+  },
+  "SF 게임|액션 게임": {
+   "n": 8,
+   "mean_len": 4810,
+   "median_len": 5091,
+   "mean_contrib": 37.8,
+   "median_contrib": 31.5
+  },
+  "런앤건|사이버펑크": {
+   "n": 5,
+   "mean_len": 5705,
+   "median_len": 5280,
+   "mean_contrib": 40.6,
+   "median_contrib": 35
+  },
+  "런앤건|액션 게임": {
+   "n": 9,
+   "mean_len": 5872,
+   "median_len": 4902,
+   "mean_contrib": 32.6,
+   "median_contrib": 28
+  },
+  "사이버펑크|액션 게임": {
+   "n": 10,
+   "mean_len": 10952,
+   "median_len": 7226,
+   "mean_contrib": 52.2,
+   "median_contrib": 41.5
+  },
+  "액션 게임|호러 게임": {
+   "n": 3,
+   "mean_len": 13608,
+   "median_len": 7293,
+   "mean_contrib": 47.7,
+   "median_contrib": 65
+  },
+  "SF 게임|액션 어드벤처 게임": {
+   "n": 4,
+   "mean_len": 10029,
+   "median_len": 9316,
+   "mean_contrib": 49,
+   "median_contrib": 51.0
+  },
+  "사이버펑크|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 10239,
+   "median_len": 10239,
+   "mean_contrib": 50,
+   "median_contrib": 50
+  },
+  "거대로봇물|액션 게임": {
+   "n": 2,
+   "mean_len": 11722,
+   "median_len": 11722,
+   "mean_contrib": 12,
+   "median_contrib": 12.0
+  },
+  "전략 시뮬레이션|좀비 게임": {
+   "n": 3,
+   "mean_len": 11745,
+   "median_len": 8146,
+   "mean_contrib": 29.3,
+   "median_contrib": 37
+  },
+  "대전 액션|포격 게임": {
+   "n": 1,
+   "mean_len": 3716,
+   "median_len": 3716,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "비주얼 노벨|호러 게임": {
+   "n": 13,
+   "mean_len": 10411,
+   "median_len": 3845,
+   "mean_contrib": 36.2,
+   "median_contrib": 27
+  },
+  "샌드박스|액션 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 15852,
+   "median_len": 15852,
+   "mean_contrib": 171,
+   "median_contrib": 171.0
+  },
+  "다크 판타지 게임|시간여행물": {
+   "n": 1,
+   "mean_len": 9308,
+   "median_len": 9308,
+   "mean_contrib": 120,
+   "median_contrib": 120
+  },
+  "시간여행물|연애 시뮬레이션": {
+   "n": 1,
+   "mean_len": 8328,
+   "median_len": 8328,
+   "mean_contrib": 26,
+   "median_contrib": 26
+  },
+  "런앤건|크로스오버": {
+   "n": 2,
+   "mean_len": 9174,
+   "median_len": 9174,
+   "mean_contrib": 26,
+   "median_contrib": 26.0
+  },
+  "액션 게임|크로스오버": {
+   "n": 2,
+   "mean_len": 9174,
+   "median_len": 9174,
+   "mean_contrib": 26,
+   "median_contrib": 26.0
+  },
+  "액션 어드벤처 게임|추리 게임": {
+   "n": 1,
+   "mean_len": 5862,
+   "median_len": 5862,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "백합 게임|연애 어드벤처 게임": {
+   "n": 5,
+   "mean_len": 10337,
+   "median_len": 7327,
+   "mean_contrib": 27,
+   "median_contrib": 27
+  },
+  "백합 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 2554,
+   "median_len": 2554,
+   "mean_contrib": 51,
+   "median_contrib": 51
+  },
+  "연애 어드벤처 게임|호러 게임": {
+   "n": 2,
+   "mean_len": 1645,
+   "median_len": 1645,
+   "mean_contrib": 32.5,
+   "median_contrib": 32.5
+  },
+  "시간여행물|오토메 게임": {
+   "n": 1,
+   "mean_len": 2025,
+   "median_len": 2025,
+   "mean_contrib": 30,
+   "median_contrib": 30
+  },
+  "비주얼 노벨|추리 게임": {
+   "n": 15,
+   "mean_len": 3128,
+   "median_len": 2390,
+   "mean_contrib": 22.9,
+   "median_contrib": 8
+  },
+  "건설 경영 시뮬레이션|요리물": {
+   "n": 9,
+   "mean_len": 7864,
+   "median_len": 7080,
+   "mean_contrib": 53.9,
+   "median_contrib": 31
+  },
+  "디펜스 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 13924,
+   "median_len": 13924,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "시간여행물|연애 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 2276,
+   "median_len": 2276,
+   "mean_contrib": 9.5,
+   "median_contrib": 9.5
+  },
+  "디스토피아|런앤건": {
+   "n": 2,
+   "mean_len": 6687,
+   "median_len": 6687,
+   "mean_contrib": 38,
+   "median_contrib": 38.0
+  },
+  "로그라이크 게임|포스트 아포칼립스": {
+   "n": 2,
+   "mean_len": 5194,
+   "median_len": 5194,
+   "mean_contrib": 8,
+   "median_contrib": 8.0
+  },
+  "스팀펑크|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 18624,
+   "median_len": 18624,
+   "mean_contrib": 328,
+   "median_contrib": 328
+  },
+  "ARPG|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 8658,
+   "median_len": 8658,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "ARPG|포격 게임": {
+   "n": 1,
+   "mean_len": 8658,
+   "median_len": 8658,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "퍼즐 게임|포격 게임": {
+   "n": 1,
+   "mean_len": 8658,
+   "median_len": 8658,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "던전 RPG|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 6506,
+   "median_len": 6506,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "연애 시뮬레이션|인터랙티브 무비": {
+   "n": 1,
+   "mean_len": 6544,
+   "median_len": 6544,
+   "mean_contrib": 132,
+   "median_contrib": 132
+  },
+  "액션 어드벤처 게임|잠입 액션 게임": {
+   "n": 9,
+   "mean_len": 21672,
+   "median_len": 18570,
+   "mean_contrib": 150.6,
+   "median_contrib": 152
+  },
+  "MMORPG|SF 게임": {
+   "n": 3,
+   "mean_len": 7735,
+   "median_len": 8057,
+   "mean_contrib": 16.7,
+   "median_contrib": 14
+  },
+  "FPS|RTS": {
+   "n": 3,
+   "mean_len": 2007,
+   "median_len": 1436,
+   "mean_contrib": 14.7,
+   "median_contrib": 14
+  },
+  "FPS|TPS": {
+   "n": 8,
+   "mean_len": 4265,
+   "median_len": 3146,
+   "mean_contrib": 30.6,
+   "median_contrib": 20.5
+  },
+  "RTS|TPS": {
+   "n": 3,
+   "mean_len": 1388,
+   "median_len": 1436,
+   "mean_contrib": 12.7,
+   "median_contrib": 14
+  },
+  "건설 경영 시뮬레이션|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 10891,
+   "median_len": 10891,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "다크 판타지 게임|액션 게임": {
+   "n": 7,
+   "mean_len": 20017,
+   "median_len": 14445,
+   "mean_contrib": 63.6,
+   "median_contrib": 61
+  },
+  "다크 판타지 게임|액션 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 11050,
+   "median_len": 11050,
+   "mean_contrib": 52.5,
+   "median_contrib": 52.5
+  },
+  "액션 게임|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 4554,
+   "median_len": 4554,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "롤플레잉 게임|샌드박스": {
+   "n": 3,
+   "mean_len": 19576,
+   "median_len": 23990,
+   "mean_contrib": 56.7,
+   "median_contrib": 49
+  },
+  "MMORPG|판타지 게임": {
+   "n": 7,
+   "mean_len": 9190,
+   "median_len": 4493,
+   "mean_contrib": 53.6,
+   "median_contrib": 27
+  },
+  "TPS|액션 게임": {
+   "n": 9,
+   "mean_len": 2625,
+   "median_len": 2929,
+   "mean_contrib": 17.6,
+   "median_contrib": 10
+  },
+  "SF 게임|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 2834,
+   "median_len": 2834,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "사이버펑크|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 2834,
+   "median_len": 2834,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "생존게임|시뮬레이션 게임": {
+   "n": 5,
+   "mean_len": 5299,
+   "median_len": 7336,
+   "mean_contrib": 25.8,
+   "median_contrib": 17
+  },
+  "거대로봇물|런앤건": {
+   "n": 1,
+   "mean_len": 396,
+   "median_len": 396,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "러닝 액션 게임|횡스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 4230,
+   "median_len": 4230,
+   "mean_contrib": 53,
+   "median_contrib": 53
+  },
+  "벨트스크롤 액션 게임|포스트 아포칼립스": {
+   "n": 2,
+   "mean_len": 10524,
+   "median_len": 10524,
+   "mean_contrib": 17,
+   "median_contrib": 17.0
+  },
+  "SF 게임|오토메 게임": {
+   "n": 1,
+   "mean_len": 1630,
+   "median_len": 1630,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "TPS|액션 어드벤처 게임": {
+   "n": 9,
+   "mean_len": 25723,
+   "median_len": 18350,
+   "mean_contrib": 124.8,
+   "median_contrib": 78
+  },
+  "FPS|롤플레잉 게임": {
+   "n": 1,
+   "mean_len": 3637,
+   "median_len": 3637,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "RTS|롤플레잉 게임": {
+   "n": 3,
+   "mean_len": 4860,
+   "median_len": 3637,
+   "mean_contrib": 18.7,
+   "median_contrib": 14
+  },
+  "JRPG|롤플레잉 게임": {
+   "n": 3,
+   "mean_len": 12403,
+   "median_len": 11873,
+   "mean_contrib": 103.3,
+   "median_contrib": 67
+  },
+  "어드벤처 게임|육성 시뮬레이션": {
+   "n": 2,
+   "mean_len": 3949,
+   "median_len": 3949,
+   "mean_contrib": 12,
+   "median_contrib": 12.0
+  },
+  "어드벤처 게임|판타지 게임": {
+   "n": 2,
+   "mean_len": 14540,
+   "median_len": 14540,
+   "mean_contrib": 15.5,
+   "median_contrib": 15.5
+  },
+  "시간여행물|액션 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 21726,
+   "median_len": 21726,
+   "mean_contrib": 186,
+   "median_contrib": 186.0
+  },
+  "시간여행물|액션 게임": {
+   "n": 3,
+   "mean_len": 6698,
+   "median_len": 2660,
+   "mean_contrib": 85.7,
+   "median_contrib": 26
+  },
+  "롤플레잉 게임|트레이딩 카드 게임": {
+   "n": 3,
+   "mean_len": 6149,
+   "median_len": 7250,
+   "mean_contrib": 14.7,
+   "median_contrib": 8
+  },
+  "리듬 게임|백합 게임": {
+   "n": 1,
+   "mean_len": 619,
+   "median_len": 619,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "소셜 게임|육성 시뮬레이션": {
+   "n": 5,
+   "mean_len": 8026,
+   "median_len": 5887,
+   "mean_contrib": 39.2,
+   "median_contrib": 30
+  },
+  "RTS|전략 시뮬레이션": {
+   "n": 3,
+   "mean_len": 3424,
+   "median_len": 3113,
+   "mean_contrib": 116.7,
+   "median_contrib": 51
+  },
+  "루프물|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 3726,
+   "median_len": 3845,
+   "mean_contrib": 18.3,
+   "median_contrib": 18
+  },
+  "JRPG|호러 게임": {
+   "n": 1,
+   "mean_len": 7146,
+   "median_len": 7146,
+   "mean_contrib": 59,
+   "median_contrib": 59
+  },
+  "러닝 액션 게임|레이싱 게임": {
+   "n": 1,
+   "mean_len": 5689,
+   "median_len": 5689,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "턴제 게임|포격 게임": {
+   "n": 2,
+   "mean_len": 1301,
+   "median_len": 1301,
+   "mean_contrib": 15.5,
+   "median_contrib": 15.5
+  },
+  "어드벤처 게임|학원물": {
+   "n": 1,
+   "mean_len": 3520,
+   "median_len": 3520,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "MMORPG|레이싱 게임": {
+   "n": 1,
+   "mean_len": 49181,
+   "median_len": 49181,
+   "mean_contrib": 184,
+   "median_contrib": 184
+  },
+  "소셜 게임|시뮬레이션 게임": {
+   "n": 3,
+   "mean_len": 15077,
+   "median_len": 2751,
+   "mean_contrib": 82,
+   "median_contrib": 17
+  },
+  "소셜 게임|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 2751,
+   "median_len": 2751,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "2D 아이돌 게임|오토메 게임": {
+   "n": 2,
+   "mean_len": 15878,
+   "median_len": 15878,
+   "mean_contrib": 44.5,
+   "median_contrib": 44.5
+  },
+  "SF 게임|탄막 슈팅": {
+   "n": 1,
+   "mean_len": 40386,
+   "median_len": 40386,
+   "mean_contrib": 220,
+   "median_contrib": 220
+  },
+  "TPS|런앤건": {
+   "n": 2,
+   "mean_len": 3794,
+   "median_len": 3794,
+   "mean_contrib": 33.5,
+   "median_contrib": 33.5
+  },
+  "ARPG|샌드박스": {
+   "n": 3,
+   "mean_len": 5741,
+   "median_len": 4964,
+   "mean_contrib": 55,
+   "median_contrib": 52
+  },
+  "ARPG|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 8877,
+   "median_len": 8135,
+   "mean_contrib": 30.7,
+   "median_contrib": 24
+  },
+  "ARPG|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 8135,
+   "median_len": 8135,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "샌드박스|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 11057,
+   "median_len": 8135,
+   "mean_contrib": 49,
+   "median_contrib": 24
+  },
+  "어드벤처 게임|전략 시뮬레이션": {
+   "n": 6,
+   "mean_len": 14074,
+   "median_len": 10610,
+   "mean_contrib": 31.7,
+   "median_contrib": 23.0
+  },
+  "고어|료나 게임": {
+   "n": 7,
+   "mean_len": 6146,
+   "median_len": 1443,
+   "mean_contrib": 20.9,
+   "median_contrib": 11
+  },
+  "비주얼 노벨|오토메 게임": {
+   "n": 3,
+   "mean_len": 6295,
+   "median_len": 6873,
+   "mean_contrib": 10.7,
+   "median_contrib": 11
+  },
+  "잠입 액션 게임|호러 게임": {
+   "n": 2,
+   "mean_len": 5868,
+   "median_len": 5868,
+   "mean_contrib": 26,
+   "median_contrib": 26.0
+  },
+  "TPS|비행 슈팅 게임": {
+   "n": 2,
+   "mean_len": 8374,
+   "median_len": 8374,
+   "mean_contrib": 63.5,
+   "median_contrib": 63.5
+  },
+  "FPS|사이버펑크": {
+   "n": 3,
+   "mean_len": 12719,
+   "median_len": 5556,
+   "mean_contrib": 25,
+   "median_contrib": 14
+  },
+  "FPS|디스토피아": {
+   "n": 1,
+   "mean_len": 29530,
+   "median_len": 29530,
+   "mean_contrib": 55,
+   "median_contrib": 55
+  },
+  "SF 게임|디스토피아": {
+   "n": 3,
+   "mean_len": 13033,
+   "median_len": 5724,
+   "mean_contrib": 41.3,
+   "median_contrib": 41
+  },
+  "디스토피아|사이버펑크": {
+   "n": 2,
+   "mean_len": 16688,
+   "median_len": 16688,
+   "mean_contrib": 41.5,
+   "median_contrib": 41.5
+  },
+  "종스크롤 슈팅|횡스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 6299,
+   "median_len": 6299,
+   "mean_contrib": 134,
+   "median_contrib": 134
+  },
+  "탄막 슈팅|횡스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 6299,
+   "median_len": 6299,
+   "mean_contrib": 134,
+   "median_contrib": 134
+  },
+  "시뮬레이션 게임|육성 시뮬레이션": {
+   "n": 1,
+   "mean_len": 16278,
+   "median_len": 16278,
+   "mean_contrib": 117,
+   "median_contrib": 117
+  },
+  "FPS|대체역사물": {
+   "n": 6,
+   "mean_len": 12051,
+   "median_len": 10727,
+   "mean_contrib": 89.7,
+   "median_contrib": 79.0
+  },
+  "FPS|피카레스크(장르)": {
+   "n": 2,
+   "mean_len": 6838,
+   "median_len": 6838,
+   "mean_contrib": 37.5,
+   "median_contrib": 37.5
+  },
+  "대체역사물|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 9873,
+   "median_len": 9873,
+   "mean_contrib": 55,
+   "median_contrib": 55
+  },
+  "TPS|대전 액션": {
+   "n": 2,
+   "mean_len": 12991,
+   "median_len": 12991,
+   "mean_contrib": 36.5,
+   "median_contrib": 36.5
+  },
+  "액션 게임|탄막 게임": {
+   "n": 1,
+   "mean_len": 7659,
+   "median_len": 7659,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "리듬 게임|사이버펑크": {
+   "n": 1,
+   "mean_len": 5063,
+   "median_len": 5063,
+   "mean_contrib": 89,
+   "median_contrib": 89
+  },
+  "2D 아이돌 게임|리듬 게임": {
+   "n": 5,
+   "mean_len": 12109,
+   "median_len": 7510,
+   "mean_contrib": 47,
+   "median_contrib": 40
+  },
+  "2D 아이돌 게임|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 2760,
+   "median_len": 2672,
+   "mean_contrib": 17.3,
+   "median_contrib": 14
+  },
+  "2D 아이돌 게임|육성 시뮬레이션": {
+   "n": 2,
+   "mean_len": 7906,
+   "median_len": 7906,
+   "mean_contrib": 13,
+   "median_contrib": 13.0
+  },
+  "리듬 게임|어드벤처 게임": {
+   "n": 3,
+   "mean_len": 2438,
+   "median_len": 2399,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "리듬 게임|육성 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2672,
+   "median_len": 2672,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "MMORPG|액션 게임": {
+   "n": 2,
+   "mean_len": 13068,
+   "median_len": 13068,
+   "mean_contrib": 53,
+   "median_contrib": 53.0
+  },
+  "러닝 액션 게임|런앤건": {
+   "n": 2,
+   "mean_len": 7184,
+   "median_len": 7184,
+   "mean_contrib": 45.5,
+   "median_contrib": 45.5
+  },
+  "대전 액션|시간여행물": {
+   "n": 1,
+   "mean_len": 5065,
+   "median_len": 5065,
+   "mean_contrib": 48,
+   "median_contrib": 48
+  },
+  "요리물|판타지 게임": {
+   "n": 1,
+   "mean_len": 10141,
+   "median_len": 10141,
+   "mean_contrib": 40,
+   "median_contrib": 40
+  },
+  "루프물|오토메 게임": {
+   "n": 1,
+   "mean_len": 7790,
+   "median_len": 7790,
+   "mean_contrib": 53,
+   "median_contrib": 53
+  },
+  "SF 게임|롤플레잉 게임": {
+   "n": 5,
+   "mean_len": 13924,
+   "median_len": 13010,
+   "mean_contrib": 103.8,
+   "median_contrib": 61
+  },
+  "디스토피아|롤플레잉 게임": {
+   "n": 2,
+   "mean_len": 25661,
+   "median_len": 25661,
+   "mean_contrib": 77.5,
+   "median_contrib": 77.5
+  },
+  "연애 어드벤처 게임|오픈 월드": {
+   "n": 1,
+   "mean_len": 2555,
+   "median_len": 2555,
+   "mean_contrib": 73,
+   "median_contrib": 73
+  },
+  "오픈 월드|학원물": {
+   "n": 1,
+   "mean_len": 2555,
+   "median_len": 2555,
+   "mean_contrib": 73,
+   "median_contrib": 73
+  },
+  "오토코노코물|학원물": {
+   "n": 2,
+   "mean_len": 2098,
+   "median_len": 2098,
+   "mean_contrib": 24.5,
+   "median_contrib": 24.5
+  },
+  "롤플레잉 게임|스팀펑크": {
+   "n": 4,
+   "mean_len": 15974,
+   "median_len": 17333,
+   "mean_contrib": 119.5,
+   "median_contrib": 90.5
+  },
+  "레이싱 게임|리듬 게임": {
+   "n": 1,
+   "mean_len": 9939,
+   "median_len": 9939,
+   "mean_contrib": 41,
+   "median_contrib": 41
+  },
+  "레이싱 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 9939,
+   "median_len": 9939,
+   "mean_contrib": 41,
+   "median_contrib": 41
+  },
+  "SF 게임|좀비 게임": {
+   "n": 1,
+   "mean_len": 7941,
+   "median_len": 7941,
+   "mean_contrib": 88,
+   "median_contrib": 88
+  },
+  "SRPG|턴제 게임": {
+   "n": 1,
+   "mean_len": 25545,
+   "median_len": 25545,
+   "mean_contrib": 92,
+   "median_contrib": 92
+  },
+  "롤플레잉 게임|이세계물": {
+   "n": 2,
+   "mean_len": 3944,
+   "median_len": 3944,
+   "mean_contrib": 12,
+   "median_contrib": 12.0
+  },
+  "RTS|판타지 게임": {
+   "n": 3,
+   "mean_len": 3533,
+   "median_len": 2124,
+   "mean_contrib": 29.3,
+   "median_contrib": 29
+  },
+  "RTS|피카레스크(장르)": {
+   "n": 2,
+   "mean_len": 1342,
+   "median_len": 1342,
+   "mean_contrib": 29.5,
+   "median_contrib": 29.5
+  },
+  "판타지 게임|피카레스크(장르)": {
+   "n": 2,
+   "mean_len": 1342,
+   "median_len": 1342,
+   "mean_contrib": 29.5,
+   "median_contrib": 29.5
+  },
+  "롤플레잉 게임|오토메 게임": {
+   "n": 2,
+   "mean_len": 9403,
+   "median_len": 9403,
+   "mean_contrib": 6.5,
+   "median_contrib": 6.5
+  },
+  "추리 게임|크로스오버": {
+   "n": 1,
+   "mean_len": 15226,
+   "median_len": 15226,
+   "mean_contrib": 189,
+   "median_contrib": 189
+  },
+  "SRPG|어드벤처 게임": {
+   "n": 2,
+   "mean_len": 7348,
+   "median_len": 7348,
+   "mean_contrib": 71,
+   "median_contrib": 71.0
+  },
+  "밀리터리 게임|소셜 게임": {
+   "n": 1,
+   "mean_len": 8960,
+   "median_len": 8960,
+   "mean_contrib": 65,
+   "median_contrib": 65
+  },
+  "기능성 게임|스포츠 게임": {
+   "n": 2,
+   "mean_len": 5074,
+   "median_len": 5074,
+   "mean_contrib": 53.5,
+   "median_contrib": 53.5
+  },
+  "루프물|이세계물": {
+   "n": 1,
+   "mean_len": 10507,
+   "median_len": 10507,
+   "mean_contrib": 114,
+   "median_contrib": 114
+  },
+  "루프물|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 10507,
+   "median_len": 10507,
+   "mean_contrib": 114,
+   "median_contrib": 114
+  },
+  "이세계물|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 10507,
+   "median_len": 10507,
+   "mean_contrib": 114,
+   "median_contrib": 114
+  },
+  "ARPG|크로스오버": {
+   "n": 2,
+   "mean_len": 4210,
+   "median_len": 4210,
+   "mean_contrib": 54,
+   "median_contrib": 54.0
+  },
+  "액션 어드벤처 게임|퍼즐 게임": {
+   "n": 8,
+   "mean_len": 8199,
+   "median_len": 7578,
+   "mean_contrib": 39.9,
+   "median_contrib": 42.0
+  },
+  "TPS|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 4653,
+   "median_len": 4653,
+   "mean_contrib": 28,
+   "median_contrib": 28
+  },
+  "SF 게임|시뮬레이션 게임": {
+   "n": 4,
+   "mean_len": 8784,
+   "median_len": 4784,
+   "mean_contrib": 16.8,
+   "median_contrib": 15.0
+  },
+  "마법소녀물|연애 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 9792,
+   "median_len": 9792,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "오토메 게임|요리물": {
+   "n": 1,
+   "mean_len": 2447,
+   "median_len": 2447,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "롤플레잉 게임|실시간 전술": {
+   "n": 1,
+   "mean_len": 10079,
+   "median_len": 10079,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "롤플레잉 게임|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 6553,
+   "median_len": 6553,
+   "mean_contrib": 26,
+   "median_contrib": 26.0
+  },
+  "실시간 전술|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 10079,
+   "median_len": 10079,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "TPS|오픈 월드": {
+   "n": 8,
+   "mean_len": 8730,
+   "median_len": 6527,
+   "mean_contrib": 54.8,
+   "median_contrib": 48.0
+  },
+  "SF 게임|대전 액션": {
+   "n": 1,
+   "mean_len": 2003,
+   "median_len": 2003,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "슈팅 게임|좀비 게임": {
+   "n": 2,
+   "mean_len": 7882,
+   "median_len": 7882,
+   "mean_contrib": 12,
+   "median_contrib": 12.0
+  },
+  "벨트스크롤 액션 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 7057,
+   "median_len": 7057,
+   "mean_contrib": 33,
+   "median_contrib": 33
+  },
+  "MMORPG|호러 게임": {
+   "n": 1,
+   "mean_len": 2587,
+   "median_len": 2587,
+   "mean_contrib": 43,
+   "median_contrib": 43
+  },
+  "롤플레잉 게임|시뮬레이션 게임": {
+   "n": 5,
+   "mean_len": 3926,
+   "median_len": 4978,
+   "mean_contrib": 11.4,
+   "median_contrib": 7
+  },
+  "SRPG|스팀펑크": {
+   "n": 1,
+   "mean_len": 14831,
+   "median_len": 14831,
+   "mean_contrib": 97,
+   "median_contrib": 97
+  },
+  "SRPG|스페이스 오페라": {
+   "n": 1,
+   "mean_len": 12866,
+   "median_len": 12866,
+   "mean_contrib": 73,
+   "median_contrib": 73
+  },
+  "대전 슈팅|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 10303,
+   "median_len": 10303,
+   "mean_contrib": 28,
+   "median_contrib": 28
+  },
+  "롤플레잉 게임|하렘": {
+   "n": 1,
+   "mean_len": 7684,
+   "median_len": 7684,
+   "mean_contrib": 50,
+   "median_contrib": 50
+  },
+  "FPS|MMORPG": {
+   "n": 2,
+   "mean_len": 11068,
+   "median_len": 11068,
+   "mean_contrib": 77,
+   "median_contrib": 77.0
+  },
+  "ARPG|벨트스크롤 액션 게임": {
+   "n": 3,
+   "mean_len": 3335,
+   "median_len": 2951,
+   "mean_contrib": 21.7,
+   "median_contrib": 22
+  },
+  "어드벤처 게임|좀비 게임": {
+   "n": 2,
+   "mean_len": 3922,
+   "median_len": 3922,
+   "mean_contrib": 15,
+   "median_contrib": 15.0
+  },
+  "연애 시뮬레이션|퀴즈 게임": {
+   "n": 1,
+   "mean_len": 2150,
+   "median_len": 2150,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "MMORPG|성인 게임": {
+   "n": 1,
+   "mean_len": 17984,
+   "median_len": 17984,
+   "mean_contrib": 125,
+   "median_contrib": 125
+  },
+  "연애 시뮬레이션|오토메 게임": {
+   "n": 11,
+   "mean_len": 4729,
+   "median_len": 3559,
+   "mean_contrib": 23.5,
+   "median_contrib": 15
+  },
+  "SF 게임|기능성 게임": {
+   "n": 1,
+   "mean_len": 3500,
+   "median_len": 3500,
+   "mean_contrib": 46,
+   "median_contrib": 46
+  },
+  "FPS|디펜스 게임": {
+   "n": 3,
+   "mean_len": 6052,
+   "median_len": 5296,
+   "mean_contrib": 78.7,
+   "median_contrib": 19
+  },
+  "디펜스 게임|호러 게임": {
+   "n": 2,
+   "mean_len": 6704,
+   "median_len": 6704,
+   "mean_contrib": 104,
+   "median_contrib": 104.0
+  },
+  "소셜 게임|액션 게임": {
+   "n": 2,
+   "mean_len": 5978,
+   "median_len": 5978,
+   "mean_contrib": 44,
+   "median_contrib": 44.0
+  },
+  "ARPG|롤플레잉 게임": {
+   "n": 2,
+   "mean_len": 36196,
+   "median_len": 36196,
+   "mean_contrib": 47,
+   "median_contrib": 47.0
+  },
+  "시간여행물|어드벤처 게임": {
+   "n": 2,
+   "mean_len": 2474,
+   "median_len": 2474,
+   "mean_contrib": 14,
+   "median_contrib": 14.0
+  },
+  "백합 게임|추리 게임": {
+   "n": 1,
+   "mean_len": 5417,
+   "median_len": 5417,
+   "mean_contrib": 116,
+   "median_contrib": 116
+  },
+  "샌드박스|시뮬레이션 게임": {
+   "n": 5,
+   "mean_len": 9317,
+   "median_len": 9912,
+   "mean_contrib": 24.4,
+   "median_contrib": 24
+  },
+  "샌드박스|액션 게임": {
+   "n": 1,
+   "mean_len": 11306,
+   "median_len": 11306,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "시뮬레이션 게임|액션 게임": {
+   "n": 4,
+   "mean_len": 24856,
+   "median_len": 21112,
+   "mean_contrib": 30.2,
+   "median_contrib": 33.0
+  },
+  "보드 게임|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 4076,
+   "median_len": 4076,
+   "mean_contrib": 46,
+   "median_contrib": 46
+  },
+  "디펜스 게임|밀리터리 게임": {
+   "n": 1,
+   "mean_len": 7218,
+   "median_len": 7218,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "디펜스 게임|액션 게임": {
+   "n": 3,
+   "mean_len": 8031,
+   "median_len": 7218,
+   "mean_contrib": 30,
+   "median_contrib": 24
+  },
+  "디펜스 게임|전략 시뮬레이션": {
+   "n": 6,
+   "mean_len": 8315,
+   "median_len": 6737,
+   "mean_contrib": 20,
+   "median_contrib": 19.5
+  },
+  "밀리터리 게임|액션 게임": {
+   "n": 3,
+   "mean_len": 8242,
+   "median_len": 7218,
+   "mean_contrib": 34.7,
+   "median_contrib": 24
+  },
+  "밀리터리 게임|전략 시뮬레이션": {
+   "n": 3,
+   "mean_len": 3509,
+   "median_len": 3027,
+   "mean_contrib": 14,
+   "median_contrib": 13
+  },
+  "액션 게임|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 5312,
+   "median_len": 5312,
+   "mean_contrib": 14.5,
+   "median_contrib": 14.5
+  },
+  "ARPG|MORPG": {
+   "n": 3,
+   "mean_len": 12273,
+   "median_len": 9942,
+   "mean_contrib": 46,
+   "median_contrib": 57
+  },
+  "어반 판타지|연애 어드벤처 게임": {
+   "n": 4,
+   "mean_len": 3047,
+   "median_len": 1740,
+   "mean_contrib": 17,
+   "median_contrib": 18.0
+  },
+  "어반 판타지|판타지 게임": {
+   "n": 3,
+   "mean_len": 1459,
+   "median_len": 1531,
+   "mean_contrib": 14,
+   "median_contrib": 10
+  },
+  "오토메 게임|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2086,
+   "median_len": 2086,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "ARPG|액션 게임": {
+   "n": 1,
+   "mean_len": 37310,
+   "median_len": 37310,
+   "mean_contrib": 567,
+   "median_contrib": 567
+  },
+  "SF 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 21656,
+   "median_len": 21656,
+   "mean_contrib": 254,
+   "median_contrib": 254
+  },
+  "롤플레잉 게임|포스트 아포칼립스": {
+   "n": 5,
+   "mean_len": 12779,
+   "median_len": 12234,
+   "mean_contrib": 88.8,
+   "median_contrib": 63
+  },
+  "스팀펑크|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 21656,
+   "median_len": 21656,
+   "mean_contrib": 254,
+   "median_contrib": 254
+  },
+  "ARPG|다크 판타지 게임": {
+   "n": 8,
+   "mean_len": 8388,
+   "median_len": 7798,
+   "mean_contrib": 44.1,
+   "median_contrib": 27.5
+  },
+  "JRPG|스페이스 오페라": {
+   "n": 1,
+   "mean_len": 932,
+   "median_len": 932,
+   "mean_contrib": 32,
+   "median_contrib": 32
+  },
+  "ARPG|호러 게임": {
+   "n": 2,
+   "mean_len": 8359,
+   "median_len": 8359,
+   "mean_contrib": 27,
+   "median_contrib": 27.0
+  },
+  "매치3 게임|판타지 게임": {
+   "n": 1,
+   "mean_len": 3682,
+   "median_len": 3682,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "슈팅 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 17716,
+   "median_len": 17716,
+   "mean_contrib": 26,
+   "median_contrib": 26
+  },
+  "권투 게임|액션 게임": {
+   "n": 2,
+   "mean_len": 11731,
+   "median_len": 11731,
+   "mean_contrib": 36,
+   "median_contrib": 36.0
+  },
+  "디스토피아|포격 게임": {
+   "n": 1,
+   "mean_len": 1776,
+   "median_len": 1776,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "비행 시뮬레이션|스페이스 오페라": {
+   "n": 1,
+   "mean_len": 3619,
+   "median_len": 3619,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "연애 어드벤처 게임|하렘": {
+   "n": 1,
+   "mean_len": 5534,
+   "median_len": 5534,
+   "mean_contrib": 81,
+   "median_contrib": 81
+  },
+  "러닝 액션 게임|종스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 6425,
+   "median_len": 6425,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "탄막 슈팅|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 6194,
+   "median_len": 6194,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "연애 시뮬레이션|호러 게임": {
+   "n": 1,
+   "mean_len": 2050,
+   "median_len": 2050,
+   "mean_contrib": 26,
+   "median_contrib": 26
+  },
+  "다크 판타지 게임|인터랙티브 무비": {
+   "n": 1,
+   "mean_len": 4462,
+   "median_len": 4462,
+   "mean_contrib": 55,
+   "median_contrib": 55
+  },
+  "다크 판타지 게임|포인트 앤 클릭 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 8486,
+   "median_len": 8486,
+   "mean_contrib": 47,
+   "median_contrib": 47.0
+  },
+  "인터랙티브 무비|포인트 앤 클릭 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 4824,
+   "median_len": 4824,
+   "mean_contrib": 56,
+   "median_contrib": 56.0
+  },
+  "인터랙티브 무비|호러 게임": {
+   "n": 3,
+   "mean_len": 6588,
+   "median_len": 4885,
+   "mean_contrib": 48.7,
+   "median_contrib": 55
+  },
+  "비주얼 노벨|판타지 게임": {
+   "n": 4,
+   "mean_len": 2952,
+   "median_len": 2501,
+   "mean_contrib": 20,
+   "median_contrib": 15.0
+  },
+  "오토메 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 7388,
+   "median_len": 7388,
+   "mean_contrib": 64,
+   "median_contrib": 64
+  },
+  "추리 게임|호러 게임": {
+   "n": 4,
+   "mean_len": 10368,
+   "median_len": 7740,
+   "mean_contrib": 29.5,
+   "median_contrib": 23.5
+  },
+  "FPS|다크 판타지 게임": {
+   "n": 3,
+   "mean_len": 13555,
+   "median_len": 10228,
+   "mean_contrib": 57.3,
+   "median_contrib": 56
+  },
+  "TPS|밀리터리 게임": {
+   "n": 5,
+   "mean_len": 8758,
+   "median_len": 5144,
+   "mean_contrib": 29.4,
+   "median_contrib": 23
+  },
+  "MMORPG|다크 판타지 게임": {
+   "n": 1,
+   "mean_len": 10094,
+   "median_len": 10094,
+   "mean_contrib": 56,
+   "median_contrib": 56
+  },
+  "대전 액션|롤플레잉 게임": {
+   "n": 3,
+   "mean_len": 5765,
+   "median_len": 6553,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "MMORPG|비행 슈팅 게임": {
+   "n": 1,
+   "mean_len": 25803,
+   "median_len": 25803,
+   "mean_contrib": 43,
+   "median_contrib": 43
+  },
+  "MMORPG|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 25803,
+   "median_len": 25803,
+   "mean_contrib": 43,
+   "median_contrib": 43
+  },
+  "비행 슈팅 게임|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 25803,
+   "median_len": 25803,
+   "mean_contrib": 43,
+   "median_contrib": 43
+  },
+  "TPS|잠입 액션 게임": {
+   "n": 5,
+   "mean_len": 16199,
+   "median_len": 7079,
+   "mean_contrib": 63.4,
+   "median_contrib": 46
+  },
+  "피카레스크(장르)|하렘": {
+   "n": 1,
+   "mean_len": 8384,
+   "median_len": 8384,
+   "mean_contrib": 111,
+   "median_contrib": 111
+  },
+  "ARPG|슈팅 게임": {
+   "n": 3,
+   "mean_len": 3415,
+   "median_len": 4381,
+   "mean_contrib": 6.7,
+   "median_contrib": 7
+  },
+  "소셜 게임|요리물": {
+   "n": 2,
+   "mean_len": 6594,
+   "median_len": 6594,
+   "mean_contrib": 17.5,
+   "median_contrib": 17.5
+  },
+  "ARPG|오픈 월드": {
+   "n": 5,
+   "mean_len": 10824,
+   "median_len": 6025,
+   "mean_contrib": 172,
+   "median_contrib": 35
+  },
+  "오픈 월드|판타지 게임": {
+   "n": 3,
+   "mean_len": 15231,
+   "median_len": 20532,
+   "mean_contrib": 272.3,
+   "median_contrib": 33
+  },
+  "TPS|스팀펑크": {
+   "n": 1,
+   "mean_len": 9438,
+   "median_len": 9438,
+   "mean_contrib": 162,
+   "median_contrib": 162
+  },
+  "롤플레잉 게임|방치형 게임": {
+   "n": 6,
+   "mean_len": 4325,
+   "median_len": 3992,
+   "mean_contrib": 37.8,
+   "median_contrib": 26.0
+  },
+  "MMORPG|시간여행물": {
+   "n": 1,
+   "mean_len": 2842,
+   "median_len": 2842,
+   "mean_contrib": 23,
+   "median_contrib": 23
+  },
+  "레이싱 게임|시뮬레이션 게임": {
+   "n": 10,
+   "mean_len": 7408,
+   "median_len": 5159,
+   "mean_contrib": 23.1,
+   "median_contrib": 14.5
+  },
+  "롤플레잉 게임|크로스오버": {
+   "n": 1,
+   "mean_len": 2820,
+   "median_len": 2820,
+   "mean_contrib": 74,
+   "median_contrib": 74
+  },
+  "백합 게임|좀비 게임": {
+   "n": 1,
+   "mean_len": 3694,
+   "median_len": 3694,
+   "mean_contrib": 43,
+   "median_contrib": 43
+  },
+  "비주얼 노벨|연애 어드벤처 게임": {
+   "n": 6,
+   "mean_len": 3128,
+   "median_len": 1624,
+   "mean_contrib": 52.7,
+   "median_contrib": 16.5
+  },
+  "로그라이크 게임|롤플레잉 게임": {
+   "n": 6,
+   "mean_len": 11076,
+   "median_len": 9340,
+   "mean_contrib": 35.5,
+   "median_contrib": 27.5
+  },
+  "건설 경영 시뮬레이션|성인 게임": {
+   "n": 2,
+   "mean_len": 6757,
+   "median_len": 6757,
+   "mean_contrib": 25,
+   "median_contrib": 25.0
+  },
+  "턴제 게임|판타지 게임": {
+   "n": 5,
+   "mean_len": 11098,
+   "median_len": 6580,
+   "mean_contrib": 77.2,
+   "median_contrib": 67
+  },
+  "벨트스크롤 액션 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 12248,
+   "median_len": 12248,
+   "mean_contrib": 123,
+   "median_contrib": 123
+  },
+  "ARPG|MMORPG": {
+   "n": 1,
+   "mean_len": 16170,
+   "median_len": 16170,
+   "mean_contrib": 60,
+   "median_contrib": 60
+  },
+  "FPS|비대칭 PvP": {
+   "n": 1,
+   "mean_len": 4624,
+   "median_len": 4624,
+   "mean_contrib": 32,
+   "median_contrib": 32
+  },
+  "FPS|슈팅 게임": {
+   "n": 1,
+   "mean_len": 3267,
+   "median_len": 3267,
+   "mean_contrib": 71,
+   "median_contrib": 71
+  },
+  "TPS|슈팅 게임": {
+   "n": 1,
+   "mean_len": 3267,
+   "median_len": 3267,
+   "mean_contrib": 71,
+   "median_contrib": 71
+  },
+  "슈팅 게임|액션 게임": {
+   "n": 2,
+   "mean_len": 3955,
+   "median_len": 3955,
+   "mean_contrib": 40.5,
+   "median_contrib": 40.5
+  },
+  "어드벤처 게임|포스트 아포칼립스": {
+   "n": 2,
+   "mean_len": 2191,
+   "median_len": 2191,
+   "mean_contrib": 11,
+   "median_contrib": 11.0
+  },
+  "MMORPG|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 4756,
+   "median_len": 4756,
+   "mean_contrib": 20,
+   "median_contrib": 20.0
+  },
+  "롤플레잉 게임|무협 게임": {
+   "n": 1,
+   "mean_len": 2879,
+   "median_len": 2879,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "런앤건|좀비 게임": {
+   "n": 4,
+   "mean_len": 12248,
+   "median_len": 9900,
+   "mean_contrib": 15.2,
+   "median_contrib": 10.0
+  },
+  "런앤건|플랫폼 게임": {
+   "n": 4,
+   "mean_len": 7682,
+   "median_len": 8982,
+   "mean_contrib": 23,
+   "median_contrib": 23.0
+  },
+  "좀비 게임|플랫폼 게임": {
+   "n": 3,
+   "mean_len": 7383,
+   "median_len": 8203,
+   "mean_contrib": 25.3,
+   "median_contrib": 30
+  },
+  "시간여행물|플랫폼 게임": {
+   "n": 1,
+   "mean_len": 12997,
+   "median_len": 12997,
+   "mean_contrib": 195,
+   "median_contrib": 195
+  },
+  "갤러리 게임|디펜스 게임": {
+   "n": 1,
+   "mean_len": 1870,
+   "median_len": 1870,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "갤러리 게임|러닝 액션 게임": {
+   "n": 1,
+   "mean_len": 1870,
+   "median_len": 1870,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "디펜스 게임|러닝 액션 게임": {
+   "n": 1,
+   "mean_len": 1870,
+   "median_len": 1870,
+   "mean_contrib": 24,
+   "median_contrib": 24
+  },
+  "소셜 게임|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 20240,
+   "median_len": 20240,
+   "mean_contrib": 41,
+   "median_contrib": 41
+  },
+  "2D 아이돌 게임|소셜 게임": {
+   "n": 2,
+   "mean_len": 8185,
+   "median_len": 8185,
+   "mean_contrib": 50.5,
+   "median_contrib": 50.5
+  },
+  "2D 아이돌 게임|트레이딩 카드 게임": {
+   "n": 2,
+   "mean_len": 8185,
+   "median_len": 8185,
+   "mean_contrib": 50.5,
+   "median_contrib": 50.5
+  },
+  "소셜 게임|트레이딩 카드 게임": {
+   "n": 3,
+   "mean_len": 6366,
+   "median_len": 6474,
+   "mean_contrib": 39,
+   "median_contrib": 38
+  },
+  "MMORPG|어반 판타지": {
+   "n": 1,
+   "mean_len": 15706,
+   "median_len": 15706,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "FPS|샌드박스": {
+   "n": 1,
+   "mean_len": 1052,
+   "median_len": 1052,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "고어|액션 게임": {
+   "n": 1,
+   "mean_len": 17928,
+   "median_len": 17928,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "료나 게임|액션 게임": {
+   "n": 3,
+   "mean_len": 14735,
+   "median_len": 17490,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "롤플레잉 게임|소셜 게임": {
+   "n": 3,
+   "mean_len": 9432,
+   "median_len": 9229,
+   "mean_contrib": 60.3,
+   "median_contrib": 69
+  },
+  "ARPG|플랫폼 게임": {
+   "n": 2,
+   "mean_len": 14141,
+   "median_len": 14141,
+   "mean_contrib": 47.5,
+   "median_contrib": 47.5
+  },
+  "ARPG|로그라이크 게임": {
+   "n": 3,
+   "mean_len": 7119,
+   "median_len": 8519,
+   "mean_contrib": 65.3,
+   "median_contrib": 60
+  },
+  "ARPG|생존게임": {
+   "n": 2,
+   "mean_len": 7986,
+   "median_len": 7986,
+   "mean_contrib": 71.5,
+   "median_contrib": 71.5
+  },
+  "로그라이크 게임|액션 어드벤처 게임": {
+   "n": 3,
+   "mean_len": 15327,
+   "median_len": 11363,
+   "mean_contrib": 133.7,
+   "median_contrib": 128
+  },
+  "판타지 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 2090,
+   "median_len": 2090,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "롤플레잉 게임|백합 게임": {
+   "n": 1,
+   "mean_len": 10057,
+   "median_len": 10057,
+   "mean_contrib": 55,
+   "median_contrib": 55
+  },
+  "SF 게임|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 8241,
+   "median_len": 8241,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "런앤건|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 8241,
+   "median_len": 8241,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "시뮬레이션 게임|요리물": {
+   "n": 5,
+   "mean_len": 2577,
+   "median_len": 3233,
+   "mean_contrib": 19.2,
+   "median_contrib": 20
+  },
+  "AOS|해상 시뮬레이션": {
+   "n": 1,
+   "mean_len": 23654,
+   "median_len": 23654,
+   "mean_contrib": 109,
+   "median_contrib": 109
+  },
+  "보드 게임|장난감 상호 작용 게임": {
+   "n": 1,
+   "mean_len": 2768,
+   "median_len": 2768,
+   "mean_contrib": 73,
+   "median_contrib": 73
+  },
+  "퍼즐 게임|호러 게임": {
+   "n": 15,
+   "mean_len": 7948,
+   "median_len": 6762,
+   "mean_contrib": 49.1,
+   "median_contrib": 13
+  },
+  "다크 판타지 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 12509,
+   "median_len": 12509,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "퍼즐 게임|포인트 앤 클릭 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 6916,
+   "median_len": 6916,
+   "mean_contrib": 27.5,
+   "median_contrib": 27.5
+  },
+  "고어|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 8010,
+   "median_len": 8010,
+   "mean_contrib": 57,
+   "median_contrib": 57
+  },
+  "밀리터리 게임|슈팅 게임": {
+   "n": 1,
+   "mean_len": 13411,
+   "median_len": 13411,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "대전 슈팅|탄막 슈팅": {
+   "n": 1,
+   "mean_len": 748,
+   "median_len": 748,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "좀비 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 2350,
+   "median_len": 2350,
+   "mean_contrib": 30,
+   "median_contrib": 30
+  },
+  "포스트 아포칼립스|플랫폼 게임": {
+   "n": 1,
+   "mean_len": 2350,
+   "median_len": 2350,
+   "mean_contrib": 30,
+   "median_contrib": 30
+  },
+  "롤플레잉 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 5458,
+   "median_len": 5458,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "턴제 게임|호러 게임": {
+   "n": 2,
+   "mean_len": 2821,
+   "median_len": 2821,
+   "mean_contrib": 20,
+   "median_contrib": 20.0
+  },
+  "배틀로얄|생존게임": {
+   "n": 4,
+   "mean_len": 3787,
+   "median_len": 3588,
+   "mean_contrib": 40.5,
+   "median_contrib": 39.0
+  },
+  "롤플레잉 게임|슈팅 게임": {
+   "n": 1,
+   "mean_len": 4434,
+   "median_len": 4434,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "FPS|퍼즐 게임": {
+   "n": 2,
+   "mean_len": 4844,
+   "median_len": 4844,
+   "mean_contrib": 74.5,
+   "median_contrib": 74.5
+  },
+  "액션 어드벤처 게임|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 10836,
+   "median_len": 10836,
+   "mean_contrib": 53.5,
+   "median_contrib": 53.5
+  },
+  "방치형 게임|요리물": {
+   "n": 2,
+   "mean_len": 22167,
+   "median_len": 22167,
+   "mean_contrib": 97.5,
+   "median_contrib": 97.5
+  },
+  "벨트스크롤 액션 게임|횡스크롤 슈팅": {
+   "n": 1,
+   "mean_len": 1532,
+   "median_len": 1532,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "어드벤처 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 13639,
+   "median_len": 13639,
+   "mean_contrib": 47,
+   "median_contrib": 47
+  },
+  "연애 어드벤처 게임|장미(장르)": {
+   "n": 4,
+   "mean_len": 2784,
+   "median_len": 897,
+   "mean_contrib": 16.2,
+   "median_contrib": 13.0
+  },
+  "건슈팅 게임|고어": {
+   "n": 1,
+   "mean_len": 1064,
+   "median_len": 1064,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "고어|호러 게임": {
+   "n": 4,
+   "mean_len": 1717,
+   "median_len": 1446,
+   "mean_contrib": 27.5,
+   "median_contrib": 14.5
+  },
+  "롤플레잉 게임|액션 어드벤처 게임": {
+   "n": 3,
+   "mean_len": 12308,
+   "median_len": 2659,
+   "mean_contrib": 46,
+   "median_contrib": 32
+  },
+  "어드벤처 게임|요리물": {
+   "n": 1,
+   "mean_len": 152,
+   "median_len": 152,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "FPS|서부극": {
+   "n": 2,
+   "mean_len": 6438,
+   "median_len": 6438,
+   "mean_contrib": 17.5,
+   "median_contrib": 17.5
+  },
+  "고어|육성 시뮬레이션": {
+   "n": 2,
+   "mean_len": 2720,
+   "median_len": 2720,
+   "mean_contrib": 43.5,
+   "median_contrib": 43.5
+  },
+  "육성 시뮬레이션|호러 게임": {
+   "n": 2,
+   "mean_len": 2720,
+   "median_len": 2720,
+   "mean_contrib": 43.5,
+   "median_contrib": 43.5
+  },
+  "디펜스 게임|육성 시뮬레이션": {
+   "n": 1,
+   "mean_len": 24879,
+   "median_len": 24879,
+   "mean_contrib": 29,
+   "median_contrib": 29
+  },
+  "연애 시뮬레이션|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 3922,
+   "median_len": 3922,
+   "mean_contrib": 41,
+   "median_contrib": 41
+  },
+  "건설 경영 시뮬레이션|방치형 게임": {
+   "n": 1,
+   "mean_len": 6054,
+   "median_len": 6054,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "방치형 게임|성인 게임": {
+   "n": 1,
+   "mean_len": 6054,
+   "median_len": 6054,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "백합(장르)|연애 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 9747,
+   "median_len": 9747,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "디스토피아|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 28151,
+   "median_len": 28151,
+   "mean_contrib": 152,
+   "median_contrib": 152
+  },
+  "디스토피아|생존게임": {
+   "n": 1,
+   "mean_len": 28151,
+   "median_len": 28151,
+   "mean_contrib": 152,
+   "median_contrib": 152
+  },
+  "디스토피아|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 28151,
+   "median_len": 28151,
+   "mean_contrib": 152,
+   "median_contrib": 152
+  },
+  "디스토피아|오픈 월드": {
+   "n": 1,
+   "mean_len": 28151,
+   "median_len": 28151,
+   "mean_contrib": 152,
+   "median_contrib": 152
+  },
+  "디스토피아|호러 게임": {
+   "n": 1,
+   "mean_len": 28151,
+   "median_len": 28151,
+   "mean_contrib": 152,
+   "median_contrib": 152
+  },
+  "로그라이크 게임|오픈 월드": {
+   "n": 2,
+   "mean_len": 16008,
+   "median_len": 16008,
+   "mean_contrib": 83.5,
+   "median_contrib": 83.5
+  },
+  "오픈 월드|호러 게임": {
+   "n": 2,
+   "mean_len": 17088,
+   "median_len": 17088,
+   "mean_contrib": 93.5,
+   "median_contrib": 93.5
+  },
+  "어드벤처 게임|인터랙티브 무비": {
+   "n": 6,
+   "mean_len": 3062,
+   "median_len": 2752,
+   "mean_contrib": 16.7,
+   "median_contrib": 15.0
+  },
+  "탑뷰 슈팅|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 21160,
+   "median_len": 21160,
+   "mean_contrib": 44,
+   "median_contrib": 44
+  },
+  "기능성 게임|연애 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2578,
+   "median_len": 2578,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "AR 게임|기능성 게임": {
+   "n": 1,
+   "mean_len": 1534,
+   "median_len": 1534,
+   "mean_contrib": 76,
+   "median_contrib": 76
+  },
+  "AR 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 218,
+   "median_len": 218,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "마법소녀물|연애 시뮬레이션": {
+   "n": 1,
+   "mean_len": 3508,
+   "median_len": 3508,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "슈팅 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 6878,
+   "median_len": 6878,
+   "mean_contrib": 19,
+   "median_contrib": 19
+  },
+  "TPS|좀비 게임": {
+   "n": 3,
+   "mean_len": 17618,
+   "median_len": 4464,
+   "mean_contrib": 60.3,
+   "median_contrib": 16
+  },
+  "SF 게임|TPS": {
+   "n": 2,
+   "mean_len": 10968,
+   "median_len": 10968,
+   "mean_contrib": 29,
+   "median_contrib": 29.0
+  },
+  "SF 게임|퍼즐 게임": {
+   "n": 3,
+   "mean_len": 8642,
+   "median_len": 8394,
+   "mean_contrib": 24.3,
+   "median_contrib": 15
+  },
+  "SF 게임|플랫폼 게임": {
+   "n": 2,
+   "mean_len": 10968,
+   "median_len": 10968,
+   "mean_contrib": 29,
+   "median_contrib": 29.0
+  },
+  "TPS|퍼즐 게임": {
+   "n": 2,
+   "mean_len": 10968,
+   "median_len": 10968,
+   "mean_contrib": 29,
+   "median_contrib": 29.0
+  },
+  "TPS|플랫폼 게임": {
+   "n": 2,
+   "mean_len": 10968,
+   "median_len": 10968,
+   "mean_contrib": 29,
+   "median_contrib": 29.0
+  },
+  "서부극|스팀펑크": {
+   "n": 1,
+   "mean_len": 11761,
+   "median_len": 11761,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "서부극|호러 게임": {
+   "n": 1,
+   "mean_len": 11761,
+   "median_len": 11761,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "스팀펑크|호러 게임": {
+   "n": 1,
+   "mean_len": 11761,
+   "median_len": 11761,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "루프물|호러 게임": {
+   "n": 3,
+   "mean_len": 7404,
+   "median_len": 3959,
+   "mean_contrib": 44.7,
+   "median_contrib": 29
+  },
+  "로그라이크 게임|액션 게임": {
+   "n": 7,
+   "mean_len": 14782,
+   "median_len": 9799,
+   "mean_contrib": 71.7,
+   "median_contrib": 21
+  },
+  "어드벤처 게임|오픈 월드": {
+   "n": 5,
+   "mean_len": 2308,
+   "median_len": 2127,
+   "mean_contrib": 9.6,
+   "median_contrib": 9
+  },
+  "오픈 월드|좀비 게임": {
+   "n": 1,
+   "mean_len": 3789,
+   "median_len": 3789,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "이세계물|크로스오버": {
+   "n": 1,
+   "mean_len": 9760,
+   "median_len": 9760,
+   "mean_contrib": 77,
+   "median_contrib": 77
+  },
+  "던전 RPG|롤플레잉 게임": {
+   "n": 5,
+   "mean_len": 8304,
+   "median_len": 10990,
+   "mean_contrib": 38,
+   "median_contrib": 31
+  },
+  "던전 RPG|포스트 아포칼립스": {
+   "n": 3,
+   "mean_len": 13383,
+   "median_len": 12234,
+   "mean_contrib": 59.7,
+   "median_contrib": 63
+  },
+  "건설 경영 시뮬레이션|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 16540,
+   "median_len": 16540,
+   "mean_contrib": 51,
+   "median_contrib": 51.0
+  },
+  "SF 게임|샌드박스": {
+   "n": 1,
+   "mean_len": 3910,
+   "median_len": 3910,
+   "mean_contrib": 19,
+   "median_contrib": 19
+  },
+  "SF 게임|생존게임": {
+   "n": 2,
+   "mean_len": 2894,
+   "median_len": 2894,
+   "mean_contrib": 18,
+   "median_contrib": 18.0
+  },
+  "인터랙티브 무비|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 5185,
+   "median_len": 5185,
+   "mean_contrib": 57,
+   "median_contrib": 57
+  },
+  "포스트 아포칼립스|포인트 앤 클릭 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 5185,
+   "median_len": 5185,
+   "mean_contrib": 57,
+   "median_contrib": 57
+  },
+  "비대칭 PvP|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 34200,
+   "median_len": 34200,
+   "mean_contrib": 201,
+   "median_contrib": 201
+  },
+  "비대칭 PvP|호러 게임": {
+   "n": 5,
+   "mean_len": 21415,
+   "median_len": 30930,
+   "mean_contrib": 97.6,
+   "median_contrib": 62
+  },
+  "크로스오버|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 3499,
+   "median_len": 3499,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "방치형 게임|육성 시뮬레이션": {
+   "n": 2,
+   "mean_len": 3770,
+   "median_len": 3770,
+   "mean_contrib": 14,
+   "median_contrib": 14.0
+  },
+  "비주얼 노벨|전연령 미소녀 게임": {
+   "n": 4,
+   "mean_len": 1546,
+   "median_len": 1408,
+   "mean_contrib": 13.2,
+   "median_contrib": 10.0
+  },
+  "밀리터리 게임|해상 시뮬레이션": {
+   "n": 2,
+   "mean_len": 23822,
+   "median_len": 23822,
+   "mean_contrib": 47.5,
+   "median_contrib": 47.5
+  },
+  "BL 게임|방치형 게임": {
+   "n": 1,
+   "mean_len": 2451,
+   "median_len": 2451,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "SF 게임|비행 슈팅 게임": {
+   "n": 2,
+   "mean_len": 5076,
+   "median_len": 5076,
+   "mean_contrib": 13.5,
+   "median_contrib": 13.5
+  },
+  "육성 시뮬레이션|좀비 게임": {
+   "n": 1,
+   "mean_len": 5231,
+   "median_len": 5231,
+   "mean_contrib": 33,
+   "median_contrib": 33
+  },
+  "러닝 액션 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 2704,
+   "median_len": 2704,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "SRPG|슈팅 게임": {
+   "n": 1,
+   "mean_len": 3381,
+   "median_len": 3381,
+   "mean_contrib": 28,
+   "median_contrib": 28
+  },
+  "io게임|대전 슈팅": {
+   "n": 1,
+   "mean_len": 14979,
+   "median_len": 14979,
+   "mean_contrib": 167,
+   "median_contrib": 167
+  },
+  "io게임|탑뷰 슈팅": {
+   "n": 3,
+   "mean_len": 14036,
+   "median_len": 14979,
+   "mean_contrib": 81.7,
+   "median_contrib": 59
+  },
+  "대전 슈팅|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 14979,
+   "median_len": 14979,
+   "mean_contrib": 167,
+   "median_contrib": 167
+  },
+  "SF 게임|디펜스 게임": {
+   "n": 1,
+   "mean_len": 5314,
+   "median_len": 5314,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "SF 게임|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 5314,
+   "median_len": 5314,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "디펜스 게임|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 5314,
+   "median_len": 5314,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "백합 게임|소셜 게임": {
+   "n": 1,
+   "mean_len": 2666,
+   "median_len": 2666,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "밀리터리 게임|육성 시뮬레이션": {
+   "n": 1,
+   "mean_len": 8560,
+   "median_len": 8560,
+   "mean_contrib": 54,
+   "median_contrib": 54
+  },
+  "마법소녀물|학원물": {
+   "n": 1,
+   "mean_len": 7250,
+   "median_len": 7250,
+   "mean_contrib": 28,
+   "median_contrib": 28
+  },
+  "로그라이크 게임|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 33414,
+   "median_len": 33414,
+   "mean_contrib": 46,
+   "median_contrib": 46
+  },
+  "FPS|러닝 액션 게임": {
+   "n": 2,
+   "mean_len": 7935,
+   "median_len": 7935,
+   "mean_contrib": 32.5,
+   "median_contrib": 32.5
+  },
+  "러닝 액션 게임|좀비 게임": {
+   "n": 2,
+   "mean_len": 7935,
+   "median_len": 7935,
+   "mean_contrib": 32.5,
+   "median_contrib": 32.5
+  },
+  "TPS|크로스오버": {
+   "n": 1,
+   "mean_len": 18843,
+   "median_len": 18843,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "오토코노코물|이세계물": {
+   "n": 1,
+   "mean_len": 1862,
+   "median_len": 1862,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "RTS|턴제 게임": {
+   "n": 1,
+   "mean_len": 5511,
+   "median_len": 5511,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "턴제 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 5511,
+   "median_len": 5511,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "JRPG|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 2028,
+   "median_len": 2028,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "SRPG|밀리터리 게임": {
+   "n": 1,
+   "mean_len": 9416,
+   "median_len": 9416,
+   "mean_contrib": 85,
+   "median_contrib": 85
+  },
+  "액션 어드벤처 게임|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 2273,
+   "median_len": 2273,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "기능성 게임|액션 게임": {
+   "n": 1,
+   "mean_len": 12819,
+   "median_len": 12819,
+   "mean_contrib": 76,
+   "median_contrib": 76
+  },
+  "다크 판타지 게임|성인 게임": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "다크 판타지 게임|소셜 게임": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "다크 판타지 게임|피카레스크(장르)": {
+   "n": 2,
+   "mean_len": 5440,
+   "median_len": 5440,
+   "mean_contrib": 58,
+   "median_contrib": 58.0
+  },
+  "롤플레잉 게임|성인 게임": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "성인 게임|소셜 게임": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "성인 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "소셜 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 9229,
+   "median_len": 9229,
+   "mean_contrib": 101,
+   "median_contrib": 101
+  },
+  "RTS|방치형 게임": {
+   "n": 1,
+   "mean_len": 299,
+   "median_len": 299,
+   "mean_contrib": 10,
+   "median_contrib": 10
+  },
+  "롤플레잉 게임|연애 시뮬레이션": {
+   "n": 2,
+   "mean_len": 3148,
+   "median_len": 3148,
+   "mean_contrib": 16.5,
+   "median_contrib": 16.5
+  },
+  "MMORPG|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 2247,
+   "median_len": 2247,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "슈팅 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 7752,
+   "median_len": 7752,
+   "mean_contrib": 73,
+   "median_contrib": 73
+  },
+  "레이싱 게임|오픈 월드 레이싱 게임": {
+   "n": 1,
+   "mean_len": 27390,
+   "median_len": 27390,
+   "mean_contrib": 117,
+   "median_contrib": 117
+  },
+  "SF 게임|연애 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 3342,
+   "median_len": 3342,
+   "mean_contrib": 15.5,
+   "median_contrib": 15.5
+  },
+  "로그라이크 게임|좀비 게임": {
+   "n": 1,
+   "mean_len": 8542,
+   "median_len": 8542,
+   "mean_contrib": 34,
+   "median_contrib": 34
+  },
+  "롤플레잉 게임|좀비 게임": {
+   "n": 1,
+   "mean_len": 8542,
+   "median_len": 8542,
+   "mean_contrib": 34,
+   "median_contrib": 34
+  },
+  "백합 게임|전연령 미소녀 게임": {
+   "n": 4,
+   "mean_len": 12283,
+   "median_len": 9350,
+   "mean_contrib": 21,
+   "median_contrib": 20.5
+  },
+  "야구 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 11879,
+   "median_len": 11879,
+   "mean_contrib": 30,
+   "median_contrib": 30
+  },
+  "SF 게임|걷는 시뮬레이션": {
+   "n": 1,
+   "mean_len": 9292,
+   "median_len": 9292,
+   "mean_contrib": 23,
+   "median_contrib": 23
+  },
+  "TPS|이세계물": {
+   "n": 1,
+   "mean_len": 10900,
+   "median_len": 10900,
+   "mean_contrib": 46,
+   "median_contrib": 46
+  },
+  "밀리터리 게임|이세계물": {
+   "n": 1,
+   "mean_len": 10900,
+   "median_len": 10900,
+   "mean_contrib": 46,
+   "median_contrib": 46
+  },
+  "사이버펑크|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 14333,
+   "median_len": 14333,
+   "mean_contrib": 44,
+   "median_contrib": 44
+  },
+  "골프 게임|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 1919,
+   "median_len": 1919,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "비주얼 노벨|장미(장르)": {
+   "n": 3,
+   "mean_len": 3248,
+   "median_len": 402,
+   "mean_contrib": 19.7,
+   "median_contrib": 17
+  },
+  "다크 판타지 게임|오픈 월드": {
+   "n": 1,
+   "mean_len": 6025,
+   "median_len": 6025,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  "건설 경영 시뮬레이션|호러 게임": {
+   "n": 1,
+   "mean_len": 5136,
+   "median_len": 5136,
+   "mean_contrib": 186,
+   "median_contrib": 186
+  },
+  "스팀펑크|오토메 게임": {
+   "n": 1,
+   "mean_len": 1496,
+   "median_len": 1496,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "BL 게임|연애 시뮬레이션": {
+   "n": 1,
+   "mean_len": 18742,
+   "median_len": 18742,
+   "mean_contrib": 72,
+   "median_contrib": 72
+  },
+  "배틀로얄|액션 게임": {
+   "n": 1,
+   "mean_len": 6567,
+   "median_len": 6567,
+   "mean_contrib": 51,
+   "median_contrib": 51
+  },
+  "시뮬레이션 게임|오픈 월드": {
+   "n": 1,
+   "mean_len": 4256,
+   "median_len": 4256,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "액션 게임|오픈 월드": {
+   "n": 1,
+   "mean_len": 1228,
+   "median_len": 1228,
+   "mean_contrib": 39,
+   "median_contrib": 39
+  },
+  "비행 시뮬레이션|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 21535,
+   "median_len": 21535,
+   "mean_contrib": 47,
+   "median_contrib": 47
+  },
+  "TPS|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 4125,
+   "median_len": 4125,
+   "mean_contrib": 78,
+   "median_contrib": 78
+  },
+  "액션 어드벤처 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 4125,
+   "median_len": 4125,
+   "mean_contrib": 78,
+   "median_contrib": 78
+  },
+  "시뮬레이션 게임|퍼즐 게임": {
+   "n": 3,
+   "mean_len": 4090,
+   "median_len": 4959,
+   "mean_contrib": 35,
+   "median_contrib": 28
+  },
+  "롤플레잉 게임|루프물": {
+   "n": 2,
+   "mean_len": 31758,
+   "median_len": 31758,
+   "mean_contrib": 35.5,
+   "median_contrib": 35.5
+  },
+  "벨트스크롤 액션 게임|액션 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 12512,
+   "median_len": 12512,
+   "mean_contrib": 19,
+   "median_contrib": 19.0
+  },
+  "FPS|배틀로얄": {
+   "n": 4,
+   "mean_len": 17632,
+   "median_len": 12788,
+   "mean_contrib": 35.2,
+   "median_contrib": 34.5
+  },
+  "배틀로얄|좀비 게임": {
+   "n": 1,
+   "mean_len": 16809,
+   "median_len": 16809,
+   "mean_contrib": 15,
+   "median_contrib": 15
+  },
+  "롤플레잉 게임|밀리터리 게임": {
+   "n": 2,
+   "mean_len": 8520,
+   "median_len": 8520,
+   "mean_contrib": 37.5,
+   "median_contrib": 37.5
+  },
+  "TPS|배틀로얄": {
+   "n": 4,
+   "mean_len": 5242,
+   "median_len": 2977,
+   "mean_contrib": 28,
+   "median_contrib": 20.5
+  },
+  "TPS|생존게임": {
+   "n": 1,
+   "mean_len": 1404,
+   "median_len": 1404,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "FPS|액션 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 3235,
+   "median_len": 3235,
+   "mean_contrib": 33,
+   "median_contrib": 33.0
+  },
+  "TPS|카드 놀이": {
+   "n": 1,
+   "mean_len": 758,
+   "median_len": 758,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "TPS|레이싱 게임": {
+   "n": 1,
+   "mean_len": 5012,
+   "median_len": 5012,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "던전 RPG|시간여행물": {
+   "n": 1,
+   "mean_len": 10990,
+   "median_len": 10990,
+   "mean_contrib": 63,
+   "median_contrib": 63
+  },
+  "시간여행물|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 10990,
+   "median_len": 10990,
+   "mean_contrib": 63,
+   "median_contrib": 63
+  },
+  "연애 시뮬레이션|좀비 게임": {
+   "n": 1,
+   "mean_len": 5599,
+   "median_len": 5599,
+   "mean_contrib": 25,
+   "median_contrib": 25
+  },
+  "건설 경영 시뮬레이션|롤플레잉 게임": {
+   "n": 1,
+   "mean_len": 23990,
+   "median_len": 23990,
+   "mean_contrib": 107,
+   "median_contrib": 107
+  },
+  "건설 경영 시뮬레이션|샌드박스": {
+   "n": 2,
+   "mean_len": 15278,
+   "median_len": 15278,
+   "mean_contrib": 59,
+   "median_contrib": 59.0
+  },
+  "건설 경영 시뮬레이션|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 23990,
+   "median_len": 23990,
+   "mean_contrib": 107,
+   "median_contrib": 107
+  },
+  "대전 액션|크로스오버": {
+   "n": 1,
+   "mean_len": 7830,
+   "median_len": 7830,
+   "mean_contrib": 156,
+   "median_contrib": 156
+  },
+  "건설 경영 시뮬레이션|버스 시뮬레이션": {
+   "n": 2,
+   "mean_len": 7958,
+   "median_len": 7958,
+   "mean_contrib": 28,
+   "median_contrib": 28.0
+  },
+  "마법소녀물|육성 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2364,
+   "median_len": 2364,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "마법소녀물|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2364,
+   "median_len": 2364,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "육성 시뮬레이션|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 2364,
+   "median_len": 2364,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "다크 판타지 게임|플랫폼 게임": {
+   "n": 2,
+   "mean_len": 8717,
+   "median_len": 8717,
+   "mean_contrib": 47.5,
+   "median_contrib": 47.5
+  },
+  "시뮬레이션 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 1644,
+   "median_len": 1644,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "비대칭 PvP|액션 게임": {
+   "n": 2,
+   "mean_len": 5688,
+   "median_len": 5688,
+   "mean_contrib": 25,
+   "median_contrib": 25.0
+  },
+  "연애 시뮬레이션|육성 시뮬레이션": {
+   "n": 3,
+   "mean_len": 8982,
+   "median_len": 9734,
+   "mean_contrib": 28,
+   "median_contrib": 30
+  },
+  "리듬 게임|탄막 게임": {
+   "n": 2,
+   "mean_len": 16879,
+   "median_len": 16879,
+   "mean_contrib": 90,
+   "median_contrib": 90.0
+  },
+  "리듬 게임|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 31430,
+   "median_len": 31430,
+   "mean_contrib": 162,
+   "median_contrib": 162
+  },
+  "탄막 게임|탑뷰 슈팅": {
+   "n": 3,
+   "mean_len": 19688,
+   "median_len": 23984,
+   "mean_contrib": 79.7,
+   "median_contrib": 66
+  },
+  "시간여행물|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 921,
+   "median_len": 921,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "비주얼 노벨|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 3191,
+   "median_len": 3191,
+   "mean_contrib": 45,
+   "median_contrib": 45
+  },
+  "시뮬레이션 게임|장미(장르)": {
+   "n": 1,
+   "mean_len": 1519,
+   "median_len": 1519,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "건설 경영 시뮬레이션|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 5785,
+   "median_len": 5785,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "디펜스 게임|좀비 게임": {
+   "n": 1,
+   "mean_len": 24307,
+   "median_len": 24307,
+   "mean_contrib": 38,
+   "median_contrib": 38
+  },
+  "고어|롤플레잉 게임": {
+   "n": 3,
+   "mean_len": 45135,
+   "median_len": 29699,
+   "mean_contrib": 63.3,
+   "median_contrib": 54
+  },
+  "버스 시뮬레이션|철도 시뮬레이션": {
+   "n": 1,
+   "mean_len": 884,
+   "median_len": 884,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "비주얼 노벨|연애 시뮬레이션": {
+   "n": 2,
+   "mean_len": 8986,
+   "median_len": 8986,
+   "mean_contrib": 109.5,
+   "median_contrib": 109.5
+  },
+  "로그라이크 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 29447,
+   "median_len": 29447,
+   "mean_contrib": 49,
+   "median_contrib": 49
+  },
+  "낚시 게임|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 11602,
+   "median_len": 11602,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "연애 시뮬레이션|학원물": {
+   "n": 1,
+   "mean_len": 2803,
+   "median_len": 2803,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "FPS|로그라이크 게임": {
+   "n": 5,
+   "mean_len": 18649,
+   "median_len": 11315,
+   "mean_contrib": 17.2,
+   "median_contrib": 7
+  },
+  "디펜스 게임|방치형 게임": {
+   "n": 1,
+   "mean_len": 10289,
+   "median_len": 10289,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "RTS|디펜스 게임": {
+   "n": 1,
+   "mean_len": 15559,
+   "median_len": 15559,
+   "mean_contrib": 50,
+   "median_contrib": 50
+  },
+  "RTS|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 15559,
+   "median_len": 15559,
+   "mean_contrib": 50,
+   "median_contrib": 50
+  },
+  "디펜스 게임|로그라이크 게임": {
+   "n": 2,
+   "mean_len": 13364,
+   "median_len": 13364,
+   "mean_contrib": 47.5,
+   "median_contrib": 47.5
+  },
+  "io게임|배틀로얄": {
+   "n": 1,
+   "mean_len": 11411,
+   "median_len": 11411,
+   "mean_contrib": 19,
+   "median_contrib": 19
+  },
+  "배틀로얄|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 11411,
+   "median_len": 11411,
+   "mean_contrib": 19,
+   "median_contrib": 19
+  },
+  "비주얼 노벨|키네틱 노벨": {
+   "n": 1,
+   "mean_len": 747,
+   "median_len": 747,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "ARPG|스페이스 오페라": {
+   "n": 1,
+   "mean_len": 38654,
+   "median_len": 38654,
+   "mean_contrib": 122,
+   "median_contrib": 122
+  },
+  "좀비 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 2440,
+   "median_len": 2440,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "샌드박스|소셜 게임": {
+   "n": 1,
+   "mean_len": 11216,
+   "median_len": 11216,
+   "mean_contrib": 29,
+   "median_contrib": 29
+  },
+  "시뮬레이션 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 9926,
+   "median_len": 9926,
+   "mean_contrib": 37,
+   "median_contrib": 37
+  },
+  "고어|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 4563,
+   "median_len": 4563,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "고어|플랫폼 게임": {
+   "n": 1,
+   "mean_len": 4563,
+   "median_len": 4563,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "배틀로얄|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 3228,
+   "median_len": 3228,
+   "mean_contrib": 54,
+   "median_contrib": 54
+  },
+  "성인 게임|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 771,
+   "median_len": 771,
+   "mean_contrib": 2,
+   "median_contrib": 2
+  },
+  "육성 시뮬레이션|퀴즈 게임": {
+   "n": 1,
+   "mean_len": 4588,
+   "median_len": 4588,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "비주얼 노벨|요리물": {
+   "n": 1,
+   "mean_len": 15730,
+   "median_len": 15730,
+   "mean_contrib": 203,
+   "median_contrib": 203
+  },
+  "연애 시뮬레이션|요리물": {
+   "n": 1,
+   "mean_len": 15730,
+   "median_len": 15730,
+   "mean_contrib": 203,
+   "median_contrib": 203
+  },
+  "어드벤처 게임|코미디 게임": {
+   "n": 2,
+   "mean_len": 8218,
+   "median_len": 8218,
+   "mean_contrib": 17.5,
+   "median_contrib": 17.5
+  },
+  "코미디 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 8733,
+   "median_len": 8733,
+   "mean_contrib": 33,
+   "median_contrib": 33
+  },
+  "MORPG|샌드박스": {
+   "n": 1,
+   "mean_len": 7894,
+   "median_len": 7894,
+   "mean_contrib": 12,
+   "median_contrib": 12
+  },
+  "연애 어드벤처 게임|인터랙티브 무비": {
+   "n": 1,
+   "mean_len": 833,
+   "median_len": 833,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "스팀펑크|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 1647,
+   "median_len": 1647,
+   "mean_contrib": 9,
+   "median_contrib": 9
+  },
+  "건설 경영 시뮬레이션|비행 시뮬레이션": {
+   "n": 1,
+   "mean_len": 5907,
+   "median_len": 5907,
+   "mean_contrib": 47,
+   "median_contrib": 47
+  },
+  "RTS|밀리터리 게임": {
+   "n": 1,
+   "mean_len": 3027,
+   "median_len": 3027,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "대전 슈팅|런앤건": {
+   "n": 1,
+   "mean_len": 685,
+   "median_len": 685,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "대전 슈팅|탄막 게임": {
+   "n": 1,
+   "mean_len": 685,
+   "median_len": 685,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "런앤건|탄막 게임": {
+   "n": 1,
+   "mean_len": 685,
+   "median_len": 685,
+   "mean_contrib": 20,
+   "median_contrib": 20
+  },
+  "사이버펑크|플랫폼 게임": {
+   "n": 1,
+   "mean_len": 44417,
+   "median_len": 44417,
+   "mean_contrib": 140,
+   "median_contrib": 140
+  },
+  "사이버펑크|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 44417,
+   "median_len": 44417,
+   "mean_contrib": 140,
+   "median_contrib": 140
+  },
+  "플랫폼 게임|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 44417,
+   "median_len": 44417,
+   "mean_contrib": 140,
+   "median_contrib": 140
+  },
+  "다크 판타지 게임|잠입 액션 게임": {
+   "n": 1,
+   "mean_len": 17545,
+   "median_len": 17545,
+   "mean_contrib": 70,
+   "median_contrib": 70
+  },
+  "리듬 게임|액션 게임": {
+   "n": 1,
+   "mean_len": 36655,
+   "median_len": 36655,
+   "mean_contrib": 102,
+   "median_contrib": 102
+  },
+  "방치형 게임|시뮬레이션 게임": {
+   "n": 2,
+   "mean_len": 2088,
+   "median_len": 2088,
+   "mean_contrib": 24,
+   "median_contrib": 24.0
+  },
+  "런앤건|피카레스크(장르)": {
+   "n": 1,
+   "mean_len": 11141,
+   "median_len": 11141,
+   "mean_contrib": 31,
+   "median_contrib": 31
+  },
+  "추리 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 2122,
+   "median_len": 2122,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "다크 판타지 게임|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 1476,
+   "median_len": 1476,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "BL 게임|연애 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 322,
+   "median_len": 322,
+   "mean_contrib": 13,
+   "median_contrib": 13.0
+  },
+  "BL 게임|장미(장르)": {
+   "n": 2,
+   "mean_len": 322,
+   "median_len": 322,
+   "mean_contrib": 13,
+   "median_contrib": 13.0
+  },
+  "여성향 에로게|연애 어드벤처 게임": {
+   "n": 2,
+   "mean_len": 322,
+   "median_len": 322,
+   "mean_contrib": 13,
+   "median_contrib": 13.0
+  },
+  "여성향 에로게|장미(장르)": {
+   "n": 2,
+   "mean_len": 322,
+   "median_len": 322,
+   "mean_contrib": 13,
+   "median_contrib": 13.0
+  },
+  "방치형 게임|전략 시뮬레이션": {
+   "n": 2,
+   "mean_len": 2488,
+   "median_len": 2488,
+   "mean_contrib": 7,
+   "median_contrib": 7.0
+  },
+  "ARPG|포스트 아포칼립스": {
+   "n": 2,
+   "mean_len": 4912,
+   "median_len": 4912,
+   "mean_contrib": 20.5,
+   "median_contrib": 20.5
+  },
+  "다크 판타지 게임|포스트 아포칼립스": {
+   "n": 2,
+   "mean_len": 4912,
+   "median_len": 4912,
+   "mean_contrib": 20.5,
+   "median_contrib": 20.5
+  },
+  "건설 경영 시뮬레이션|해상 시뮬레이션": {
+   "n": 1,
+   "mean_len": 1132,
+   "median_len": 1132,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "로그라이크 게임|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 23853,
+   "median_len": 23853,
+   "mean_contrib": 21,
+   "median_contrib": 21
+  },
+  "AR 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 7698,
+   "median_len": 7698,
+   "mean_contrib": 63,
+   "median_contrib": 63
+  },
+  "인터랙티브 무비|추리 게임": {
+   "n": 3,
+   "mean_len": 2242,
+   "median_len": 332,
+   "mean_contrib": 7.3,
+   "median_contrib": 6
+  },
+  "전략 시뮬레이션|퀴즈 게임": {
+   "n": 1,
+   "mean_len": 1962,
+   "median_len": 1962,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "잠입 액션 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 16155,
+   "median_len": 16155,
+   "mean_contrib": 87,
+   "median_contrib": 87
+  },
+  "방치형 게임|소셜 게임": {
+   "n": 1,
+   "mean_len": 1483,
+   "median_len": 1483,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "루프물|추리 게임": {
+   "n": 1,
+   "mean_len": 3845,
+   "median_len": 3845,
+   "mean_contrib": 10,
+   "median_contrib": 10
+  },
+  "액션 어드벤처 게임|인터랙티브 무비": {
+   "n": 1,
+   "mean_len": 3779,
+   "median_len": 3779,
+   "mean_contrib": 10,
+   "median_contrib": 10
+  },
+  "레이싱 게임|어드벤처 게임": {
+   "n": 1,
+   "mean_len": 370,
+   "median_len": 370,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "SRPG|대체역사물": {
+   "n": 1,
+   "mean_len": 16231,
+   "median_len": 16231,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "SRPG|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 16231,
+   "median_len": 16231,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "대체역사물|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 16231,
+   "median_len": 16231,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "MMORPG|학원물": {
+   "n": 1,
+   "mean_len": 681,
+   "median_len": 681,
+   "mean_contrib": 6,
+   "median_contrib": 6
+  },
+  "롤플레잉 게임|오픈 월드": {
+   "n": 1,
+   "mean_len": 2659,
+   "median_len": 2659,
+   "mean_contrib": 32,
+   "median_contrib": 32
+  },
+  "액션 어드벤처 게임|판타지 게임": {
+   "n": 1,
+   "mean_len": 2659,
+   "median_len": 2659,
+   "mean_contrib": 32,
+   "median_contrib": 32
+  },
+  "보드 게임|카드 놀이": {
+   "n": 1,
+   "mean_len": 360,
+   "median_len": 360,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "로그라이크 게임|슈팅 게임": {
+   "n": 1,
+   "mean_len": 2989,
+   "median_len": 2989,
+   "mean_contrib": 10,
+   "median_contrib": 10
+  },
+  "고어|백합 게임": {
+   "n": 1,
+   "mean_len": 757,
+   "median_len": 757,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "료나 게임|백합 게임": {
+   "n": 1,
+   "mean_len": 757,
+   "median_len": 757,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "롤플레잉 게임|생존게임": {
+   "n": 1,
+   "mean_len": 3011,
+   "median_len": 3011,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "루프물|인터랙티브 무비": {
+   "n": 1,
+   "mean_len": 923,
+   "median_len": 923,
+   "mean_contrib": 18,
+   "median_contrib": 18
+  },
+  "MORPG|판타지 게임": {
+   "n": 1,
+   "mean_len": 1707,
+   "median_len": 1707,
+   "mean_contrib": 8,
+   "median_contrib": 8
+  },
+  "TPS|비대칭 PvP": {
+   "n": 1,
+   "mean_len": 31249,
+   "median_len": 31249,
+   "mean_contrib": 45,
+   "median_contrib": 45
+  },
+  "비대칭 PvP|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 31249,
+   "median_len": 31249,
+   "mean_contrib": 45,
+   "median_contrib": 45
+  },
+  "전략 시뮬레이션|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 2899,
+   "median_len": 2899,
+   "mean_contrib": 34,
+   "median_contrib": 34
+  },
+  "턴제 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 2899,
+   "median_len": 2899,
+   "mean_contrib": 34,
+   "median_contrib": 34
+  },
+  "MMORPG|배틀로얄": {
+   "n": 1,
+   "mean_len": 338,
+   "median_len": 338,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "런앤건|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 1166,
+   "median_len": 1166,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "리듬 게임|비주얼 노벨": {
+   "n": 1,
+   "mean_len": 1457,
+   "median_len": 1457,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "리듬 게임|탄막 슈팅": {
+   "n": 1,
+   "mean_len": 1457,
+   "median_len": 1457,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "비주얼 노벨|탄막 슈팅": {
+   "n": 1,
+   "mean_len": 1457,
+   "median_len": 1457,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "FPS|시뮬레이션 게임": {
+   "n": 1,
+   "mean_len": 2608,
+   "median_len": 2608,
+   "mean_contrib": 28,
+   "median_contrib": 28
+  },
+  "어드벤처 게임|하렘": {
+   "n": 1,
+   "mean_len": 11716,
+   "median_len": 11716,
+   "mean_contrib": 386,
+   "median_contrib": 386
+  },
+  "퍼즐 게임|하렘": {
+   "n": 1,
+   "mean_len": 11716,
+   "median_len": 11716,
+   "mean_contrib": 386,
+   "median_contrib": 386
+  },
+  "슈팅 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 9285,
+   "median_len": 9285,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "시뮬레이션 게임|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 2067,
+   "median_len": 2067,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "시뮬레이션 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 2067,
+   "median_len": 2067,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "포스트 아포칼립스|호러 게임": {
+   "n": 1,
+   "mean_len": 2067,
+   "median_len": 2067,
+   "mean_contrib": 14,
+   "median_contrib": 14
+  },
+  "보드 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 1214,
+   "median_len": 1214,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "시뮬레이션 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 7250,
+   "median_len": 7250,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "롤플레잉 게임|오토배틀러": {
+   "n": 1,
+   "mean_len": 1231,
+   "median_len": 1231,
+   "mean_contrib": 23,
+   "median_contrib": 23
+  },
+  "스페이스 오페라|액션 어드벤처 게임": {
+   "n": 1,
+   "mean_len": 45317,
+   "median_len": 45317,
+   "mean_contrib": 25,
+   "median_contrib": 25
+  },
+  "다크 판타지 게임|마법소녀물": {
+   "n": 1,
+   "mean_len": 2106,
+   "median_len": 2106,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "롤플레잉 게임|마법소녀물": {
+   "n": 1,
+   "mean_len": 2106,
+   "median_len": 2106,
+   "mean_contrib": 13,
+   "median_contrib": 13
+  },
+  "로그라이크 게임|비주얼 노벨": {
+   "n": 1,
+   "mean_len": 3193,
+   "median_len": 3193,
+   "mean_contrib": 10,
+   "median_contrib": 10
+  },
+  "SF 게임|전연령 미소녀 게임": {
+   "n": 1,
+   "mean_len": 809,
+   "median_len": 809,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "매치3 게임|퍼즐 게임": {
+   "n": 1,
+   "mean_len": 13493,
+   "median_len": 13493,
+   "mean_contrib": 45,
+   "median_contrib": 45
+  },
+  "밀리터리 게임|탄막 게임": {
+   "n": 1,
+   "mean_len": 3651,
+   "median_len": 3651,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "밀리터리 게임|판타지 게임": {
+   "n": 1,
+   "mean_len": 3651,
+   "median_len": 3651,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "탄막 게임|판타지 게임": {
+   "n": 1,
+   "mean_len": 3651,
+   "median_len": 3651,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "탑뷰 슈팅|판타지 게임": {
+   "n": 1,
+   "mean_len": 3651,
+   "median_len": 3651,
+   "mean_contrib": 11,
+   "median_contrib": 11
+  },
+  "고어|다크 판타지 게임": {
+   "n": 1,
+   "mean_len": 364,
+   "median_len": 364,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "고어|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 364,
+   "median_len": 364,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "다크 판타지 게임|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 364,
+   "median_len": 364,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "전략 시뮬레이션|호러 게임": {
+   "n": 1,
+   "mean_len": 364,
+   "median_len": 364,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "로그라이크 게임|매치3 게임": {
+   "n": 1,
+   "mean_len": 613,
+   "median_len": 613,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "대전 액션|배틀로얄": {
+   "n": 1,
+   "mean_len": 3526,
+   "median_len": 3526,
+   "mean_contrib": 22,
+   "median_contrib": 22
+  },
+  "루프물|키네틱 노벨": {
+   "n": 1,
+   "mean_len": 212,
+   "median_len": 212,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "비주얼 노벨|생존게임": {
+   "n": 1,
+   "mean_len": 2414,
+   "median_len": 2414,
+   "mean_contrib": 50,
+   "median_contrib": 50
+  },
+  "건설 경영 시뮬레이션|비주얼 노벨": {
+   "n": 1,
+   "mean_len": 22312,
+   "median_len": 22312,
+   "mean_contrib": 53,
+   "median_contrib": 53
+  },
+  "비주얼 노벨|전략 시뮬레이션": {
+   "n": 1,
+   "mean_len": 22312,
+   "median_len": 22312,
+   "mean_contrib": 53,
+   "median_contrib": 53
+  },
+  "던전 RPG|로그라이크 게임": {
+   "n": 1,
+   "mean_len": 6374,
+   "median_len": 6374,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "던전 RPG|턴제 게임": {
+   "n": 1,
+   "mean_len": 6374,
+   "median_len": 6374,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "로그라이크 게임|턴제 게임": {
+   "n": 1,
+   "mean_len": 6374,
+   "median_len": 6374,
+   "mean_contrib": 3,
+   "median_contrib": 3
+  },
+  "SF 게임|호러 게임": {
+   "n": 1,
+   "mean_len": 2241,
+   "median_len": 2241,
+   "mean_contrib": 16,
+   "median_contrib": 16
+  },
+  "실시간 전술|액션 게임": {
+   "n": 1,
+   "mean_len": 344,
+   "median_len": 344,
+   "mean_contrib": 2,
+   "median_contrib": 2
+  },
+  "실시간 전술|탑뷰 슈팅": {
+   "n": 1,
+   "mean_len": 344,
+   "median_len": 344,
+   "mean_contrib": 2,
+   "median_contrib": 2
+  },
+  "레이싱 게임|트레이딩 카드 게임": {
+   "n": 1,
+   "mean_len": 1010,
+   "median_len": 1010,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "루프물|에로게": {
+   "n": 1,
+   "mean_len": 1653,
+   "median_len": 1653,
+   "mean_contrib": 5,
+   "median_contrib": 5
+  },
+  "건설 경영 시뮬레이션|축구 게임": {
+   "n": 2,
+   "mean_len": 454,
+   "median_len": 454,
+   "mean_contrib": 3.5,
+   "median_contrib": 3.5
+  },
+  "사이버펑크|포스트 아포칼립스": {
+   "n": 1,
+   "mean_len": 1022,
+   "median_len": 1022,
+   "mean_contrib": 4,
+   "median_contrib": 4
+  },
+  "SF 게임|건설 경영 시뮬레이션": {
+   "n": 1,
+   "mean_len": 1072,
+   "median_len": 1072,
+   "mean_contrib": 7,
+   "median_contrib": 7
+  },
+  "건설 경영 시뮬레이션|철도 시뮬레이션": {
+   "n": 1,
+   "mean_len": 3454,
+   "median_len": 3454,
+   "mean_contrib": 17,
+   "median_contrib": 17
+  },
+  "생존게임|판타지 게임": {
+   "n": 1,
+   "mean_len": 20532,
+   "median_len": 20532,
+   "mean_contrib": 33,
+   "median_contrib": 33
+  }
+ },
+ "empty_cells_top25": [
+  [
+   "MMORPG",
+   "롤플레잉 게임"
+  ],
+  [
+   "롤플레잉 게임",
+   "비주얼 노벨"
+  ],
+  [
+   "레이싱 게임",
+   "롤플레잉 게임"
+  ],
+  [
+   "롤플레잉 게임",
+   "리듬 게임"
+  ],
+  [
+   "롤플레잉 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "TPS",
+   "롤플레잉 게임"
+  ],
+  [
+   "SRPG",
+   "롤플레잉 게임"
+  ],
+  [
+   "롤플레잉 게임",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "액션 게임",
+   "오토메 게임"
+  ],
+  [
+   "대전 액션",
+   "액션 게임"
+  ],
+  [
+   "액션 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "SRPG",
+   "액션 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "액션 게임"
+  ],
+  [
+   "액션 어드벤처 게임",
+   "어드벤처 게임"
+  ],
+  [
+   "대전 액션",
+   "어드벤처 게임"
+  ],
+  [
+   "MMORPG",
+   "어드벤처 게임"
+  ],
+  [
+   "어드벤처 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "TPS",
+   "어드벤처 게임"
+  ],
+  [
+   "어드벤처 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "어드벤처 게임"
+  ],
+  [
+   "RTS",
+   "어드벤처 게임"
+  ],
+  [
+   "오토메 게임",
+   "호러 게임"
+  ],
+  [
+   "대전 액션",
+   "호러 게임"
+  ],
+  [
+   "레이싱 게임",
+   "호러 게임"
+  ],
+  [
+   "리듬 게임",
+   "호러 게임"
+  ],
+  [
+   "SRPG",
+   "호러 게임"
+  ],
+  [
+   "판타지 게임",
+   "호러 게임"
+  ],
+  [
+   "종스크롤 슈팅",
+   "호러 게임"
+  ],
+  [
+   "RTS",
+   "호러 게임"
+  ],
+  [
+   "FPS",
+   "오토메 게임"
+  ],
+  [
+   "FPS",
+   "대전 액션"
+  ],
+  [
+   "FPS",
+   "플랫폼 게임"
+  ],
+  [
+   "FPS",
+   "비주얼 노벨"
+  ],
+  [
+   "FPS",
+   "레이싱 게임"
+  ],
+  [
+   "FPS",
+   "리듬 게임"
+  ],
+  [
+   "FPS",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "FPS",
+   "전략 시뮬레이션"
+  ],
+  [
+   "FPS",
+   "SRPG"
+  ],
+  [
+   "FPS",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "FPS",
+   "판타지 게임"
+  ],
+  [
+   "FPS",
+   "종스크롤 슈팅"
+  ],
+  [
+   "FPS",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "오토메 게임",
+   "퍼즐 게임"
+  ],
+  [
+   "대전 액션",
+   "퍼즐 게임"
+  ],
+  [
+   "MMORPG",
+   "퍼즐 게임"
+  ],
+  [
+   "비주얼 노벨",
+   "퍼즐 게임"
+  ],
+  [
+   "연애 어드벤처 게임",
+   "퍼즐 게임"
+  ],
+  [
+   "전략 시뮬레이션",
+   "퍼즐 게임"
+  ],
+  [
+   "SRPG",
+   "퍼즐 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "퍼즐 게임"
+  ],
+  [
+   "판타지 게임",
+   "퍼즐 게임"
+  ],
+  [
+   "종스크롤 슈팅",
+   "퍼즐 게임"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "퍼즐 게임"
+  ],
+  [
+   "RTS",
+   "퍼즐 게임"
+  ],
+  [
+   "액션 어드벤처 게임",
+   "오토메 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "오토메 게임"
+  ],
+  [
+   "ARPG",
+   "오토메 게임"
+  ],
+  [
+   "대전 액션",
+   "오토메 게임"
+  ],
+  [
+   "오토메 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "MMORPG",
+   "오토메 게임"
+  ],
+  [
+   "레이싱 게임",
+   "오토메 게임"
+  ],
+  [
+   "리듬 게임",
+   "오토메 게임"
+  ],
+  [
+   "TPS",
+   "오토메 게임"
+  ],
+  [
+   "SRPG",
+   "오토메 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "오토메 게임"
+  ],
+  [
+   "오토메 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "오토메 게임"
+  ],
+  [
+   "RTS",
+   "오토메 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "대전 액션",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "비주얼 노벨",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "레이싱 게임",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "리듬 게임",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "액션 어드벤처 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "SRPG",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "액션 어드벤처 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "RTS",
+   "액션 어드벤처 게임"
+  ],
+  [
+   "ARPG",
+   "시뮬레이션 게임"
+  ],
+  [
+   "대전 액션",
+   "시뮬레이션 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "비주얼 노벨",
+   "시뮬레이션 게임"
+  ],
+  [
+   "리듬 게임",
+   "시뮬레이션 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "TPS",
+   "시뮬레이션 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "시뮬레이션 게임"
+  ],
+  [
+   "시뮬레이션 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "시뮬레이션 게임"
+  ],
+  [
+   "RTS",
+   "시뮬레이션 게임"
+  ],
+  [
+   "ARPG",
+   "대전 액션"
+  ],
+  [
+   "ARPG",
+   "비주얼 노벨"
+  ],
+  [
+   "ARPG",
+   "레이싱 게임"
+  ],
+  [
+   "ARPG",
+   "리듬 게임"
+  ],
+  [
+   "ARPG",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "ARPG",
+   "SRPG"
+  ],
+  [
+   "ARPG",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "ARPG",
+   "종스크롤 슈팅"
+  ],
+  [
+   "ARPG",
+   "RTS"
+  ],
+  [
+   "대전 액션",
+   "플랫폼 게임"
+  ],
+  [
+   "MMORPG",
+   "대전 액션"
+  ],
+  [
+   "대전 액션",
+   "비주얼 노벨"
+  ],
+  [
+   "대전 액션",
+   "레이싱 게임"
+  ],
+  [
+   "대전 액션",
+   "리듬 게임"
+  ],
+  [
+   "대전 액션",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "대전 액션",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "대전 액션"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "대전 액션"
+  ],
+  [
+   "대전 액션",
+   "판타지 게임"
+  ],
+  [
+   "대전 액션",
+   "종스크롤 슈팅"
+  ],
+  [
+   "대전 액션",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "RTS",
+   "대전 액션"
+  ],
+  [
+   "MMORPG",
+   "플랫폼 게임"
+  ],
+  [
+   "비주얼 노벨",
+   "플랫폼 게임"
+  ],
+  [
+   "레이싱 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "리듬 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "연애 어드벤처 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "전략 시뮬레이션",
+   "플랫폼 게임"
+  ],
+  [
+   "SRPG",
+   "플랫폼 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "플랫폼 게임"
+  ],
+  [
+   "판타지 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "종스크롤 슈팅",
+   "플랫폼 게임"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "플랫폼 게임"
+  ],
+  [
+   "RTS",
+   "플랫폼 게임"
+  ],
+  [
+   "MMORPG",
+   "비주얼 노벨"
+  ],
+  [
+   "MMORPG",
+   "리듬 게임"
+  ],
+  [
+   "MMORPG",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "MMORPG",
+   "TPS"
+  ],
+  [
+   "MMORPG",
+   "SRPG"
+  ],
+  [
+   "MMORPG",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "MMORPG",
+   "종스크롤 슈팅"
+  ],
+  [
+   "MMORPG",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "레이싱 게임",
+   "비주얼 노벨"
+  ],
+  [
+   "TPS",
+   "비주얼 노벨"
+  ],
+  [
+   "SRPG",
+   "비주얼 노벨"
+  ],
+  [
+   "비주얼 노벨",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "비주얼 노벨"
+  ],
+  [
+   "RTS",
+   "비주얼 노벨"
+  ],
+  [
+   "레이싱 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "레이싱 게임",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "레이싱 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "레이싱 게임"
+  ],
+  [
+   "레이싱 게임",
+   "판타지 게임"
+  ],
+  [
+   "레이싱 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "레이싱 게임",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "RTS",
+   "레이싱 게임"
+  ],
+  [
+   "리듬 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "TPS",
+   "리듬 게임"
+  ],
+  [
+   "리듬 게임",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "리듬 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "리듬 게임"
+  ],
+  [
+   "리듬 게임",
+   "판타지 게임"
+  ],
+  [
+   "리듬 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "리듬 게임",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "RTS",
+   "리듬 게임"
+  ],
+  [
+   "TPS",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "연애 어드벤처 게임",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "연애 어드벤처 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "RTS",
+   "연애 어드벤처 게임"
+  ],
+  [
+   "TPS",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "TPS"
+  ],
+  [
+   "TPS",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "TPS",
+   "판타지 게임"
+  ],
+  [
+   "TPS",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "전략 시뮬레이션",
+   "판타지 게임"
+  ],
+  [
+   "전략 시뮬레이션",
+   "종스크롤 슈팅"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "전략 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "SRPG",
+   "종스크롤 슈팅"
+  ],
+  [
+   "SRPG",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "RTS",
+   "SRPG"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "종스크롤 슈팅"
+  ],
+  [
+   "건설 경영 시뮬레이션",
+   "벨트스크롤 액션 게임"
+  ],
+  [
+   "RTS",
+   "건설 경영 시뮬레이션"
+  ],
+  [
+   "종스크롤 슈팅",
+   "판타지 게임"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "판타지 게임"
+  ],
+  [
+   "벨트스크롤 액션 게임",
+   "종스크롤 슈팅"
+  ],
+  [
+   "RTS",
+   "종스크롤 슈팅"
+  ],
+  [
+   "RTS",
+   "벨트스크롤 액션 게임"
+  ]
+ ],
+ "thresholds": {
+  "min_cell": 3,
+  "n_p75": 8,
+  "n_p25": 3,
+  "len_p75": 13033,
+  "len_p25": 5034
+ },
+ "many_short": [
+  {
+   "pair": [
+    "BL 게임",
+    "여성향 에로게"
+   ],
+   "n": 12,
+   "mean_len": 2448,
+   "median_len": 2266,
+   "mean_contrib": 18,
+   "median_contrib": 12.5
+  },
+  {
+   "pair": [
+    "TPS",
+    "액션 게임"
+   ],
+   "n": 9,
+   "mean_len": 2625,
+   "median_len": 2929,
+   "mean_contrib": 17.6,
+   "median_contrib": 10
+  },
+  {
+   "pair": [
+    "비주얼 노벨",
+    "추리 게임"
+   ],
+   "n": 15,
+   "mean_len": 3128,
+   "median_len": 2390,
+   "mean_contrib": 22.9,
+   "median_contrib": 8
+  },
+  {
+   "pair": [
+    "연애 어드벤처 게임",
+    "오토메 게임"
+   ],
+   "n": 11,
+   "mean_len": 3188,
+   "median_len": 2381,
+   "mean_contrib": 7.5,
+   "median_contrib": 8
+  },
+  {
+   "pair": [
+    "여성향 에로게",
+    "오토메 게임"
+   ],
+   "n": 11,
+   "mean_len": 3297,
+   "median_len": 3180,
+   "mean_contrib": 14.4,
+   "median_contrib": 13
+  },
+  {
+   "pair": [
+    "연애 어드벤처 게임",
+    "판타지 게임"
+   ],
+   "n": 9,
+   "mean_len": 3775,
+   "median_len": 3211,
+   "mean_contrib": 18.4,
+   "median_contrib": 10
+  },
+  {
+   "pair": [
+    "연애 어드벤처 게임",
+    "학원물"
+   ],
+   "n": 8,
+   "mean_len": 4077,
+   "median_len": 4258,
+   "mean_contrib": 31,
+   "median_contrib": 25.0
+  },
+  {
+   "pair": [
+    "FPS",
+    "TPS"
+   ],
+   "n": 8,
+   "mean_len": 4265,
+   "median_len": 3146,
+   "mean_contrib": 30.6,
+   "median_contrib": 20.5
+  },
+  {
+   "pair": [
+    "어드벤처 게임",
+    "퍼즐 게임"
+   ],
+   "n": 24,
+   "mean_len": 4643,
+   "median_len": 2423,
+   "mean_contrib": 47,
+   "median_contrib": 14.5
+  },
+  {
+   "pair": [
+    "연애 시뮬레이션",
+    "오토메 게임"
+   ],
+   "n": 11,
+   "mean_len": 4729,
+   "median_len": 3559,
+   "mean_contrib": 23.5,
+   "median_contrib": 15
+  },
+  {
+   "pair": [
+    "SF 게임",
+    "액션 게임"
+   ],
+   "n": 8,
+   "mean_len": 4810,
+   "median_len": 5091,
+   "mean_contrib": 37.8,
+   "median_contrib": 31.5
+  },
+  {
+   "pair": [
+    "건설 경영 시뮬레이션",
+    "판타지 게임"
+   ],
+   "n": 10,
+   "mean_len": 5034,
+   "median_len": 4888,
+   "mean_contrib": 18.4,
+   "median_contrib": 14.0
+  }
+ ],
+ "few_long": [
+  {
+   "pair": [
+    "고어",
+    "롤플레잉 게임"
+   ],
+   "n": 3,
+   "mean_len": 45135,
+   "median_len": 29699,
+   "mean_contrib": 63.3,
+   "median_contrib": 54
+  },
+  {
+   "pair": [
+    "TPS",
+    "샌드박스"
+   ],
+   "n": 3,
+   "mean_len": 31662,
+   "median_len": 29662,
+   "mean_contrib": 90.3,
+   "median_contrib": 113
+  },
+  {
+   "pair": [
+    "탄막 게임",
+    "탑뷰 슈팅"
+   ],
+   "n": 3,
+   "mean_len": 19688,
+   "median_len": 23984,
+   "mean_contrib": 79.7,
+   "median_contrib": 66
+  },
+  {
+   "pair": [
+    "롤플레잉 게임",
+    "샌드박스"
+   ],
+   "n": 3,
+   "mean_len": 19576,
+   "median_len": 23990,
+   "mean_contrib": 56.7,
+   "median_contrib": 49
+  },
+  {
+   "pair": [
+    "TPS",
+    "좀비 게임"
+   ],
+   "n": 3,
+   "mean_len": 17618,
+   "median_len": 4464,
+   "mean_contrib": 60.3,
+   "median_contrib": 16
+  },
+  {
+   "pair": [
+    "ARPG",
+    "잠입 액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 16726,
+   "median_len": 22909,
+   "mean_contrib": 104,
+   "median_contrib": 115
+  },
+  {
+   "pair": [
+    "로그라이크 게임",
+    "액션 어드벤처 게임"
+   ],
+   "n": 3,
+   "mean_len": 15327,
+   "median_len": 11363,
+   "mean_contrib": 133.7,
+   "median_contrib": 128
+  },
+  {
+   "pair": [
+    "오픈 월드",
+    "판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 15231,
+   "median_len": 20532,
+   "mean_contrib": 272.3,
+   "median_contrib": 33
+  },
+  {
+   "pair": [
+    "소셜 게임",
+    "시뮬레이션 게임"
+   ],
+   "n": 3,
+   "mean_len": 15077,
+   "median_len": 2751,
+   "mean_contrib": 82,
+   "median_contrib": 17
+  },
+  {
+   "pair": [
+    "료나 게임",
+    "액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 14735,
+   "median_len": 17490,
+   "mean_contrib": 35,
+   "median_contrib": 35
+  },
+  {
+   "pair": [
+    "로그라이크 게임",
+    "판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 14441,
+   "median_len": 13096,
+   "mean_contrib": 16.3,
+   "median_contrib": 21
+  },
+  {
+   "pair": [
+    "io게임",
+    "탑뷰 슈팅"
+   ],
+   "n": 3,
+   "mean_len": 14036,
+   "median_len": 14979,
+   "mean_contrib": 81.7,
+   "median_contrib": 59
+  },
+  {
+   "pair": [
+    "액션 게임",
+    "호러 게임"
+   ],
+   "n": 3,
+   "mean_len": 13608,
+   "median_len": 7293,
+   "mean_contrib": 47.7,
+   "median_contrib": 65
+  },
+  {
+   "pair": [
+    "FPS",
+    "다크 판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 13555,
+   "median_len": 10228,
+   "mean_contrib": 57.3,
+   "median_contrib": 56
+  },
+  {
+   "pair": [
+    "디스토피아",
+    "액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 13452,
+   "median_len": 9261,
+   "mean_contrib": 42,
+   "median_contrib": 47
+  },
+  {
+   "pair": [
+    "던전 RPG",
+    "포스트 아포칼립스"
+   ],
+   "n": 3,
+   "mean_len": 13383,
+   "median_len": 12234,
+   "mean_contrib": 59.7,
+   "median_contrib": 63
+  },
+  {
+   "pair": [
+    "SF 게임",
+    "디스토피아"
+   ],
+   "n": 3,
+   "mean_len": 13033,
+   "median_len": 5724,
+   "mean_contrib": 41.3,
+   "median_contrib": 41
+  }
+ ]
+}
