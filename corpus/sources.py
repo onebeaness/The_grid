@@ -396,10 +396,14 @@ def openproceedings_search(query, limit=200):
 _OP_CACHE = None
 
 def _openproceedings_index():
+    """사이트 루트가 meta refresh 로 넘긴다. urllib 은 meta refresh 를 따르지 않는다.
+    이전 실행에서 색인 0건이 나온 원인. 경로에 슬래시를 붙이고 색인 페이지를 직접 친다."""
     recs = []
     for year in range(2014, 2027):
         for conf in ("edbt", "icdt"):
-            b, code = get("https://openproceedings.org/html/pages/%d_%s" % (year, conf))
+            b, code = get("https://openproceedings.org/html/pages/%d_%s/" % (year, conf))
+            if not b:
+                b, code = get("https://openproceedings.org/html/pages/%d_%s" % (year, conf))
             if not b: continue
             block = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", b, flags=re.S)
             for m in re.finditer(r'<a[^>]+href="([^"]+\.pdf)"[^>]*>(.*?)</a>', block, re.S):

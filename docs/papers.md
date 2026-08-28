@@ -9,7 +9,7 @@
 - `초록만` — 게재지가 닫혀 있거나 봇 차단. 노트는 초록 범위에서만 쓰고, 본문이 있어야 할 항목은 `본문 미확보`로 남깁니다.
 - `미확보` — 논문을 특정하지 못했습니다.
 
-총 23편 — 전문 PDF 12편, 초록만 10편, 미확보 1편
+총 23편 — 전문 PDF 13편, 초록만 10편, 미확보 0편
 
 | 키 | 갈래 | 보유 | DOI | arXiv |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@
 | `zhu2021tmcdr` | 3 | 전문 PDF | `10.1145/3404835.3463010` | `2105.04785v1` |
 | `du2024jicdr` | 3 | 전문 PDF | `-` | `2411.17361v1` |
 | `zhang2024copd` | 3 | 전문 PDF | `10.1145/3742855` | `-` |
-| `omnimatch2025` | 3 | 미확보 | `-` | `-` |
+| `omnimatch2025` | 3 | 전문 PDF | `10.48786/edbt.2025.07` | `-` |
 | `sanner2023` | 4 | 전문 PDF | `10.1145/3604915.3608845` | `2307.14225v1` |
 | `rajput2023tiger` | 4 | 전문 PDF | `10.52202/075280-0452` | `2305.05065v3` |
 | `li2023text` | 4 | 전문 PDF | `10.1145/3580305.3599519` | `2305.13731v2` |
@@ -165,12 +165,14 @@
 
 ### omnimatch2025
 
-- **서지**: OmniMatch (2025). OmniMatch (사용자 제공 서지: EDBT 2025, Amazon/Douban 콜드스타트 벤치마킹). EDBT 2025.
-- **DOI**: `-`
+- **서지**: Yingjun Dai, Ahmed El-Roby, Elmira Adeeb, Vivek Thaker (2025). OmniMatch: Overcoming the Cold-Start Problem in Cross-Domain Recommendations using Auxiliary Reviews. EDBT 2025, 80-91.
+- **DOI**: `10.48786/edbt.2025.07`
 - **arXiv**: `-`
-- **보유**: **미확보** — -
-- **검증 메모**: 미해결. Crossref 제목검색과 arXiv의 OmniMatch는 모두 데이터 조인 탐색(joinability discovery) 논문입니다. EDBT DOI 접두사(10.48786)에도 해당 논문이 없습니다. 정확한 저자명 또는 URL 필요.
-- **초록 출처**: 미확보
+- **dblp**: `conf/edbt/DaiEAT25`
+- **보유**: **전문 PDF** — `papers/omnimatch2025.pdf` (12쪽)
+- **OA 출처**: https://openproceedings.org/2025/conf/edbt/paper-21.pdf
+- **해결 경위**: 이전 조사에서 미해결. Crossref 제목검색과 arXiv의 OmniMatch는 전부 데이터 조인 탐색 논문이었고 EDBT DOI 접두사 검색도 0건. 당시 DBLP 503 으로 조회 불가였던 것이 원인. DBLP 복구 후 즉시 특정.
+- **초록 출처**: 전문
 - **노트**: [[notes/omnimatch2025]]
 
 
