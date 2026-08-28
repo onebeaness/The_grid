@@ -13,19 +13,54 @@ SNAPSHOT = "2021-03-01"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ITEMS = "/home/user/The_grid/items"
 
+HANGUL = re.compile(r"[가-힣]")
+
+def _compile(kws):
+    return re.compile("|".join(re.escape(k) for k in sorted(kws, key=len, reverse=True)))
+
 def load_domains():
     d = json.load(open(os.path.join(HERE, "domains.json"), encoding="utf-8"))
     for dom in d["domains"]:
-        dom["rx"] = re.compile("|".join(re.escape(k) for k in sorted(dom["kw"], key=len, reverse=True)))
-    return d["domains"]
+        dom["rx"] = _compile(dom["kw"])
+    for nd in d.get("nondomain", []):
+        nd["rx"] = _compile(nd["kw"])
+    return d["domains"], d.get("nondomain", [])
+
+def _run_bounds(text, i, j):
+    """text[i:j] 를 포함하는 한글 연속열의 경계를 반환."""
+    a = i
+    while a > 0 and HANGUL.match(text[a - 1]): a -= 1
+    b = j
+    while b < len(text) and HANGUL.match(text[b]): b += 1
+    return a, b
+
+def _accept(text, m):
+    """한글 키워드는 한글 연속열의 접두 또는 접미일 때만 허용한다.
+    내부 위치는 배제한다. 한국어는 공백 없이 합성어를 만들어
+    내부 매칭이 대량 오탐을 낸다. 디시인사이드의 시인이 그 예다."""
+    i, j = m.start(), m.end()
+    kw = m.group(0)
+    if not HANGUL.match(kw[0]):
+        # 라틴 및 숫자 키워드는 통상 단어 경계를 쓴다
+        before = text[i - 1] if i > 0 else " "
+        after = text[j] if j < len(text) else " "
+        return not (before.isalnum() and before.isascii()) and \
+               not (after.isalnum() and after.isascii())
+    a, b = _run_bounds(text, i, j)
+    return i == a or j == b
+
+def _match(name, groups):
+    hits = []
+    for g in groups:
+        for m in g["rx"].finditer(name):
+            if _accept(name, m):
+                hits.append({"domain": g["id"], "name": g["name"], "keyword": m.group(0)})
+                break
+    return hits
 
 def match_domains(name, domains):
-    """분류명에 걸리는 도메인 전부와 근거 키워드를 반환."""
-    hits = []
-    for dom in domains:
-        m = dom["rx"].search(name)
-        if m: hits.append({"domain": dom["id"], "name": dom["name"], "keyword": m.group(0)})
-    return hits
+    """분류명에 걸리는 도메인 전부와 근거 키워드를 반환. 복수 도메인 허용."""
+    return _match(name, domains)
 
 def main():
     ap = argparse.ArgumentParser()
@@ -37,7 +72,7 @@ def main():
     ap.add_argument("--seed", type=int, default=20210301)
     a = ap.parse_args()
 
-    domains = load_domains()
+    domains, nondomains = load_domains()
     cat_docs = collections.Counter()
     cat_samples = collections.defaultdict(list)   # (n_chars, title)
     doc_cats = 0
@@ -102,17 +137,51 @@ def main():
     rows = []
     for name, cnt in ranked:
         hits = match_domains(name, domains)
+        nd = _match(name, nondomains)
         rows.append({"snapshot_date": SNAPSHOT, "category": name, "doc_count": cnt,
                      "rank": len(rows) + 1, "in_top": name in top_names,
                      "domain_proposals": hits,
+                     "nondomain_proposals": nd,
                      "n_domain_hits": len(hits),
                      "samples": [t for _, t in sorted(cat_samples[name], key=lambda x: -x[0])[:3]],
                      "status": "제안"})
     with open(os.path.join(ITEMS, "genres.jsonl"), "w", encoding="utf-8") as f:
         for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
+    # 확정 도메인 초안. 도메인 제안이 있으면 그것을, 없고 비대상이면 비대상을, 둘 다 없으면 미판정
+    for r in rows:
+        if r["domain_proposals"]:
+            r["draft"] = ", ".join(h["name"] for h in r["domain_proposals"])
+        elif r["nondomain_proposals"]:
+            r["draft"] = "비대상: " + ", ".join(h["name"] for h in r["nondomain_proposals"])
+        else:
+            r["draft"] = "미판정"
+
     matched = [r for r in rows if r["n_domain_hits"] > 0]
     multi = [r for r in rows if r["n_domain_hits"] > 1]
+
+    # 교차 도메인 목록. 6단계에서 가장 중요한 신호
+    multi_sorted = sorted(multi, key=lambda r: -r["doc_count"])
+    with open(os.path.join(ITEMS, "category_multidomain.md"), "w", encoding="utf-8") as f:
+        f.write("# 복수 도메인에 걸치는 분류\n\n")
+        f.write("스냅샷 %s. 문서 수 내림차순. %d종.\n\n" % (SNAPSHOT, len(multi_sorted)))
+        f.write("한 항목이 한 도메인에만 속한다는 전제를 버리고 복수 도메인을 허용한 결과.\n")
+        f.write("억지로 하나로 만들면 이 정보가 사라진다. 6단계 미포함 영역 판단의 입력.\n\n")
+        f.write("| 순위 | 분류명 | 문서 수 | 도메인 | 근거 키워드 | 대표 문서 |\n")
+        f.write("|---|---|---|---|---|---|\n")
+        for i, r in enumerate(multi_sorted[:1500], 1):
+            f.write("| %d | %s | %d | %s | %s | %s |\n"
+                    % (i, r["category"], r["doc_count"],
+                       ", ".join(h["name"] for h in r["domain_proposals"]),
+                       ", ".join(h["keyword"] for h in r["domain_proposals"]),
+                       (r["samples"][0][:24] if r["samples"] else "-")))
+    # 도메인 쌍 빈도
+    pair = collections.Counter()
+    for r in multi:
+        ns = sorted(h["name"] for h in r["domain_proposals"])
+        for i in range(len(ns)):
+            for j in range(i + 1, len(ns)):
+                pair[(ns[i], ns[j])] += 1
 
     # 상위 1000 목록
     with open(os.path.join(ITEMS, "category_top%d.md" % a.top), "w", encoding="utf-8") as f:
@@ -120,13 +189,14 @@ def main():
         f.write("스냅샷 %s. 문서 수 내림차순.\n\n" % SNAPSHOT)
         f.write("분류 계층 없음. 분류 네임스페이스 문서가 덤프에 0건이라 상위 하위 관계를 알 수 없음.\n")
         f.write("도메인 열은 자동 매칭 제안. 확정 아님. 눈으로 보고 채울 것.\n\n")
-        f.write("| 순위 | 분류명 | 문서 수 | 도메인 제안 | 대표 문서 3개 | 확정 도메인 |\n")
-        f.write("|---|---|---|---|---|---|\n")
+        f.write("| 순위 | 분류명 | 문서 수 | 도메인 제안 | 비대상 제안 | 대표 문서 3개 | 확정 도메인(초안) |\n")
+        f.write("|---|---|---|---|---|---|---|\n")
         for r in rows[:a.top]:
             props = ", ".join(h["name"] for h in r["domain_proposals"]) or "-"
-            samp = " / ".join(s[:22] for s in r["samples"]) or "-"
-            f.write("| %d | %s | %d | %s | %s |  |\n"
-                    % (r["rank"], r["category"], r["doc_count"], props, samp))
+            nds_ = ", ".join(h["name"] for h in r["nondomain_proposals"]) or "-"
+            samp = " / ".join(x[:20] for x in r["samples"]) or "-"
+            f.write("| %d | %s | %d | %s | %s | %s | %s |\n"
+                    % (r["rank"], r["category"], r["doc_count"], props, nds_, samp, r["draft"]))
 
     # 감사 표본
     import random
@@ -145,6 +215,20 @@ def main():
                        ", ".join(h["name"] for h in r["domain_proposals"]),
                        ", ".join(h["keyword"] for h in r["domain_proposals"]),
                        (r["samples"][0][:26] if r["samples"] else "-")))
+
+    nd_count = collections.Counter()
+    for r in rows:
+        for h in r["nondomain_proposals"]: nd_count[h["name"]] += 1
+    nd_docs = collections.Counter()
+    for r in rows:
+        for h in r["nondomain_proposals"]: nd_docs[h["name"]] += r["doc_count"]
+    draft_dist = collections.Counter(
+        ("도메인" if r["domain_proposals"] else ("비대상" if r["nondomain_proposals"] else "미판정"))
+        for r in rows)
+    draft_docs = collections.Counter()
+    for r in rows:
+        k = "도메인" if r["domain_proposals"] else ("비대상" if r["nondomain_proposals"] else "미판정")
+        draft_docs[k] += r["doc_count"]
 
     dom_count = collections.Counter()
     for r in rows:
@@ -168,6 +252,11 @@ def main():
         "categories_multi_domain": len(multi),
         "domain_category_counts": dict(dom_count.most_common()),
         "domain_doc_counts": dict(dom_docs.most_common()),
+        "nondomain_category_counts": dict(nd_count.most_common()),
+        "nondomain_doc_counts": dict(nd_docs.most_common()),
+        "draft_distribution_categories": dict(draft_dist),
+        "draft_distribution_docs": dict(draft_docs),
+        "domain_pair_counts": {" + ".join(k): v for k, v in pair.most_common(40)},
         "elapsed_min": round((time.time()-t0)/60, 1),
         "status": "자동 매칭은 제안. 확정 아님.",
     }
@@ -179,8 +268,15 @@ def main():
           % (a.top, covered, summary["top_n_document_coverage_pct"], summary["top_n_pair_share"]))
     print("패턴 매칭된 분류 %d종 (%.2f%%),  둘 이상 도메인 %d종"
           % (len(matched), summary["categories_matched_pct"], len(multi)))
+    print("\n[확정 도메인 초안 분포]")
+    for k in ("도메인", "비대상", "미판정"):
+        print("  %-8s %6d종  %9d 분류-문서쌍" % (k, draft_dist[k], draft_docs[k]))
     print("\n도메인별 제안 분류 수 / 문서 수")
-    for k in dom_count: print("  %-14s %6d종  %8d문서" % (k, dom_count[k], dom_docs[k]))
+    for k, v in dom_count.most_common(): print("  %-14s %6d종  %8d문서" % (k, v, dom_docs[k]))
+    print("\n비대상별 분류 수 / 문서 수")
+    for k, v in nd_count.most_common(): print("  %-14s %6d종  %8d문서" % (k, v, nd_docs[k]))
+    print("\n복수 도메인 분류 %d종. 상위 도메인 쌍" % len(multi))
+    for k, v in pair.most_common(12): print("  %-30s %6d종" % (" + ".join(k), v))
 
 if __name__ == "__main__":
     main()
