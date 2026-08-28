@@ -25,3 +25,6 @@ items/failures/*.txt
 
 # 샤드 파싱 산출물
 items/shards/
+
+# 장르 후보 중간 산출물. 판정 근거는 items/genre_candidates.md 에 있음
+items/genre_candidates*.jsonl

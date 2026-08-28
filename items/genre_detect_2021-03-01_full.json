@@ -1,0 +1,4112 @@
+{
+ "snapshot_date": "2021-03-01",
+ "sampled": 571375,
+ "rate": 1.0,
+ "cat_threshold": 3,
+ "body_threshold": 4,
+ "sub_threshold": 5,
+ "stats": {
+  "분류판정": 3330,
+  "본문판정": 746,
+  "분류만": 3213,
+  "본문만": 629,
+  "둘다": 117
+ },
+ "sub_curve": {
+  "합집합|0": 3959,
+  "분류만|0": 3213,
+  "합집합|1": 3328,
+  "분류만|1": 3041,
+  "합집합|3": 3016,
+  "분류만|3": 2746,
+  "합집합|5": 2627,
+  "분류만|5": 2374,
+  "합집합|10": 1917,
+  "분류만|10": 1694,
+  "합집합|20": 1285,
+  "분류만|20": 1107,
+  "본문만|0": 629,
+  "합집합|50": 656,
+  "분류만|50": 534,
+  "본문만|1": 216,
+  "본문만|3": 201,
+  "본문만|5": 186,
+  "본문만|10": 160,
+  "본문만|20": 123,
+  "본문만|50": 82,
+  "둘다|0": 117,
+  "둘다|1": 71,
+  "둘다|3": 69,
+  "둘다|5": 67,
+  "둘다|10": 63,
+  "둘다|20": 55,
+  "둘다|50": 40
+ },
+ "elapsed_min": 4.3,
+ "sample_body_only": [
+  {
+   "title": "ARPG",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 226,
+   "sub_cat": "ARPG",
+   "categories": [
+    "ARPG"
+   ],
+   "lead": "Action Role-Playing Game RPG에서 파생된 게임의 장르 중 하나."
+  },
+  {
+   "title": "Be-Music Script",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 32,
+   "sub_cat": "Be-Music Script",
+   "categories": [
+    "Be-Music Script"
+   ],
+   "lead": "비트매니아 시리즈를 기반으로 제작된 파일 형식과 이를 구동할 수 있는 시뮬레이터의 총칭."
+  },
+  {
+   "title": "K-POP",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 8,
+   "sub_cat": "K-POP",
+   "categories": [
+    "K-POP"
+   ],
+   "lead": "(현대) 대한민국 대중음악, Korean-POPular music이다."
+  },
+  {
+   "title": "SUV",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 73,
+   "sub_cat": "중형 SUV",
+   "categories": [
+    "SUV"
+   ],
+   "lead": "Sport Utility Vehicle / 스포츠 유틸리티 자동차 (차량) SUV는 미국에서 유래된 자동차 분류 중 하나이다."
+  },
+  {
+   "title": "sweet pool",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 5,
+   "sub_cat": "sweet pool",
+   "categories": [
+    "sweet pool"
+   ],
+   "lead": "애정도 사랑도 아닌 보다 좀 더 깊고 무거운…- 본 작품의 캐치프레이즈"
+  },
+  {
+   "title": "가야",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 48,
+   "sub_cat": "가야",
+   "categories": [
+    "가야",
+    "삼한"
+   ],
+   "lead": "가야 (伽倻)는 삼국시대 초중반 한반도 남부에 있었던 여러 국가의 총칭이다."
+  },
+  {
+   "title": "가족법",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 26,
+   "sub_cat": "가족법",
+   "categories": [
+    "가족법"
+   ],
+   "lead": "법 관련 정보"
+  },
+  {
+   "title": "강철의 누이들",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 51,
+   "sub_cat": "강철의 누이들",
+   "categories": [
+    "강철의 누이들"
+   ],
+   "lead": "강철의 누이들 (Panzerschwestern)"
+  },
+  {
+   "title": "거란",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 16,
+   "sub_cat": "거란",
+   "categories": [
+    "거란",
+    "고구려의 조공국",
+    "몽골계 민족"
+   ],
+   "lead": "거란족은 중세에 랴오허와 시라무렌 허 (河) 유역을 중심으로 분포한 준 몽골어족 동호계 유목민이다."
+  },
+  {
+   "title": "경산시 시내버스",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 34,
+   "sub_cat": "경산시 시내버스",
+   "categories": [
+    "시내버스",
+    "경산시 시내버스"
+   ],
+   "lead": "경산시에서 인가하고 운영하는 시내버스의 총칭으로 경산버스, 코리아와이드 대화에서 운영한다."
+  },
+  {
+   "title": "고무신",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 8,
+   "sub_cat": "검정 고무신",
+   "categories": [
+    "신발",
+    "한복"
+   ],
+   "lead": "세계적인 패션신발 조선 나이..."
+  },
+  {
+   "title": "공룡",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절3"
+   ],
+   "path": "본문만",
+   "sub_count": 6,
+   "sub_cat": "공룡",
+   "categories": [
+    "공룡"
+   ],
+   "lead": "생물 목록은 조반목 생물 목록, 용반목 생물 목록 참고."
+  },
+  {
+   "title": "과일",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 153,
+   "sub_cat": "과일",
+   "categories": [
+    "과일"
+   ],
+   "lead": "Fruit / 果實 과일 혹은 과실은 사람과 동물이 식용하는 열매의 총칭이다."
+  },
+  {
+   "title": "광고",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 133,
+   "sub_cat": "광고",
+   "categories": [
+    "광고"
+   ],
+   "lead": "廣告 / Advertisement, AD, Advert"
+  },
+  {
+   "title": "구원파",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "구원파",
+   "categories": [
+    "구원파"
+   ],
+   "lead": "구원파는 개신교 계열의 기독교복음침례회, 대한예수교침례회 (생명의말씀선교회), 대한예수교침례회 (기쁜소식선교회)의 3개 교단을 이르는 말이다."
+  },
+  {
+   "title": "국밥",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "국밥",
+   "categories": [
+    "국밥",
+    "유행어"
+   ],
+   "lead": "국에다가 밥을 넣어 말아먹는 한국의 문화이자 요리의 통칭."
+  },
+  {
+   "title": "글꼴",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 27,
+   "sub_cat": "한글 글꼴",
+   "categories": [
+    "글꼴"
+   ],
+   "lead": "書體 / typeface, font"
+  },
+  {
+   "title": "기관단총",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 110,
+   "sub_cat": "기관단총",
+   "categories": [
+    "기관단총"
+   ],
+   "lead": "이스라엘의 기관단총 UZI 機關短銃, Submachine Gun 총기의 대분류 중 하나."
+  },
+  {
+   "title": "냉면",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 10,
+   "sub_cat": "냉면",
+   "categories": [
+    "냉면"
+   ],
+   "lead": "冷麵 / Naengmyeon, Cold Noodle Soup, Korean Cold Noodles 한국 요리의 일종으로, 한국 전통의 차갑게 해서 먹는 국수의 통칭이다."
+  },
+  {
+   "title": "노래방",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절3"
+   ],
+   "path": "본문만",
+   "sub_count": 29,
+   "sub_cat": "노래방",
+   "categories": [
+    "노래방"
+   ],
+   "lead": "Karaoke / カラオケ 노래반주기가 설치된 방에서 노래를 부르는 곳."
+  },
+  {
+   "title": "노홍철",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 16,
+   "sub_cat": "노홍철",
+   "categories": [
+    "노홍철"
+   ],
+   "lead": "엽기주의 좋아, 가는거야!"
+  },
+  {
+   "title": "닌자 가이덴",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 59,
+   "sub_cat": "닌자 가이덴",
+   "categories": [
+    "닌자 가이덴",
+    "액션 게임",
+    "코에이 테크모",
+    "Xbox 게임",
+    "Xbox One의 하위 호환 지원 게임",
+    "Xbox One X Enhanced"
+   ],
+   "lead": "테크모의 팀 닌자가 만든 Xbox로 발매된 3D 액션 게임."
+  },
+  {
+   "title": "다각형",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 16,
+   "sub_cat": "다각형",
+   "categories": [
+    "기하학"
+   ],
+   "lead": "多角形, polygon"
+  },
+  {
+   "title": "다연장로켓",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 31,
+   "sub_cat": "다연장로켓",
+   "categories": [
+    "로켓 병기",
+    "지상 병기"
+   ],
+   "lead": "(러시아군 9К58 Смерч БМ-30 (BM-30)) (밤하늘을 수놓는 아름다운 로켓들 (GIF))"
+  },
+  {
+   "title": "다크 판타지",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 60,
+   "sub_cat": "다크 판타지 애니메이션",
+   "categories": [
+    "문학",
+    "다크 판타지"
+   ],
+   "lead": "판타지 장르의 일종으로, 무겁고 부조리한 세계관을 배경으로 한 판타지 장르이다."
+  },
+  {
+   "title": "당직",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "path": "본문만",
+   "sub_count": 10,
+   "sub_cat": "군 당직",
+   "categories": [
+    "조직관리",
+    "군 당직",
+    "한자어"
+   ],
+   "lead": "當直."
+  },
+  {
+   "title": "대전 도시철도",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 33,
+   "sub_cat": "대전 도시철도 1호선",
+   "categories": [
+    "대전광역시의 도시철도",
+    "나무위키 철도 프로젝트"
+   ],
+   "lead": "대전광역시의 도시철도."
+  },
+  {
+   "title": "대전 액션 게임",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 133,
+   "sub_cat": "대전 액션 게임 용어",
+   "categories": [
+    "대전 액션"
+   ],
+   "lead": "두 명, 혹은 그 이상의 플레이어가 서로 '대결'을 하는 액션 게임 장르."
+  },
+  {
+   "title": "대체역사물",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 90,
+   "sub_cat": "대체역사물",
+   "categories": [
+    "대체역사물"
+   ],
+   "lead": "* 한국어: 대체역사물, 대체역사, 대체역사소설, 대체역사 SF * 영어: Alternate history, Alternative history"
+  },
+  {
+   "title": "대형차",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 56,
+   "sub_cat": "대형차",
+   "categories": [
+    "자동차",
+    "대형차",
+    "나무위키 자동차 프로젝트"
+   ],
+   "lead": "Full-size-Luxury (미국) F-segment (유럽) 준대형차보다 큰 승용차를 일컫는 말이다."
+  },
+  {
+   "title": "데킬라",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "path": "본문만",
+   "sub_count": 27,
+   "sub_cat": "데킬라 베이스 칵테일",
+   "categories": [
+    "데킬라",
+    "스페인어 단어",
+    "나와틀어 단어"
+   ],
+   "lead": "멕시코산 술."
+  },
+  {
+   "title": "동물",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 161,
+   "sub_cat": "상상의 동물",
+   "categories": [
+    "생물",
+    "계통분류학",
+    "동물"
+   ],
+   "lead": "동물이란, 진핵생물의 계 (界) 중 하나로, 진핵생물 중 종속영양을 하고, 운동성이 있고, 세포호흡을 하며, 유성생식이 가능하며, 배자 발생 시 포배가 생성되는 생물들을 일컫는 말이다."
+  },
+  {
+   "title": "둔기",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 38,
+   "sub_cat": "둔기",
+   "categories": [
+    "둔기"
+   ],
+   "lead": "鈍器 / blunt weapon 사전적 의미로는 1."
+  },
+  {
+   "title": "뒤바뀐 아이",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 7,
+   "sub_cat": "뒤바뀐 아이",
+   "categories": [
+    "클리셰",
+    "뒤바뀐 아이"
+   ],
+   "lead": "운명의 장난으로 친자식이 다른 집안의 아이와 뒤바뀌는 상황으로 출생의 비밀의 일종."
+  },
+  {
+   "title": "듀얼마스터즈",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 19,
+   "sub_cat": "듀얼마스터즈",
+   "categories": [
+    "듀얼마스터즈",
+    "SBS 방영 애니메이션"
+   ],
+   "lead": "만화판을 원작으로 하며 TV 도쿄에서 2002년 10월 첫방송을 시작으로 매주 일요일 아침 8:30분에 방영중."
+  },
+  {
+   "title": "러브 코미디",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 350,
+   "sub_cat": "러브 코미디",
+   "categories": [
+    "러브 코미디",
+    "나무위키 일상물 프로젝트"
+   ],
+   "lead": "러브코미디 (ラブコメディ)는 일본과 한국에서 쓰이는 로맨스의 하위 장르다."
+  },
+  {
+   "title": "레젠다리움",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 33,
+   "sub_cat": "레젠다리움",
+   "categories": [
+    "레젠다리움"
+   ],
+   "lead": "Legendarium"
+  },
+  {
+   "title": "로망스어군",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 25,
+   "sub_cat": "로망스어군",
+   "categories": [
+    "로망스어군"
+   ],
+   "lead": "인도유럽어족 이탈리아어파의 하위 어군."
+  },
+  {
+   "title": "로큰롤",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 172,
+   "sub_cat": "로큰롤 명예의 전당 헌액자",
+   "categories": [
+    "로큰롤"
+   ],
+   "lead": "Rock and roll Rock & roll Rock 'n' roll R&R"
+  },
+  {
+   "title": "루니 툰",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 10,
+   "sub_cat": "루니 툰",
+   "categories": [
+    "루니 툰"
+   ],
+   "lead": "미국 애니메이션/목록 # 고전 단편들의 대략적인 등장인물들."
+  },
+  {
+   "title": "마법소녀",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 124,
+   "sub_cat": "마법소녀 리리컬 나노하 시리즈/등장인물",
+   "categories": [
+    "마법소녀"
+   ],
+   "lead": "마법을 사용하는 소녀의, 총칭."
+  },
+  {
+   "title": "마법소녀 리리컬 나노하 시리즈/마법",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 92,
+   "sub_cat": "마법소녀 리리컬 나노하 시리즈",
+   "categories": [
+    "마법",
+    "마법소녀 리리컬 나노하 시리즈"
+   ],
+   "lead": "마력을 소비해서 발동되는 현상의 총칭."
+  },
+  {
+   "title": "마법소녀물",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 147,
+   "sub_cat": "마법소녀물",
+   "categories": [
+    "마법소녀물"
+   ],
+   "lead": "마법소녀가 등장하여 활약하는 애니메이션/만화등을 비롯한 작품군 전체를 이르는 말."
+  },
+  {
+   "title": "마인크래프트/플러그인",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 97,
+   "sub_cat": "마인크래프트",
+   "categories": [
+    "나무위키 마인크래프트 프로젝트",
+    "마인크래프트",
+    "마인크래프트/플러그인"
+   ],
+   "lead": "마인크래프트는 멀티플레이를 지원하며, 인터넷에 돌아다니는 서버 구현 프로그램을 통해 자신이 직접 서버를 돌릴 수 있다."
+  },
+  {
+   "title": "매머드",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "path": "본문만",
+   "sub_count": 5,
+   "sub_cat": "한반도의 매머드",
+   "categories": [
+    "맘무투스속"
+   ],
+   "lead": "컬럼비아매머드의 복원 모형."
+  },
+  {
+   "title": "모니터함",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "모니터함",
+   "categories": [
+    "모니터함",
+    "해상 병기/세계 대전",
+    "에이지 오브 엠파이어 3/유닛"
+   ],
+   "lead": "Monitor 19세기~제2차 세계대전 동안 쓰인 군함의 일종."
+  },
+  {
+   "title": "무장전선",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 27,
+   "sub_cat": "무장전선",
+   "categories": [
+    "무장전선"
+   ],
+   "lead": "武裝戰線 (The Front of Armament) 크로우즈, 워스트에 등장하는 집단 중 하나로 폭주족이다."
+  },
+  {
+   "title": "문화",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 160,
+   "sub_cat": "문화",
+   "categories": [
+    "인문학",
+    "사회과학",
+    "고고학",
+    "문화"
+   ],
+   "lead": "文化 / Culture"
+  },
+  {
+   "title": "뮤지컬",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 305,
+   "sub_cat": "뮤지컬",
+   "categories": [
+    "뮤지컬"
+   ],
+   "lead": "Musical 노래, 춤, 연기가 어우러지는 무대극 공연 양식."
+  },
+  {
+   "title": "미니카",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "미니카",
+   "categories": [
+    "장난감",
+    "미니카"
+   ],
+   "lead": "1980년대~1990년대 출생한 어린이들이 접해 봤을 만한 장난감."
+  },
+  {
+   "title": "미사일",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절3"
+   ],
+   "path": "본문만",
+   "sub_count": 99,
+   "sub_cat": "대공 미사일",
+   "categories": [
+    "미사일"
+   ],
+   "lead": "missile"
+  },
+  {
+   "title": "미스터 풀스윙",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 7,
+   "sub_cat": "미스터 풀스윙",
+   "categories": [
+    "일본 만화/ㅁ",
+    "야구 만화",
+    "미스터 풀스윙"
+   ],
+   "lead": "Mr. Fullswing."
+  },
+  {
+   "title": "민중가요",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 95,
+   "sub_cat": "민중가요",
+   "categories": [
+    "민중가요"
+   ],
+   "lead": "民衆歌謠 Protest Song"
+  },
+  {
+   "title": "백주",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 11,
+   "sub_cat": "백주",
+   "categories": [
+    "백주"
+   ],
+   "lead": "백주 (白酒, 바이주)는 소주 (燒酒, 사오주), 노백간 (老白干, 라오바이간) 등으로 불리우는 중국 전통 증류주의 일종으로 전분 혹은 당분을 갖는 곡물로 밑술을 빚거나 발효하여 이를 증류하여 얻은 술의 총칭이다."
+  },
+  {
+   "title": "백합(장르)",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 63,
+   "sub_cat": "백합(장르)",
+   "categories": [
+    "백합(장르)"
+   ],
+   "lead": "백합 (ユリ, Yuri)은 여성 캐릭터 간의 동성애, 혹은 연애 감정에 가까운 끈끈한 우정을 뜻하는 단어다."
+  },
+  {
+   "title": "법정동",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 56,
+   "sub_cat": "종로구의 법정동",
+   "categories": [
+    "대한민국의 행정구역"
+   ],
+   "lead": "法定洞 / Legal Dong"
+  },
+  {
+   "title": "보험",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절3"
+   ],
+   "path": "본문만",
+   "sub_count": 34,
+   "sub_cat": "보험",
+   "categories": [
+    "보험"
+   ],
+   "lead": "保險 / Insurance"
+  },
+  {
+   "title": "브라더후드 오브 스틸",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "브라더후드 오브 스틸",
+   "categories": [
+    "브라더후드 오브 스틸",
+    "폴아웃 시리즈/세력"
+   ],
+   "lead": "뮤턴트와 레이더들을 쓸어버리는 중인 BoS 팔라딘들."
+  },
+  {
+   "title": "블랙 코미디",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 37,
+   "sub_cat": "블랙 코미디",
+   "categories": [
+    "블랙 코미디"
+   ],
+   "lead": "Black Humo (u) r / Black Comedy"
+  },
+  {
+   "title": "비주얼 노벨",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 222,
+   "sub_cat": "비주얼 노벨",
+   "categories": [
+    "비주얼 노벨"
+   ],
+   "lead": "ビジュアルノベル / Visual Novel"
+  },
+  {
+   "title": "비주얼계",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 96,
+   "sub_cat": "비주얼계 음반",
+   "categories": [
+    "일본의 문화",
+    "비주얼계"
+   ],
+   "lead": "일본어: ヴィジュアル系 영어: Visual Kei"
+  },
+  {
+   "title": "빵",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 95,
+   "sub_cat": "빵",
+   "categories": [
+    "빵"
+   ],
+   "lead": "밀가루나 다른 곡물 가루를 물이나 우유 등의 액체로 반죽한 뒤 굽거나 쪄낸 음식의 총칭."
+  },
+  {
+   "title": "사무라이",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 67,
+   "sub_cat": "사무라이 스피리츠/등장인물",
+   "categories": [
+    "사무라이",
+    "동음이의어/ㅅ"
+   ],
+   "lead": "일본 봉건시대의 무사 계급을 일컫는 말."
+  },
+  {
+   "title": "사이버펑크",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절3"
+   ],
+   "path": "본문만",
+   "sub_count": 95,
+   "sub_cat": "사이버펑크",
+   "categories": [
+    "사이버펑크"
+   ],
+   "lead": "Cyberpunk A genre of science fiction set in a lawless subculture of an oppressive society dominated by computer technology."
+  },
+  {
+   "title": "사회민주주의",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 95,
+   "sub_cat": "사회민주주의 정당",
+   "categories": [
+    "사회민주주의",
+    "사회 정의"
+   ],
+   "lead": "社會民主主義 / Social Democracy 사회민주주의는 에두아르트 베른슈타인이 수정주의적 마르크스주의를 발전시켜 확립한 사회주의 및 민주주의 이념의 한 갈래이며, 자본주의 경제 체제를 혁명 등으로 급격하게 무너뜨리지 않고 점진적으로 사회주의를 추구하고 대의 민주주의를 위한 정책과 소득 재분배 정책, 그리고 사회 전반의 이익과 복지 정책을 포함하는 정치"
+  },
+  {
+   "title": "상어",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 43,
+   "sub_cat": "상어",
+   "categories": [
+    "상어"
+   ],
+   "lead": "한국어: 상어 영어: Shark 독일어: Haifisch 이탈리아어: squalo 벵골어: হাঙ্গর 터키어: Köpek balığı 러시아어: акула 아일랜드어: Siorc 아이슬란드어: Háffiskar 그리스어: Καρχαρίας 싱할라어: මෝරා 아르메니아어: Շնաձկներ 조지아어: ზვიგენები 스페인어: tiburón 프랑스어: r"
+  },
+  {
+   "title": "샹송",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 9,
+   "sub_cat": "샹송",
+   "categories": [
+    "샹송"
+   ],
+   "lead": "Chanson 프랑스 대중음악의 큰 축을 이루는 노래 장르."
+  },
+  {
+   "title": "서부극",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 59,
+   "sub_cat": "서부극",
+   "categories": [
+    "장르별 영화",
+    "서부극"
+   ],
+   "lead": "미국의 보청기/이어폰 제조업체를 찾는다면 웨스톤랩스 문서로."
+  },
+  {
+   "title": "서유기",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "본문만",
+   "sub_count": 13,
+   "sub_cat": "서유기",
+   "categories": [
+    "서유기"
+   ],
+   "lead": "西遊記 / Journey to the West"
+  },
+  {
+   "title": "성장물",
+   "cat_score": 0,
+   "body_score": 5,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "본문만",
+   "sub_count": 103,
+   "sub_cat": "성장물",
+   "categories": [
+    "성장물"
+   ],
+   "lead": "이야기 장르의 하나."
+  },
+  {
+   "title": "시외버스",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 237,
+   "sub_cat": "시외버스",
+   "categories": [
+    "버스",
+    "유형별 노선버스",
+    "시외버스"
+   ],
+   "lead": "市外버스/Intercity Bus"
+  },
+  {
+   "title": "시트콤",
+   "cat_score": 0,
+   "body_score": 7,
+   "cat_why": [],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 70,
+   "sub_cat": "한국 시트콤",
+   "categories": [
+    "시트콤"
+   ],
+   "lead": "Sitcom 시츄에이션 코미디 (Situation Comedy)의 줄임말이며 진지한 분위기를 배제하고 철저히 개그 요소만을 추구하는 장르다."
+  },
+  {
+   "title": "식민지",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 18,
+   "sub_cat": "영국의 식민지",
+   "categories": [
+    "식민지"
+   ],
+   "lead": "植民地 / Colony 종속 지역의 일종으로 본국 밖에 (주로 해외) 있으면서 본국의 통치를 받는 지역."
+  },
+  {
+   "title": "신세기 에반게리온",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 112,
+   "sub_cat": "신세기 에반게리온",
+   "categories": [
+    "신세기 에반게리온",
+    "일본 애니메이션/ㅅ",
+    "로그 누락 해결"
+   ],
+   "lead": "일본에서 1995년 10월부터 1996년 3월까지 총 26화로 방송된 오리지널 애니메이션과 이후 파생된 미디어 믹스."
+  },
+  {
+   "title": "쓰르라미 울 적에",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 24,
+   "sub_cat": "쓰르라미 울 적에",
+   "categories": [
+    "쓰르라미 울 적에"
+   ],
+   "lead": "《쓰르라미 울 적에》는 동인 서클 07th Expansion에서 제작한 사운드 노벨을 표방하는 동인 게임과 그로부터 파생된 미디어 프랜차이즈들을 가리킨다."
+  },
+  {
+   "title": "아랍",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 13,
+   "sub_cat": "아랍 요리",
+   "categories": [
+    "아랍",
+    "지역",
+    "지명"
+   ],
+   "lead": "이 사진의 수단의 남부 지역은 현재 (2011년 7월 9일 이후) 남수단으로 독립한 상태이다."
+  },
+  {
+   "title": "아이스크림",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 10,
+   "sub_cat": "롯데푸드의 아이스크림",
+   "categories": [
+    "빙과류",
+    "유제품",
+    "이탈리아 요리",
+    "미국 요리"
+   ],
+   "lead": "🍨 🍦 / Ice cream 디저트의 일종."
+  },
+  {
+   "title": "어류",
+   "cat_score": 0,
+   "body_score": 6,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 19,
+   "sub_cat": "어류",
+   "categories": [
+    "어류",
+    "계통분류학"
+   ],
+   "lead": "생물 목록은 척삭동물문/생물 목록, 조기어강, 연골어강, 육기어강 참고."
+  },
+  {
+   "title": "어스시 연대기",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 6,
+   "sub_cat": "어스시 연대기",
+   "categories": [
+    "어스시 연대기"
+   ],
+   "lead": "The Earthsea Cycle"
+  },
+  {
+   "title": "Xbox",
+   "cat_score": 0,
+   "body_score": 4,
+   "cat_why": [],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "본문만",
+   "sub_count": 529,
+   "sub_cat": "Xbox One 게임",
+   "categories": [
+    "Xbox"
+   ],
+   "lead": "[include (틀: 다른 뜻1, other1=엑스박스 시리즈는 이곳으로 연결됩니다 2020년 발매된 제품, rd1=Xbox Series X, other2=저가형 모델, rd2=Xbox Series S)]"
+  }
+ ],
+ "sample_cat_only": [
+  {
+   "title": "007 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:007 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 38,
+   "sub_cat": "007 시리즈",
+   "categories": [
+    "007 시리즈"
+   ],
+   "lead": "이언 플레밍이 집필한 스파이 제임스 본드의 소설 시리즈와 이를 원작으로 하는 영화 시리즈."
+  },
+  {
+   "title": "13일의 금요일 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:13일의 금요일 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 20,
+   "sub_cat": "13일의 금요일 시리즈",
+   "categories": [
+    "미국 영화",
+    "시리즈 영화",
+    "미국 공포 영화",
+    "13일의 금요일 시리즈"
+   ],
+   "lead": "Friday the 13th."
+  },
+  {
+   "title": "194X 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:194X 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "194X 시리즈",
+   "categories": [
+    "194X 시리즈"
+   ],
+   "lead": "19シリース 캡콤에서 만든, 제2차 세계 대전을 배경으로 한 종스크롤 슈팅 게임 시리즈."
+  },
+  {
+   "title": "1984(소설)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:1984(소설)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "1984(소설)",
+   "categories": [
+    "1984(소설)"
+   ],
+   "lead": "전쟁은 평화."
+  },
+  {
+   "title": "1988 서울 올림픽",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:1988 서울 올림픽"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 13,
+   "sub_cat": "1988 서울 올림픽",
+   "categories": [
+    "1988 서울 올림픽"
+   ],
+   "lead": "세계는 서울로, 서울은 세계로1988 서울 올림픽 공식 캐치프레이즈 1988년 9월 17일부터 10월 2일까지 16일간 서울특별시와 경기도 일부 수도권 지역 및 각 종목별로 주요 도시 지역에서 개최된 하계 올림픽."
+  },
+  {
+   "title": "2006 월드 베이스볼 클래식",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2006 월드 베이스볼 클래식"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 16,
+   "sub_cat": "2006 월드 베이스볼 클래식",
+   "categories": [
+    "2006 월드 베이스볼 클래식",
+    "2006년 야구"
+   ],
+   "lead": "월드 베이스볼 클래식 초대대회로 3월 3일부터 3월 20일까지 진행되었다."
+  },
+  {
+   "title": "2008 베이징 올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2008 베이징 올림픽"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 18,
+   "sub_cat": "2008 베이징 올림픽 참가 선수",
+   "categories": [
+    "2008 베이징 올림픽"
+   ],
+   "lead": "개막식 영상."
+  },
+  {
+   "title": "2009 월드 베이스볼 클래식",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2009 월드 베이스볼 클래식"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 13,
+   "sub_cat": "2009 월드 베이스볼 클래식",
+   "categories": [
+    "2009 월드 베이스볼 클래식"
+   ],
+   "lead": "2009년 3월 5일부터 3월 24일까지 열린 두번째 월드 베이스볼 클래식."
+  },
+  {
+   "title": "2012 런던 올림픽",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:2012 런던 올림픽"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 31,
+   "sub_cat": "2012 런던 올림픽 메달리스트",
+   "categories": [
+    "2012 런던 올림픽"
+   ],
+   "lead": "1908 런던 올림픽, 1948 런던 올림픽에 이어 3번째로 영국 런던에서 개최된 제30회 하계 올림픽이다."
+  },
+  {
+   "title": "2013 월드 베이스볼 클래식",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2013 월드 베이스볼 클래식"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 18,
+   "sub_cat": "2013 월드 베이스볼 클래식",
+   "categories": [
+    "2013 월드 베이스볼 클래식"
+   ],
+   "lead": "월드 베이스볼 클래식 제3회."
+  },
+  {
+   "title": "2014 소치 동계올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2014 소치 동계올림픽"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "2014 소치 동계올림픽",
+   "categories": [
+    "2014 소치 동계올림픽"
+   ],
+   "lead": "본격 춘계올림픽 러시아 소치에서 2014년 2월 개최한 동계올림픽."
+  },
+  {
+   "title": "2014 인천 아시안 게임",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2014 인천 아시안 게임"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 6,
+   "sub_cat": "2014 인천 아시안 게임",
+   "categories": [
+    "2014 인천 아시안 게임"
+   ],
+   "lead": "대한민국으로서는 1986 서울 아시안 게임, 1999 강원 동계 아시안 게임, 2002 부산 아시안 게임에 이어 4번째로 개최하는 아시안 게임이다."
+  },
+  {
+   "title": "2016 리우데자네이루 올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2016 리우데자네이루 올림픽"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 42,
+   "sub_cat": "2016 리우데자네이루 올림픽 참가 선수",
+   "categories": [
+    "2016 리우데자네이루 올림픽"
+   ],
+   "lead": "2016년 8월에 열렸던 제 31회 하계올림픽으로 올림픽 역사상 최초로 남아메리카 지역에서 열린 대회이다."
+  },
+  {
+   "title": "2018 자카르타·팔렘방 아시안 게임",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2018 자카르타·팔렘방 아시안 게임"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 8,
+   "sub_cat": "2018 자카르타·팔렘방 아시안 게임",
+   "categories": [
+    "2018 자카르타·팔렘방 아시안 게임"
+   ],
+   "lead": "2018년에 인도네시아에서 개최된 하계 아시안 게임."
+  },
+  {
+   "title": "2018 평창 동계올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2018 평창 동계올림픽"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 46,
+   "sub_cat": "2018 평창 동계올림픽",
+   "categories": [
+    "2018 평창 동계올림픽"
+   ],
+   "lead": "2018 평창 동계올림픽은 2018년 2월 9일부터 25일까지 열렸던 동계올림픽 대회로, 대한민국에서 최초로 개최하는 동계올림픽이자 아시아에서 세번째로 열린 동계올림픽이다."
+  },
+  {
+   "title": "2020 도쿄 올림픽",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:2020 도쿄 올림픽"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 20,
+   "sub_cat": "2020 도쿄 올림픽",
+   "categories": [
+    "2020 도쿄 올림픽",
+    "올림픽"
+   ],
+   "lead": "2021년 7월 23일부터 8월 8일까지 일본 도쿄에서 개최될 예정인 하계 올림픽."
+  },
+  {
+   "title": "24(드라마)",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:24(드라마)"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 20,
+   "sub_cat": "24(드라마)",
+   "categories": [
+    "24(드라마)"
+   ],
+   "lead": ""
+  },
+  {
+   "title": "2차 창작",
+   "cat_score": 3,
+   "body_score": 3,
+   "cat_why": [
+    "분류=제목:2차 창작"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 145,
+   "sub_cat": "2차 창작",
+   "categories": [
+    "2차 창작"
+   ],
+   "lead": "통칭 '원작'이라고 불리는 1차 창작 작품의 설정과 인물을 차용한 모든 작품의 총칭."
+  },
+  {
+   "title": "4컷 만화",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:4컷 만화"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 52,
+   "sub_cat": "4컷 만화",
+   "categories": [
+    "4컷 만화"
+   ],
+   "lead": "만화의 한 형식."
+  },
+  {
+   "title": "광주대구고속도로",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:광주대구고속도로"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 33,
+   "sub_cat": "광주대구고속도로",
+   "categories": [
+    "광주대구고속도로",
+    "나무위키 도로 프로젝트"
+   ],
+   "lead": "광주광역시 북구 문흥동과 대구광역시 달성군 옥포읍을 연결하는 고속도로이다."
+  },
+  {
+   "title": "AA작품",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:AA작품"
+   ],
+   "body_why": [
+    "장르절3"
+   ],
+   "path": "분류만",
+   "sub_count": 79,
+   "sub_cat": "AA작품",
+   "categories": [
+    "2차 창작",
+    "AA작품"
+   ],
+   "lead": "아스키 아트를 이용해 그림을 표현하면서 글을 전개한 작품."
+  },
+  {
+   "title": "AFC 챔피언스 리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:AFC 챔피언스 리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 17,
+   "sub_cat": "AFC 챔피언스 리그",
+   "categories": [
+    "AFC 챔피언스 리그"
+   ],
+   "lead": "AFC 챔피언스 리그는 아시아 최고의 축구단을 가리는 아시아 축구 연맹 산하 최상위 대륙 클럽 대항전이다."
+  },
+  {
+   "title": "AIR(게임)",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:AIR(게임)"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "AIR(게임)",
+   "categories": [
+    "AIR(게임)"
+   ],
+   "lead": "The days which are wrapped in the scene of summer and to pass gentlyAn encounter with the girls repeated in the sunlightSummer continues to where as wellShe is waiting in the air여름은 어디까지나 이어진다."
+  },
+  {
+   "title": "Aimer(가수)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:Aimer(가수)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 16,
+   "sub_cat": "Aimer(가수)",
+   "categories": [
+    "Aimer(가수)"
+   ],
+   "lead": "想いはずっと届かないまま 今日も冷たい街でひとり마음은 계속 닿지 않은 채로 오늘도 차가운 거리에서 혼자.ｺｺが何処かも思い出せない여기가 어딘지도 기억나지 않아요.終わらない夜に願いはひとつ“星のない空に輝く光を” 끝나지 않는 밤에 소원은 하나 \"별이 없는 하늘에 반짝이는 빛을\"六等星の夜 (육등성의 밤) 일본의 여성 가수이자 싱어송라이터."
+  },
+  {
+   "title": "Another Century's Episode",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:Another Century's Episode 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "Another Century's Episode 시리즈",
+   "categories": [
+    "Another Century's Episode 시리즈"
+   ],
+   "lead": "Another Century's Episode 시리즈의 최초작품."
+  },
+  {
+   "title": "Another Century's Episode 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:Another Century's Episode 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "Another Century's Episode 시리즈",
+   "categories": [
+    "게임 시리즈",
+    "Another Century's Episode 시리즈",
+    "액션 게임"
+   ],
+   "lead": "반프레스토에서 만든 거대로봇물 게임."
+  },
+  {
+   "title": "A리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:A리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 10,
+   "sub_cat": "A리그",
+   "categories": [
+    "A리그"
+   ],
+   "lead": "A리그 (A-League)는 호주와 뉴질랜드의 최상위 프로축구 리그다."
+  },
+  {
+   "title": "브라더스 인 암즈 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:브라더스 인 암즈 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 14,
+   "sub_cat": "브라더스 인 암즈 시리즈",
+   "categories": [
+    "브라더스 인 암즈 시리즈"
+   ],
+   "lead": ""
+  },
+  {
+   "title": "C(애니메이션)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:C(애니메이션)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 15,
+   "sub_cat": "C(애니메이션)",
+   "categories": [
+    "C(애니메이션)",
+    "일본 애니메이션/라틴 문자",
+    "2011년 2분기 일본 애니메이션"
+   ],
+   "lead": "変わり ゆく 世界。買い戻せ、未来。바뀌어가는 세계."
+  },
+  {
+   "title": "CANVAS 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:CANVAS 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 43,
+   "sub_cat": "CANVAS 시리즈",
+   "categories": [
+    "CANVAS 시리즈"
+   ],
+   "lead": "F&C에서 제작한 텍스트 어드벤처 에로게 시리즈로 2000년에 CANVAS ~세피아 색의 모티브~를 출시하며 시작되었다."
+  },
+  {
+   "title": "DC 코믹스",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:DC 코믹스"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "path": "분류만",
+   "sub_count": 187,
+   "sub_cat": "DC 코믹스",
+   "categories": [
+    "DC 코믹스"
+   ],
+   "lead": "미국의 코믹스 회사."
+  },
+  {
+   "title": "DJMAX Portable",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류⊃제목:DJMAX Portable 시리즈"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "path": "분류만",
+   "sub_count": 24,
+   "sub_cat": "DJMAX Portable 2",
+   "categories": [
+    "DJMAX Portable 시리즈",
+    "2006년 게임"
+   ],
+   "lead": "2006년 1월 14일 발매된 DJMAX 시리즈의 두 번째 작품."
+  },
+  {
+   "title": "DJMAX TECHNIKA",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:DJMAX TECHNIKA 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 26,
+   "sub_cat": "DJMAX TECHNIKA",
+   "categories": [
+    "DJMAX TECHNIKA 시리즈",
+    "DJMAX TECHNIKA"
+   ],
+   "lead": "타이틀 곡, M2U가 작곡했다 Beyond the Future DJMAX 시리즈 중 하나로, DJMAX 메트로 프로젝트의 첫 번째 작품이다."
+  },
+  {
+   "title": "DJMAX TECHNIKA 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:DJMAX TECHNIKA 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "DJMAX TECHNIKA 시리즈",
+   "categories": [
+    "DJMAX 시리즈",
+    "DJMAX TECHNIKA 시리즈",
+    "다큐멘터리 영화"
+   ],
+   "lead": "대한민국의 게임 개발사 펜타비전에서 제작한 리듬게임 DJMAX 시리즈 중 하나."
+  },
+  {
+   "title": "DJMAX 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:DJMAX 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 70,
+   "sub_cat": "DJMAX 시리즈",
+   "categories": [
+    "DJMAX 시리즈"
+   ],
+   "lead": "시리즈의 초대작: DJMAX 온라인 시리즈의 최신작: DJMAX RESPECT · DJMAX RESPECT V 동명의 수록곡: DJMAX (노래) \"디맥\"으로 지칭되기도 하는 유희왕의 등장인물: 디마크"
+  },
+  {
+   "title": "Dawn of War 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:Dawn of War 시리즈"
+   ],
+   "body_why": [
+    "일종/파생"
+   ],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "Dawn of War 시리즈",
+   "categories": [
+    "Dawn of War 시리즈"
+   ],
+   "lead": "Dawn of War Wiki Dawn of War Player's Guide 렐릭 엔터테인먼트에서 Warhammer 40,000 세계관을 바탕으로 만든 RTS 게임 시리즈."
+  },
+  {
+   "title": "데드 오어 얼라이브 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:데드 오어 얼라이브 시리즈"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "path": "분류만",
+   "sub_count": 19,
+   "sub_cat": "데드 오어 얼라이브 시리즈",
+   "categories": [
+    "데드 오어 얼라이브 시리즈"
+   ],
+   "lead": "デッドオアアライブ / Dead or Alive"
+  },
+  {
+   "title": "Dies irae(게임)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:Dies irae(게임)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 65,
+   "sub_cat": "Dies irae(게임)",
+   "categories": [
+    "신좌만상 시리즈",
+    "Dies irae(게임)",
+    "에로게/라틴 문자"
+   ],
+   "lead": "light에서 2007년 12월 21일에 발매한 전기물 에로게."
+  },
+  {
+   "title": "Dying Light",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:Dying Light 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 29,
+   "sub_cat": "Dying Light 시리즈",
+   "categories": [
+    "Dying Light 시리즈",
+    "FPS",
+    "좀비 게임",
+    "2015년 게임",
+    "Windows 게임/라틴 문자",
+    "macOS 게임"
+   ],
+   "lead": "GOOD NIGHT, GOOD LUCK."
+  },
+  {
+   "title": "Earth Universe 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:Earth Universe 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "Earth Universe 시리즈",
+   "categories": [
+    "Earth Universe 시리즈",
+    "RTS"
+   ],
+   "lead": "폴란드의 리얼리티 펌프에서 개발하고 독일의 탑웨어에서 유통한 RTS 시리즈."
+  },
+  {
+   "title": "F.E.A.R. 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:F.E.A.R. 시리즈"
+   ],
+   "body_why": [
+    "장르절3"
+   ],
+   "path": "분류만",
+   "sub_count": 29,
+   "sub_cat": "F.E.A.R. 시리즈 등장인물",
+   "categories": [
+    "F.E.A.R. 시리즈"
+   ],
+   "lead": "F. E. A."
+  },
+  {
+   "title": "FIBA 농구 월드컵",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:FIBA 농구 월드컵"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 5,
+   "sub_cat": "FIBA 농구 월드컵",
+   "categories": [
+    "FIBA 농구 월드컵"
+   ],
+   "lead": "FIBA 농구 월드컵 FIBA Basketball World Cup"
+  },
+  {
+   "title": "피에스타(아이돌)",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:피에스타(아이돌)"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "피에스타(아이돌)",
+   "categories": [
+    "피에스타(아이돌)",
+    "나무위키 걸그룹 프로젝트"
+   ],
+   "lead": "첫 번째 사진 왼쪽부터 예지, 혜미, 재이, 차오루, 린지 두 번째 사진 오른쪽 위부터 시계 방향으로 혜미, 차오루, 재이, 예지, 린지"
+  },
+  {
+   "title": "FIFA 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:FIFA 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 20,
+   "sub_cat": "FIFA 시리즈",
+   "categories": [
+    "FIFA 시리즈"
+   ],
+   "lead": "공식 홈페이지 유튜브 페이스북 트위터 인스타그램 피파 시리즈 위키아 EA의 스포츠 게임 브랜드인 EA 스포츠로 내놓고 있는 축구 게임."
+  },
+  {
+   "title": "FK리그",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:FK리그"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 37,
+   "sub_cat": "FK리그",
+   "categories": [
+    "FK리그"
+   ],
+   "lead": "FK리그는 대한민국의 풋살 프로리그라고 불리는 리그로써 사실상 세미프로 최상위 단계에 속하며 2010년에 리그가 출범하면서 5개팀으로 운영이 되었으나 팀들이 점차 늘어남에 따라 2017년에 와서는 K리그와 동일하게 승강제 시스템을 운영하게 되었고 명칭은 슈퍼리그와 드림리그로 확정되었다."
+  },
+  {
+   "title": "FLOWERS 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:FLOWERS 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 6,
+   "sub_cat": "FLOWERS 시리즈",
+   "categories": [
+    "어드벤처 게임",
+    "FLOWERS 시리즈",
+    "백합 게임"
+   ],
+   "lead": "※ 연작인만큼 전작을 클리어하지 않은 사람들은 내용누설을 당할 수 있으므로 후속편 홈페이지 및 이 문서의 스토리 항목을 읽는데에는 주의를 요한다."
+  },
+  {
+   "title": "Fate 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:Fate 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 136,
+   "sub_cat": "Fate 시리즈",
+   "categories": [
+    "Fate 시리즈"
+   ],
+   "lead": "한국어 자막 인류사 최대의 영웅담 (人類史最大の英雄譚) 聖杯と英霊―――そして運命の物語(성배와 영령―――그리고, 운명의 이야기) A Tale of Heroes, Desire and \"Destiny\".(소원과 운명, 영령들의 이야기) Fate 시리즈는 TYPE-MOON의 미디어 프랜차이즈다."
+  },
+  {
+   "title": "Five Nights at Freddy's",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:Five Nights at Freddy's 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 64,
+   "sub_cat": "Five Nights at Freddy's 시리즈",
+   "categories": [
+    "Five Nights at Freddy's 시리즈",
+    "인디 게임",
+    "호러 게임",
+    "2014년 게임",
+    "Windows 게임/라틴 문자",
+    "Xbox One 게임"
+   ],
+   "lead": "즐거운 오전 시간인 이곳."
+  },
+  {
+   "title": "GA 예술과 아트 디자인 클래스",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:GA 예술과 아트 디자인 클래스"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "GA 예술과 아트 디자인 클래스",
+   "categories": [
+    "GA 예술과 아트 디자인 클래스",
+    "일본 만화/라틴 문자",
+    "일본 애니메이션/라틴 문자"
+   ],
+   "lead": "키유즈키 사토코 (きゆづきさとこ)의 만화 및 이를 원작으로 하는 애니메이션."
+  },
+  {
+   "title": "GARO",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:GARO 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 144,
+   "sub_cat": "GARO 시리즈/등장인물",
+   "categories": [
+    "GARO 시리즈",
+    "2005년 드라마"
+   ],
+   "lead": "2005년 방영 개시한, GARO 시리즈의 스타트를 끊은 작품."
+  },
+  {
+   "title": "GARO 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:GARO 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 32,
+   "sub_cat": "GARO 시리즈",
+   "categories": [
+    "GARO 시리즈"
+   ],
+   "lead": "2005년 방영을 시작으로 현재까지 TV 시리즈, 극장판, 스핀오프 OV, 애니메이션 등 활발하게 전개되고 있는 아메미야 케이타 감독의 성인용 특촬물 시리즈."
+  },
+  {
+   "title": "GRAVITY RUSH",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:GRAVITY RUSH 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 6,
+   "sub_cat": "GRAVITY RUSH 시리즈",
+   "categories": [
+    "2012년 게임",
+    "GRAVITY RUSH 시리즈",
+    "PlayStation Vita 게임",
+    "PlayStation 4 게임",
+    "나무위키 플레이스테이션 프로젝트"
+   ],
+   "lead": "PS Vita 전용으로 발매된 중력 액션 게임."
+  },
+  {
+   "title": "G맨 게임종결자",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:G맨 게임종결자"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "G맨 게임종결자",
+   "categories": [
+    "OGN 프로그램",
+    "게임 방송",
+    "OGN",
+    "G맨 게임종결자",
+    "로복"
+   ],
+   "lead": "당신이 모르는 게임의 모든 것을 파헤친다, G맨 게임 종결자!"
+  },
+  {
+   "title": "H.A.W.X.",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:H.A.W.X. 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "H.A.W.X. 시리즈",
+   "categories": [
+    "H.A.W.X. 시리즈",
+    "2009년 게임",
+    "Windows 게임/라틴 문자",
+    "PlayStation 3 게임",
+    "Xbox 360 게임",
+    "Xbox One의 하위 호환 지원 게임"
+   ],
+   "lead": "<iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/n8FpgpLeNJ8\" frameborder=\"0\" allowfullscreen></iframe> 유비소프트의 '톰 클랜시' 브랜드를 달고 제작된 플라이트 슈팅 게임."
+  },
+  {
+   "title": "HAL 연구소",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:HAL 연구소"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 8,
+   "sub_cat": "HAL 연구소",
+   "categories": [
+    "HAL 연구소"
+   ],
+   "lead": "HAL研究所(けんきゅうじょ)/HALKEN (ハルケン) HAL Laboratory, Inc./HALLAB 일본의 게임 개발 회사."
+  },
+  {
+   "title": "Hearts of Iron",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:Hearts of Iron 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 33,
+   "sub_cat": "Hearts of Iron IV",
+   "categories": [
+    "Hearts of Iron 시리즈"
+   ],
+   "lead": "패러독스 인터랙티브에서 제작한 제2차 세계 대전을 배경으로 한 실시간 대전략 게임."
+  },
+  {
+   "title": "방치형 게임",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:방치형 게임"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 122,
+   "sub_cat": "방치형 게임",
+   "categories": [
+    "방치형 게임"
+   ],
+   "lead": "특별한 조작 없이도 자동으로 재화가 증가하는 게임들을 말한다."
+  },
+  {
+   "title": "J3리그",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:J3리그"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 8,
+   "sub_cat": "J3리그",
+   "categories": [
+    "J3리그"
+   ],
+   "lead": "일본의 프로축구 3부리그."
+  },
+  {
+   "title": "J9 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:J9 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 10,
+   "sub_cat": "J9 시리즈",
+   "categories": [
+    "J9 시리즈"
+   ],
+   "lead": "은하선풍 브라이거를 시작으로 국제영화사에서 제작한 3연작 로봇만화 시리즈."
+  },
+  {
+   "title": "J1리그",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:J1리그"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 6,
+   "sub_cat": "J1리그",
+   "categories": [
+    "J1리그"
+   ],
+   "lead": "일본의 최상위 프로 축구 리그."
+  },
+  {
+   "title": "K(애니메이션)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:K(애니메이션)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 24,
+   "sub_cat": "K(애니메이션)",
+   "categories": [
+    "K(애니메이션)",
+    "일본 애니메이션/라틴 문자",
+    "2012년 3분기 일본 애니메이션",
+    "2015년 3분기 일본 애니메이션",
+    "오리지널 애니메이션"
+   ],
+   "lead": "2012년 10월부터 12월까지 MBS의 아니메이즘을 통해 방영한 GoHands의 오리지널 애니메이션."
+  },
+  {
+   "title": "K3리그(2007~2019)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:K3리그(2007~2019)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 11,
+   "sub_cat": "K3리그(2007~2019)",
+   "categories": [
+    "K3리그(2007~2019)"
+   ],
+   "lead": "2019년까지 존재했던 대한민국의 부분적 세미프로 축구리그이다."
+  },
+  {
+   "title": "KBO 리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:KBO 리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 96,
+   "sub_cat": "KBO 리그",
+   "categories": [
+    "KBO 리그"
+   ],
+   "lead": "1982년에 출범한 한국의 프로야구 리그."
+  },
+  {
+   "title": "KBO 퓨처스리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:KBO 퓨처스리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 22,
+   "sub_cat": "KBO 퓨처스리그",
+   "categories": [
+    "KBO 퓨처스리그"
+   ],
+   "lead": "KBO 퓨처스리그는 KBO 리그의 2군 리그의 명칭이다."
+  },
+  {
+   "title": "KBS 대하드라마",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:KBS 대하드라마"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 9,
+   "sub_cat": "KBS 대하드라마",
+   "categories": [
+    "KBS 대하드라마"
+   ],
+   "lead": "KBS 1TV에서 주말 밤 9시 40분에 방송되었던 사극."
+  },
+  {
+   "title": "KKND",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:KKND 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 10,
+   "sub_cat": "KKND 시리즈",
+   "categories": [
+    "KKND 시리즈",
+    "1997년 게임"
+   ],
+   "lead": "Krush Kill 'n' Destroy - KKND"
+  },
+  {
+   "title": "K리그",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:K리그"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 39,
+   "sub_cat": "K리그",
+   "categories": [
+    "K리그"
+   ],
+   "lead": "Dynamic Pitch 한국 축구의 중심 K리그는 한국프로축구연맹 산하의 대한민국 프로축구 리그다."
+  },
+  {
+   "title": "LG G Pad 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:LG G Pad 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "LG G Pad 시리즈",
+   "categories": [
+    "태블릿 컴퓨터(안드로이드)/LG",
+    "LG G Pad 시리즈"
+   ],
+   "lead": "시망의 수준을 넘어 패망, 흑역사에 가까운 옵티머스 패드 2종을 끝으로 도망치듯 태블릿 컴퓨터 시장에서 철수한 LG전자가 옵티머스 G의 성공과 LG G 시리즈의 G 네이밍 플래그쉽을 이용해 다시 한번 태블릿 컴퓨터 에 도전하는 LG전자의 태블릿 컴퓨터 브랜드."
+  },
+  {
+   "title": "LG L 시리즈",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:LG L 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 5,
+   "sub_cat": "LG L 시리즈",
+   "categories": [
+    "LG L 시리즈"
+   ],
+   "lead": "LG전자의 구글 안드로이드를 탑재한 스마트 기기의 브랜드였던 LG 옵티머스 시리즈가 사장된 이후, 디자인을 중시한 3G WCDMA 기반의 중저가형 스마트폰 제품군이 소속된 브랜드."
+  },
+  {
+   "title": "LG스포츠",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류=제목:LG스포츠"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 5,
+   "sub_cat": "LG스포츠",
+   "categories": [
+    "LG스포츠"
+   ],
+   "lead": "LG그룹 계열사로 프로스포츠 팀들을 전문적으로 관리한다."
+  },
+  {
+   "title": "LOST(드라마)",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:LOST(드라마)"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "LOST(드라마)",
+   "categories": [
+    "LOST(드라마)"
+   ],
+   "lead": ""
+  },
+  {
+   "title": "Law&Order",
+   "cat_score": 3,
+   "body_score": 0,
+   "cat_why": [
+    "분류⊃제목:Law&Order 시리즈"
+   ],
+   "body_why": [],
+   "path": "분류만",
+   "sub_count": 46,
+   "sub_cat": "Law&Order 시리즈",
+   "categories": [
+    "Law&Order 시리즈"
+   ],
+   "lead": "In the criminal justice system, the people are represented by two separate yet equally important groups: the police, who investigate crime, and the district attorneys, who prosecute the offenders."
+  },
+  {
+   "title": "Law&Order 시리즈",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:Law&Order 시리즈"
+   ],
+   "body_why": [
+    "총칭구문"
+   ],
+   "path": "분류만",
+   "sub_count": 46,
+   "sub_cat": "Law&Order 시리즈",
+   "categories": [
+    "Law&Order 시리즈"
+   ],
+   "lead": "1990년부터 총제작자 딕 울프가 제작한 NBC에서 방영한 드라마의 시리즈의 총칭."
+  },
+  {
+   "title": "MBC 방송연예대상",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:MBC 방송연예대상"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 7,
+   "sub_cat": "MBC 방송연예대상",
+   "categories": [
+    "MBC 방송연예대상"
+   ],
+   "lead": "MBC에서 연말에 진행하는 방송, 연예 부문 시상식으로 전통적으로 12월 29일에 개최되고 있다."
+  },
+  {
+   "title": "문화방송 계열 지상파 방송사",
+   "cat_score": 3,
+   "body_score": 2,
+   "cat_why": [
+    "분류=제목:문화방송 계열 지상파 방송사"
+   ],
+   "body_why": [
+    "장르절2"
+   ],
+   "path": "분류만",
+   "sub_count": 18,
+   "sub_cat": "문화방송 계열 지상파 방송사",
+   "categories": [
+    "문화방송 계열 지상파 방송사",
+    "지상파"
+   ],
+   "lead": "문화방송을 키국으로 하는 문화방송 계열의 지상파방송사 목록은 아래와 같다."
+  },
+  {
+   "title": "MOTHER",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:MOTHER 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 79,
+   "sub_cat": "MOTHER 시리즈",
+   "categories": [
+    "MOTHER 시리즈",
+    "패밀리 컴퓨터 게임",
+    "1989년 게임",
+    "어반 판타지"
+   ],
+   "lead": "エンディングまで、泣くんじゃない。엔딩을 보기 전까진 울지 말아."
+  },
+  {
+   "title": "MOTHER 시리즈",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:MOTHER 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 79,
+   "sub_cat": "MOTHER 시리즈",
+   "categories": [
+    "MOTHER 시리즈"
+   ],
+   "lead": "마더 (マザー/MOTHER) 시리즈는 1989년에 첫 발매된 닌텐도의 RPG 시리즈로, 이토이 시게사토가 기획 및 제작을 주도하였다."
+  },
+  {
+   "title": "MTR 공항선",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:MTR 공항선"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 6,
+   "sub_cat": "MTR 공항선",
+   "categories": [
+    "MTR 공항선"
+   ],
+   "lead": "MTR (홍콩철도유한공사)가 운행하는 공항철도로 다른 MTR 노선들과 요금체계나 운행방식이 많이 상이한 노선이며 사실상 다른 노선 시스템과는 분리되어 있는 별개의 노선이다."
+  },
+  {
+   "title": "Men of War",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류⊃제목:Men of War 시리즈"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 23,
+   "sub_cat": "Men of War 시리즈",
+   "categories": [
+    "Men of War 시리즈",
+    "실시간 전술"
+   ],
+   "lead": "2009년 출시된 실시간 전략 게임."
+  },
+  {
+   "title": "NCAA Division I 남자농구 챔피언십",
+   "cat_score": 3,
+   "body_score": 1,
+   "cat_why": [
+    "분류=제목:NCAA Division I 남자농구 챔피언십"
+   ],
+   "body_why": [
+    "장르절1"
+   ],
+   "path": "분류만",
+   "sub_count": 17,
+   "sub_cat": "NCAA Division I 남자농구 챔피언십",
+   "categories": [
+    "NCAA Division I 남자농구 챔피언십"
+   ],
+   "lead": "NCAA Men's Division I Basketball Championship."
+  }
+ ],
+ "sample_both": [
+  {
+   "title": "BL 게임",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:BL 게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 37,
+   "sub_cat": "BL 게임",
+   "categories": [
+    "BL 게임"
+   ],
+   "lead": "여성향 게임의 한 종류."
+  },
+  {
+   "title": "MMORPG",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:MMORPG"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 268,
+   "sub_cat": "MMORPG",
+   "categories": [
+    "MMORPG"
+   ],
+   "lead": "MMORPG는 대규모 다중 사용자 온라인 롤플레잉 게임 (Massively Multiplayer Online Role-Playing Game)의 줄임말이다."
+  },
+  {
+   "title": "e스포츠",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:e스포츠"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 318,
+   "sub_cat": "e스포츠 대회",
+   "categories": [
+    "e스포츠"
+   ],
+   "lead": "e스포츠 (esports, Electronic Sports) 혹은 사이버 스포츠 (Cyber Sports)는 전자 스포츠란 뜻으로, 비디오 게임을 통해서 이루어지는 스포츠를 일컫는 말이다."
+  },
+  {
+   "title": "경전선",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:경전선"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 58,
+   "sub_cat": "경전선",
+   "categories": [
+    "경전선"
+   ],
+   "lead": "경부선 삼랑진역과 호남선 광주송정역을 연결하는 철도 노선."
+  },
+  {
+   "title": "고전소설",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:고전소설"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 54,
+   "sub_cat": "고전소설",
+   "categories": [
+    "고전소설"
+   ],
+   "lead": "古典小說 근대 이전, 즉 1910년대 신소설 출현 이전까지 한반도에서 출현한 소설들을 통칭하는 단어."
+  },
+  {
+   "title": "길거리 음식",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:길거리 음식"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 41,
+   "sub_cat": "길거리 음식",
+   "categories": [
+    "길거리 음식"
+   ],
+   "lead": "길거리음식 중 하나인 분식을 파는 분식집의 모습"
+  },
+  {
+   "title": "낚시",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:낚시"
+   ],
+   "body_why": [
+    "총칭구문",
+    "일종/파생"
+   ],
+   "path": "둘다",
+   "sub_count": 28,
+   "sub_cat": "낚시",
+   "categories": [
+    "낚시"
+   ],
+   "lead": "Fishing 물고기를 잡는 일."
+  },
+  {
+   "title": "느와르",
+   "cat_score": 6,
+   "body_score": 4,
+   "cat_why": [
+    "분류⊃제목:느와르 영화",
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 56,
+   "sub_cat": "느와르 영화",
+   "categories": [
+    "느와르 영화",
+    "장르",
+    "프랑스어 단어",
+    "동음이의어/ㄴ",
+    "란스 시리즈/등장인물"
+   ],
+   "lead": "Noir / Noire 프랑스어로 검다 (black) 라는 뜻 외래어 표기법에 따르면 '누아르'라고 적어야 한다."
+  },
+  {
+   "title": "동방 가톨릭 교회",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:동방 가톨릭 교회"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 10,
+   "sub_cat": "동방 가톨릭 교회",
+   "categories": [
+    "동방 가톨릭 교회"
+   ],
+   "lead": "3. 동서의 이러한 개별 교회들은 비록 예법이 다를지라도, 이를테면 전례와 교회 규범과 영적 유산이 어느 정도 서로 다르다 하더라도, 똑같이 교황의 사목적 통치에 맡겨져 있다."
+  },
+  {
+   "title": "드라마",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:드라마"
+   ],
+   "body_why": [
+    "총칭구문",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 1891,
+   "sub_cat": "드라마 영화",
+   "categories": [
+    "드라마"
+   ],
+   "lead": "Drama 드라마는 지루한 부분을 잘라낸 인생이다."
+  },
+  {
+   "title": "디아블로(게임)",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:디아블로(게임)"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 12,
+   "sub_cat": "디아블로(게임)",
+   "categories": [
+    "디아블로(게임)"
+   ],
+   "lead": "1996년에 블리자드 노스가 제작한 ARPG 디아블로 시리즈의 첫 번째 작품."
+  },
+  {
+   "title": "라니아(아이돌)",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:라니아(아이돌)"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 27,
+   "sub_cat": "라니아(아이돌)",
+   "categories": [
+    "라니아(아이돌)"
+   ],
+   "lead": "트렌드세터 라니아입니다!-We are Black Pearl, 라니아입니다!- 2011년에 데뷔한 다국적 걸그룹."
+  },
+  {
+   "title": "로그라이크",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류⊃제목:로그라이크 게임"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절3",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 103,
+   "sub_cat": "로그라이크 게임",
+   "categories": [
+    "로그라이크 게임"
+   ],
+   "lead": "Roguelike 거의 최초의 던전 탐색 RPG인 《Rogue》의 특징과 시스템을 모방하여 만든 게임을 총칭하는 말."
+  },
+  {
+   "title": "록밴드",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:록밴드"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 286,
+   "sub_cat": "한국의 록밴드",
+   "categories": [
+    "록밴드"
+   ],
+   "lead": "역사적인 록밴드 및 록 스타들을 모아놓은 사진."
+  },
+  {
+   "title": "리듬 게임",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:리듬 게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 262,
+   "sub_cat": "리듬 게임",
+   "categories": [
+    "리듬 게임",
+    "음악을 소재로 한 작품",
+    "나무위키 리듬 게임 프로젝트"
+   ],
+   "lead": "플레이어가 리듬이나 음악에 맞춰서 조작하거나 동작을 취해야 하거나 게임 진행에서 음악이나 리듬이 주 요소가 되는 게임 장르."
+  },
+  {
+   "title": "메탈기어 시리즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:메탈기어 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 54,
+   "sub_cat": "메탈기어 시리즈",
+   "categories": [
+    "메탈기어 시리즈"
+   ],
+   "lead": "공식 페이지 시리즈 25주년 기념 페이지 (구) 코지마 프로덕션에서 제작하고, 코나미에서 발매한 일본 및 콘솔 최초의 전략 잠입 액션 게임."
+  },
+  {
+   "title": "몬스터 헌터",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류⊃제목:몬스터 헌터 시리즈"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 118,
+   "sub_cat": "몬스터 헌터 시리즈/등장 생물/현대륙",
+   "categories": [
+    "몬스터 헌터 시리즈",
+    "PlayStation 2 게임",
+    "드래곤을 소재로 한 작품",
+    "공룡을 소재로 한 작품",
+    "2004년 게임"
+   ],
+   "lead": "훗날의 사람은 이 거칠고도 눈부셨던 수세기를 회고하며 이렇게 말한다."
+  },
+  {
+   "title": "북유럽 신화",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:북유럽 신화"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 70,
+   "sub_cat": "북유럽 신화",
+   "categories": [
+    "북유럽 신화"
+   ],
+   "lead": "Norræn goðafræði / Norse mythology 북유럽 신화는 게르만 신화 (Germanic mytholgy) 에 속하는 신화다."
+  },
+  {
+   "title": "빙의물",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 14,
+   "sub_cat": "빙의물",
+   "categories": [
+    "빙의물",
+    "한국의 장르 소설"
+   ],
+   "lead": "주인공이 특정 인물에게 빙의되며 이야기를 풀어나가는 창작물을 일컫는 말."
+  },
+  {
+   "title": "생존게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:생존게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 105,
+   "sub_cat": "생존게임",
+   "categories": [
+    "생존게임",
+    "Mode"
+   ],
+   "lead": "Open world survival craft 비디오 게임에서 어드벤처 장르 혹은 시뮬레이션 장르의 하위 장르이다."
+  },
+  {
+   "title": "슈팅 게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:슈팅 게임"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절3"
+   ],
+   "path": "둘다",
+   "sub_count": 75,
+   "sub_cat": "슈팅 게임",
+   "categories": [
+    "슈팅 게임"
+   ],
+   "lead": "재플리시: ShooTing Game (약칭 : STG) 영어: Shoot'em Up, Shmup 일본어: シューティングゲーム 적의 공격을 피하며 무기를 쏘는 게임의 총칭."
+  },
+  {
+   "title": "슈퍼로봇대전 시리즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:슈퍼로봇대전 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 307,
+   "sub_cat": "슈퍼로봇대전 시리즈",
+   "categories": [
+    "슈퍼로봇대전 시리즈"
+   ],
+   "lead": "スーパーロボット大戦 / Super Robot Wars (SRW) 공식 사이트 일본의 SRPG 시리즈."
+  },
+  {
+   "title": "스팀펑크",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:스팀펑크"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절3"
+   ],
+   "path": "둘다",
+   "sub_count": 90,
+   "sub_cat": "스팀펑크",
+   "categories": [
+    "스팀펑크"
+   ],
+   "lead": "Steampunk"
+  },
+  {
+   "title": "신좌만상 시리즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:신좌만상 시리즈"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 59,
+   "sub_cat": "신좌만상 시리즈",
+   "categories": [
+    "신좌만상 시리즈"
+   ],
+   "lead": "神座万象シリーズ 마사다 타카시의 동일 세계관을 기반으로 하는 전기물 시리즈에 대한 통칭."
+  },
+  {
+   "title": "아머드 코어 시리즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:아머드 코어 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 290,
+   "sub_cat": "아머드 코어 시리즈",
+   "categories": [
+    "아머드 코어 시리즈"
+   ],
+   "lead": "일본의 게임 제작사 프롬 소프트웨어에서 제작하는 강화인간 제조 시뮬레이터메카닉 액션게임 시리즈."
+  },
+  {
+   "title": "아이돌물",
+   "cat_score": 3,
+   "body_score": 8,
+   "cat_why": [
+    "분류=제목:아이돌물"
+   ],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절2",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 53,
+   "sub_cat": "아이돌물",
+   "categories": [
+    "아이돌물"
+   ],
+   "lead": "장르의 일종."
+  },
+  {
+   "title": "야구 만화",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:야구 만화"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 41,
+   "sub_cat": "야구 만화",
+   "categories": [
+    "야구 만화"
+   ],
+   "lead": "참고 항목 : 야구 관련 창작물 일람 만화의 하위 장르."
+  },
+  {
+   "title": "어드벤처 게임",
+   "cat_score": 3,
+   "body_score": 6,
+   "cat_why": [
+    "분류=제목:어드벤처 게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 417,
+   "sub_cat": "어드벤처 게임",
+   "categories": [
+    "어드벤처 게임"
+   ],
+   "lead": "Adventure Game."
+  },
+  {
+   "title": "어반 판타지",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 48,
+   "sub_cat": "어반 판타지",
+   "categories": [
+    "어반 판타지",
+    "장르"
+   ],
+   "lead": "어반 판타지 (Urban Fantasy) 판타지의 하위 장르 중 하나로, 말 그대로 현대의 '도시 (Urban)' 내에서 벌어지는 이야기를 바탕으로 하는 판타지 장르이다."
+  },
+  {
+   "title": "여성향 게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:여성향 게임"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 51,
+   "sub_cat": "여성향 게임 세계는 모브에게 가혹한 세계입니다/등장인물",
+   "categories": [
+    "여성향 게임"
+   ],
+   "lead": "女性向けゲーム(じょせいむけげーむ・죠세이무케게ー무)."
+  },
+  {
+   "title": "회귀물",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 74,
+   "sub_cat": "회귀물",
+   "categories": [
+    "장르",
+    "회귀물"
+   ],
+   "lead": "'逆行物. 어느 경위로 주인공이나 누군가가 시간을 거슬러 올라가 과거로 날아가버린 이야기군."
+  },
+  {
+   "title": "연애 어드벤처 게임",
+   "cat_score": 3,
+   "body_score": 7,
+   "cat_why": [
+    "분류=제목:연애 어드벤처 게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 177,
+   "sub_cat": "연애 어드벤처 게임",
+   "categories": [
+    "연애 어드벤처 게임"
+   ],
+   "lead": "恋愛アドベンチャーゲーム"
+  },
+  {
+   "title": "온라인 게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:온라인 게임"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 239,
+   "sub_cat": "온라인 게임",
+   "categories": [
+    "온라인 게임"
+   ],
+   "lead": "인터넷과 같은 온라인 네트워크를 통해 진행되는 게임으로, 사용자가 상품의 권한을 인증받아야 사용할 수 있는 게임의 총칭."
+  },
+  {
+   "title": "요리물",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:요리물"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 127,
+   "sub_cat": "요리물",
+   "categories": [
+    "요리물"
+   ],
+   "lead": "料理物 요리나 미식을 소재로 삼는 장르를 뜻한다."
+  },
+  {
+   "title": "웹툰",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:웹툰"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 737,
+   "sub_cat": "웹툰 캐릭터",
+   "categories": [
+    "웹툰"
+   ],
+   "lead": "웹툰 (Webtoon)은 네이버, 다음 등의 각종 플랫폼 매체에서 연재 (連載) 되는 만화를 지칭하는, 한국에서 만들어진 단어이며 해외에서도 한국의 인터넷 만화를 지칭하는 고유명사화 되었다."
+  },
+  {
+   "title": "이야기 시리즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:이야기 시리즈"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 56,
+   "sub_cat": "이야기 시리즈",
+   "categories": [
+    "이야기 시리즈",
+    "일본 라이트 노벨/ㅇ",
+    "로그 누락 문서"
+   ],
+   "lead": "〈物語〉シリーズ 이야기 시리즈 공식 홈페이지 니시오 이신의 라이트 노벨."
+  },
+  {
+   "title": "일본 드라마",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:일본 드라마"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 396,
+   "sub_cat": "일본 드라마",
+   "categories": [
+    "일본 드라마"
+   ],
+   "lead": "일본 방송국에서 제작되는 드라마를 일컫는 말."
+  },
+  {
+   "title": "장르",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 130,
+   "sub_cat": "장르",
+   "categories": [
+    "장르"
+   ],
+   "lead": "Genre."
+  },
+  {
+   "title": "재즈",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:재즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 49,
+   "sub_cat": "재즈 아티스트",
+   "categories": [
+    "재즈"
+   ],
+   "lead": "\"만일 당신이 재즈가 무엇이냐고 물어야 한다면, 당신은 재즈를 영원히 이해할 수 없을 것입니다.\"루이 암스트롱, 인터뷰에서 기자가 '재즈란 무엇인가'라 묻자 \"재즈는 자유를 뜻합니다."
+  },
+  {
+   "title": "중국 요리",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:중국 요리"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 90,
+   "sub_cat": "중국 요리",
+   "categories": [
+    "중국 요리"
+   ],
+   "lead": "中國菜 / 中国菜 좁은 의미로는 중국, 대만, 넓은 의미로는 중화권과 화교들로부터 발전한 요리들의 총칭."
+  },
+  {
+   "title": "코스프레",
+   "cat_score": 3,
+   "body_score": 7,
+   "cat_why": [
+    "분류=제목:코스프레"
+   ],
+   "body_why": [
+    "장르정의",
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 22,
+   "sub_cat": "코스프레",
+   "categories": [
+    "오타쿠 문화",
+    "코스프레",
+    "재플리시"
+   ],
+   "lead": "살생님이 왜 초록색일까"
+  },
+  {
+   "title": "퍼즐 게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:퍼즐 게임"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 308,
+   "sub_cat": "퍼즐 게임",
+   "categories": [
+    "퍼즐 게임"
+   ],
+   "lead": "퍼즐의 사전적 정의는 '어려운 문제, 깊이 생각하게 만드는 문제'이며, 게임의 장르적 의미에서의 「퍼즐 게임」 (영어: Puzzle Game, 일본어: パズルゲーム)은 어떠한 규칙 내에서 정해진 행위를 통해 주어진 조건을 완료해 클리어하는 단순한 게임을 지칭한다."
+  },
+  {
+   "title": "포스트 아포칼립스",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 99,
+   "sub_cat": "포스트 아포칼립스",
+   "categories": [
+    "포스트 아포칼립스",
+    "장르"
+   ],
+   "lead": "사진은 영화 반도의 한 장면이다."
+  },
+  {
+   "title": "프레데터 시리즈",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:프레데터 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "총칭구문"
+   ],
+   "path": "둘다",
+   "sub_count": 30,
+   "sub_cat": "프레데터 시리즈",
+   "categories": [
+    "프레데터 시리즈"
+   ],
+   "lead": "프레데터라는 강력한 외계 생물과 인간의 사투를 그린 괴수영화를 원작으로 한 시리즈와 그 관련작들의 총칭."
+  },
+  {
+   "title": "하드스타일",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:하드스타일"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 17,
+   "sub_cat": "하드스타일",
+   "categories": [
+    "하드스타일",
+    "일렉트로니카"
+   ],
+   "lead": "꼭 복수를 ~s가 아닌 ~z로 표기하는 음악 일렉트로니카 음악, 특히 하드 댄스라는 큰 틀의 한 분파로서, 90년대 후반 즈음 네덜란드에서 테크노, 하드 테크노의 영향을 받아 탄생한 장르이다."
+  },
+  {
+   "title": "한국 드라마",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:한국 드라마"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 16,
+   "sub_cat": "한국 드라마",
+   "categories": [
+    "한국 드라마"
+   ],
+   "lead": "대한민국에서 제작된 드라마를 총칭해서 말하는 말."
+  },
+  {
+   "title": "한국 신화",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:한국 신화"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 90,
+   "sub_cat": "한국 신화",
+   "categories": [
+    "한국 신화"
+   ],
+   "lead": "대한민국에 전해져 내려오는 신화를 일컫는 말."
+  },
+  {
+   "title": "한국 요리",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:한국 요리"
+   ],
+   "body_why": [
+    "총칭구문",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 236,
+   "sub_cat": "한국 요리",
+   "categories": [
+    "한국 요리"
+   ],
+   "lead": "한국식 요리의 총칭."
+  },
+  {
+   "title": "성우",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:성우"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 290,
+   "sub_cat": "미국 남성 성우",
+   "categories": [
+    "성우"
+   ],
+   "lead": "목소리로 연기하는 배우 (연기자의 일종)를 뜻한다."
+  },
+  {
+   "title": "슈퍼히어로 영화",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:슈퍼히어로 영화"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 108,
+   "sub_cat": "슈퍼히어로 영화",
+   "categories": [
+    "슈퍼히어로 영화"
+   ],
+   "lead": "슈퍼히어로 영화는 슈퍼히어로를 주인공으로 한 영화 장르이다."
+  },
+  {
+   "title": "전희절창 심포기어 시리즈",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:전희절창 심포기어 시리즈"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 44,
+   "sub_cat": "전희절창 심포기어 시리즈",
+   "categories": [
+    "전희절창 심포기어 시리즈"
+   ],
+   "lead": "戦姫絶唱シンフォギア"
+  },
+  {
+   "title": "io게임",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:io게임"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 99,
+   "sub_cat": "io게임",
+   "categories": [
+    "io게임"
+   ],
+   "lead": "Agar.io를 시작으로 만들어진, 다운로드하지 않고 즐길 수 있는 멀티플레이어 웹 게임의 일종."
+  },
+  {
+   "title": "라이트 문예",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절3"
+   ],
+   "path": "둘다",
+   "sub_count": 10,
+   "sub_cat": "일본 라이트 문예",
+   "categories": [
+    "일본의 장르 소설",
+    "라이트 노벨"
+   ],
+   "lead": "ライト文芸 일본의 문학 분류 중 하나."
+  },
+  {
+   "title": "장미(장르)",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "일종/파생"
+   ],
+   "path": "둘다",
+   "sub_count": 28,
+   "sub_cat": "장미(장르)",
+   "categories": [
+    "장르",
+    "장미(장르)"
+   ],
+   "lead": "장미 (바라, 薔薇, Bara) 란 일본에서 파생된 장르의 일종이다."
+  },
+  {
+   "title": "예능 프로그램",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:예능 프로그램"
+   ],
+   "body_why": [
+    "일종/파생",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 267,
+   "sub_cat": "예능 프로그램",
+   "categories": [
+    "예능 프로그램",
+    "KBS 예능",
+    "MBC 예능",
+    "SBS 예능",
+    "tvN 예능 프로그램",
+    "JTBC 예능"
+   ],
+   "lead": "연예 및 쇼, 오락을 목적으로 만들어진 프로그램."
+  },
+  {
+   "title": "정치 드라마",
+   "cat_score": 3,
+   "body_score": 4,
+   "cat_why": [
+    "분류=제목:정치 드라마"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1"
+   ],
+   "path": "둘다",
+   "sub_count": 30,
+   "sub_cat": "정치 드라마",
+   "categories": [
+    "정치 드라마"
+   ],
+   "lead": "현대사의 정치적 사건, 혹은 정치인의 일대기를 다루거나, 가상의 세계를 세워놓고 현실의 정치계를 묘사하는 드라마 장르다."
+  },
+  {
+   "title": "게임빙의물",
+   "cat_score": 3,
+   "body_score": 6,
+   "cat_why": [
+    "분류=제목:게임빙의물"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 50,
+   "sub_cat": "게임빙의물",
+   "categories": [
+    "게임빙의물"
+   ],
+   "lead": "게임빙의물은 주인공이 통달하여 잘 아는 게임 세계에 소환된 후, 미리 알고 있는 지식을 이용해 모험하는 장르이다."
+  },
+  {
+   "title": "스포츠 판타지",
+   "cat_score": 6,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:스포츠 판타지",
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 6,
+   "sub_cat": "스포츠 판타지",
+   "categories": [
+    "스포츠 판타지",
+    "장르"
+   ],
+   "lead": "한국 장르소설에서 스포츠 판타지란, 주인공이 운동 선수가 되어 뛰어난 능력으로 사회적 명성과 인망을 얻어 출세하는 내용을 그린 현대 판타지다."
+  },
+  {
+   "title": "환생물",
+   "cat_score": 3,
+   "body_score": 5,
+   "cat_why": [
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절1",
+    "제목접미"
+   ],
+   "path": "둘다",
+   "sub_count": 5,
+   "sub_cat": "환생물",
+   "categories": [
+    "장르",
+    "한국의 장르 소설",
+    "일본 라이트 노벨/ㅎ",
+    "한국 판타지 소설",
+    "퓨전 판타지"
+   ],
+   "lead": "환생물은 죽은 후, 환생해서 다른 사람으로 태어난 작품을 다루는 장르이다."
+  },
+  {
+   "title": "BL 소설",
+   "cat_score": 6,
+   "body_score": 5,
+   "cat_why": [
+    "분류=제목:BL 소설",
+    "장르분류"
+   ],
+   "body_why": [
+    "장르정의",
+    "장르절2"
+   ],
+   "path": "둘다",
+   "sub_count": 39,
+   "sub_cat": "BL 소설",
+   "categories": [
+    "BL 소설",
+    "한국의 장르 소설"
+   ],
+   "lead": "남성 캐릭터와 남성 캐릭터 간의 연애 및 성관계를 소재로 다루는 보이즈 러브 장르 소설."
+  }
+ ]
+}
