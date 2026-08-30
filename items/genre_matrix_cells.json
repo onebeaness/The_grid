@@ -1,0 +1,509 @@
+{
+ "snapshot_date": "2021-03-01",
+ "few_long_members": [
+  {
+   "pair": [
+    "고어",
+    "롤플레잉 게임"
+   ],
+   "n": 3,
+   "mean_len": 45135,
+   "median_len": 29699,
+   "mean_contrib": 63.3,
+   "median_contrib": 54,
+   "max_len_share": 0.772,
+   "docs": [
+    {
+     "title": "BLACK SOULS 2",
+     "len_plain": 104593,
+     "n_contrib_nobot": 124
+    },
+    {
+     "title": "BLACK SOULS",
+     "len_plain": 29699,
+     "n_contrib_nobot": 54
+    },
+    {
+     "title": "빨간 두건의 숲",
+     "len_plain": 1113,
+     "n_contrib_nobot": 12
+    }
+   ]
+  },
+  {
+   "pair": [
+    "TPS",
+    "샌드박스"
+   ],
+   "n": 3,
+   "mean_len": 31662,
+   "median_len": 29662,
+   "mean_contrib": 90.3,
+   "median_contrib": 113,
+   "max_len_share": 0.408,
+   "docs": [
+    {
+     "title": "세인츠 로우: 더 서드",
+     "len_plain": 38731,
+     "n_contrib_nobot": 113
+    },
+    {
+     "title": "세인츠 로우 4",
+     "len_plain": 29662,
+     "n_contrib_nobot": 120
+    },
+    {
+     "title": "APB Reloaded",
+     "len_plain": 26592,
+     "n_contrib_nobot": 38
+    }
+   ]
+  },
+  {
+   "pair": [
+    "탄막 게임",
+    "탑뷰 슈팅"
+   ],
+   "n": 3,
+   "mean_len": 19688,
+   "median_len": 23984,
+   "mean_contrib": 79.7,
+   "median_contrib": 66,
+   "max_len_share": 0.532,
+   "docs": [
+    {
+     "title": "Just Shapes & Beats",
+     "len_plain": 31430,
+     "n_contrib_nobot": 162
+    },
+    {
+     "title": "도와줘! 엔즈",
+     "len_plain": 23984,
+     "n_contrib_nobot": 66
+    },
+    {
+     "title": "월드 위치스 UNITED FRONT",
+     "len_plain": 3651,
+     "n_contrib_nobot": 11
+    }
+   ]
+  },
+  {
+   "pair": [
+    "롤플레잉 게임",
+    "샌드박스"
+   ],
+   "n": 3,
+   "mean_len": 19576,
+   "median_len": 23990,
+   "mean_contrib": 56.7,
+   "median_contrib": 49,
+   "max_len_share": 0.581,
+   "docs": [
+    {
+     "title": "블럭 스토리",
+     "len_plain": 34121,
+     "n_contrib_nobot": 49
+    },
+    {
+     "title": "Graveyard Keeper",
+     "len_plain": 23990,
+     "n_contrib_nobot": 107
+    },
+    {
+     "title": "에어쉽 Q",
+     "len_plain": 617,
+     "n_contrib_nobot": 14
+    }
+   ]
+  },
+  {
+   "pair": [
+    "TPS",
+    "좀비 게임"
+   ],
+   "n": 3,
+   "mean_len": 17618,
+   "median_len": 4464,
+   "mean_contrib": 60.3,
+   "median_contrib": 16,
+   "max_len_share": 0.861,
+   "docs": [
+    {
+     "title": "데이즈 곤",
+     "len_plain": 45499,
+     "n_contrib_nobot": 152
+    },
+    {
+     "title": "Zombie Combat Simulator",
+     "len_plain": 4464,
+     "n_contrib_nobot": 13
+    },
+    {
+     "title": "스쿨걸 좀비헌터",
+     "len_plain": 2892,
+     "n_contrib_nobot": 16
+    }
+   ]
+  },
+  {
+   "pair": [
+    "ARPG",
+    "잠입 액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 16726,
+   "median_len": 22909,
+   "mean_contrib": 104,
+   "median_contrib": 115,
+   "max_len_share": 0.528,
+   "docs": [
+    {
+     "title": "데이어스 엑스: 휴먼 레볼루션",
+     "len_plain": 26513,
+     "n_contrib_nobot": 179
+    },
+    {
+     "title": "데이어스 엑스: 맨카인드 디바이디드",
+     "len_plain": 22909,
+     "n_contrib_nobot": 115
+    },
+    {
+     "title": "데이어스 엑스: 더 폴",
+     "len_plain": 755,
+     "n_contrib_nobot": 18
+    }
+   ]
+  },
+  {
+   "pair": [
+    "로그라이크 게임",
+    "액션 어드벤처 게임"
+   ],
+   "n": 3,
+   "mean_len": 15327,
+   "median_len": 11363,
+   "mean_contrib": 133.7,
+   "median_contrib": 128,
+   "max_len_share": 0.612,
+   "docs": [
+    {
+     "title": "We Happy Few",
+     "len_plain": 28151,
+     "n_contrib_nobot": 152
+    },
+    {
+     "title": "Skyhill",
+     "len_plain": 11363,
+     "n_contrib_nobot": 128
+    },
+    {
+     "title": "Wizard of Legend",
+     "len_plain": 6467,
+     "n_contrib_nobot": 121
+    }
+   ]
+  },
+  {
+   "pair": [
+    "오픈 월드",
+    "판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 15231,
+   "median_len": 20532,
+   "mean_contrib": 272.3,
+   "median_contrib": 33,
+   "max_len_share": 0.492,
+   "docs": [
+    {
+     "title": "더 위쳐 3: 와일드 헌트",
+     "len_plain": 22501,
+     "n_contrib_nobot": 752
+    },
+    {
+     "title": "Valheim",
+     "len_plain": 20532,
+     "n_contrib_nobot": 33
+    },
+    {
+     "title": "붉은사막",
+     "len_plain": 2659,
+     "n_contrib_nobot": 32
+    }
+   ]
+  },
+  {
+   "pair": [
+    "소셜 게임",
+    "시뮬레이션 게임"
+   ],
+   "n": 3,
+   "mean_len": 15077,
+   "median_len": 2751,
+   "mean_contrib": 82,
+   "median_contrib": 17,
+   "max_len_share": 0.917,
+   "docs": [
+    {
+     "title": "친구모아 아파트",
+     "len_plain": 41457,
+     "n_contrib_nobot": 220
+    },
+    {
+     "title": "스타돔",
+     "len_plain": 2751,
+     "n_contrib_nobot": 9
+    },
+    {
+     "title": "타운스테일",
+     "len_plain": 1024,
+     "n_contrib_nobot": 17
+    }
+   ]
+  },
+  {
+   "pair": [
+    "료나 게임",
+    "액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 14735,
+   "median_len": 17490,
+   "mean_contrib": 35,
+   "median_contrib": 35,
+   "max_len_share": 0.406,
+   "docs": [
+    {
+     "title": "UnHolY SaNctuaRy",
+     "len_plain": 17928,
+     "n_contrib_nobot": 35
+    },
+    {
+     "title": "Night of Revenge",
+     "len_plain": 17490,
+     "n_contrib_nobot": 38
+    },
+    {
+     "title": "SiNiSistar",
+     "len_plain": 8786,
+     "n_contrib_nobot": 32
+    }
+   ]
+  },
+  {
+   "pair": [
+    "로그라이크 게임",
+    "판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 14441,
+   "median_len": 13096,
+   "mean_contrib": 16.3,
+   "median_contrib": 21,
+   "max_len_share": 0.551,
+   "docs": [
+    {
+     "title": "UnderMine",
+     "len_plain": 23853,
+     "n_contrib_nobot": 21
+    },
+    {
+     "title": "ADOM",
+     "len_plain": 13096,
+     "n_contrib_nobot": 25
+    },
+    {
+     "title": "로그 타워: 탑의 신",
+     "len_plain": 6374,
+     "n_contrib_nobot": 3
+    }
+   ]
+  },
+  {
+   "pair": [
+    "io게임",
+    "탑뷰 슈팅"
+   ],
+   "n": 3,
+   "mean_len": 14036,
+   "median_len": 14979,
+   "mean_contrib": 81.7,
+   "median_contrib": 59,
+   "max_len_share": 0.373,
+   "docs": [
+    {
+     "title": "Arras.io",
+     "len_plain": 15718,
+     "n_contrib_nobot": 59
+    },
+    {
+     "title": "Arrow.io",
+     "len_plain": 14979,
+     "n_contrib_nobot": 167
+    },
+    {
+     "title": "Zombsroyale",
+     "len_plain": 11411,
+     "n_contrib_nobot": 19
+    }
+   ]
+  },
+  {
+   "pair": [
+    "액션 게임",
+    "호러 게임"
+   ],
+   "n": 3,
+   "mean_len": 13608,
+   "median_len": 7293,
+   "mean_contrib": 47.7,
+   "median_contrib": 65,
+   "max_len_share": 0.779,
+   "docs": [
+    {
+     "title": "Five Nights at Freddy's: Help Wanted",
+     "len_plain": 31796,
+     "n_contrib_nobot": 70
+    },
+    {
+     "title": "롤리팝 체인소",
+     "len_plain": 7293,
+     "n_contrib_nobot": 65
+    },
+    {
+     "title": "바이러스(게임)",
+     "len_plain": 1736,
+     "n_contrib_nobot": 8
+    }
+   ]
+  },
+  {
+   "pair": [
+    "FPS",
+    "다크 판타지 게임"
+   ],
+   "n": 3,
+   "mean_len": 13555,
+   "median_len": 10228,
+   "mean_contrib": 57.3,
+   "median_contrib": 56,
+   "max_len_share": 0.5,
+   "docs": [
+    {
+     "title": "헤러틱(게임)",
+     "len_plain": 20344,
+     "n_contrib_nobot": 72
+    },
+    {
+     "title": "헥센",
+     "len_plain": 10228,
+     "n_contrib_nobot": 44
+    },
+    {
+     "title": "헬게이트 런던",
+     "len_plain": 10094,
+     "n_contrib_nobot": 56
+    }
+   ]
+  },
+  {
+   "pair": [
+    "디스토피아",
+    "액션 게임"
+   ],
+   "n": 3,
+   "mean_len": 13452,
+   "median_len": 9261,
+   "mean_contrib": 42,
+   "median_contrib": 47,
+   "max_len_share": 0.675,
+   "docs": [
+    {
+     "title": "닌자 워리어즈 어게인",
+     "len_plain": 27250,
+     "n_contrib_nobot": 51
+    },
+    {
+     "title": "닌자 워리어즈",
+     "len_plain": 9261,
+     "n_contrib_nobot": 47
+    },
+    {
+     "title": "푸른 뇌정 건볼트 스트라이커 팩",
+     "len_plain": 3846,
+     "n_contrib_nobot": 28
+    }
+   ]
+  },
+  {
+   "pair": [
+    "던전 RPG",
+    "포스트 아포칼립스"
+   ],
+   "n": 3,
+   "mean_len": 13383,
+   "median_len": 12234,
+   "mean_contrib": 59.7,
+   "median_contrib": 63,
+   "max_len_share": 0.422,
+   "docs": [
+    {
+     "title": "신옥탑 메리스켈터 Finale",
+     "len_plain": 16924,
+     "n_contrib_nobot": 31
+    },
+    {
+     "title": "신옥탑 메리스켈터",
+     "len_plain": 12234,
+     "n_contrib_nobot": 85
+    },
+    {
+     "title": "신옥탑 메리스켈터 2",
+     "len_plain": 10990,
+     "n_contrib_nobot": 63
+    }
+   ]
+  },
+  {
+   "pair": [
+    "SF 게임",
+    "디스토피아"
+   ],
+   "n": 3,
+   "mean_len": 13033,
+   "median_len": 5724,
+   "mean_contrib": 41.3,
+   "median_contrib": 41,
+   "max_len_share": 0.755,
+   "docs": [
+    {
+     "title": "신디케이트(2012)",
+     "len_plain": 29530,
+     "n_contrib_nobot": 55
+    },
+    {
+     "title": "엔드 오브 이터니티",
+     "len_plain": 5724,
+     "n_contrib_nobot": 41
+    },
+    {
+     "title": "푸른 뇌정 건볼트 스트라이커 팩",
+     "len_plain": 3846,
+     "n_contrib_nobot": 28
+    }
+   ]
+  }
+ ],
+ "pairs_by_threshold": {
+  "2": 353,
+  "3": 223,
+  "4": 149,
+  "5": 113,
+  "8": 56,
+  "10": 35,
+  "15": 17,
+  "20": 7,
+  "30": 1
+ }
+}

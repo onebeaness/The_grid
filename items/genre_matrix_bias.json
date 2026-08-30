@@ -1,0 +1,172 @@
+{
+ "snapshot_date": "2021-03-01",
+ "groups": {
+  "장르 2개 이상": {
+   "n": 1358,
+   "mean_len": 9019,
+   "median_len": 5239,
+   "p90_len": 22202,
+   "p10_len": 979,
+   "mean_contrib": 45.0,
+   "median_contrib": 23,
+   "p90_contrib": 107,
+   "year_n": 1193,
+   "median_year": 2014,
+   "mean_year": 2011.8
+  },
+  "장르 1개": {
+   "n": 4474,
+   "mean_len": 7277,
+   "median_len": 4148,
+   "p90_len": 17037,
+   "p10_len": 783,
+   "mean_contrib": 40.6,
+   "median_contrib": 21,
+   "p90_contrib": 98,
+   "year_n": 3451,
+   "median_year": 2012,
+   "mean_year": 2008.5
+  },
+  "장르 0개": {
+   "n": 4614,
+   "mean_len": 7223,
+   "median_len": 4054,
+   "p90_len": 17087,
+   "p10_len": 718,
+   "mean_contrib": 51.6,
+   "median_contrib": 25,
+   "p90_contrib": 124,
+   "year_n": 2813,
+   "median_year": 2010,
+   "mean_year": 2007.7
+  },
+  "장르 1개 이하": {
+   "n": 9088,
+   "mean_len": 7249,
+   "median_len": 4095,
+   "p90_len": 17084,
+   "p10_len": 751,
+   "mean_contrib": 46.2,
+   "median_contrib": 23,
+   "p90_contrib": 111,
+   "year_n": 6264,
+   "median_year": 2011,
+   "mean_year": 2008.1
+  },
+  "전체 게임 문서": {
+   "n": 10446,
+   "mean_len": 7479,
+   "median_len": 4228,
+   "p90_len": 17730,
+   "p10_len": 772,
+   "mean_contrib": 46.0,
+   "median_contrib": 23,
+   "p90_contrib": 110,
+   "year_n": 7457,
+   "median_year": 2012,
+   "mean_year": 2008.7
+  }
+ },
+ "by_genre_count": {
+  "2": {
+   "n": 1083,
+   "mean_len": 8741,
+   "median_len": 4925,
+   "p90_len": 21287,
+   "p10_len": 940,
+   "mean_contrib": 42.2,
+   "median_contrib": 22,
+   "p90_contrib": 95,
+   "year_n": 932,
+   "median_year": 2014,
+   "mean_year": 2011.5
+  },
+  "1": {
+   "n": 4474,
+   "mean_len": 7277,
+   "median_len": 4148,
+   "p90_len": 17037,
+   "p10_len": 783,
+   "mean_contrib": 40.6,
+   "median_contrib": 21,
+   "p90_contrib": 98,
+   "year_n": 3451,
+   "median_year": 2012,
+   "mean_year": 2008.5
+  },
+  "0": {
+   "n": 4614,
+   "mean_len": 7223,
+   "median_len": 4054,
+   "p90_len": 17087,
+   "p10_len": 718,
+   "mean_contrib": 51.6,
+   "median_contrib": 25,
+   "p90_contrib": 124,
+   "year_n": 2813,
+   "median_year": 2010,
+   "mean_year": 2007.7
+  },
+  "3": {
+   "n": 232,
+   "mean_len": 9829,
+   "median_len": 6520,
+   "p90_len": 22375,
+   "p10_len": 1184,
+   "mean_contrib": 54.9,
+   "median_contrib": 30,
+   "p90_contrib": 130,
+   "year_n": 220,
+   "median_year": 2015,
+   "mean_year": 2012.4
+  },
+  "4": {
+   "n": 34,
+   "mean_len": 12044,
+   "median_len": 7604,
+   "p90_len": 29530,
+   "p10_len": 2672,
+   "mean_contrib": 69.1,
+   "median_contrib": 41,
+   "p90_contrib": 152,
+   "year_n": 32,
+   "median_year": 2016,
+   "mean_year": 2012.5
+  },
+  "5": {
+   "n": 9,
+   "mean_len": 10167,
+   "median_len": 8394,
+   "p90_len": 28151,
+   "p10_len": 242,
+   "mean_contrib": 44,
+   "median_contrib": 21,
+   "p90_contrib": 152,
+   "year_n": 9,
+   "median_year": 2017,
+   "mean_year": 2017.4
+  }
+ },
+ "year_multi": {
+  "2010": 297,
+  "2015": 476,
+  "2005": 135,
+  "1990": 37,
+  "1995": 60,
+  "2000": 63,
+  "1980": 5,
+  "1985": 23,
+  "2020": 97
+ },
+ "year_single": {
+  "2005": 859,
+  "2010": 1310,
+  "2000": 644,
+  "1990": 422,
+  "1980": 89,
+  "1985": 278,
+  "1995": 532,
+  "2015": 1757,
+  "2020": 373
+ }
+}
